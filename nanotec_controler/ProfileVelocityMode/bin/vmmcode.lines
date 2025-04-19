@@ -1,0 +1,32 @@
+Decoded dump of debug contents of section .debug_line:
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen/types.h:
+File name                            Line number    Starting address
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/ProfileVelocityMode.cpp:
+File name                            Line number    Starting address
+ProfileVelocityMode.cpp                       17           0x8008410
+
+ProfileVelocityMode.cpp                       19           0x8008416
+ProfileVelocityMode.cpp                       22           0x8008422
+ProfileVelocityMode.cpp                       25           0x800842e
+ProfileVelocityMode.cpp                       28           0x800843a
+ProfileVelocityMode.cpp                       31           0x8008446
+ProfileVelocityMode.cpp                       32           0x8008448
+ProfileVelocityMode.cpp                       31           0x800844c
+ProfileVelocityMode.cpp                       36           0x8008460
+ProfileVelocityMode.cpp                       39           0x800846c
+ProfileVelocityMode.cpp                       40           0x800846e
+ProfileVelocityMode.cpp                       39           0x8008472
+ProfileVelocityMode.cpp                       44           0x8008486
+ProfileVelocityMode.cpp                       47           0x8008492
+ProfileVelocityMode.cpp                       48           0x8008494
+ProfileVelocityMode.cpp                       47           0x8008498
+ProfileVelocityMode.cpp                       52           0x80084ac
+ProfileVelocityMode.cpp                       55           0x80084b4
+ProfileVelocityMode.cpp                       58           0x80084c2
+ProfileVelocityMode.cpp                       61           0x80084ca
+ProfileVelocityMode.cpp                       64           0x80084d6
+ProfileVelocityMode.cpp                       68           0x80084e2
+ProfileVelocityMode.cpp                       69           0x80084ee
+

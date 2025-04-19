@@ -1,0 +1,286 @@
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"mapping.cxx"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.global	In
+  19              		.section	.inputs,"aw",%progbits
+  20              		.align	2
+  23              	In:
+  24 0000 0000     		.space	2
+  25 0002 0000     		.text
+  26              	.Letext0:
+  27              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\types.h"
+  28              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.h"
+  29              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.cxx"
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 mapping.cxx
+C:\Windows\ccjgKLzH.s:23     .inputs:00000000 In
+C:\Windows\ccjgKLzH.s:20     .inputs:00000000 $d
+
+NO UNDEFINED SYMBOLS
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"ProfileVelocityMode.cpp"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.section	.text._Z4userv,"ax",%progbits
+  19              		.align	2
+  20              		.global	_Z4userv
+  21              		.thumb
+  22              		.thumb_func
+  24              	_Z4userv:
+  25              	.LFB0:
+  26              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mappings\\Profile
+   1:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // In this NanoJ program, we will make the motor turn shortly back and forth.
+   2:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // The language used for NanoJ programs is C, with a few specific extensions,
+   3:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // like the mappings (see below).
+   4:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // Please refer to the product manual for more details about NanoJ and the
+   5:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // object dictionary.
+   6:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+   7:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // You can map frequently used objects to be able to read or write them
+   8:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // using In.* and Out.*. Here we map the object 6041:00 as "In.StatusWord".
+   9:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // map U16 StatusWord as input 0x6041:00
+  10:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  11:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // Include the definition of NanoJ functions and symbols
+  12:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** #include "wrapper.h"
+  13:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  14:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // The user() function is the entry point of the NanoJ program. It is called
+  15:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** // by the firmware of the controller when the NanoJ program is started.
+  16:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** void user()
+  17:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** {
+  27              		.loc 1 17 0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 8
+  30              		@ frame_needed = 1, uses_anonymous_args = 0
+  31 0000 80B5     		push	{r7, lr}
+  32              		.cfi_def_cfa_offset 8
+  33              		.cfi_offset 7, -8
+  34              		.cfi_offset 14, -4
+  35 0002 82B0     		sub	sp, sp, #8
+  36              		.cfi_def_cfa_offset 16
+  37 0004 00AF     		add	r7, sp, #0
+  38              		.cfi_def_cfa_register 7
+  39              	.LBB2:
+  18:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Set mode "Profile velocity"
+  19:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x6060, 0x00, 3);
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 2
+
+
+  40              		.loc 1 19 0
+  41 0006 46F26000 		movw	r0, #24672
+  42 000a 0021     		movs	r1, #0
+  43 000c 0322     		movs	r2, #3
+  44 000e FFF7FEFF 		bl	od_write
+  20:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  21:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Remember target velocity before overwriting, so we can reset it later.
+  22:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	U32 targetVelocity = od_read(0x60FF, 0x00);
+  45              		.loc 1 22 0
+  46 0012 46F2FF00 		movw	r0, #24831
+  47 0016 0021     		movs	r1, #0
+  48 0018 FFF7FEFF 		bl	od_read
+  49 001c 7860     		str	r0, [r7, #4]
+  23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  24:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Set the target velocity
+  25:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x60FF, 0x00, 50);
+  50              		.loc 1 25 0
+  51 001e 46F2FF00 		movw	r0, #24831
+  52 0022 0021     		movs	r1, #0
+  53 0024 3222     		movs	r2, #50
+  54 0026 FFF7FEFF 		bl	od_write
+  26:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  27:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp ****  	// Request state "Ready to switch on"
+  28:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x6040, 0x00, 0x6);
+  55              		.loc 1 28 0
+  56 002a 46F24000 		movw	r0, #24640
+  57 002e 0021     		movs	r1, #0
+  58 0030 0622     		movs	r2, #6
+  59 0032 FFF7FEFF 		bl	od_write
+  29:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  30:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Wait until the requested state is reached
+  31:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	while ( (In.StatusWord & 0xEF) != 0x21) {
+  60              		.loc 1 31 0
+  61 0036 01E0     		b	.L2
+  62              	.L3:
+  32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield(); // Wait for the next cycle (1ms)
+  63              		.loc 1 32 0
+  64 0038 FFF7FEFF 		bl	yield
+  65              	.L2:
+  31:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield(); // Wait for the next cycle (1ms)
+  66              		.loc 1 31 0 discriminator 1
+  67 003c 40F20003 		movw	r3, #:lower16:In
+  68 0040 C0F20003 		movt	r3, #:upper16:In
+  69 0044 1B88     		ldrh	r3, [r3]	@ unaligned
+  70 0046 9BB2     		uxth	r3, r3
+  71 0048 03F0EF03 		and	r3, r3, #239
+  72 004c 212B     		cmp	r3, #33
+  73 004e F3D1     		bne	.L3
+  33:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	}
+  34:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  35:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Request the state "Switched on"
+  36:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x6040, 0x00, 0x7);
+  74              		.loc 1 36 0
+  75 0050 46F24000 		movw	r0, #24640
+  76 0054 0021     		movs	r1, #0
+  77 0056 0722     		movs	r2, #7
+  78 0058 FFF7FEFF 		bl	od_write
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 3
+
+
+  37:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  38:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Wait until the requested state is reached
+  39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	while ( (In.StatusWord & 0xEF) != 0x23) {
+  79              		.loc 1 39 0
+  80 005c 01E0     		b	.L4
+  81              	.L5:
+  40:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield();
+  82              		.loc 1 40 0
+  83 005e FFF7FEFF 		bl	yield
+  84              	.L4:
+  39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield();
+  85              		.loc 1 39 0 discriminator 1
+  86 0062 40F20003 		movw	r3, #:lower16:In
+  87 0066 C0F20003 		movt	r3, #:upper16:In
+  88 006a 1B88     		ldrh	r3, [r3]	@ unaligned
+  89 006c 9BB2     		uxth	r3, r3
+  90 006e 03F0EF03 		and	r3, r3, #239
+  91 0072 232B     		cmp	r3, #35
+  92 0074 F3D1     		bne	.L5
+  41:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	}
+  42:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  43:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Request the state "Operation enabled"
+  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x6040, 0x00, 0xF);
+  93              		.loc 1 44 0
+  94 0076 46F24000 		movw	r0, #24640
+  95 007a 0021     		movs	r1, #0
+  96 007c 0F22     		movs	r2, #15
+  97 007e FFF7FEFF 		bl	od_write
+  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Wait until the requested state is reached
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	while ( (In.StatusWord & 0xEF) != 0x27) {
+  98              		.loc 1 47 0
+  99 0082 01E0     		b	.L6
+ 100              	.L7:
+  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield();
+ 101              		.loc 1 48 0
+ 102 0084 FFF7FEFF 		bl	yield
+ 103              	.L6:
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 		yield();
+ 104              		.loc 1 47 0 discriminator 1
+ 105 0088 40F20003 		movw	r3, #:lower16:In
+ 106 008c C0F20003 		movt	r3, #:upper16:In
+ 107 0090 1B88     		ldrh	r3, [r3]	@ unaligned
+ 108 0092 9BB2     		uxth	r3, r3
+ 109 0094 03F0EF03 		and	r3, r3, #239
+ 110 0098 272B     		cmp	r3, #39
+ 111 009a F3D1     		bne	.L7
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	}
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Let the motor run for a while
+  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	sleep(1000);
+ 112              		.loc 1 52 0
+ 113 009c 4FF47A70 		mov	r0, #1000
+ 114 00a0 FFF7FEFF 		bl	sleep
+  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Set the target velocity to run in the opposite direction
+  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x60FF, 0x00, -50);
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 4
+
+
+ 115              		.loc 1 55 0
+ 116 00a4 46F2FF00 		movw	r0, #24831
+ 117 00a8 0021     		movs	r1, #0
+ 118 00aa 6FF03102 		mvn	r2, #49
+ 119 00ae FFF7FEFF 		bl	od_write
+  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Let the motor run for a while
+  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	sleep(1000);
+ 120              		.loc 1 58 0
+ 121 00b2 4FF47A70 		mov	r0, #1000
+ 122 00b6 FFF7FEFF 		bl	sleep
+  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	
+  60:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Stop the motor
+  61:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x6040, 0x00, 0x0);
+ 123              		.loc 1 61 0
+ 124 00ba 46F24000 		movw	r0, #24640
+ 125 00be 0021     		movs	r1, #0
+ 126 00c0 0022     		movs	r2, #0
+ 127 00c2 FFF7FEFF 		bl	od_write
+  62:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  63:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Reset the target velocity to its previous value
+  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x60FF, 0x00, targetVelocity);
+ 128              		.loc 1 64 0
+ 129 00c6 46F2FF00 		movw	r0, #24831
+ 130 00ca 0021     		movs	r1, #0
+ 131 00cc 7A68     		ldr	r2, [r7, #4]
+ 132 00ce FFF7FEFF 		bl	od_write
+  65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 
+  66:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// Stop the NanoJ program. Without this line, the firmware would
+  67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	// call user() again as soon as we return.
+  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** 	od_write(0x2300, 0x00, 0x0);
+ 133              		.loc 1 68 0
+ 134 00d2 4FF40C50 		mov	r0, #8960
+ 135 00d6 0021     		movs	r1, #0
+ 136 00d8 0022     		movs	r2, #0
+ 137 00da FFF7FEFF 		bl	od_write
+ 138              	.LBE2:
+  69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfileVelocityMode.cpp **** }
+ 139              		.loc 1 69 0
+ 140 00de 0837     		adds	r7, r7, #8
+ 141 00e0 BD46     		mov	sp, r7
+ 142              		@ sp needed
+ 143 00e2 80BD     		pop	{r7, pc}
+ 144              		.cfi_endproc
+ 145              	.LFE0:
+ 147              		.text
+ 148              	.Letext0:
+ 149              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/types.h"
+ 150              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/mapping.h"
+ARM GAS  C:\Windows\ccjgKLzH.s 			page 5
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 ProfileVelocityMode.cpp
+C:\Windows\ccjgKLzH.s:19     .text._Z4userv:00000000 $t
+C:\Windows\ccjgKLzH.s:24     .text._Z4userv:00000000 _Z4userv
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+od_write
+od_read
+yield
+In
+sleep

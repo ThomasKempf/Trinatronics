@@ -1,0 +1,155 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+ .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+ .text          0x00000000        0x0 C:\Windows\ccWjNKpl.o
+ .data          0x00000000        0x0 C:\Windows\ccWjNKpl.o
+ .bss           0x00000000        0x0 C:\Windows\ccWjNKpl.o
+ .text          0x00000000        0x0 C:\Windows\ccHbGWW1.o
+ .data          0x00000000        0x0 C:\Windows\ccHbGWW1.o
+ .bss           0x00000000        0x0 C:\Windows\ccHbGWW1.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08008200         0x00003e00         xr
+input            0x20000e00         0x00000040         xrw
+output           0x20000e40         0x00000040         xrw
+inoutput         0x20000e80         0x00000040         xrw
+ram              0x20000000         0x00000e00         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+LOAD C:\Windows\ccWjNKpl.o
+LOAD C:\Windows\ccHbGWW1.o
+
+.text           0x08008200      0x210
+ *(.boot)
+ .boot          0x08008200       0x10 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+                0x08008200                start
+ *(.text)
+ .text          0x08008210      0x200 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+                0x08008210                yield
+                0x08008218                sleep
+                0x08008220                __aeabi_fmul
+                0x08008230                __aeabi_fdiv
+                0x08008240                __aeabi_fadd
+                0x08008250                __aeabi_fsub
+                0x08008260                __aeabi_f2iz
+                0x0800826c                __aeabi_i2f
+                0x08008278                sqrt
+                0x08008284                sin
+                0x08008290                cos
+                0x0800829c                tan
+                0x080082a8                asin
+                0x080082b4                acos
+                0x080082c0                atan
+                0x080082cc                od_write
+                0x080082e0                od_read
+                0x080082f0                comm_ioctl
+                0x08008308                comm_write
+                0x08008314                comm_read
+                0x08008324                VmmDebugOutputString
+                0x0800834c                VmmDebugOutputInt
+                0x08008374                VmmDebugOutputByte
+                0x0800839c                VmmDebugOutputHalfWord
+                0x080083c0                VmmDebugOutputWord
+                0x080083e8                VmmDebugOutputFloat
+
+.glue_7         0x08008410        0x0
+ .glue_7        0x08008410        0x0 linker stubs
+
+.glue_7t        0x08008410        0x0
+ .glue_7t       0x08008410        0x0 linker stubs
+
+.vfp11_veneer   0x08008410        0x0
+ .vfp11_veneer  0x08008410        0x0 linker stubs
+
+.v4_bx          0x08008410        0x0
+ .v4_bx         0x08008410        0x0 linker stubs
+
+.iplt           0x08008410        0x0
+ .iplt          0x08008410        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+
+.text._Z4userv  0x08008410       0xe4
+ .text._Z4userv
+                0x08008410       0xe4 C:\Windows\ccHbGWW1.o
+                0x08008410                _Z4userv
+
+.rel.dyn        0x080084f4        0x0
+ .rel.iplt      0x080084f4        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+
+.inputs         0x20000e00        0x4
+ *(.inputs)
+ .inputs        0x20000e00        0x4 C:\Windows\ccWjNKpl.o
+                0x20000e00                In
+
+.outputs
+ *(.outputs)
+
+.inoutputs
+ *(.inoutputs)
+
+.data           0x20000000        0x0
+ *(.data.*)
+                0x00000001                ASSERT ((SIZEOF (.data) == 0x0), Error: do not init globals)
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+
+.rodata
+ *(.data)
+
+.bss
+ *(.bss)
+ *(COMMON)
+OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\bin\vmmcode.elf elf32-littlearm)
+
+.comment        0x00000000       0x81
+ .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000070       0x11 C:\Windows\ccWjNKpl.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000081       0x12 C:\Windows\ccHbGWW1.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+ .ARM.attributes
+                0x00000033       0x33 C:\Windows\ccWjNKpl.o
+ .ARM.attributes
+                0x00000066       0x33 C:\Windows\ccHbGWW1.o
+
+.debug_info     0x00000000      0x16f
+ .debug_info    0x00000000       0x98 C:\Windows\ccWjNKpl.o
+ .debug_info    0x00000098       0xd7 C:\Windows\ccHbGWW1.o
+
+.debug_abbrev   0x00000000      0x110
+ .debug_abbrev  0x00000000       0x6d C:\Windows\ccWjNKpl.o
+ .debug_abbrev  0x0000006d       0xa3 C:\Windows\ccHbGWW1.o
+
+.debug_aranges  0x00000000       0x38
+ .debug_aranges
+                0x00000000       0x18 C:\Windows\ccWjNKpl.o
+ .debug_aranges
+                0x00000018       0x20 C:\Windows\ccHbGWW1.o
+
+.debug_line     0x00000000      0x194
+ .debug_line    0x00000000       0x86 C:\Windows\ccWjNKpl.o
+ .debug_line    0x00000086      0x10e C:\Windows\ccHbGWW1.o
+
+.debug_str      0x00000000      0x1f8
+ .debug_str     0x00000000      0x178 C:\Windows\ccWjNKpl.o
+                                0x192 (size before relaxing)
+ .debug_str     0x00000178       0x80 C:\Windows\ccHbGWW1.o
+                                0x1c4 (size before relaxing)
+
+.debug_ranges   0x00000000       0x10
+ .debug_ranges  0x00000000       0x10 C:\Windows\ccHbGWW1.o
+
+.debug_frame    0x00000000       0x30
+ .debug_frame   0x00000000       0x30 C:\Windows\ccHbGWW1.o
