@@ -1,0 +1,153 @@
+Decoded dump of debug contents of section .debug_line:
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen/types.h:
+File name                            Line number    Starting address
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1/nanotec.h:
+File name                            Line number    Starting address
+nanotec.h                                     22                   0
+
+nanotec.h                                     23                 0x4
+nanotec.h                                     24                0x20
+nanotec.h                                     25                0x24
+nanotec.h                                     28                   0
+
+nanotec.h                                     29                 0x4
+nanotec.h                                     31                 0x6
+nanotec.h                                     32                0x22
+nanotec.h                                     29                0x26
+nanotec.h                                     34                0x3a
+nanotec.h                                     35                0x3e
+nanotec.h                                     38                   0
+
+nanotec.h                                     39                 0x4
+nanotec.h                                     41                 0x6
+nanotec.h                                     42                0x2c
+nanotec.h                                     39                0x30
+nanotec.h                                     44                0x44
+nanotec.h                                     45                0x48
+nanotec.h                                     48                   0
+
+nanotec.h                                     49                 0x4
+nanotec.h                                     51                 0x6
+nanotec.h                                     52                0x2c
+nanotec.h                                     49                0x30
+nanotec.h                                     54                0x44
+nanotec.h                                     56                0x46
+nanotec.h                                     57                0x6c
+nanotec.h                                     54                0x70
+nanotec.h                                     59                0x84
+nanotec.h                                     60                0x88
+nanotec.h                                     63           0x8008410
+
+nanotec.h                                     64           0x8008414
+nanotec.h                                     66           0x8008416
+nanotec.h                                     67           0x800843c
+nanotec.h                                     64           0x8008440
+nanotec.h                                     69           0x8008454
+nanotec.h                                     71           0x8008456
+nanotec.h                                     72           0x800847c
+nanotec.h                                     69           0x8008480
+nanotec.h                                     74           0x8008494
+nanotec.h                                     76           0x8008496
+nanotec.h                                     77           0x80084bc
+nanotec.h                                     74           0x80084c0
+nanotec.h                                     79           0x80084d4
+nanotec.h                                     80           0x80084d8
+nanotec.h                                     83           0x80084dc
+
+nanotec.h                                     84           0x80084e0
+nanotec.h                                     85           0x80084fc
+nanotec.h                                     86           0x8008500
+nanotec.h                                     89                   0
+
+nanotec.h                                     90                 0x4
+nanotec.h                                     91                0x20
+nanotec.h                                     92                0x24
+nanotec.h                                     95           0x8008504
+
+nanotec.h                                     96           0x800850e
+nanotec.h                                     98           0x8008514
+nanotec.h                                     99           0x8008530
+nanotec.h                                    103           0x8008536
+nanotec.h                                    104           0x8008552
+nanotec.h                                    106           0x8008556
+nanotec.h                                    109                   0
+
+nanotec.h                                    110                 0xa
+nanotec.h                                    112                0x10
+nanotec.h                                    113                0x2c
+nanotec.h                                    117                0x32
+nanotec.h                                    118                0x4e
+nanotec.h                                    120                0x52
+nanotec.h                                    123           0x800855c
+
+nanotec.h                                    124           0x8008566
+nanotec.h                                    126           0x800856c
+nanotec.h                                    127           0x8008588
+nanotec.h                                    131           0x800858e
+nanotec.h                                    132           0x80085aa
+nanotec.h                                    134           0x80085ae
+nanotec.h                                    137                   0
+
+nanotec.h                                    138                 0xa
+nanotec.h                                    140                0x10
+nanotec.h                                    141                0x2c
+nanotec.h                                    145                0x32
+nanotec.h                                    146                0x4e
+nanotec.h                                    148                0x52
+nanotec.h                                    151                   0
+
+nanotec.h                                    152                 0x4
+nanotec.h                                    154                0x18
+nanotec.h                                    158                0x1c
+nanotec.h                                    160                0x1e
+nanotec.h                                    163                   0
+
+nanotec.h                                    164                 0x4
+nanotec.h                                    166                0x18
+nanotec.h                                    170                0x1c
+nanotec.h                                    172                0x1e
+nanotec.h                                    175                   0
+
+nanotec.h                                    176                 0xa
+nanotec.h                                    178                0x26
+nanotec.h                                    182                0x2a
+nanotec.h                                    184                0x2c
+nanotec.h                                    187                   0
+
+nanotec.h                                    188                 0xa
+nanotec.h                                    189                0x16
+nanotec.h                                    190                0x32
+nanotec.h                                    193           0x80085b4
+
+nanotec.h                                    194           0x80085be
+nanotec.h                                    195           0x80085ca
+nanotec.h                                    196           0x80085e8
+nanotec.h                                    199           0x80085f4
+
+nanotec.h                                    200           0x80085fe
+nanotec.h                                    201           0x800860a
+nanotec.h                                    204                   0
+
+nanotec.h                                    205                 0x4
+nanotec.h                                    206                 0xe
+nanotec.h                                    209                   0
+
+nanotec.h                                    210                 0x4
+nanotec.h                                    211                0x14
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/ProfilePositionMode.cpp:
+ProfilePositionMode.cpp                       43           0x8008614
+
+ProfilePositionMode.cpp                       44           0x8008618
+ProfilePositionMode.cpp                       45           0x800861e
+ProfilePositionMode.cpp                       46           0x8008622
+ProfilePositionMode.cpp                       48           0x8008628
+ProfilePositionMode.cpp                       50           0x800862c
+ProfilePositionMode.cpp                       52           0x8008632
+ProfilePositionMode.cpp                       54           0x8008652
+ProfilePositionMode.cpp                       56           0x8008672
+ProfilePositionMode.cpp                       58           0x8008676
+ProfilePositionMode.cpp                       59           0x800867c
+
