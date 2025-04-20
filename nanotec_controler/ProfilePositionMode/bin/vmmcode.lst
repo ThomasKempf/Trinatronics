@@ -1,4 +1,4 @@
-ARM GAS  C:\Windows\cc2njezo.s 			page 1
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 1
 
 
    1              		.syntax unified
@@ -43,20 +43,20 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
   41              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\types.h"
   42              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.h"
   43              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.cxx"
-ARM GAS  C:\Windows\cc2njezo.s 			page 2
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mapping.cxx
-C:\Windows\cc2njezo.s:23     .inputs:00000000 In
-C:\Windows\cc2njezo.s:20     .inputs:00000000 $d
-C:\Windows\cc2njezo.s:30     .outputs:00000000 Out
-C:\Windows\cc2njezo.s:27     .outputs:00000000 $d
-C:\Windows\cc2njezo.s:37     .inoutputs:00000000 InOut
-C:\Windows\cc2njezo.s:34     .inoutputs:00000000 $d
+C:\Windows\ccI1FnVh.s:23     .inputs:00000000 In
+C:\Windows\ccI1FnVh.s:20     .inputs:00000000 $d
+C:\Windows\ccI1FnVh.s:30     .outputs:00000000 Out
+C:\Windows\ccI1FnVh.s:27     .outputs:00000000 $d
+C:\Windows\ccI1FnVh.s:37     .inoutputs:00000000 InOut
+C:\Windows\ccI1FnVh.s:34     .inoutputs:00000000 $d
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\Windows\cc2njezo.s 			page 1
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 1
 
 
    1              		.syntax unified
@@ -116,7 +116,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
   34              		.cfi_offset 14, -4
   35 0002 00AF     		add	r7, sp, #0
   36              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\cc2njezo.s 			page 2
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 2
 
 
   23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x80;
@@ -176,7 +176,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
   84 0020 1A80     		strh	r2, [r3]	@ unaligned
   32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
   85              		.loc 1 32 0
-ARM GAS  C:\Windows\cc2njezo.s 			page 3
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 3
 
 
   86 0022 FFF7FEFF 		bl	yield
@@ -236,7 +236,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  132 001a 43F00603 		orr	r3, r3, #6
  133 001e 9BB2     		uxth	r3, r3
  134 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\cc2njezo.s 			page 4
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 4
 
 
  135 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -296,7 +296,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  180 000e 1B88     		ldrh	r3, [r3]	@ unaligned
  181 0010 9BB2     		uxth	r3, r3
  182 0012 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\cc2njezo.s 			page 5
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 5
 
 
  183 0014 23F08F03 		bic	r3, r3, #143
@@ -356,7 +356,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  229 0082 E0D1     		bne	.L12
   58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
   59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
-ARM GAS  C:\Windows\cc2njezo.s 			page 6
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 6
 
 
  230              		.loc 1 59 0
@@ -416,7 +416,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  277 0034 C0F20003 		movt	r3, #:upper16:In
  278 0038 1B88     		ldrh	r3, [r3]	@ unaligned
  279 003a 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\cc2njezo.s 			page 7
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 7
 
 
  280 003c 03F0E903 		and	r3, r3, #233
@@ -476,7 +476,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  324 00a0 9AB2     		uxth	r2, r3
  325 00a2 40F20003 		movw	r3, #:lower16:InOut
  326 00a6 C0F20003 		movt	r3, #:upper16:InOut
-ARM GAS  C:\Windows\cc2njezo.s 			page 8
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 8
 
 
  327 00aa 1A80     		strh	r2, [r3]	@ unaligned
@@ -536,7 +536,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
   85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
  374              		.loc 1 85 0
  375 0020 FFF7FEFF 		bl	yield
-ARM GAS  C:\Windows\cc2njezo.s 			page 9
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 9
 
 
   86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
@@ -596,7 +596,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  424              		.loc 1 95 0
  425              		.cfi_startproc
  426              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Windows\cc2njezo.s 			page 10
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 10
 
 
  427              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -656,7 +656,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  470 0052 0837     		adds	r7, r7, #8
  471 0054 BD46     		mov	sp, r7
  472              		@ sp needed
-ARM GAS  C:\Windows\cc2njezo.s 			page 11
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 11
 
 
  473 0056 80BD     		pop	{r7, pc}
@@ -716,7 +716,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  518 0032 40F20003 		movw	r3, #:lower16:InOut
  519 0036 C0F20003 		movt	r3, #:upper16:InOut
  520 003a 1B88     		ldrh	r3, [r3]	@ unaligned
-ARM GAS  C:\Windows\cc2njezo.s 			page 12
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 12
 
 
  521 003c 9BB2     		uxth	r3, r3
@@ -776,7 +776,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  568 001a 9BB2     		uxth	r3, r3
  569 001c 43F02003 		orr	r3, r3, #32
  570 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\cc2njezo.s 			page 13
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 13
 
 
  571 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -836,7 +836,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  616              		.cfi_def_cfa_offset 16
  617 0004 00AF     		add	r7, sp, #0
  618              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\cc2njezo.s 			page 14
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 14
 
 
  619 0006 0346     		mov	r3, r0
@@ -896,7 +896,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  663              		.thumb
  664              		.thumb_func
  666              	_Z13TargetReachedv:
-ARM GAS  C:\Windows\cc2njezo.s 			page 15
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 15
 
 
  667              	.LFB11:
@@ -956,7 +956,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** bool NewSetPointAcknowledge()
  163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
  710              		.loc 1 163 0
-ARM GAS  C:\Windows\cc2njezo.s 			page 16
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 16
 
 
  711              		.cfi_startproc
@@ -1016,7 +1016,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  755              		@ frame_needed = 1, uses_anonymous_args = 0
  756              		@ link register save eliminated.
  757 0000 80B4     		push	{r7}
-ARM GAS  C:\Windows\cc2njezo.s 			page 17
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 17
 
 
  758              		.cfi_def_cfa_offset 4
@@ -1076,7 +1076,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  802              		.loc 1 187 0
  803              		.cfi_startproc
  804              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Windows\cc2njezo.s 			page 18
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 18
 
 
  805              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1136,7 +1136,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  855 0000 80B4     		push	{r7}
  856              		.cfi_def_cfa_offset 4
  857              		.cfi_offset 7, -4
-ARM GAS  C:\Windows\cc2njezo.s 			page 19
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 19
 
 
  858 0002 85B0     		sub	sp, sp, #20
@@ -1196,7 +1196,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  908              		.cfi_def_cfa_offset 16
  909 0004 00AF     		add	r7, sp, #0
  910              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\cc2njezo.s 			page 20
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 20
 
 
  911 0006 0346     		mov	r3, r0
@@ -1256,7 +1256,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  961              		.thumb
  962              		.thumb_func
  964              	_Z11AnalogInputv:
-ARM GAS  C:\Windows\cc2njezo.s 			page 21
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 21
 
 
  965              	.LFB18:
@@ -1316,7 +1316,7 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
   17:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 
   18:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** //This example shows how to use the nanotec.h
   19:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** //In this example the motor is started in profile position mode
-ARM GAS  C:\Windows\cc2njezo.s 			page 22
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 22
 
 
   20:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** //Digital Input 1 activates a new target position
@@ -1353,122 +1353,148 @@ ARM GAS  C:\Windows\cc2njezo.s 			page 1
  1007              		.cfi_offset 14, -4
  1008 0002 00AF     		add	r7, sp, #0
  1009              		.cfi_def_cfa_register 7
-  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	ModesOfOperation(1);	//set the Mode to Profile Position 
- 1010              		.loc 2 44 0
- 1011 0004 0120     		movs	r0, #1
- 1012 0006 FFF7FEFF 		bl	_Z16ModesOfOperationc
-  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	EnableOperation();		//change the state to Operation Enabled
- 1013              		.loc 2 45 0
- 1014 000a FFF7FEFF 		bl	_Z15EnableOperationv
-  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	ClearDigitalOutput(1);	//clear Digital Output 1		
- 1015              		.loc 2 46 0
- 1016 000e 0120     		movs	r0, #1
- 1017 0010 FFF7FEFF 		bl	_Z18ClearDigitalOutputh
-  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 			
-  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	RelativeMovement();											//set to relative movement
- 1018              		.loc 2 48 0
- 1019 0014 FFF7FEFF 		bl	_Z16RelativeMovementv
-  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	
-  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	ChangeSetPointImmediately(false);							//change setpoint after last target reached
- 1020              		.loc 2 50 0
- 1021 0018 0020     		movs	r0, #0
- 1022 001a FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
-  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	
-  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	Out.ProfileVelocity=1000;										//set velocity to 50 rpm
- 1023              		.loc 2 52 0
-ARM GAS  C:\Windows\cc2njezo.s 			page 23
+ 1010              	.L53:
+  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	while (true)
+  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	{
+  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		ModesOfOperation(1);	//set the Mode to Profile Position 
+ 1011              		.loc 2 46 0
+ 1012 0004 0120     		movs	r0, #1
+ 1013 0006 FFF7FEFF 		bl	_Z16ModesOfOperationc
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		EnableOperation();		//change the state to Operation Enabled
+ 1014              		.loc 2 47 0
+ 1015 000a FFF7FEFF 		bl	_Z15EnableOperationv
+  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 				
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		RelativeMovement();											//set to relative movement
+ 1016              		.loc 2 49 0
+ 1017 000e FFF7FEFF 		bl	_Z16RelativeMovementv
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		ChangeSetPointImmediately(true);							//change setpoint after last target reached
+ 1018              		.loc 2 51 0
+ 1019 0012 0120     		movs	r0, #1
+ 1020 0014 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
+  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		
+  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		Out.ProfileVelocity=600;										//set velocity to 50 rpm
+ 1021              		.loc 2 53 0
+ 1022 0018 40F20003 		movw	r3, #:lower16:Out
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 23
 
 
- 1024 001e 40F20003 		movw	r3, #:lower16:Out
- 1025 0022 C0F20003 		movt	r3, #:upper16:Out
- 1026 0026 0022     		movs	r2, #0
- 1027 0028 62F01702 		orn	r2, r2, #23
- 1028 002c 5A71     		strb	r2, [r3, #5]
- 1029 002e 0022     		movs	r2, #0
- 1030 0030 42F00302 		orr	r2, r2, #3
- 1031 0034 9A71     		strb	r2, [r3, #6]
- 1032 0036 0022     		movs	r2, #0
- 1033 0038 DA71     		strb	r2, [r3, #7]
- 1034 003a 0022     		movs	r2, #0
- 1035 003c 1A72     		strb	r2, [r3, #8]
-  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 
-  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	Out.TargetPosition=1000;									//set target position to 1000
- 1036              		.loc 2 54 0
- 1037 003e 40F20003 		movw	r3, #:lower16:Out
- 1038 0042 C0F20003 		movt	r3, #:upper16:Out
- 1039 0046 0022     		movs	r2, #0
- 1040 0048 62F01702 		orn	r2, r2, #23
- 1041 004c 5A70     		strb	r2, [r3, #1]
- 1042 004e 0022     		movs	r2, #0
- 1043 0050 42F00302 		orr	r2, r2, #3
- 1044 0054 9A70     		strb	r2, [r3, #2]
- 1045 0056 0022     		movs	r2, #0
- 1046 0058 DA70     		strb	r2, [r3, #3]
- 1047 005a 0022     		movs	r2, #0
- 1048 005c 1A71     		strb	r2, [r3, #4]
-  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 
-  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	EnableOperation();											//change the state to Operation Enabled
- 1049              		.loc 2 56 0
- 1050 005e FFF7FEFF 		bl	_Z15EnableOperationv
-  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 					
-  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	NewSetPoint(true);											//set new setpoint			
- 1051              		.loc 2 58 0
- 1052 0062 0120     		movs	r0, #1
- 1053 0064 FFF7FEFF 		bl	_Z11NewSetPointb
-  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** }
- 1054              		.loc 2 59 0
- 1055 0068 80BD     		pop	{r7, pc}
- 1056              		.cfi_endproc
- 1057              	.LFE19:
- 1059 006a 00BF     		.text
- 1060              	.Letext0:
- 1061              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/types.h"
- 1062              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/mapping.h"
-ARM GAS  C:\Windows\cc2njezo.s 			page 24
+ 1023 001c C0F20003 		movt	r3, #:upper16:Out
+ 1024 0020 0022     		movs	r2, #0
+ 1025 0022 42F05802 		orr	r2, r2, #88
+ 1026 0026 5A71     		strb	r2, [r3, #5]
+ 1027 0028 0022     		movs	r2, #0
+ 1028 002a 42F00202 		orr	r2, r2, #2
+ 1029 002e 9A71     		strb	r2, [r3, #6]
+ 1030 0030 0022     		movs	r2, #0
+ 1031 0032 DA71     		strb	r2, [r3, #7]
+ 1032 0034 0022     		movs	r2, #0
+ 1033 0036 1A72     		strb	r2, [r3, #8]
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	
+  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		Out.TargetPosition=30000;									//set target position to 1000									//change the state to Ope
+ 1034              		.loc 2 55 0
+ 1035 0038 40F20003 		movw	r3, #:lower16:Out
+ 1036 003c C0F20003 		movt	r3, #:upper16:Out
+ 1037 0040 0022     		movs	r2, #0
+ 1038 0042 42F03002 		orr	r2, r2, #48
+ 1039 0046 5A70     		strb	r2, [r3, #1]
+ 1040 0048 0022     		movs	r2, #0
+ 1041 004a 42F07502 		orr	r2, r2, #117
+ 1042 004e 9A70     		strb	r2, [r3, #2]
+ 1043 0050 0022     		movs	r2, #0
+ 1044 0052 DA70     		strb	r2, [r3, #3]
+ 1045 0054 0022     		movs	r2, #0
+ 1046 0056 1A71     		strb	r2, [r3, #4]
+  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 						
+  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		NewSetPoint(true);	
+ 1047              		.loc 2 57 0
+ 1048 0058 0120     		movs	r0, #1
+ 1049 005a FFF7FEFF 		bl	_Z11NewSetPointb
+  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 	
+  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		while (TargetReached() != true)
+ 1050              		.loc 2 59 0
+ 1051 005e 02E0     		b	.L51
+ 1052              	.L52:
+  60:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		{
+  61:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 			sleep(1);
+ 1053              		.loc 2 61 0
+ 1054 0060 0120     		movs	r0, #1
+ 1055 0062 FFF7FEFF 		bl	sleep
+ 1056              	.L51:
+  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		{
+ 1057              		.loc 2 59 0 discriminator 1
+ 1058 0066 FFF7FEFF 		bl	_Z13TargetReachedv
+ 1059 006a 0346     		mov	r3, r0
+ 1060 006c 83F00103 		eor	r3, r3, #1
+ 1061 0070 DBB2     		uxtb	r3, r3
+ 1062 0072 002B     		cmp	r3, #0
+ 1063 0074 F4D1     		bne	.L52
+  62:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		}
+  63:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		NewSetPoint(false);	
+ 1064              		.loc 2 63 0
+ 1065 0076 0020     		movs	r0, #0
+ 1066 0078 FFF7FEFF 		bl	_Z11NewSetPointb
+  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** 		sleep(1000);
+ 1067              		.loc 2 64 0
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 24
+
+
+ 1068 007c 4FF47A70 		mov	r0, #1000
+ 1069 0080 FFF7FEFF 		bl	sleep
+  42:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ProfilePositionMode.cpp **** {
+ 1070              		.loc 2 42 0
+ 1071 0084 BEE7     		b	.L53
+ 1072              		.cfi_endproc
+ 1073              	.LFE19:
+ 1075 0086 00BF     		.text
+ 1076              	.Letext0:
+ 1077              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/types.h"
+ 1078              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/mapping.h"
+ARM GAS  C:\Windows\ccI1FnVh.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ProfilePositionMode.cpp
-C:\Windows\cc2njezo.s:19     .text._Z5Resetv:00000000 $t
-C:\Windows\cc2njezo.s:24     .text._Z5Resetv:00000000 _Z5Resetv
-C:\Windows\cc2njezo.s:55     .text._Z9Quickstopv:00000000 $t
-C:\Windows\cc2njezo.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
-C:\Windows\cc2njezo.s:104    .text._Z8Shutdownv:00000000 $t
-C:\Windows\cc2njezo.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
-C:\Windows\cc2njezo.s:157    .text._Z8SwitchOnv:00000000 $t
-C:\Windows\cc2njezo.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
-C:\Windows\cc2njezo.s:238    .text._Z15EnableOperationv:00000000 $t
-C:\Windows\cc2njezo.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
-C:\Windows\cc2njezo.s:347    .text._Z16RelativeMovementv:00000000 $t
-C:\Windows\cc2njezo.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
-C:\Windows\cc2njezo.s:382    .text._Z16AbsoluteMovementv:00000000 $t
-C:\Windows\cc2njezo.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
-C:\Windows\cc2njezo.s:417    .text._Z11NewSetPointb:00000000 $t
-C:\Windows\cc2njezo.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
-C:\Windows\cc2njezo.s:478    .text._Z4Haltb:00000000 $t
-C:\Windows\cc2njezo.s:483    .text._Z4Haltb:00000000 _Z4Haltb
-C:\Windows\cc2njezo.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
-C:\Windows\cc2njezo.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
-C:\Windows\cc2njezo.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
-C:\Windows\cc2njezo.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
-C:\Windows\cc2njezo.s:661    .text._Z13TargetReachedv:00000000 $t
-C:\Windows\cc2njezo.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
-C:\Windows\cc2njezo.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
-C:\Windows\cc2njezo.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
-C:\Windows\cc2njezo.s:745    .text._Z12DigitalInputh:00000000 $t
-C:\Windows\cc2njezo.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
-C:\Windows\cc2njezo.s:795    .text._Z16SetDigitalOutputh:00000000 $t
-C:\Windows\cc2njezo.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
-C:\Windows\cc2njezo.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
-C:\Windows\cc2njezo.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
-C:\Windows\cc2njezo.s:892    .text._Z16ModesOfOperationc:00000000 $t
-C:\Windows\cc2njezo.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
-C:\Windows\cc2njezo.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
-C:\Windows\cc2njezo.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
-C:\Windows\cc2njezo.s:959    .text._Z11AnalogInputv:00000000 $t
-C:\Windows\cc2njezo.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
-C:\Windows\cc2njezo.s:992    .text._Z4userv:00000000 $t
-C:\Windows\cc2njezo.s:997    .text._Z4userv:00000000 _Z4userv
+C:\Windows\ccI1FnVh.s:19     .text._Z5Resetv:00000000 $t
+C:\Windows\ccI1FnVh.s:24     .text._Z5Resetv:00000000 _Z5Resetv
+C:\Windows\ccI1FnVh.s:55     .text._Z9Quickstopv:00000000 $t
+C:\Windows\ccI1FnVh.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
+C:\Windows\ccI1FnVh.s:104    .text._Z8Shutdownv:00000000 $t
+C:\Windows\ccI1FnVh.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
+C:\Windows\ccI1FnVh.s:157    .text._Z8SwitchOnv:00000000 $t
+C:\Windows\ccI1FnVh.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
+C:\Windows\ccI1FnVh.s:238    .text._Z15EnableOperationv:00000000 $t
+C:\Windows\ccI1FnVh.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
+C:\Windows\ccI1FnVh.s:347    .text._Z16RelativeMovementv:00000000 $t
+C:\Windows\ccI1FnVh.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
+C:\Windows\ccI1FnVh.s:382    .text._Z16AbsoluteMovementv:00000000 $t
+C:\Windows\ccI1FnVh.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
+C:\Windows\ccI1FnVh.s:417    .text._Z11NewSetPointb:00000000 $t
+C:\Windows\ccI1FnVh.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
+C:\Windows\ccI1FnVh.s:478    .text._Z4Haltb:00000000 $t
+C:\Windows\ccI1FnVh.s:483    .text._Z4Haltb:00000000 _Z4Haltb
+C:\Windows\ccI1FnVh.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
+C:\Windows\ccI1FnVh.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
+C:\Windows\ccI1FnVh.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
+C:\Windows\ccI1FnVh.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
+C:\Windows\ccI1FnVh.s:661    .text._Z13TargetReachedv:00000000 $t
+C:\Windows\ccI1FnVh.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
+C:\Windows\ccI1FnVh.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
+C:\Windows\ccI1FnVh.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
+C:\Windows\ccI1FnVh.s:745    .text._Z12DigitalInputh:00000000 $t
+C:\Windows\ccI1FnVh.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
+C:\Windows\ccI1FnVh.s:795    .text._Z16SetDigitalOutputh:00000000 $t
+C:\Windows\ccI1FnVh.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
+C:\Windows\ccI1FnVh.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
+C:\Windows\ccI1FnVh.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
+C:\Windows\ccI1FnVh.s:892    .text._Z16ModesOfOperationc:00000000 $t
+C:\Windows\ccI1FnVh.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
+C:\Windows\ccI1FnVh.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
+C:\Windows\ccI1FnVh.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
+C:\Windows\ccI1FnVh.s:959    .text._Z11AnalogInputv:00000000 $t
+C:\Windows\ccI1FnVh.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
+C:\Windows\ccI1FnVh.s:992    .text._Z4userv:00000000 $t
+C:\Windows\ccI1FnVh.s:997    .text._Z4userv:00000000 _Z4userv
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
@@ -1476,3 +1502,4 @@ InOut
 yield
 In
 Out
+sleep

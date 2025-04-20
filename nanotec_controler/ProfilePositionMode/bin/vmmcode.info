@@ -504,7 +504,7 @@ Contents of the .debug_info section:
     <40c>   DW_AT_decl_line   : 150
     <40d>   DW_AT_linkage_name: (indirect string, offset: 0x440): _Z13TargetReachedv
     <411>   DW_AT_type        : <0x387>
-    <415>   DW_AT_low_pc      : 0x0
+    <415>   DW_AT_low_pc      : 0x80085b4
     <419>   DW_AT_high_pc     : 0x28
     <41d>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <41f>   DW_AT_GNU_all_call_sites: 1
@@ -572,7 +572,7 @@ Contents of the .debug_info section:
     <4a9>   DW_AT_decl_file   : 1
     <4aa>   DW_AT_decl_line   : 192
     <4ab>   DW_AT_linkage_name: (indirect string, offset: 0x3c1): _Z18ClearDigitalOutputh
-    <4af>   DW_AT_low_pc      : 0x80085b4
+    <4af>   DW_AT_low_pc      : 0x0
     <4b3>   DW_AT_high_pc     : 0x3e
     <4b7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4b9>   DW_AT_GNU_all_call_sites: 1
@@ -584,7 +584,7 @@ Contents of the .debug_info section:
     <4c4>   DW_AT_type        : <0x1df>
     <4c8>   DW_AT_location    : 2 byte block: 91 6f 	(DW_OP_fbreg: -17)
  <2><4cb>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <4cc>   DW_AT_low_pc      : 0x80085be
+    <4cc>   DW_AT_low_pc      : 0x0
     <4d0>   DW_AT_high_pc     : 0x2a
  <3><4d4>: Abbrev Number: 15 (DW_TAG_variable)
     <4d5>   DW_AT_name        : (indirect string, offset: 0x35b): OutputBit
@@ -600,7 +600,7 @@ Contents of the .debug_info section:
     <4e9>   DW_AT_decl_file   : 1
     <4ea>   DW_AT_decl_line   : 198
     <4eb>   DW_AT_linkage_name: (indirect string, offset: 0x514): _Z16ModesOfOperationc
-    <4ef>   DW_AT_low_pc      : 0x80085f4
+    <4ef>   DW_AT_low_pc      : 0x80085dc
     <4f3>   DW_AT_high_pc     : 0x20
     <4f7>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <4f9>   DW_AT_GNU_all_call_sites: 1
@@ -640,8 +640,8 @@ Contents of the .debug_info section:
     <543>   DW_AT_decl_file   : 2
     <544>   DW_AT_decl_line   : 42
     <545>   DW_AT_linkage_name: (indirect string, offset: 0x49f): _Z4userv
-    <549>   DW_AT_low_pc      : 0x8008614
-    <54d>   DW_AT_high_pc     : 0x6a
+    <549>   DW_AT_low_pc      : 0x80085fc
+    <54d>   DW_AT_high_pc     : 0x86
     <551>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <553>   DW_AT_GNU_all_tail_call_sites: 1
  <1><553>: Abbrev Number: 16 (DW_TAG_variable)
