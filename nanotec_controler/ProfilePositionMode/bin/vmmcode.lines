@@ -54,16 +54,16 @@ nanotec.h                                     77           0x80084bc
 nanotec.h                                     74           0x80084c0
 nanotec.h                                     79           0x80084d4
 nanotec.h                                     80           0x80084d8
-nanotec.h                                     83           0x80084dc
+nanotec.h                                     83                   0
 
-nanotec.h                                     84           0x80084e0
-nanotec.h                                     85           0x80084fc
-nanotec.h                                     86           0x8008500
-nanotec.h                                     89                   0
+nanotec.h                                     84                 0x4
+nanotec.h                                     85                0x20
+nanotec.h                                     86                0x24
+nanotec.h                                     89           0x80084dc
 
-nanotec.h                                     90                 0x4
-nanotec.h                                     91                0x20
-nanotec.h                                     92                0x24
+nanotec.h                                     90           0x80084e0
+nanotec.h                                     91           0x80084fc
+nanotec.h                                     92           0x8008500
 nanotec.h                                     95           0x8008504
 
 nanotec.h                                     96           0x800850e
@@ -141,23 +141,24 @@ C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/Profi
 ProfilePositionMode.cpp                       43           0x8008634
 
 ProfilePositionMode.cpp                       44           0x8008638
-ProfilePositionMode.cpp                       45           0x800863e
-ProfilePositionMode.cpp                       46           0x8008642
-ProfilePositionMode.cpp                       50           0x8008648
-ProfilePositionMode.cpp                       52           0x8008654
-ProfilePositionMode.cpp                       53           0x8008658
-ProfilePositionMode.cpp                       55           0x8008678
-ProfilePositionMode.cpp                       57           0x8008698
-ProfilePositionMode.cpp                       58           0x800869e
-ProfilePositionMode.cpp                       59           0x80086a4
-ProfilePositionMode.cpp                       60           0x80086aa
+ProfilePositionMode.cpp                       45           0x8008648
+ProfilePositionMode.cpp                       46           0x800864e
+ProfilePositionMode.cpp                       47           0x8008652
+ProfilePositionMode.cpp                       51           0x8008658
+ProfilePositionMode.cpp                       53           0x8008664
+ProfilePositionMode.cpp                       54           0x8008668
+ProfilePositionMode.cpp                       56           0x8008688
+ProfilePositionMode.cpp                       58           0x80086a0
+ProfilePositionMode.cpp                       59           0x80086a6
+ProfilePositionMode.cpp                       60           0x80086ac
 ProfilePositionMode.cpp                       61           0x80086b2
-ProfilePositionMode.cpp                       62           0x80086d6
-ProfilePositionMode.cpp                       63           0x80086dc
-ProfilePositionMode.cpp                       64           0x80086e2
-ProfilePositionMode.cpp                       65           0x80086e8
-ProfilePositionMode.cpp                       67           0x80086ea
-ProfilePositionMode.cpp                       65           0x80086f0
-ProfilePositionMode.cpp                       70           0x8008700
-ProfilePositionMode.cpp                       42           0x8008704
+ProfilePositionMode.cpp                       62           0x80086ba
+ProfilePositionMode.cpp                       63           0x80086da
+ProfilePositionMode.cpp                       64           0x80086e0
+ProfilePositionMode.cpp                       65           0x80086e6
+ProfilePositionMode.cpp                       66           0x80086ec
+ProfilePositionMode.cpp                       68           0x80086ee
+ProfilePositionMode.cpp                       66           0x80086f4
+ProfilePositionMode.cpp                       71           0x8008704
+ProfilePositionMode.cpp                       42           0x8008708
 

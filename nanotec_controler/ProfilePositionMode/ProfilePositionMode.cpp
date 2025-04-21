@@ -41,8 +41,9 @@ map U32	ProfileVelocity as output 0x6081:00
 
 void user()
 {
+	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
 	ModesOfOperation(1);	//set the Mode to Profile Position 
-	RelativeMovement();
+	AbsoluteMovement();
 	ChangeSetPointImmediately(true);
 	while (true)
 	{
@@ -52,13 +53,13 @@ void user()
 			EnableOperation();
 			Out.ProfileVelocity=600;										//set velocity to 50 rpm
 		
-			Out.TargetPosition=50000;									//set target position to 1000									//change the state to Operation Enabled
+			Out.TargetPosition=0;									//set target position to 1000									//change the state to Operation Enabled
 							
 			NewSetPoint(true);	
 			sleep(10);
 			NewSetPoint(false);	
 			sleep(500);
-			Out.TargetPosition=-40000;
+			Out.TargetPosition=18000;
 			NewSetPoint(true);	
 			sleep(10);
 			NewSetPoint(false);
