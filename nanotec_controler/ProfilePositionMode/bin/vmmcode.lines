@@ -108,12 +108,12 @@ nanotec.h                                    164                 0x4
 nanotec.h                                    166                0x18
 nanotec.h                                    170                0x1c
 nanotec.h                                    172                0x1e
-nanotec.h                                    175                   0
+nanotec.h                                    175           0x80085dc
 
-nanotec.h                                    176                 0xa
-nanotec.h                                    178                0x26
-nanotec.h                                    182                0x2a
-nanotec.h                                    184                0x2c
+nanotec.h                                    176           0x80085e6
+nanotec.h                                    178           0x8008602
+nanotec.h                                    182           0x8008606
+nanotec.h                                    184           0x8008608
 nanotec.h                                    187                   0
 
 nanotec.h                                    188                 0xa
@@ -124,10 +124,10 @@ nanotec.h                                    193                   0
 nanotec.h                                    194                 0xa
 nanotec.h                                    195                0x16
 nanotec.h                                    196                0x34
-nanotec.h                                    199           0x80085dc
+nanotec.h                                    199           0x8008614
 
-nanotec.h                                    200           0x80085e6
-nanotec.h                                    201           0x80085f2
+nanotec.h                                    200           0x800861e
+nanotec.h                                    201           0x800862a
 nanotec.h                                    204                   0
 
 nanotec.h                                    205                 0x4
@@ -138,24 +138,26 @@ nanotec.h                                    210                 0x4
 nanotec.h                                    211                0x14
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/ProfilePositionMode.cpp:
-ProfilePositionMode.cpp                       43           0x80085fc
+ProfilePositionMode.cpp                       43           0x8008634
 
-ProfilePositionMode.cpp                       44           0x8008600
-ProfilePositionMode.cpp                       45           0x8008606
-ProfilePositionMode.cpp                       46           0x800860a
-ProfilePositionMode.cpp                       47           0x800860e
-ProfilePositionMode.cpp                       52           0x8008614
-ProfilePositionMode.cpp                       54           0x8008634
-ProfilePositionMode.cpp                       56           0x8008654
-ProfilePositionMode.cpp                       57           0x800865a
-ProfilePositionMode.cpp                       58           0x8008660
-ProfilePositionMode.cpp                       59           0x8008666
-ProfilePositionMode.cpp                       60           0x800866e
-ProfilePositionMode.cpp                       61           0x8008692
-ProfilePositionMode.cpp                       62           0x8008698
-ProfilePositionMode.cpp                       63           0x800869e
-ProfilePositionMode.cpp                       64           0x80086a4
-ProfilePositionMode.cpp                       66           0x80086a6
-ProfilePositionMode.cpp                       64           0x80086ac
-ProfilePositionMode.cpp                       42           0x80086bc
+ProfilePositionMode.cpp                       44           0x8008638
+ProfilePositionMode.cpp                       45           0x800863e
+ProfilePositionMode.cpp                       46           0x8008642
+ProfilePositionMode.cpp                       50           0x8008648
+ProfilePositionMode.cpp                       52           0x8008654
+ProfilePositionMode.cpp                       53           0x8008658
+ProfilePositionMode.cpp                       55           0x8008678
+ProfilePositionMode.cpp                       57           0x8008698
+ProfilePositionMode.cpp                       58           0x800869e
+ProfilePositionMode.cpp                       59           0x80086a4
+ProfilePositionMode.cpp                       60           0x80086aa
+ProfilePositionMode.cpp                       61           0x80086b2
+ProfilePositionMode.cpp                       62           0x80086d6
+ProfilePositionMode.cpp                       63           0x80086dc
+ProfilePositionMode.cpp                       64           0x80086e2
+ProfilePositionMode.cpp                       65           0x80086e8
+ProfilePositionMode.cpp                       67           0x80086ea
+ProfilePositionMode.cpp                       65           0x80086f0
+ProfilePositionMode.cpp                       70           0x8008700
+ProfilePositionMode.cpp                       42           0x8008704
 

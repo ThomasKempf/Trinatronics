@@ -42,29 +42,32 @@ map U32	ProfileVelocity as output 0x6081:00
 void user()
 {
 	ModesOfOperation(1);	//set the Mode to Profile Position 
-	EnableOperation();		//change the state to Operation Enabled
 	RelativeMovement();
 	ChangeSetPointImmediately(true);
 	while (true)
 	{
 
-		
-		Out.ProfileVelocity=600;										//set velocity to 50 rpm
-	
-		Out.TargetPosition=50000;									//set target position to 1000									//change the state to Operation Enabled
-						
-		NewSetPoint(true);	
-		sleep(10);
-		NewSetPoint(false);	
-		sleep(500);
-		Out.TargetPosition=-40000;
-		NewSetPoint(true);	
-		sleep(10);
-		NewSetPoint(false);
-		while (TargetReached() != true)
+		if (DigitalInput(1))
 		{
-			sleep(1);
+			EnableOperation();
+			Out.ProfileVelocity=600;										//set velocity to 50 rpm
+		
+			Out.TargetPosition=50000;									//set target position to 1000									//change the state to Operation Enabled
+							
+			NewSetPoint(true);	
+			sleep(10);
+			NewSetPoint(false);	
+			sleep(500);
+			Out.TargetPosition=-40000;
+			NewSetPoint(true);	
+			sleep(10);
+			NewSetPoint(false);
+			while (TargetReached() != true)
+			{
+				sleep(1);
+			}
 		}
+		yield();
 		
 	}
 	

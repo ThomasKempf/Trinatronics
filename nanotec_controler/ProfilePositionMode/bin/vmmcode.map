@@ -3,38 +3,36 @@ Discarded input sections
 
  .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
  .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
- .text          0x00000000        0x0 C:\Windows\ccxRHyUi.o
- .data          0x00000000        0x0 C:\Windows\ccxRHyUi.o
- .bss           0x00000000        0x0 C:\Windows\ccxRHyUi.o
- .text          0x00000000        0x0 C:\Windows\cc6zUz6q.o
- .data          0x00000000        0x0 C:\Windows\cc6zUz6q.o
- .bss           0x00000000        0x0 C:\Windows\cc6zUz6q.o
+ .text          0x00000000        0x0 C:\Windows\cc0BDVFL.o
+ .data          0x00000000        0x0 C:\Windows\cc0BDVFL.o
+ .bss           0x00000000        0x0 C:\Windows\cc0BDVFL.o
+ .text          0x00000000        0x0 C:\Windows\cctE60Lf.o
+ .data          0x00000000        0x0 C:\Windows\cctE60Lf.o
+ .bss           0x00000000        0x0 C:\Windows\cctE60Lf.o
  .text._Z5Resetv
-                0x00000000       0x28 C:\Windows\cc6zUz6q.o
+                0x00000000       0x28 C:\Windows\cctE60Lf.o
  .text._Z9Quickstopv
-                0x00000000       0x40 C:\Windows\cc6zUz6q.o
+                0x00000000       0x40 C:\Windows\cctE60Lf.o
  .text._Z8Shutdownv
-                0x00000000       0x4c C:\Windows\cc6zUz6q.o
+                0x00000000       0x4c C:\Windows\cctE60Lf.o
  .text._Z8SwitchOnv
-                0x00000000       0x8c C:\Windows\cc6zUz6q.o
+                0x00000000       0x8c C:\Windows\cctE60Lf.o
  .text._Z16AbsoluteMovementv
-                0x00000000       0x28 C:\Windows\cc6zUz6q.o
+                0x00000000       0x28 C:\Windows\cctE60Lf.o
  .text._Z4Haltb
-                0x00000000       0x58 C:\Windows\cc6zUz6q.o
+                0x00000000       0x58 C:\Windows\cctE60Lf.o
  .text._Z16ChangeOnSetPointb
-                0x00000000       0x58 C:\Windows\cc6zUz6q.o
+                0x00000000       0x58 C:\Windows\cctE60Lf.o
  .text._Z22NewSetPointAcknowledgev
-                0x00000000       0x28 C:\Windows\cc6zUz6q.o
- .text._Z12DigitalInputh
-                0x00000000       0x38 C:\Windows\cc6zUz6q.o
+                0x00000000       0x28 C:\Windows\cctE60Lf.o
  .text._Z16SetDigitalOutputh
-                0x00000000       0x3c C:\Windows\cc6zUz6q.o
+                0x00000000       0x3c C:\Windows\cctE60Lf.o
  .text._Z18ClearDigitalOutputh
-                0x00000000       0x40 C:\Windows\cc6zUz6q.o
+                0x00000000       0x40 C:\Windows\cctE60Lf.o
  .text._Z23ModesOfOperationDisplayv
-                0x00000000       0x18 C:\Windows\cc6zUz6q.o
+                0x00000000       0x18 C:\Windows\cctE60Lf.o
  .text._Z11AnalogInputv
-                0x00000000       0x20 C:\Windows\cc6zUz6q.o
+                0x00000000       0x20 C:\Windows\cctE60Lf.o
 
 Memory Configuration
 
@@ -49,8 +47,8 @@ ram              0x20000000         0x00000e00         xrw
 Linker script and memory map
 
 LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
-LOAD C:\Windows\ccxRHyUi.o
-LOAD C:\Windows\cc6zUz6q.o
+LOAD C:\Windows\cc0BDVFL.o
+LOAD C:\Windows\cctE60Lf.o
 
 .text           0x08008200      0x210
  *(.boot)
@@ -103,60 +101,66 @@ LOAD C:\Windows\cc6zUz6q.o
 .text._Z15EnableOperationv
                 0x08008410       0xcc
  .text._Z15EnableOperationv
-                0x08008410       0xcc C:\Windows\cc6zUz6q.o
+                0x08008410       0xcc C:\Windows\cctE60Lf.o
                 0x08008410                _Z15EnableOperationv
 
 .text._Z16RelativeMovementv
                 0x080084dc       0x28
  .text._Z16RelativeMovementv
-                0x080084dc       0x28 C:\Windows\cc6zUz6q.o
+                0x080084dc       0x28 C:\Windows\cctE60Lf.o
                 0x080084dc                _Z16RelativeMovementv
 
 .text._Z11NewSetPointb
                 0x08008504       0x58
  .text._Z11NewSetPointb
-                0x08008504       0x58 C:\Windows\cc6zUz6q.o
+                0x08008504       0x58 C:\Windows\cctE60Lf.o
                 0x08008504                _Z11NewSetPointb
 
 .text._Z25ChangeSetPointImmediatelyb
                 0x0800855c       0x58
  .text._Z25ChangeSetPointImmediatelyb
-                0x0800855c       0x58 C:\Windows\cc6zUz6q.o
+                0x0800855c       0x58 C:\Windows\cctE60Lf.o
                 0x0800855c                _Z25ChangeSetPointImmediatelyb
 
 .text._Z13TargetReachedv
                 0x080085b4       0x28
  .text._Z13TargetReachedv
-                0x080085b4       0x28 C:\Windows\cc6zUz6q.o
+                0x080085b4       0x28 C:\Windows\cctE60Lf.o
                 0x080085b4                _Z13TargetReachedv
 
+.text._Z12DigitalInputh
+                0x080085dc       0x38
+ .text._Z12DigitalInputh
+                0x080085dc       0x38 C:\Windows\cctE60Lf.o
+                0x080085dc                _Z12DigitalInputh
+
 .text._Z16ModesOfOperationc
-                0x080085dc       0x20
+                0x08008614       0x20
  .text._Z16ModesOfOperationc
-                0x080085dc       0x20 C:\Windows\cc6zUz6q.o
-                0x080085dc                _Z16ModesOfOperationc
+                0x08008614       0x20 C:\Windows\cctE60Lf.o
+                0x08008614                _Z16ModesOfOperationc
 
-.text._Z4userv  0x080085fc       0xc4
+.text._Z4userv  0x08008634       0xd4
  .text._Z4userv
-                0x080085fc       0xc4 C:\Windows\cc6zUz6q.o
-                0x080085fc                _Z4userv
+                0x08008634       0xd4 C:\Windows\cctE60Lf.o
+                0x08008634                _Z4userv
 
-.rel.dyn        0x080086c0        0x0
- .rel.iplt      0x080086c0        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+.rel.dyn        0x08008708        0x0
+ .rel.iplt      0x08008708        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
 
 .inputs         0x20000e00        0xc
  *(.inputs)
- .inputs        0x20000e00        0xc C:\Windows\ccxRHyUi.o
+ .inputs        0x20000e00        0xc C:\Windows\cc0BDVFL.o
                 0x20000e00                In
 
 .outputs        0x20000e40        0xc
  *(.outputs)
- .outputs       0x20000e40        0xc C:\Windows\ccxRHyUi.o
+ .outputs       0x20000e40        0xc C:\Windows\cc0BDVFL.o
                 0x20000e40                Out
 
 .inoutputs      0x20000e80        0x8
  *(.inoutputs)
- .inoutputs     0x20000e80        0x8 C:\Windows\ccxRHyUi.o
+ .inoutputs     0x20000e80        0x8 C:\Windows\cc0BDVFL.o
                 0x20000e80                InOut
 
 .data           0x20000000        0x0
@@ -177,45 +181,45 @@ OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\bin\vmmcode
 .comment        0x00000000       0x81
  .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
                                  0x71 (size before relaxing)
- .comment       0x00000070       0x11 C:\Windows\ccxRHyUi.o
+ .comment       0x00000070       0x11 C:\Windows\cc0BDVFL.o
                                  0x12 (size before relaxing)
- .comment       0x00000081       0x12 C:\Windows\cc6zUz6q.o
+ .comment       0x00000081       0x12 C:\Windows\cctE60Lf.o
 
 .ARM.attributes
                 0x00000000       0x33
  .ARM.attributes
                 0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
  .ARM.attributes
-                0x00000033       0x33 C:\Windows\ccxRHyUi.o
+                0x00000033       0x33 C:\Windows\cc0BDVFL.o
  .ARM.attributes
-                0x00000066       0x33 C:\Windows\cc6zUz6q.o
+                0x00000066       0x33 C:\Windows\cctE60Lf.o
 
 .debug_info     0x00000000      0x574
- .debug_info    0x00000000      0x176 C:\Windows\ccxRHyUi.o
- .debug_info    0x00000176      0x3fe C:\Windows\cc6zUz6q.o
+ .debug_info    0x00000000      0x176 C:\Windows\cc0BDVFL.o
+ .debug_info    0x00000176      0x3fe C:\Windows\cctE60Lf.o
 
 .debug_abbrev   0x00000000      0x1a9
- .debug_abbrev  0x00000000       0x7e C:\Windows\ccxRHyUi.o
- .debug_abbrev  0x0000007e      0x12b C:\Windows\cc6zUz6q.o
+ .debug_abbrev  0x00000000       0x7e C:\Windows\cc0BDVFL.o
+ .debug_abbrev  0x0000007e      0x12b C:\Windows\cctE60Lf.o
 
 .debug_aranges  0x00000000       0xd0
  .debug_aranges
-                0x00000000       0x18 C:\Windows\ccxRHyUi.o
+                0x00000000       0x18 C:\Windows\cc0BDVFL.o
  .debug_aranges
-                0x00000018       0xb8 C:\Windows\cc6zUz6q.o
+                0x00000018       0xb8 C:\Windows\cctE60Lf.o
 
-.debug_line     0x00000000      0x382
- .debug_line    0x00000000       0x86 C:\Windows\ccxRHyUi.o
- .debug_line    0x00000086      0x2fc C:\Windows\cc6zUz6q.o
+.debug_line     0x00000000      0x384
+ .debug_line    0x00000000       0x86 C:\Windows\cc0BDVFL.o
+ .debug_line    0x00000086      0x2fe C:\Windows\cctE60Lf.o
 
 .debug_str      0x00000000      0x52f
- .debug_str     0x00000000      0x204 C:\Windows\ccxRHyUi.o
+ .debug_str     0x00000000      0x204 C:\Windows\cc0BDVFL.o
                                 0x232 (size before relaxing)
- .debug_str     0x00000204      0x32b C:\Windows\cc6zUz6q.o
+ .debug_str     0x00000204      0x32b C:\Windows\cctE60Lf.o
                                 0x50f (size before relaxing)
 
 .debug_ranges   0x00000000       0xa8
- .debug_ranges  0x00000000       0xa8 C:\Windows\cc6zUz6q.o
+ .debug_ranges  0x00000000       0xa8 C:\Windows\cctE60Lf.o
 
 .debug_frame    0x00000000      0x250
- .debug_frame   0x00000000      0x250 C:\Windows\cc6zUz6q.o
+ .debug_frame   0x00000000      0x250 C:\Windows\cctE60Lf.o
