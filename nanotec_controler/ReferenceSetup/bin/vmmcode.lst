@@ -1,0 +1,1645 @@
+ARM GAS  C:\Windows\ccRvALDA.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"mapping.cxx"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.global	In
+  19              		.section	.inputs,"aw",%progbits
+  20              		.align	2
+  23              	In:
+  24 0000 00000000 		.space	9
+  24      00000000 
+  24      00
+  25              		.global	Out
+  26 0009 000000   		.section	.outputs,"aw",%progbits
+  27              		.align	2
+  30              	Out:
+  31 0000 00000000 		.space	9
+  31      00000000 
+  31      00
+  32              		.global	InOut
+  33 0009 000000   		.section	.inoutputs,"aw",%progbits
+  34              		.align	2
+  37              	InOut:
+  38 0000 00000000 		.space	6
+  38      0000
+  39 0006 0000     		.text
+  40              	.Letext0:
+  41              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\types.h"
+  42              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.h"
+  43              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mapping.cxx"
+ARM GAS  C:\Windows\ccRvALDA.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 mapping.cxx
+C:\Windows\ccRvALDA.s:23     .inputs:00000000 In
+C:\Windows\ccRvALDA.s:20     .inputs:00000000 $d
+C:\Windows\ccRvALDA.s:30     .outputs:00000000 Out
+C:\Windows\ccRvALDA.s:27     .outputs:00000000 $d
+C:\Windows\ccRvALDA.s:37     .inoutputs:00000000 InOut
+C:\Windows\ccRvALDA.s:34     .inoutputs:00000000 $d
+
+NO UNDEFINED SYMBOLS
+ARM GAS  C:\Windows\ccRvALDA.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 6
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"ReferenceSetup.cpp"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.section	.text._Z5Resetv,"ax",%progbits
+  19              		.align	2
+  20              		.global	_Z5Resetv
+  21              		.thumb
+  22              		.thumb_func
+  24              	_Z5Resetv:
+  25              	.LFB0:
+  26              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1/nanotec.h"
+   1:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** /*
+   2:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** This NanoJ Example Code is based on our experience with typical user requirements in a wide range
+   3:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** of industrial applications and is provided without guarantee regarding correctness and completeness
+   4:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** It serves as general guidance and should not be construed as a commitment of Nanotec to guarantee i
+   5:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** applicability to the customer application without additional tests under the specific conditions
+   6:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** and – if and when necessary – modifications by the customer. 
+   7:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+   8:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** The responsibility for the applicability and use of the NanoJ Example Code in a particular
+   9:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** customer application lies solely within the authority of the customer.
+  10:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** It is the customer's responsibility to evaluate, investigate and decide,
+  11:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** whether the Example Code is valid and suitable for the respective customer application, or not.
+  12:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** Defects resulting from the improper handling of devices and modules are excluded from the warranty.
+  13:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** Under no circumstances will Nanotec be liable for any direct, indirect, incidental or consequential
+  14:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** arising in connection with the Example Code provided. In addition, the regulations regarding the
+  15:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** liability from our Terms and Conditions of Sale and Delivery shall apply.
+  16:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** */
+  17:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  18:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** #ifndef NANOTEC_H_
+  19:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** #define NANOTEC_H_
+  20:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  21:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void Reset()
+  22:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+  27              		.loc 1 22 0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 1, uses_anonymous_args = 0
+  31 0000 80B5     		push	{r7, lr}
+  32              		.cfi_def_cfa_offset 8
+  33              		.cfi_offset 7, -8
+  34              		.cfi_offset 14, -4
+  35 0002 00AF     		add	r7, sp, #0
+  36              		.cfi_def_cfa_register 7
+ARM GAS  C:\Windows\ccRvALDA.s 			page 2
+
+
+  23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x80;
+  37              		.loc 1 23 0
+  38 0004 40F20003 		movw	r3, #:lower16:InOut
+  39 0008 C0F20003 		movt	r3, #:upper16:InOut
+  40 000c 1B88     		ldrh	r3, [r3]	@ unaligned
+  41 000e 9BB2     		uxth	r3, r3
+  42 0010 43F08003 		orr	r3, r3, #128
+  43 0014 9AB2     		uxth	r2, r3
+  44 0016 40F20003 		movw	r3, #:lower16:InOut
+  45 001a C0F20003 		movt	r3, #:upper16:InOut
+  46 001e 1A80     		strh	r2, [r3]	@ unaligned
+  24:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield(); 
+  47              		.loc 1 24 0
+  48 0020 FFF7FEFF 		bl	yield
+  25:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+  49              		.loc 1 25 0
+  50 0024 80BD     		pop	{r7, pc}
+  51              		.cfi_endproc
+  52              	.LFE0:
+  54 0026 00BF     		.section	.text._Z9Quickstopv,"ax",%progbits
+  55              		.align	2
+  56              		.global	_Z9Quickstopv
+  57              		.thumb
+  58              		.thumb_func
+  60              	_Z9Quickstopv:
+  61              	.LFB1:
+  26:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  27:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void Quickstop()
+  28:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+  62              		.loc 1 28 0
+  63              		.cfi_startproc
+  64              		@ args = 0, pretend = 0, frame = 0
+  65              		@ frame_needed = 1, uses_anonymous_args = 0
+  66 0000 80B5     		push	{r7, lr}
+  67              		.cfi_def_cfa_offset 8
+  68              		.cfi_offset 7, -8
+  69              		.cfi_offset 14, -4
+  70 0002 00AF     		add	r7, sp, #0
+  71              		.cfi_def_cfa_register 7
+  29:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0x20) != 0x00) 
+  72              		.loc 1 29 0
+  73 0004 0FE0     		b	.L3
+  74              	.L4:
+  30:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  31:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword& 0xFF70;
+  75              		.loc 1 31 0
+  76 0006 40F20003 		movw	r3, #:lower16:InOut
+  77 000a C0F20003 		movt	r3, #:upper16:InOut
+  78 000e 1B88     		ldrh	r3, [r3]	@ unaligned
+  79 0010 9BB2     		uxth	r3, r3
+  80 0012 23F08F03 		bic	r3, r3, #143
+  81 0016 9AB2     		uxth	r2, r3
+  82 0018 40F20003 		movw	r3, #:lower16:InOut
+  83 001c C0F20003 		movt	r3, #:upper16:InOut
+  84 0020 1A80     		strh	r2, [r3]	@ unaligned
+  32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+  85              		.loc 1 32 0
+ARM GAS  C:\Windows\ccRvALDA.s 			page 3
+
+
+  86 0022 FFF7FEFF 		bl	yield
+  87              	.L3:
+  29:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0x20) != 0x00) 
+  88              		.loc 1 29 0 discriminator 1
+  89 0026 40F20003 		movw	r3, #:lower16:In
+  90 002a C0F20003 		movt	r3, #:upper16:In
+  91 002e 1B88     		ldrh	r3, [r3]	@ unaligned
+  92 0030 9BB2     		uxth	r3, r3
+  93 0032 03F02003 		and	r3, r3, #32
+  94 0036 002B     		cmp	r3, #0
+  95 0038 E5D1     		bne	.L4
+  33:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+  34:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+  96              		.loc 1 34 0
+  97 003a FFF7FEFF 		bl	yield
+  35:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+  98              		.loc 1 35 0
+  99 003e 80BD     		pop	{r7, pc}
+ 100              		.cfi_endproc
+ 101              	.LFE1:
+ 103              		.section	.text._Z8Shutdownv,"ax",%progbits
+ 104              		.align	2
+ 105              		.global	_Z8Shutdownv
+ 106              		.thumb
+ 107              		.thumb_func
+ 109              	_Z8Shutdownv:
+ 110              	.LFB2:
+  36:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  37:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void Shutdown()
+  38:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 111              		.loc 1 38 0
+ 112              		.cfi_startproc
+ 113              		@ args = 0, pretend = 0, frame = 0
+ 114              		@ frame_needed = 1, uses_anonymous_args = 0
+ 115 0000 80B5     		push	{r7, lr}
+ 116              		.cfi_def_cfa_offset 8
+ 117              		.cfi_offset 7, -8
+ 118              		.cfi_offset 14, -4
+ 119 0002 00AF     		add	r7, sp, #0
+ 120              		.cfi_def_cfa_register 7
+  39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xEF) != 0x21) 
+ 121              		.loc 1 39 0
+ 122 0004 14E0     		b	.L6
+ 123              	.L7:
+  40:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  41:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF76)|0x0006;
+ 124              		.loc 1 41 0
+ 125 0006 40F20003 		movw	r3, #:lower16:InOut
+ 126 000a C0F20003 		movt	r3, #:upper16:InOut
+ 127 000e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 128 0010 9BB2     		uxth	r3, r3
+ 129 0012 9BB2     		uxth	r3, r3
+ 130 0014 23F08F03 		bic	r3, r3, #143
+ 131 0018 9BB2     		uxth	r3, r3
+ 132 001a 43F00603 		orr	r3, r3, #6
+ 133 001e 9BB2     		uxth	r3, r3
+ 134 0020 9AB2     		uxth	r2, r3
+ARM GAS  C:\Windows\ccRvALDA.s 			page 4
+
+
+ 135 0022 40F20003 		movw	r3, #:lower16:InOut
+ 136 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 137 002a 1A80     		strh	r2, [r3]	@ unaligned
+  42:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 138              		.loc 1 42 0
+ 139 002c FFF7FEFF 		bl	yield
+ 140              	.L6:
+  39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xEF) != 0x21) 
+ 141              		.loc 1 39 0 discriminator 1
+ 142 0030 40F20003 		movw	r3, #:lower16:In
+ 143 0034 C0F20003 		movt	r3, #:upper16:In
+ 144 0038 1B88     		ldrh	r3, [r3]	@ unaligned
+ 145 003a 9BB2     		uxth	r3, r3
+ 146 003c 03F0EF03 		and	r3, r3, #239
+ 147 0040 212B     		cmp	r3, #33
+ 148 0042 E0D1     		bne	.L7
+  43:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+ 149              		.loc 1 44 0
+ 150 0044 FFF7FEFF 		bl	yield
+  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 151              		.loc 1 45 0
+ 152 0048 80BD     		pop	{r7, pc}
+ 153              		.cfi_endproc
+ 154              	.LFE2:
+ 156 004a 00BF     		.section	.text._Z8SwitchOnv,"ax",%progbits
+ 157              		.align	2
+ 158              		.global	_Z8SwitchOnv
+ 159              		.thumb
+ 160              		.thumb_func
+ 162              	_Z8SwitchOnv:
+ 163              	.LFB3:
+  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void SwitchOn()
+  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 164              		.loc 1 48 0
+ 165              		.cfi_startproc
+ 166              		@ args = 0, pretend = 0, frame = 0
+ 167              		@ frame_needed = 1, uses_anonymous_args = 0
+ 168 0000 80B5     		push	{r7, lr}
+ 169              		.cfi_def_cfa_offset 8
+ 170              		.cfi_offset 7, -8
+ 171              		.cfi_offset 14, -4
+ 172 0002 00AF     		add	r7, sp, #0
+ 173              		.cfi_def_cfa_register 7
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xE9) != 0x21) 
+ 174              		.loc 1 49 0
+ 175 0004 14E0     		b	.L9
+ 176              	.L10:
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF76)|0x0006;
+ 177              		.loc 1 51 0
+ 178 0006 40F20003 		movw	r3, #:lower16:InOut
+ 179 000a C0F20003 		movt	r3, #:upper16:InOut
+ 180 000e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 181 0010 9BB2     		uxth	r3, r3
+ 182 0012 9BB2     		uxth	r3, r3
+ARM GAS  C:\Windows\ccRvALDA.s 			page 5
+
+
+ 183 0014 23F08F03 		bic	r3, r3, #143
+ 184 0018 9BB2     		uxth	r3, r3
+ 185 001a 43F00603 		orr	r3, r3, #6
+ 186 001e 9BB2     		uxth	r3, r3
+ 187 0020 9AB2     		uxth	r2, r3
+ 188 0022 40F20003 		movw	r3, #:lower16:InOut
+ 189 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 190 002a 1A80     		strh	r2, [r3]	@ unaligned
+  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 191              		.loc 1 52 0
+ 192 002c FFF7FEFF 		bl	yield
+ 193              	.L9:
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xE9) != 0x21) 
+ 194              		.loc 1 49 0 discriminator 1
+ 195 0030 40F20003 		movw	r3, #:lower16:In
+ 196 0034 C0F20003 		movt	r3, #:upper16:In
+ 197 0038 1B88     		ldrh	r3, [r3]	@ unaligned
+ 198 003a 9BB2     		uxth	r3, r3
+ 199 003c 03F0E903 		and	r3, r3, #233
+ 200 0040 212B     		cmp	r3, #33
+ 201 0042 E0D1     		bne	.L10
+  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xEF) != 0x23) 
+ 202              		.loc 1 54 0
+ 203 0044 14E0     		b	.L11
+ 204              	.L12:
+  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF77)|0x0007;
+ 205              		.loc 1 56 0
+ 206 0046 40F20003 		movw	r3, #:lower16:InOut
+ 207 004a C0F20003 		movt	r3, #:upper16:InOut
+ 208 004e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 209 0050 9BB2     		uxth	r3, r3
+ 210 0052 9BB2     		uxth	r3, r3
+ 211 0054 23F08F03 		bic	r3, r3, #143
+ 212 0058 9BB2     		uxth	r3, r3
+ 213 005a 43F00703 		orr	r3, r3, #7
+ 214 005e 9BB2     		uxth	r3, r3
+ 215 0060 9AB2     		uxth	r2, r3
+ 216 0062 40F20003 		movw	r3, #:lower16:InOut
+ 217 0066 C0F20003 		movt	r3, #:upper16:InOut
+ 218 006a 1A80     		strh	r2, [r3]	@ unaligned
+  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 219              		.loc 1 57 0
+ 220 006c FFF7FEFF 		bl	yield
+ 221              	.L11:
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 222              		.loc 1 54 0 discriminator 1
+ 223 0070 40F20003 		movw	r3, #:lower16:In
+ 224 0074 C0F20003 		movt	r3, #:upper16:In
+ 225 0078 1B88     		ldrh	r3, [r3]	@ unaligned
+ 226 007a 9BB2     		uxth	r3, r3
+ 227 007c 03F0EF03 		and	r3, r3, #239
+ 228 0080 232B     		cmp	r3, #35
+ 229 0082 E0D1     		bne	.L12
+  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+ARM GAS  C:\Windows\ccRvALDA.s 			page 6
+
+
+ 230              		.loc 1 59 0
+ 231 0084 FFF7FEFF 		bl	yield
+  60:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 232              		.loc 1 60 0
+ 233 0088 80BD     		pop	{r7, pc}
+ 234              		.cfi_endproc
+ 235              	.LFE3:
+ 237 008a 00BF     		.section	.text._Z15EnableOperationv,"ax",%progbits
+ 238              		.align	2
+ 239              		.global	_Z15EnableOperationv
+ 240              		.thumb
+ 241              		.thumb_func
+ 243              	_Z15EnableOperationv:
+ 244              	.LFB4:
+  61:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  62:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void EnableOperation()
+  63:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 245              		.loc 1 63 0
+ 246              		.cfi_startproc
+ 247              		@ args = 0, pretend = 0, frame = 0
+ 248              		@ frame_needed = 1, uses_anonymous_args = 0
+ 249 0000 80B5     		push	{r7, lr}
+ 250              		.cfi_def_cfa_offset 8
+ 251              		.cfi_offset 7, -8
+ 252              		.cfi_offset 14, -4
+ 253 0002 00AF     		add	r7, sp, #0
+ 254              		.cfi_def_cfa_register 7
+  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xE9) != 0x21) 
+ 255              		.loc 1 64 0
+ 256 0004 14E0     		b	.L14
+ 257              	.L15:
+  65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  66:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF76)|0x0006;
+ 258              		.loc 1 66 0
+ 259 0006 40F20003 		movw	r3, #:lower16:InOut
+ 260 000a C0F20003 		movt	r3, #:upper16:InOut
+ 261 000e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 262 0010 9BB2     		uxth	r3, r3
+ 263 0012 9BB2     		uxth	r3, r3
+ 264 0014 23F08F03 		bic	r3, r3, #143
+ 265 0018 9BB2     		uxth	r3, r3
+ 266 001a 43F00603 		orr	r3, r3, #6
+ 267 001e 9BB2     		uxth	r3, r3
+ 268 0020 9AB2     		uxth	r2, r3
+ 269 0022 40F20003 		movw	r3, #:lower16:InOut
+ 270 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 271 002a 1A80     		strh	r2, [r3]	@ unaligned
+  67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 272              		.loc 1 67 0
+ 273 002c FFF7FEFF 		bl	yield
+ 274              	.L14:
+  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xE9) != 0x21) 
+ 275              		.loc 1 64 0 discriminator 1
+ 276 0030 40F20003 		movw	r3, #:lower16:In
+ 277 0034 C0F20003 		movt	r3, #:upper16:In
+ 278 0038 1B88     		ldrh	r3, [r3]	@ unaligned
+ 279 003a 9BB2     		uxth	r3, r3
+ARM GAS  C:\Windows\ccRvALDA.s 			page 7
+
+
+ 280 003c 03F0E903 		and	r3, r3, #233
+ 281 0040 212B     		cmp	r3, #33
+ 282 0042 E0D1     		bne	.L15
+  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+  69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xEB) != 0x23) 
+ 283              		.loc 1 69 0
+ 284 0044 14E0     		b	.L16
+ 285              	.L17:
+  70:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  71:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF77)|0x0007;
+ 286              		.loc 1 71 0
+ 287 0046 40F20003 		movw	r3, #:lower16:InOut
+ 288 004a C0F20003 		movt	r3, #:upper16:InOut
+ 289 004e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 290 0050 9BB2     		uxth	r3, r3
+ 291 0052 9BB2     		uxth	r3, r3
+ 292 0054 23F08F03 		bic	r3, r3, #143
+ 293 0058 9BB2     		uxth	r3, r3
+ 294 005a 43F00703 		orr	r3, r3, #7
+ 295 005e 9BB2     		uxth	r3, r3
+ 296 0060 9AB2     		uxth	r2, r3
+ 297 0062 40F20003 		movw	r3, #:lower16:InOut
+ 298 0066 C0F20003 		movt	r3, #:upper16:InOut
+ 299 006a 1A80     		strh	r2, [r3]	@ unaligned
+  72:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 300              		.loc 1 72 0
+ 301 006c FFF7FEFF 		bl	yield
+ 302              	.L16:
+  69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 303              		.loc 1 69 0 discriminator 1
+ 304 0070 40F20003 		movw	r3, #:lower16:In
+ 305 0074 C0F20003 		movt	r3, #:upper16:In
+ 306 0078 1B88     		ldrh	r3, [r3]	@ unaligned
+ 307 007a 9BB2     		uxth	r3, r3
+ 308 007c 03F0EB03 		and	r3, r3, #235
+ 309 0080 232B     		cmp	r3, #35
+ 310 0082 E0D1     		bne	.L17
+  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	while ((In.Statusword & 0xEF) != 0x27) 
+ 311              		.loc 1 74 0
+ 312 0084 14E0     		b	.L18
+ 313              	.L19:
+  75:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+  76:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = (InOut.Controlword& 0xFF7F)|0x000F;							
+ 314              		.loc 1 76 0
+ 315 0086 40F20003 		movw	r3, #:lower16:InOut
+ 316 008a C0F20003 		movt	r3, #:upper16:InOut
+ 317 008e 1B88     		ldrh	r3, [r3]	@ unaligned
+ 318 0090 9BB2     		uxth	r3, r3
+ 319 0092 9BB2     		uxth	r3, r3
+ 320 0094 23F08F03 		bic	r3, r3, #143
+ 321 0098 9BB2     		uxth	r3, r3
+ 322 009a 43F00F03 		orr	r3, r3, #15
+ 323 009e 9BB2     		uxth	r3, r3
+ 324 00a0 9AB2     		uxth	r2, r3
+ 325 00a2 40F20003 		movw	r3, #:lower16:InOut
+ 326 00a6 C0F20003 		movt	r3, #:upper16:InOut
+ARM GAS  C:\Windows\ccRvALDA.s 			page 8
+
+
+ 327 00aa 1A80     		strh	r2, [r3]	@ unaligned
+  77:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield(); 
+ 328              		.loc 1 77 0
+ 329 00ac FFF7FEFF 		bl	yield
+ 330              	.L18:
+  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 331              		.loc 1 74 0 discriminator 1
+ 332 00b0 40F20003 		movw	r3, #:lower16:In
+ 333 00b4 C0F20003 		movt	r3, #:upper16:In
+ 334 00b8 1B88     		ldrh	r3, [r3]	@ unaligned
+ 335 00ba 9BB2     		uxth	r3, r3
+ 336 00bc 03F0EF03 		and	r3, r3, #239
+ 337 00c0 272B     		cmp	r3, #39
+ 338 00c2 E0D1     		bne	.L19
+  78:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+  79:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+ 339              		.loc 1 79 0
+ 340 00c4 FFF7FEFF 		bl	yield
+  80:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }	
+ 341              		.loc 1 80 0
+ 342 00c8 80BD     		pop	{r7, pc}
+ 343              		.cfi_endproc
+ 344              	.LFE4:
+ 346 00ca 00BF     		.section	.text._Z16RelativeMovementv,"ax",%progbits
+ 347              		.align	2
+ 348              		.global	_Z16RelativeMovementv
+ 349              		.thumb
+ 350              		.thumb_func
+ 352              	_Z16RelativeMovementv:
+ 353              	.LFB5:
+  81:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  82:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void RelativeMovement()
+  83:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {	
+ 354              		.loc 1 83 0
+ 355              		.cfi_startproc
+ 356              		@ args = 0, pretend = 0, frame = 0
+ 357              		@ frame_needed = 1, uses_anonymous_args = 0
+ 358 0000 80B5     		push	{r7, lr}
+ 359              		.cfi_def_cfa_offset 8
+ 360              		.cfi_offset 7, -8
+ 361              		.cfi_offset 14, -4
+ 362 0002 00AF     		add	r7, sp, #0
+ 363              		.cfi_def_cfa_register 7
+  84:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x0040;
+ 364              		.loc 1 84 0
+ 365 0004 40F20003 		movw	r3, #:lower16:InOut
+ 366 0008 C0F20003 		movt	r3, #:upper16:InOut
+ 367 000c 1B88     		ldrh	r3, [r3]	@ unaligned
+ 368 000e 9BB2     		uxth	r3, r3
+ 369 0010 43F04003 		orr	r3, r3, #64
+ 370 0014 9AB2     		uxth	r2, r3
+ 371 0016 40F20003 		movw	r3, #:lower16:InOut
+ 372 001a C0F20003 		movt	r3, #:upper16:InOut
+ 373 001e 1A80     		strh	r2, [r3]	@ unaligned
+  85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+ 374              		.loc 1 85 0
+ 375 0020 FFF7FEFF 		bl	yield
+ARM GAS  C:\Windows\ccRvALDA.s 			page 9
+
+
+  86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 376              		.loc 1 86 0
+ 377 0024 80BD     		pop	{r7, pc}
+ 378              		.cfi_endproc
+ 379              	.LFE5:
+ 381 0026 00BF     		.section	.text._Z16AbsoluteMovementv,"ax",%progbits
+ 382              		.align	2
+ 383              		.global	_Z16AbsoluteMovementv
+ 384              		.thumb
+ 385              		.thumb_func
+ 387              	_Z16AbsoluteMovementv:
+ 388              	.LFB6:
+  87:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  88:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void AbsoluteMovement()
+  89:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 389              		.loc 1 89 0
+ 390              		.cfi_startproc
+ 391              		@ args = 0, pretend = 0, frame = 0
+ 392              		@ frame_needed = 1, uses_anonymous_args = 0
+ 393 0000 80B5     		push	{r7, lr}
+ 394              		.cfi_def_cfa_offset 8
+ 395              		.cfi_offset 7, -8
+ 396              		.cfi_offset 14, -4
+ 397 0002 00AF     		add	r7, sp, #0
+ 398              		.cfi_def_cfa_register 7
+  90:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Controlword = InOut.Controlword & 0xFFBF;
+ 399              		.loc 1 90 0
+ 400 0004 40F20003 		movw	r3, #:lower16:InOut
+ 401 0008 C0F20003 		movt	r3, #:upper16:InOut
+ 402 000c 1B88     		ldrh	r3, [r3]	@ unaligned
+ 403 000e 9BB2     		uxth	r3, r3
+ 404 0010 23F04003 		bic	r3, r3, #64
+ 405 0014 9AB2     		uxth	r2, r3
+ 406 0016 40F20003 		movw	r3, #:lower16:InOut
+ 407 001a C0F20003 		movt	r3, #:upper16:InOut
+ 408 001e 1A80     		strh	r2, [r3]	@ unaligned
+  91:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	yield();
+ 409              		.loc 1 91 0
+ 410 0020 FFF7FEFF 		bl	yield
+  92:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 411              		.loc 1 92 0
+ 412 0024 80BD     		pop	{r7, pc}
+ 413              		.cfi_endproc
+ 414              	.LFE6:
+ 416 0026 00BF     		.section	.text._Z11NewSetPointb,"ax",%progbits
+ 417              		.align	2
+ 418              		.global	_Z11NewSetPointb
+ 419              		.thumb
+ 420              		.thumb_func
+ 422              	_Z11NewSetPointb:
+ 423              	.LFB7:
+  93:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+  94:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void NewSetPoint(bool newsetpoint)
+  95:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 424              		.loc 1 95 0
+ 425              		.cfi_startproc
+ 426              		@ args = 0, pretend = 0, frame = 8
+ARM GAS  C:\Windows\ccRvALDA.s 			page 10
+
+
+ 427              		@ frame_needed = 1, uses_anonymous_args = 0
+ 428 0000 80B5     		push	{r7, lr}
+ 429              		.cfi_def_cfa_offset 8
+ 430              		.cfi_offset 7, -8
+ 431              		.cfi_offset 14, -4
+ 432 0002 82B0     		sub	sp, sp, #8
+ 433              		.cfi_def_cfa_offset 16
+ 434 0004 00AF     		add	r7, sp, #0
+ 435              		.cfi_def_cfa_register 7
+ 436 0006 0346     		mov	r3, r0
+ 437 0008 FB71     		strb	r3, [r7, #7]
+  96:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if(newsetpoint)
+ 438              		.loc 1 96 0
+ 439 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 440 000c 002B     		cmp	r3, #0
+ 441 000e 10D0     		beq	.L23
+  97:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{	
+  98:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword | 0x0010;
+ 442              		.loc 1 98 0
+ 443 0010 40F20003 		movw	r3, #:lower16:InOut
+ 444 0014 C0F20003 		movt	r3, #:upper16:InOut
+ 445 0018 1B88     		ldrh	r3, [r3]	@ unaligned
+ 446 001a 9BB2     		uxth	r3, r3
+ 447 001c 43F01003 		orr	r3, r3, #16
+ 448 0020 9AB2     		uxth	r2, r3
+ 449 0022 40F20003 		movw	r3, #:lower16:InOut
+ 450 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 451 002a 1A80     		strh	r2, [r3]	@ unaligned
+  99:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 452              		.loc 1 99 0
+ 453 002c FFF7FEFF 		bl	yield
+ 454 0030 0FE0     		b	.L22
+ 455              	.L23:
+ 100:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 101:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 102:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 103:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword & 0xFFEF;
+ 456              		.loc 1 103 0
+ 457 0032 40F20003 		movw	r3, #:lower16:InOut
+ 458 0036 C0F20003 		movt	r3, #:upper16:InOut
+ 459 003a 1B88     		ldrh	r3, [r3]	@ unaligned
+ 460 003c 9BB2     		uxth	r3, r3
+ 461 003e 23F01003 		bic	r3, r3, #16
+ 462 0042 9AB2     		uxth	r2, r3
+ 463 0044 40F20003 		movw	r3, #:lower16:InOut
+ 464 0048 C0F20003 		movt	r3, #:upper16:InOut
+ 465 004c 1A80     		strh	r2, [r3]	@ unaligned
+ 104:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 466              		.loc 1 104 0
+ 467 004e FFF7FEFF 		bl	yield
+ 468              	.L22:
+ 105:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 106:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 469              		.loc 1 106 0
+ 470 0052 0837     		adds	r7, r7, #8
+ 471 0054 BD46     		mov	sp, r7
+ 472              		@ sp needed
+ARM GAS  C:\Windows\ccRvALDA.s 			page 11
+
+
+ 473 0056 80BD     		pop	{r7, pc}
+ 474              		.cfi_endproc
+ 475              	.LFE7:
+ 477              		.section	.text._Z4Haltb,"ax",%progbits
+ 478              		.align	2
+ 479              		.global	_Z4Haltb
+ 480              		.thumb
+ 481              		.thumb_func
+ 483              	_Z4Haltb:
+ 484              	.LFB8:
+ 107:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 108:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void Halt(bool halt)
+ 109:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 485              		.loc 1 109 0
+ 486              		.cfi_startproc
+ 487              		@ args = 0, pretend = 0, frame = 8
+ 488              		@ frame_needed = 1, uses_anonymous_args = 0
+ 489 0000 80B5     		push	{r7, lr}
+ 490              		.cfi_def_cfa_offset 8
+ 491              		.cfi_offset 7, -8
+ 492              		.cfi_offset 14, -4
+ 493 0002 82B0     		sub	sp, sp, #8
+ 494              		.cfi_def_cfa_offset 16
+ 495 0004 00AF     		add	r7, sp, #0
+ 496              		.cfi_def_cfa_register 7
+ 497 0006 0346     		mov	r3, r0
+ 498 0008 FB71     		strb	r3, [r7, #7]
+ 110:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if(halt)
+ 499              		.loc 1 110 0
+ 500 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 501 000c 002B     		cmp	r3, #0
+ 502 000e 10D0     		beq	.L26
+ 111:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 112:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword | 0x0100;
+ 503              		.loc 1 112 0
+ 504 0010 40F20003 		movw	r3, #:lower16:InOut
+ 505 0014 C0F20003 		movt	r3, #:upper16:InOut
+ 506 0018 1B88     		ldrh	r3, [r3]	@ unaligned
+ 507 001a 9BB2     		uxth	r3, r3
+ 508 001c 43F48073 		orr	r3, r3, #256
+ 509 0020 9AB2     		uxth	r2, r3
+ 510 0022 40F20003 		movw	r3, #:lower16:InOut
+ 511 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 512 002a 1A80     		strh	r2, [r3]	@ unaligned
+ 113:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 513              		.loc 1 113 0
+ 514 002c FFF7FEFF 		bl	yield
+ 515 0030 0FE0     		b	.L25
+ 516              	.L26:
+ 114:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 115:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 116:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 117:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword & 0xFEFF;
+ 517              		.loc 1 117 0
+ 518 0032 40F20003 		movw	r3, #:lower16:InOut
+ 519 0036 C0F20003 		movt	r3, #:upper16:InOut
+ 520 003a 1B88     		ldrh	r3, [r3]	@ unaligned
+ARM GAS  C:\Windows\ccRvALDA.s 			page 12
+
+
+ 521 003c 9BB2     		uxth	r3, r3
+ 522 003e 23F48073 		bic	r3, r3, #256
+ 523 0042 9AB2     		uxth	r2, r3
+ 524 0044 40F20003 		movw	r3, #:lower16:InOut
+ 525 0048 C0F20003 		movt	r3, #:upper16:InOut
+ 526 004c 1A80     		strh	r2, [r3]	@ unaligned
+ 118:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 527              		.loc 1 118 0
+ 528 004e FFF7FEFF 		bl	yield
+ 529              	.L25:
+ 119:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+ 120:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 530              		.loc 1 120 0
+ 531 0052 0837     		adds	r7, r7, #8
+ 532 0054 BD46     		mov	sp, r7
+ 533              		@ sp needed
+ 534 0056 80BD     		pop	{r7, pc}
+ 535              		.cfi_endproc
+ 536              	.LFE8:
+ 538              		.section	.text._Z25ChangeSetPointImmediatelyb,"ax",%progbits
+ 539              		.align	2
+ 540              		.global	_Z25ChangeSetPointImmediatelyb
+ 541              		.thumb
+ 542              		.thumb_func
+ 544              	_Z25ChangeSetPointImmediatelyb:
+ 545              	.LFB9:
+ 121:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 122:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void ChangeSetPointImmediately(bool changesetpointimmediately)
+ 123:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 546              		.loc 1 123 0
+ 547              		.cfi_startproc
+ 548              		@ args = 0, pretend = 0, frame = 8
+ 549              		@ frame_needed = 1, uses_anonymous_args = 0
+ 550 0000 80B5     		push	{r7, lr}
+ 551              		.cfi_def_cfa_offset 8
+ 552              		.cfi_offset 7, -8
+ 553              		.cfi_offset 14, -4
+ 554 0002 82B0     		sub	sp, sp, #8
+ 555              		.cfi_def_cfa_offset 16
+ 556 0004 00AF     		add	r7, sp, #0
+ 557              		.cfi_def_cfa_register 7
+ 558 0006 0346     		mov	r3, r0
+ 559 0008 FB71     		strb	r3, [r7, #7]
+ 124:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if(changesetpointimmediately)
+ 560              		.loc 1 124 0
+ 561 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 562 000c 002B     		cmp	r3, #0
+ 563 000e 10D0     		beq	.L29
+ 125:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 126:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword | 0x0020;
+ 564              		.loc 1 126 0
+ 565 0010 40F20003 		movw	r3, #:lower16:InOut
+ 566 0014 C0F20003 		movt	r3, #:upper16:InOut
+ 567 0018 1B88     		ldrh	r3, [r3]	@ unaligned
+ 568 001a 9BB2     		uxth	r3, r3
+ 569 001c 43F02003 		orr	r3, r3, #32
+ 570 0020 9AB2     		uxth	r2, r3
+ARM GAS  C:\Windows\ccRvALDA.s 			page 13
+
+
+ 571 0022 40F20003 		movw	r3, #:lower16:InOut
+ 572 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 573 002a 1A80     		strh	r2, [r3]	@ unaligned
+ 127:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 574              		.loc 1 127 0
+ 575 002c FFF7FEFF 		bl	yield
+ 576 0030 0FE0     		b	.L28
+ 577              	.L29:
+ 128:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 129:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 130:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 131:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword & 0xFFDF;
+ 578              		.loc 1 131 0
+ 579 0032 40F20003 		movw	r3, #:lower16:InOut
+ 580 0036 C0F20003 		movt	r3, #:upper16:InOut
+ 581 003a 1B88     		ldrh	r3, [r3]	@ unaligned
+ 582 003c 9BB2     		uxth	r3, r3
+ 583 003e 23F02003 		bic	r3, r3, #32
+ 584 0042 9AB2     		uxth	r2, r3
+ 585 0044 40F20003 		movw	r3, #:lower16:InOut
+ 586 0048 C0F20003 		movt	r3, #:upper16:InOut
+ 587 004c 1A80     		strh	r2, [r3]	@ unaligned
+ 132:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 588              		.loc 1 132 0
+ 589 004e FFF7FEFF 		bl	yield
+ 590              	.L28:
+ 133:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+ 134:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 591              		.loc 1 134 0
+ 592 0052 0837     		adds	r7, r7, #8
+ 593 0054 BD46     		mov	sp, r7
+ 594              		@ sp needed
+ 595 0056 80BD     		pop	{r7, pc}
+ 596              		.cfi_endproc
+ 597              	.LFE9:
+ 599              		.section	.text._Z16ChangeOnSetPointb,"ax",%progbits
+ 600              		.align	2
+ 601              		.global	_Z16ChangeOnSetPointb
+ 602              		.thumb
+ 603              		.thumb_func
+ 605              	_Z16ChangeOnSetPointb:
+ 606              	.LFB10:
+ 135:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 136:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void ChangeOnSetPoint(bool changeonsetpoint)
+ 137:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 607              		.loc 1 137 0
+ 608              		.cfi_startproc
+ 609              		@ args = 0, pretend = 0, frame = 8
+ 610              		@ frame_needed = 1, uses_anonymous_args = 0
+ 611 0000 80B5     		push	{r7, lr}
+ 612              		.cfi_def_cfa_offset 8
+ 613              		.cfi_offset 7, -8
+ 614              		.cfi_offset 14, -4
+ 615 0002 82B0     		sub	sp, sp, #8
+ 616              		.cfi_def_cfa_offset 16
+ 617 0004 00AF     		add	r7, sp, #0
+ 618              		.cfi_def_cfa_register 7
+ARM GAS  C:\Windows\ccRvALDA.s 			page 14
+
+
+ 619 0006 0346     		mov	r3, r0
+ 620 0008 FB71     		strb	r3, [r7, #7]
+ 138:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if(changeonsetpoint)
+ 621              		.loc 1 138 0
+ 622 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 623 000c 002B     		cmp	r3, #0
+ 624 000e 10D0     		beq	.L32
+ 139:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 140:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword | 0x0200;
+ 625              		.loc 1 140 0
+ 626 0010 40F20003 		movw	r3, #:lower16:InOut
+ 627 0014 C0F20003 		movt	r3, #:upper16:InOut
+ 628 0018 1B88     		ldrh	r3, [r3]	@ unaligned
+ 629 001a 9BB2     		uxth	r3, r3
+ 630 001c 43F40073 		orr	r3, r3, #512
+ 631 0020 9AB2     		uxth	r2, r3
+ 632 0022 40F20003 		movw	r3, #:lower16:InOut
+ 633 0026 C0F20003 		movt	r3, #:upper16:InOut
+ 634 002a 1A80     		strh	r2, [r3]	@ unaligned
+ 141:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 635              		.loc 1 141 0
+ 636 002c FFF7FEFF 		bl	yield
+ 637 0030 0FE0     		b	.L31
+ 638              	.L32:
+ 142:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 143:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 144:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 145:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		InOut.Controlword = InOut.Controlword & 0xFDFF;
+ 639              		.loc 1 145 0
+ 640 0032 40F20003 		movw	r3, #:lower16:InOut
+ 641 0036 C0F20003 		movt	r3, #:upper16:InOut
+ 642 003a 1B88     		ldrh	r3, [r3]	@ unaligned
+ 643 003c 9BB2     		uxth	r3, r3
+ 644 003e 23F40073 		bic	r3, r3, #512
+ 645 0042 9AB2     		uxth	r2, r3
+ 646 0044 40F20003 		movw	r3, #:lower16:InOut
+ 647 0048 C0F20003 		movt	r3, #:upper16:InOut
+ 648 004c 1A80     		strh	r2, [r3]	@ unaligned
+ 146:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		yield();
+ 649              		.loc 1 146 0
+ 650 004e FFF7FEFF 		bl	yield
+ 651              	.L31:
+ 147:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+ 148:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 652              		.loc 1 148 0
+ 653 0052 0837     		adds	r7, r7, #8
+ 654 0054 BD46     		mov	sp, r7
+ 655              		@ sp needed
+ 656 0056 80BD     		pop	{r7, pc}
+ 657              		.cfi_endproc
+ 658              	.LFE10:
+ 660              		.section	.text._Z13TargetReachedv,"ax",%progbits
+ 661              		.align	2
+ 662              		.global	_Z13TargetReachedv
+ 663              		.thumb
+ 664              		.thumb_func
+ 666              	_Z13TargetReachedv:
+ARM GAS  C:\Windows\ccRvALDA.s 			page 15
+
+
+ 667              	.LFB11:
+ 149:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 150:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** bool TargetReached()
+ 151:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 668              		.loc 1 151 0
+ 669              		.cfi_startproc
+ 670              		@ args = 0, pretend = 0, frame = 0
+ 671              		@ frame_needed = 1, uses_anonymous_args = 0
+ 672              		@ link register save eliminated.
+ 673 0000 80B4     		push	{r7}
+ 674              		.cfi_def_cfa_offset 4
+ 675              		.cfi_offset 7, -4
+ 676 0002 00AF     		add	r7, sp, #0
+ 677              		.cfi_def_cfa_register 7
+ 152:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if((In.Statusword & 0x400) == 0x400)
+ 678              		.loc 1 152 0
+ 679 0004 40F20003 		movw	r3, #:lower16:In
+ 680 0008 C0F20003 		movt	r3, #:upper16:In
+ 681 000c 1B88     		ldrh	r3, [r3]	@ unaligned
+ 682 000e 9BB2     		uxth	r3, r3
+ 683 0010 03F48063 		and	r3, r3, #1024
+ 684 0014 002B     		cmp	r3, #0
+ 685 0016 01D0     		beq	.L35
+ 153:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 154:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return true;
+ 686              		.loc 1 154 0
+ 687 0018 0123     		movs	r3, #1
+ 688 001a 00E0     		b	.L36
+ 689              	.L35:
+ 155:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 156:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 157:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 158:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return false;
+ 690              		.loc 1 158 0
+ 691 001c 0023     		movs	r3, #0
+ 692              	.L36:
+ 159:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+ 160:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }		
+ 693              		.loc 1 160 0
+ 694 001e 1846     		mov	r0, r3
+ 695 0020 BD46     		mov	sp, r7
+ 696              		@ sp needed
+ 697 0022 5DF8047B 		ldr	r7, [sp], #4
+ 698 0026 7047     		bx	lr
+ 699              		.cfi_endproc
+ 700              	.LFE11:
+ 702              		.section	.text._Z22NewSetPointAcknowledgev,"ax",%progbits
+ 703              		.align	2
+ 704              		.global	_Z22NewSetPointAcknowledgev
+ 705              		.thumb
+ 706              		.thumb_func
+ 708              	_Z22NewSetPointAcknowledgev:
+ 709              	.LFB12:
+ 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** bool NewSetPointAcknowledge()
+ 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 710              		.loc 1 163 0
+ARM GAS  C:\Windows\ccRvALDA.s 			page 16
+
+
+ 711              		.cfi_startproc
+ 712              		@ args = 0, pretend = 0, frame = 0
+ 713              		@ frame_needed = 1, uses_anonymous_args = 0
+ 714              		@ link register save eliminated.
+ 715 0000 80B4     		push	{r7}
+ 716              		.cfi_def_cfa_offset 4
+ 717              		.cfi_offset 7, -4
+ 718 0002 00AF     		add	r7, sp, #0
+ 719              		.cfi_def_cfa_register 7
+ 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if((In.Statusword & 0x1000) == 0x1000)
+ 720              		.loc 1 164 0
+ 721 0004 40F20003 		movw	r3, #:lower16:In
+ 722 0008 C0F20003 		movt	r3, #:upper16:In
+ 723 000c 1B88     		ldrh	r3, [r3]	@ unaligned
+ 724 000e 9BB2     		uxth	r3, r3
+ 725 0010 03F48053 		and	r3, r3, #4096
+ 726 0014 002B     		cmp	r3, #0
+ 727 0016 01D0     		beq	.L38
+ 165:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 166:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return true;
+ 728              		.loc 1 166 0
+ 729 0018 0123     		movs	r3, #1
+ 730 001a 00E0     		b	.L39
+ 731              	.L38:
+ 167:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 168:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 169:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 170:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return false;
+ 732              		.loc 1 170 0
+ 733 001c 0023     		movs	r3, #0
+ 734              	.L39:
+ 171:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}	
+ 172:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }	
+ 735              		.loc 1 172 0
+ 736 001e 1846     		mov	r0, r3
+ 737 0020 BD46     		mov	sp, r7
+ 738              		@ sp needed
+ 739 0022 5DF8047B 		ldr	r7, [sp], #4
+ 740 0026 7047     		bx	lr
+ 741              		.cfi_endproc
+ 742              	.LFE12:
+ 744              		.section	.text._Z12DigitalInputh,"ax",%progbits
+ 745              		.align	2
+ 746              		.global	_Z12DigitalInputh
+ 747              		.thumb
+ 748              		.thumb_func
+ 750              	_Z12DigitalInputh:
+ 751              	.LFB13:
+ 173:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 174:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** bool DigitalInput(U08 inputs)
+ 175:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 752              		.loc 1 175 0
+ 753              		.cfi_startproc
+ 754              		@ args = 0, pretend = 0, frame = 8
+ 755              		@ frame_needed = 1, uses_anonymous_args = 0
+ 756              		@ link register save eliminated.
+ 757 0000 80B4     		push	{r7}
+ARM GAS  C:\Windows\ccRvALDA.s 			page 17
+
+
+ 758              		.cfi_def_cfa_offset 4
+ 759              		.cfi_offset 7, -4
+ 760 0002 83B0     		sub	sp, sp, #12
+ 761              		.cfi_def_cfa_offset 16
+ 762 0004 00AF     		add	r7, sp, #0
+ 763              		.cfi_def_cfa_register 7
+ 764 0006 0346     		mov	r3, r0
+ 765 0008 FB71     		strb	r3, [r7, #7]
+ 176:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	if(In.Inputs & (1 << (15+inputs)))
+ 766              		.loc 1 176 0
+ 767 000a 40F20003 		movw	r3, #:lower16:In
+ 768 000e C0F20003 		movt	r3, #:upper16:In
+ 769 0012 D3F80220 		ldr	r2, [r3, #2]	@ unaligned
+ 770 0016 FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 771 0018 0F33     		adds	r3, r3, #15
+ 772 001a 0121     		movs	r1, #1
+ 773 001c 01FA03F3 		lsl	r3, r1, r3
+ 774 0020 1340     		ands	r3, r3, r2
+ 775 0022 002B     		cmp	r3, #0
+ 776 0024 01D0     		beq	.L41
+ 177:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 178:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return true;
+ 777              		.loc 1 178 0
+ 778 0026 0123     		movs	r3, #1
+ 779 0028 00E0     		b	.L42
+ 780              	.L41:
+ 179:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}
+ 180:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	else
+ 181:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	{
+ 182:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 		return false;	
+ 781              		.loc 1 182 0
+ 782 002a 0023     		movs	r3, #0
+ 783              	.L42:
+ 183:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	}		
+ 184:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 784              		.loc 1 184 0
+ 785 002c 1846     		mov	r0, r3
+ 786 002e 0C37     		adds	r7, r7, #12
+ 787 0030 BD46     		mov	sp, r7
+ 788              		@ sp needed
+ 789 0032 5DF8047B 		ldr	r7, [sp], #4
+ 790 0036 7047     		bx	lr
+ 791              		.cfi_endproc
+ 792              	.LFE13:
+ 794              		.section	.text._Z16SetDigitalOutputh,"ax",%progbits
+ 795              		.align	2
+ 796              		.global	_Z16SetDigitalOutputh
+ 797              		.thumb
+ 798              		.thumb_func
+ 800              	_Z16SetDigitalOutputh:
+ 801              	.LFB14:
+ 185:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 186:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void SetDigitalOutput(U08 outputs)
+ 187:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 802              		.loc 1 187 0
+ 803              		.cfi_startproc
+ 804              		@ args = 0, pretend = 0, frame = 16
+ARM GAS  C:\Windows\ccRvALDA.s 			page 18
+
+
+ 805              		@ frame_needed = 1, uses_anonymous_args = 0
+ 806              		@ link register save eliminated.
+ 807 0000 80B4     		push	{r7}
+ 808              		.cfi_def_cfa_offset 4
+ 809              		.cfi_offset 7, -4
+ 810 0002 85B0     		sub	sp, sp, #20
+ 811              		.cfi_def_cfa_offset 24
+ 812 0004 00AF     		add	r7, sp, #0
+ 813              		.cfi_def_cfa_register 7
+ 814 0006 0346     		mov	r3, r0
+ 815 0008 FB71     		strb	r3, [r7, #7]
+ 816              	.LBB2:
+ 188:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	U32 OutputBit = 1 << (15+outputs);
+ 817              		.loc 1 188 0
+ 818 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 819 000c 0F33     		adds	r3, r3, #15
+ 820 000e 0122     		movs	r2, #1
+ 821 0010 02FA03F3 		lsl	r3, r2, r3
+ 822 0014 FB60     		str	r3, [r7, #12]
+ 189:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Outputs = InOut.Outputs | OutputBit;	
+ 823              		.loc 1 189 0
+ 824 0016 40F20003 		movw	r3, #:lower16:InOut
+ 825 001a C0F20003 		movt	r3, #:upper16:InOut
+ 826 001e D3F80220 		ldr	r2, [r3, #2]	@ unaligned
+ 827 0022 FB68     		ldr	r3, [r7, #12]
+ 828 0024 1A43     		orrs	r2, r2, r3
+ 829 0026 40F20003 		movw	r3, #:lower16:InOut
+ 830 002a C0F20003 		movt	r3, #:upper16:InOut
+ 831 002e C3F80220 		str	r2, [r3, #2]	@ unaligned
+ 832              	.LBE2:
+ 190:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 833              		.loc 1 190 0
+ 834 0032 1437     		adds	r7, r7, #20
+ 835 0034 BD46     		mov	sp, r7
+ 836              		@ sp needed
+ 837 0036 5DF8047B 		ldr	r7, [sp], #4
+ 838 003a 7047     		bx	lr
+ 839              		.cfi_endproc
+ 840              	.LFE14:
+ 842              		.section	.text._Z18ClearDigitalOutputh,"ax",%progbits
+ 843              		.align	2
+ 844              		.global	_Z18ClearDigitalOutputh
+ 845              		.thumb
+ 846              		.thumb_func
+ 848              	_Z18ClearDigitalOutputh:
+ 849              	.LFB15:
+ 191:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 192:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void ClearDigitalOutput(U08 outputs)
+ 193:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 850              		.loc 1 193 0
+ 851              		.cfi_startproc
+ 852              		@ args = 0, pretend = 0, frame = 16
+ 853              		@ frame_needed = 1, uses_anonymous_args = 0
+ 854              		@ link register save eliminated.
+ 855 0000 80B4     		push	{r7}
+ 856              		.cfi_def_cfa_offset 4
+ 857              		.cfi_offset 7, -4
+ARM GAS  C:\Windows\ccRvALDA.s 			page 19
+
+
+ 858 0002 85B0     		sub	sp, sp, #20
+ 859              		.cfi_def_cfa_offset 24
+ 860 0004 00AF     		add	r7, sp, #0
+ 861              		.cfi_def_cfa_register 7
+ 862 0006 0346     		mov	r3, r0
+ 863 0008 FB71     		strb	r3, [r7, #7]
+ 864              	.LBB3:
+ 194:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	U32 OutputBit = 1 << (15+outputs);
+ 865              		.loc 1 194 0
+ 866 000a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
+ 867 000c 0F33     		adds	r3, r3, #15
+ 868 000e 0122     		movs	r2, #1
+ 869 0010 02FA03F3 		lsl	r3, r2, r3
+ 870 0014 FB60     		str	r3, [r7, #12]
+ 195:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	InOut.Outputs = InOut.Outputs & ~OutputBit;		
+ 871              		.loc 1 195 0
+ 872 0016 40F20003 		movw	r3, #:lower16:InOut
+ 873 001a C0F20003 		movt	r3, #:upper16:InOut
+ 874 001e D3F80220 		ldr	r2, [r3, #2]	@ unaligned
+ 875 0022 FB68     		ldr	r3, [r7, #12]
+ 876 0024 DB43     		mvns	r3, r3
+ 877 0026 1A40     		ands	r2, r2, r3
+ 878 0028 40F20003 		movw	r3, #:lower16:InOut
+ 879 002c C0F20003 		movt	r3, #:upper16:InOut
+ 880 0030 C3F80220 		str	r2, [r3, #2]	@ unaligned
+ 881              	.LBE3:
+ 196:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }
+ 882              		.loc 1 196 0
+ 883 0034 1437     		adds	r7, r7, #20
+ 884 0036 BD46     		mov	sp, r7
+ 885              		@ sp needed
+ 886 0038 5DF8047B 		ldr	r7, [sp], #4
+ 887 003c 7047     		bx	lr
+ 888              		.cfi_endproc
+ 889              	.LFE15:
+ 891 003e 00BF     		.section	.text._Z16ModesOfOperationc,"ax",%progbits
+ 892              		.align	2
+ 893              		.global	_Z16ModesOfOperationc
+ 894              		.thumb
+ 895              		.thumb_func
+ 897              	_Z16ModesOfOperationc:
+ 898              	.LFB16:
+ 197:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 198:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** void ModesOfOperation(S08 Mode)
+ 199:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 899              		.loc 1 199 0
+ 900              		.cfi_startproc
+ 901              		@ args = 0, pretend = 0, frame = 8
+ 902              		@ frame_needed = 1, uses_anonymous_args = 0
+ 903              		@ link register save eliminated.
+ 904 0000 80B4     		push	{r7}
+ 905              		.cfi_def_cfa_offset 4
+ 906              		.cfi_offset 7, -4
+ 907 0002 83B0     		sub	sp, sp, #12
+ 908              		.cfi_def_cfa_offset 16
+ 909 0004 00AF     		add	r7, sp, #0
+ 910              		.cfi_def_cfa_register 7
+ARM GAS  C:\Windows\ccRvALDA.s 			page 20
+
+
+ 911 0006 0346     		mov	r3, r0
+ 912 0008 FB71     		strb	r3, [r7, #7]
+ 200:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	Out.ModesOfOperation = Mode;
+ 913              		.loc 1 200 0
+ 914 000a 40F20003 		movw	r3, #:lower16:Out
+ 915 000e C0F20003 		movt	r3, #:upper16:Out
+ 916 0012 FA79     		ldrb	r2, [r7, #7]
+ 917 0014 1A70     		strb	r2, [r3]
+ 201:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }	
+ 918              		.loc 1 201 0
+ 919 0016 0C37     		adds	r7, r7, #12
+ 920 0018 BD46     		mov	sp, r7
+ 921              		@ sp needed
+ 922 001a 5DF8047B 		ldr	r7, [sp], #4
+ 923 001e 7047     		bx	lr
+ 924              		.cfi_endproc
+ 925              	.LFE16:
+ 927              		.section	.text._Z23ModesOfOperationDisplayv,"ax",%progbits
+ 928              		.align	2
+ 929              		.global	_Z23ModesOfOperationDisplayv
+ 930              		.thumb
+ 931              		.thumb_func
+ 933              	_Z23ModesOfOperationDisplayv:
+ 934              	.LFB17:
+ 202:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 203:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** S08 ModesOfOperationDisplay()
+ 204:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 935              		.loc 1 204 0
+ 936              		.cfi_startproc
+ 937              		@ args = 0, pretend = 0, frame = 0
+ 938              		@ frame_needed = 1, uses_anonymous_args = 0
+ 939              		@ link register save eliminated.
+ 940 0000 80B4     		push	{r7}
+ 941              		.cfi_def_cfa_offset 4
+ 942              		.cfi_offset 7, -4
+ 943 0002 00AF     		add	r7, sp, #0
+ 944              		.cfi_def_cfa_register 7
+ 205:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	return In.ModesOfOperationDisplay;
+ 945              		.loc 1 205 0
+ 946 0004 40F20003 		movw	r3, #:lower16:In
+ 947 0008 C0F20003 		movt	r3, #:upper16:In
+ 948 000c 9B79     		ldrb	r3, [r3, #6]	@ zero_extendqisi2
+ 206:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }	
+ 949              		.loc 1 206 0
+ 950 000e 1846     		mov	r0, r3
+ 951 0010 BD46     		mov	sp, r7
+ 952              		@ sp needed
+ 953 0012 5DF8047B 		ldr	r7, [sp], #4
+ 954 0016 7047     		bx	lr
+ 955              		.cfi_endproc
+ 956              	.LFE17:
+ 958              		.section	.text._Z11AnalogInputv,"ax",%progbits
+ 959              		.align	2
+ 960              		.global	_Z11AnalogInputv
+ 961              		.thumb
+ 962              		.thumb_func
+ 964              	_Z11AnalogInputv:
+ARM GAS  C:\Windows\ccRvALDA.s 			page 21
+
+
+ 965              	.LFB18:
+ 207:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 
+ 208:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** S16 AnalogInput()
+ 209:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** {
+ 966              		.loc 1 209 0
+ 967              		.cfi_startproc
+ 968              		@ args = 0, pretend = 0, frame = 0
+ 969              		@ frame_needed = 1, uses_anonymous_args = 0
+ 970              		@ link register save eliminated.
+ 971 0000 80B4     		push	{r7}
+ 972              		.cfi_def_cfa_offset 4
+ 973              		.cfi_offset 7, -4
+ 974 0002 00AF     		add	r7, sp, #0
+ 975              		.cfi_def_cfa_register 7
+ 210:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** 	return In.AnalogInput;
+ 976              		.loc 1 210 0
+ 977 0004 40F20003 		movw	r3, #:lower16:In
+ 978 0008 C0F20003 		movt	r3, #:upper16:In
+ 979 000c B3F90730 		ldrsh	r3, [r3, #7]	@ unaligned
+ 980 0010 9BB2     		uxth	r3, r3
+ 981 0012 1BB2     		sxth	r3, r3
+ 211:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\nanotec.h **** }	
+ 982              		.loc 1 211 0
+ 983 0014 1846     		mov	r0, r3
+ 984 0016 BD46     		mov	sp, r7
+ 985              		@ sp needed
+ 986 0018 5DF8047B 		ldr	r7, [sp], #4
+ 987 001c 7047     		bx	lr
+ 988              		.cfi_endproc
+ 989              	.LFE18:
+ 991              		.global	ZeroPosition
+ 992 001e 00BF     		.section	.bss.ZeroPosition,"aw",%nobits
+ 993              		.align	2
+ 996              	ZeroPosition:
+ 997 0000 00000000 		.space	4
+ 998              		.section	.text._Z14ReferenceDrivev,"ax",%progbits
+ 999              		.align	2
+ 1000              		.global	_Z14ReferenceDrivev
+ 1001              		.thumb
+ 1002              		.thumb_func
+ 1004              	_Z14ReferenceDrivev:
+ 1005              	.LFB19:
+ 1006              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen\\mappings\\Referen
+   1:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map U16 Controlword as inout 0x6040:00
+   2:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map U16 Statusword as input 0x6041:00
+   3:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map U32 Inputs as input 0x60FD:00
+   4:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map U32 Outputs as inout 0x60FE:01
+   5:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperation as output 0x6060:00
+   6:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperationDisplay as input 0x6061:00
+   7:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map S16 AnalogInput as input 0x3220:01
+   8:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map S32 TargetPosition as output 0x607A:00
+   9:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** // map U32	ProfileVelocity as output 0x6081:00
+  10:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 
+  11:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** #include "wrapper.h"
+  12:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** #include "nanotec.h"
+  13:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 
+  14:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** int ZeroPosition = 0;
+ARM GAS  C:\Windows\ccRvALDA.s 			page 22
+
+
+  15:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 
+  16:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** void ReferenceDrive()
+  17:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** {
+ 1007              		.loc 2 17 0
+ 1008              		.cfi_startproc
+ 1009              		@ args = 0, pretend = 0, frame = 8
+ 1010              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1011 0000 80B5     		push	{r7, lr}
+ 1012              		.cfi_def_cfa_offset 8
+ 1013              		.cfi_offset 7, -8
+ 1014              		.cfi_offset 14, -4
+ 1015 0002 82B0     		sub	sp, sp, #8
+ 1016              		.cfi_def_cfa_offset 16
+ 1017 0004 00AF     		add	r7, sp, #0
+ 1018              		.cfi_def_cfa_register 7
+ 1019              	.LBB4:
+  18:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	int Velocity = -10;
+ 1020              		.loc 2 18 0
+ 1021 0006 6FF00903 		mvn	r3, #9
+ 1022 000a 7B60     		str	r3, [r7, #4]
+  19:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 
+  20:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(3);
+ 1023              		.loc 2 20 0
+ 1024 000c 0320     		movs	r0, #3
+ 1025 000e FFF7FEFF 		bl	_Z16ModesOfOperationc
+  21:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, Velocity);
+ 1026              		.loc 2 21 0
+ 1027 0012 7B68     		ldr	r3, [r7, #4]
+ 1028 0014 46F2FF00 		movw	r0, #24831
+ 1029 0018 0021     		movs	r1, #0
+ 1030 001a 1A46     		mov	r2, r3
+ 1031 001c FFF7FEFF 		bl	od_write
+  22:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	EnableOperation();
+ 1032              		.loc 2 22 0
+ 1033 0020 FFF7FEFF 		bl	_Z15EnableOperationv
+  23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
+ 1034              		.loc 2 23 0
+ 1035 0024 01E0     		b	.L51
+ 1036              	.L52:
+  24:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	{
+  25:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 		yield();
+ 1037              		.loc 2 25 0
+ 1038 0026 FFF7FEFF 		bl	yield
+ 1039              	.L51:
+  23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
+ 1040              		.loc 2 23 0 discriminator 1
+ 1041 002a 0120     		movs	r0, #1
+ 1042 002c FFF7FEFF 		bl	_Z12DigitalInputh
+ 1043 0030 0346     		mov	r3, r0
+ 1044 0032 83F00103 		eor	r3, r3, #1
+ 1045 0036 DBB2     		uxtb	r3, r3
+ 1046 0038 002B     		cmp	r3, #0
+ 1047 003a F4D1     		bne	.L52
+  26:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	}
+  27:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, 0);
+ 1048              		.loc 2 27 0
+ 1049 003c 46F2FF00 		movw	r0, #24831
+ARM GAS  C:\Windows\ccRvALDA.s 			page 23
+
+
+ 1050 0040 0021     		movs	r1, #0
+ 1051 0042 0022     		movs	r2, #0
+ 1052 0044 FFF7FEFF 		bl	od_write
+  28:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	ZeroPosition = od_read(0x6064, 0x00);
+ 1053              		.loc 2 28 0
+ 1054 0048 46F26400 		movw	r0, #24676
+ 1055 004c 0021     		movs	r1, #0
+ 1056 004e FFF7FEFF 		bl	od_read
+ 1057 0052 0346     		mov	r3, r0
+ 1058 0054 1A46     		mov	r2, r3
+ 1059 0056 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1060 005a C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1061 005e 1A60     		str	r2, [r3]
+ 1062              	.LBE4:
+  29:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** }
+ 1063              		.loc 2 29 0
+ 1064 0060 0837     		adds	r7, r7, #8
+ 1065 0062 BD46     		mov	sp, r7
+ 1066              		@ sp needed
+ 1067 0064 80BD     		pop	{r7, pc}
+ 1068              		.cfi_endproc
+ 1069              	.LFE19:
+ 1071              		.global	__aeabi_i2f
+ 1072              		.global	__aeabi_fmul
+ 1073              		.global	__aeabi_fadd
+ 1074              		.global	__aeabi_f2iz
+ 1075 0066 00BF     		.section	.text._Z4userv,"ax",%progbits
+ 1076              		.align	2
+ 1077              		.global	_Z4userv
+ 1078              		.thumb
+ 1079              		.thumb_func
+ 1081              	_Z4userv:
+ 1082              	.LFB20:
+  30:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 
+  31:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** void user()
+  32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** {
+ 1083              		.loc 2 32 0
+ 1084              		.cfi_startproc
+ 1085              		@ args = 0, pretend = 0, frame = 24
+ 1086              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1087 0000 90B5     		push	{r4, r7, lr}
+ 1088              		.cfi_def_cfa_offset 12
+ 1089              		.cfi_offset 4, -12
+ 1090              		.cfi_offset 7, -8
+ 1091              		.cfi_offset 14, -4
+ 1092 0002 87B0     		sub	sp, sp, #28
+ 1093              		.cfi_def_cfa_offset 40
+ 1094 0004 00AF     		add	r7, sp, #0
+ 1095              		.cfi_def_cfa_register 7
+ 1096              	.LBB5:
+  33:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	int Velocity = -10;
+ 1097              		.loc 2 33 0
+ 1098 0006 6FF00903 		mvn	r3, #9
+ 1099 000a 7B61     		str	r3, [r7, #20]
+  34:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	int Amplitude = 18000; // amplitude in degre
+ 1100              		.loc 2 34 0
+ 1101 000c 44F25063 		movw	r3, #18000
+ARM GAS  C:\Windows\ccRvALDA.s 			page 24
+
+
+ 1102 0010 3B61     		str	r3, [r7, #16]
+  35:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	int StartPosition = 18000;
+ 1103              		.loc 2 35 0
+ 1104 0012 44F25063 		movw	r3, #18000
+ 1105 0016 FB60     		str	r3, [r7, #12]
+  36:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	float MultiplicationFactor = 1;
+ 1106              		.loc 2 36 0
+ 1107 0018 4FF07E53 		mov	r3, #1065353216
+ 1108 001c BB60     		str	r3, [r7, #8]	@ float
+  37:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	
+  38:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	int NextTargetPosition = 0;
+ 1109              		.loc 2 38 0
+ 1110 001e 0023     		movs	r3, #0
+ 1111 0020 7B60     		str	r3, [r7, #4]
+  39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
+ 1112              		.loc 2 39 0
+ 1113 0022 46F2A800 		movw	r0, #24744
+ 1114 0026 0021     		movs	r1, #0
+ 1115 0028 0022     		movs	r2, #0
+ 1116 002a CFF64162 		movt	r2, 65089
+ 1117 002e FFF7FEFF 		bl	od_write
+  40:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	
+  41:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	ReferenceDrive();	
+ 1118              		.loc 2 41 0
+ 1119 0032 FFF7FEFF 		bl	_Z14ReferenceDrivev
+  42:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(1);
+ 1120              		.loc 2 42 0
+ 1121 0036 0120     		movs	r0, #1
+ 1122 0038 FFF7FEFF 		bl	_Z16ModesOfOperationc
+  43:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	AbsoluteMovement();
+ 1123              		.loc 2 43 0
+ 1124 003c FFF7FEFF 		bl	_Z16AbsoluteMovementv
+  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	ChangeSetPointImmediately(true);
+ 1125              		.loc 2 44 0
+ 1126 0040 0120     		movs	r0, #1
+ 1127 0042 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
+  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	Out.ProfileVelocity=600;
+ 1128              		.loc 2 45 0
+ 1129 0046 40F20003 		movw	r3, #:lower16:Out
+ 1130 004a C0F20003 		movt	r3, #:upper16:Out
+ 1131 004e 0022     		movs	r2, #0
+ 1132 0050 42F05802 		orr	r2, r2, #88
+ 1133 0054 5A71     		strb	r2, [r3, #5]
+ 1134 0056 0022     		movs	r2, #0
+ 1135 0058 42F00202 		orr	r2, r2, #2
+ 1136 005c 9A71     		strb	r2, [r3, #6]
+ 1137 005e 0022     		movs	r2, #0
+ 1138 0060 DA71     		strb	r2, [r3, #7]
+ 1139 0062 0022     		movs	r2, #0
+ 1140 0064 1A72     		strb	r2, [r3, #8]
+  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (StartPosition * MultiplicationFactor);
+ 1141              		.loc 2 46 0
+ 1142 0066 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1143 006a C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1144 006e 1B68     		ldr	r3, [r3]
+ 1145 0070 1846     		mov	r0, r3
+ 1146 0072 FFF7FEFF 		bl	__aeabi_i2f
+ARM GAS  C:\Windows\ccRvALDA.s 			page 25
+
+
+ 1147 0076 0446     		mov	r4, r0
+ 1148 0078 F868     		ldr	r0, [r7, #12]
+ 1149 007a FFF7FEFF 		bl	__aeabi_i2f
+ 1150 007e 0346     		mov	r3, r0
+ 1151 0080 1846     		mov	r0, r3
+ 1152 0082 B968     		ldr	r1, [r7, #8]	@ float
+ 1153 0084 FFF7FEFF 		bl	__aeabi_fmul
+ 1154 0088 0346     		mov	r3, r0
+ 1155 008a 2046     		mov	r0, r4
+ 1156 008c 1946     		mov	r1, r3
+ 1157 008e FFF7FEFF 		bl	__aeabi_fadd
+ 1158 0092 0346     		mov	r3, r0
+ 1159 0094 1846     		mov	r0, r3
+ 1160 0096 FFF7FEFF 		bl	__aeabi_f2iz
+ 1161 009a 0346     		mov	r3, r0
+ 1162 009c 7B60     		str	r3, [r7, #4]
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	Out.TargetPosition = NextTargetPosition;
+ 1163              		.loc 2 47 0
+ 1164 009e 40F20003 		movw	r3, #:lower16:Out
+ 1165 00a2 C0F20003 		movt	r3, #:upper16:Out
+ 1166 00a6 7A68     		ldr	r2, [r7, #4]
+ 1167 00a8 C3F80120 		str	r2, [r3, #1]	@ unaligned
+  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(true);
+ 1168              		.loc 2 48 0
+ 1169 00ac 0120     		movs	r0, #1
+ 1170 00ae FFF7FEFF 		bl	_Z11NewSetPointb
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	sleep(10);
+ 1171              		.loc 2 49 0
+ 1172 00b2 0A20     		movs	r0, #10
+ 1173 00b4 FFF7FEFF 		bl	sleep
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(false);
+ 1174              		.loc 2 50 0
+ 1175 00b8 0020     		movs	r0, #0
+ 1176 00ba FFF7FEFF 		bl	_Z11NewSetPointb
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	while (TargetReached() != true)
+ 1177              		.loc 2 51 0
+ 1178 00be 01E0     		b	.L54
+ 1179              	.L55:
+  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	{
+  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 		yield();
+ 1180              		.loc 2 53 0
+ 1181 00c0 FFF7FEFF 		bl	yield
+ 1182              	.L54:
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	while (TargetReached() != true)
+ 1183              		.loc 2 51 0 discriminator 1
+ 1184 00c4 FFF7FEFF 		bl	_Z13TargetReachedv
+ 1185 00c8 0346     		mov	r3, r0
+ 1186 00ca 83F00103 		eor	r3, r3, #1
+ 1187 00ce DBB2     		uxtb	r3, r3
+ 1188 00d0 002B     		cmp	r3, #0
+ 1189 00d2 F5D1     		bne	.L55
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	}
+  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	
+  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	Quickstop();
+ 1190              		.loc 2 56 0
+ 1191 00d4 FFF7FEFF 		bl	_Z9Quickstopv
+  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x2300, 0x00, 0x0);
+ARM GAS  C:\Windows\ccRvALDA.s 			page 26
+
+
+ 1192              		.loc 2 57 0
+ 1193 00d8 4FF40C50 		mov	r0, #8960
+ 1194 00dc 0021     		movs	r1, #0
+ 1195 00de 0022     		movs	r2, #0
+ 1196 00e0 FFF7FEFF 		bl	od_write
+ 1197              	.LBE5:
+  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings\ReferenceSetup.cpp **** }
+ 1198              		.loc 2 58 0
+ 1199 00e4 1C37     		adds	r7, r7, #28
+ 1200 00e6 BD46     		mov	sp, r7
+ 1201              		@ sp needed
+ 1202 00e8 90BD     		pop	{r4, r7, pc}
+ 1203              		.cfi_endproc
+ 1204              	.LFE20:
+ 1206 00ea 00BF     		.text
+ 1207              	.Letext0:
+ 1208              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/types.h"
+ 1209              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\Test_projet_1\\gen/mapping.h"
+ARM GAS  C:\Windows\ccRvALDA.s 			page 27
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 ReferenceSetup.cpp
+C:\Windows\ccRvALDA.s:19     .text._Z5Resetv:00000000 $t
+C:\Windows\ccRvALDA.s:24     .text._Z5Resetv:00000000 _Z5Resetv
+C:\Windows\ccRvALDA.s:55     .text._Z9Quickstopv:00000000 $t
+C:\Windows\ccRvALDA.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
+C:\Windows\ccRvALDA.s:104    .text._Z8Shutdownv:00000000 $t
+C:\Windows\ccRvALDA.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
+C:\Windows\ccRvALDA.s:157    .text._Z8SwitchOnv:00000000 $t
+C:\Windows\ccRvALDA.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
+C:\Windows\ccRvALDA.s:238    .text._Z15EnableOperationv:00000000 $t
+C:\Windows\ccRvALDA.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
+C:\Windows\ccRvALDA.s:347    .text._Z16RelativeMovementv:00000000 $t
+C:\Windows\ccRvALDA.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
+C:\Windows\ccRvALDA.s:382    .text._Z16AbsoluteMovementv:00000000 $t
+C:\Windows\ccRvALDA.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
+C:\Windows\ccRvALDA.s:417    .text._Z11NewSetPointb:00000000 $t
+C:\Windows\ccRvALDA.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
+C:\Windows\ccRvALDA.s:478    .text._Z4Haltb:00000000 $t
+C:\Windows\ccRvALDA.s:483    .text._Z4Haltb:00000000 _Z4Haltb
+C:\Windows\ccRvALDA.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
+C:\Windows\ccRvALDA.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
+C:\Windows\ccRvALDA.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
+C:\Windows\ccRvALDA.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
+C:\Windows\ccRvALDA.s:661    .text._Z13TargetReachedv:00000000 $t
+C:\Windows\ccRvALDA.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
+C:\Windows\ccRvALDA.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
+C:\Windows\ccRvALDA.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
+C:\Windows\ccRvALDA.s:745    .text._Z12DigitalInputh:00000000 $t
+C:\Windows\ccRvALDA.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
+C:\Windows\ccRvALDA.s:795    .text._Z16SetDigitalOutputh:00000000 $t
+C:\Windows\ccRvALDA.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
+C:\Windows\ccRvALDA.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
+C:\Windows\ccRvALDA.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
+C:\Windows\ccRvALDA.s:892    .text._Z16ModesOfOperationc:00000000 $t
+C:\Windows\ccRvALDA.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
+C:\Windows\ccRvALDA.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
+C:\Windows\ccRvALDA.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
+C:\Windows\ccRvALDA.s:959    .text._Z11AnalogInputv:00000000 $t
+C:\Windows\ccRvALDA.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
+C:\Windows\ccRvALDA.s:996    .bss.ZeroPosition:00000000 ZeroPosition
+C:\Windows\ccRvALDA.s:993    .bss.ZeroPosition:00000000 $d
+C:\Windows\ccRvALDA.s:999    .text._Z14ReferenceDrivev:00000000 $t
+C:\Windows\ccRvALDA.s:1004   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
+C:\Windows\ccRvALDA.s:1076   .text._Z4userv:00000000 $t
+C:\Windows\ccRvALDA.s:1081   .text._Z4userv:00000000 _Z4userv
+                     .debug_frame:00000010 $d
+
+UNDEFINED SYMBOLS
+InOut
+yield
+In
+Out
+od_write
+od_read
+__aeabi_i2f
+__aeabi_fmul
+ARM GAS  C:\Windows\ccRvALDA.s 			page 28
+
+
+__aeabi_fadd
+__aeabi_f2iz
+sleep
