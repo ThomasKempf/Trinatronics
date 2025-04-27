@@ -152,28 +152,31 @@ ReferenceSetup.cpp                            28           0x80086bc
 ReferenceSetup.cpp                            29           0x80086d4
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            32           0x80086dc
+ReferenceSetup.cpp                            33           0x80086dc
 
-ReferenceSetup.cpp                            33           0x80086e2
-ReferenceSetup.cpp                            34           0x80086e8
-ReferenceSetup.cpp                            35           0x80086ee
-ReferenceSetup.cpp                            36           0x80086f4
-ReferenceSetup.cpp                            38           0x80086fa
-ReferenceSetup.cpp                            39           0x80086fe
-ReferenceSetup.cpp                            41           0x800870e
-ReferenceSetup.cpp                            42           0x8008712
-ReferenceSetup.cpp                            43           0x8008718
-ReferenceSetup.cpp                            44           0x800871c
-ReferenceSetup.cpp                            45           0x8008722
-ReferenceSetup.cpp                            46           0x8008742
-ReferenceSetup.cpp                            47           0x800877a
-ReferenceSetup.cpp                            48           0x8008788
-ReferenceSetup.cpp                            49           0x800878e
-ReferenceSetup.cpp                            50           0x8008794
-ReferenceSetup.cpp                            51           0x800879a
-ReferenceSetup.cpp                            53           0x800879c
-ReferenceSetup.cpp                            51           0x80087a0
-ReferenceSetup.cpp                            56           0x80087b0
-ReferenceSetup.cpp                            57           0x80087b4
-ReferenceSetup.cpp                            58           0x80087c0
+ReferenceSetup.cpp                            34           0x80086e4
+ReferenceSetup.cpp                            35           0x80086e8
+ReferenceSetup.cpp                            37           0x80086ec
+ReferenceSetup.cpp                            38           0x80086f2
+ReferenceSetup.cpp                            39           0x80086f6
+ReferenceSetup.cpp                            40           0x80086fc
+ReferenceSetup.cpp                            42           0x800871c
+ReferenceSetup.cpp                            43           0x8008732
+ReferenceSetup.cpp                            44           0x8008740
+ReferenceSetup.cpp                            45           0x8008746
+ReferenceSetup.cpp                            46           0x800874a
+ReferenceSetup.cpp                            47           0x8008750
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            51           0x8008758
+
+ReferenceSetup.cpp                            52           0x800875c
+ReferenceSetup.cpp                            54           0x800876c
+ReferenceSetup.cpp                            55           0x8008770
+ReferenceSetup.cpp                            57           0x8008778
+ReferenceSetup.cpp                            59           0x800877a
+ReferenceSetup.cpp                            57           0x800877e
+ReferenceSetup.cpp                            62           0x800878e
+ReferenceSetup.cpp                            63           0x8008792
+ReferenceSetup.cpp                            64           0x800879e
 

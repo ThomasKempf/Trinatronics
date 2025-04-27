@@ -28,26 +28,32 @@ void ReferenceDrive()
 	ZeroPosition = od_read(0x6064, 0x00);
 }
 
-void user()
+
+void GoNextPosition(int PositionOrder)
 {
-	int Velocity = -10;
-	int Amplitude = 18000; // amplitude in degre
-	int StartPosition = 18000;
-	float MultiplicationFactor = 1;
-	
+	int MultiplicationFactor = 1;
 	int NextTargetPosition = 0;
-	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
 	
-	ReferenceDrive();	
 	ModesOfOperation(1);
 	AbsoluteMovement();
 	ChangeSetPointImmediately(true);
-	Out.ProfileVelocity=600;
-	NextTargetPosition = ZeroPosition + (StartPosition * MultiplicationFactor);
+	Out.ProfileVelocity=4000;
+	
+	NextTargetPosition = ZeroPosition + (PositionOrder * MultiplicationFactor);
 	Out.TargetPosition = NextTargetPosition;
 	NewSetPoint(true);
-	sleep(10);
+	yield();
 	NewSetPoint(false);
+}
+
+
+void user()
+{
+	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
+	
+	ReferenceDrive();	
+	GoNextPosition(18000);
+	
 	while (TargetReached() != true)
 	{
 		yield();

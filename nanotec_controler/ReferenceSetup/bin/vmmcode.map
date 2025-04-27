@@ -3,34 +3,34 @@ Discarded input sections
 
  .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
  .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
- .text          0x00000000        0x0 C:\Windows\ccUuTjb7.o
- .data          0x00000000        0x0 C:\Windows\ccUuTjb7.o
- .bss           0x00000000        0x0 C:\Windows\ccUuTjb7.o
- .text          0x00000000        0x0 C:\Windows\ccXBY6WM.o
- .data          0x00000000        0x0 C:\Windows\ccXBY6WM.o
- .bss           0x00000000        0x0 C:\Windows\ccXBY6WM.o
+ .text          0x00000000        0x0 C:\Windows\ccUvNLuS.o
+ .data          0x00000000        0x0 C:\Windows\ccUvNLuS.o
+ .bss           0x00000000        0x0 C:\Windows\ccUvNLuS.o
+ .text          0x00000000        0x0 C:\Windows\cc0empdS.o
+ .data          0x00000000        0x0 C:\Windows\cc0empdS.o
+ .bss           0x00000000        0x0 C:\Windows\cc0empdS.o
  .text._Z5Resetv
-                0x00000000       0x28 C:\Windows\ccXBY6WM.o
+                0x00000000       0x28 C:\Windows\cc0empdS.o
  .text._Z8Shutdownv
-                0x00000000       0x4c C:\Windows\ccXBY6WM.o
+                0x00000000       0x4c C:\Windows\cc0empdS.o
  .text._Z8SwitchOnv
-                0x00000000       0x8c C:\Windows\ccXBY6WM.o
+                0x00000000       0x8c C:\Windows\cc0empdS.o
  .text._Z16RelativeMovementv
-                0x00000000       0x28 C:\Windows\ccXBY6WM.o
+                0x00000000       0x28 C:\Windows\cc0empdS.o
  .text._Z4Haltb
-                0x00000000       0x58 C:\Windows\ccXBY6WM.o
+                0x00000000       0x58 C:\Windows\cc0empdS.o
  .text._Z16ChangeOnSetPointb
-                0x00000000       0x58 C:\Windows\ccXBY6WM.o
+                0x00000000       0x58 C:\Windows\cc0empdS.o
  .text._Z22NewSetPointAcknowledgev
-                0x00000000       0x28 C:\Windows\ccXBY6WM.o
+                0x00000000       0x28 C:\Windows\cc0empdS.o
  .text._Z16SetDigitalOutputh
-                0x00000000       0x3c C:\Windows\ccXBY6WM.o
+                0x00000000       0x3c C:\Windows\cc0empdS.o
  .text._Z18ClearDigitalOutputh
-                0x00000000       0x40 C:\Windows\ccXBY6WM.o
+                0x00000000       0x40 C:\Windows\cc0empdS.o
  .text._Z23ModesOfOperationDisplayv
-                0x00000000       0x18 C:\Windows\ccXBY6WM.o
+                0x00000000       0x18 C:\Windows\cc0empdS.o
  .text._Z11AnalogInputv
-                0x00000000       0x20 C:\Windows\ccXBY6WM.o
+                0x00000000       0x20 C:\Windows\cc0empdS.o
 
 Memory Configuration
 
@@ -45,8 +45,8 @@ ram              0x20000000         0x00000e00         xrw
 Linker script and memory map
 
 LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
-LOAD C:\Windows\ccUuTjb7.o
-LOAD C:\Windows\ccXBY6WM.o
+LOAD C:\Windows\ccUvNLuS.o
+LOAD C:\Windows\cc0empdS.o
 
 .text           0x08008200      0x210
  *(.boot)
@@ -99,78 +99,84 @@ LOAD C:\Windows\ccXBY6WM.o
 .text._Z9Quickstopv
                 0x08008410       0x40
  .text._Z9Quickstopv
-                0x08008410       0x40 C:\Windows\ccXBY6WM.o
+                0x08008410       0x40 C:\Windows\cc0empdS.o
                 0x08008410                _Z9Quickstopv
 
 .text._Z15EnableOperationv
                 0x08008450       0xcc
  .text._Z15EnableOperationv
-                0x08008450       0xcc C:\Windows\ccXBY6WM.o
+                0x08008450       0xcc C:\Windows\cc0empdS.o
                 0x08008450                _Z15EnableOperationv
 
 .text._Z16AbsoluteMovementv
                 0x0800851c       0x28
  .text._Z16AbsoluteMovementv
-                0x0800851c       0x28 C:\Windows\ccXBY6WM.o
+                0x0800851c       0x28 C:\Windows\cc0empdS.o
                 0x0800851c                _Z16AbsoluteMovementv
 
 .text._Z11NewSetPointb
                 0x08008544       0x58
  .text._Z11NewSetPointb
-                0x08008544       0x58 C:\Windows\ccXBY6WM.o
+                0x08008544       0x58 C:\Windows\cc0empdS.o
                 0x08008544                _Z11NewSetPointb
 
 .text._Z25ChangeSetPointImmediatelyb
                 0x0800859c       0x58
  .text._Z25ChangeSetPointImmediatelyb
-                0x0800859c       0x58 C:\Windows\ccXBY6WM.o
+                0x0800859c       0x58 C:\Windows\cc0empdS.o
                 0x0800859c                _Z25ChangeSetPointImmediatelyb
 
 .text._Z13TargetReachedv
                 0x080085f4       0x28
  .text._Z13TargetReachedv
-                0x080085f4       0x28 C:\Windows\ccXBY6WM.o
+                0x080085f4       0x28 C:\Windows\cc0empdS.o
                 0x080085f4                _Z13TargetReachedv
 
 .text._Z12DigitalInputh
                 0x0800861c       0x38
  .text._Z12DigitalInputh
-                0x0800861c       0x38 C:\Windows\ccXBY6WM.o
+                0x0800861c       0x38 C:\Windows\cc0empdS.o
                 0x0800861c                _Z12DigitalInputh
 
 .text._Z16ModesOfOperationc
                 0x08008654       0x20
  .text._Z16ModesOfOperationc
-                0x08008654       0x20 C:\Windows\ccXBY6WM.o
+                0x08008654       0x20 C:\Windows\cc0empdS.o
                 0x08008654                _Z16ModesOfOperationc
 
 .text._Z14ReferenceDrivev
                 0x08008674       0x68
  .text._Z14ReferenceDrivev
-                0x08008674       0x68 C:\Windows\ccXBY6WM.o
+                0x08008674       0x68 C:\Windows\cc0empdS.o
                 0x08008674                _Z14ReferenceDrivev
 
-.text._Z4userv  0x080086dc       0xec
- .text._Z4userv
-                0x080086dc       0xec C:\Windows\ccXBY6WM.o
-                0x080086dc                _Z4userv
+.text._Z14GoNextPositioni
+                0x080086dc       0x7c
+ .text._Z14GoNextPositioni
+                0x080086dc       0x7c C:\Windows\cc0empdS.o
+                0x080086dc                _Z14GoNextPositioni
 
-.rel.dyn        0x080087c8        0x0
- .rel.iplt      0x080087c8        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
+.text._Z4userv  0x08008758       0x48
+ .text._Z4userv
+                0x08008758       0x48 C:\Windows\cc0empdS.o
+                0x08008758                _Z4userv
+
+.rel.dyn        0x080087a0        0x0
+ .rel.iplt      0x080087a0        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
 
 .inputs         0x20000e00        0xc
  *(.inputs)
- .inputs        0x20000e00        0xc C:\Windows\ccUuTjb7.o
+ .inputs        0x20000e00        0xc C:\Windows\ccUvNLuS.o
                 0x20000e00                In
 
 .outputs        0x20000e40        0xc
  *(.outputs)
- .outputs       0x20000e40        0xc C:\Windows\ccUuTjb7.o
+ .outputs       0x20000e40        0xc C:\Windows\ccUvNLuS.o
                 0x20000e40                Out
 
 .inoutputs      0x20000e80        0x8
  *(.inoutputs)
- .inoutputs     0x20000e80        0x8 C:\Windows\ccUuTjb7.o
+ .inoutputs     0x20000e80        0x8 C:\Windows\ccUvNLuS.o
                 0x20000e80                InOut
 
 .data           0x20000000        0x0
@@ -191,51 +197,51 @@ OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\bin\vmmcode
 .bss.ZeroPosition
                 0x20000000        0x4
  .bss.ZeroPosition
-                0x20000000        0x4 C:\Windows\ccXBY6WM.o
+                0x20000000        0x4 C:\Windows\cc0empdS.o
                 0x20000000                ZeroPosition
 
 .comment        0x00000000       0x81
  .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
                                  0x71 (size before relaxing)
- .comment       0x00000070       0x11 C:\Windows\ccUuTjb7.o
+ .comment       0x00000070       0x11 C:\Windows\ccUvNLuS.o
                                  0x12 (size before relaxing)
- .comment       0x00000081       0x12 C:\Windows\ccXBY6WM.o
+ .comment       0x00000081       0x12 C:\Windows\cc0empdS.o
 
 .ARM.attributes
                 0x00000000       0x33
  .ARM.attributes
                 0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\Test_projet_1\gen\wrapper.o
  .ARM.attributes
-                0x00000033       0x33 C:\Windows\ccUuTjb7.o
+                0x00000033       0x33 C:\Windows\ccUvNLuS.o
  .ARM.attributes
-                0x00000066       0x33 C:\Windows\ccXBY6WM.o
+                0x00000066       0x33 C:\Windows\cc0empdS.o
 
-.debug_info     0x00000000      0x613
- .debug_info    0x00000000      0x176 C:\Windows\ccUuTjb7.o
- .debug_info    0x00000176      0x49d C:\Windows\ccXBY6WM.o
+.debug_info     0x00000000      0x605
+ .debug_info    0x00000000      0x176 C:\Windows\ccUvNLuS.o
+ .debug_info    0x00000176      0x48f C:\Windows\cc0empdS.o
 
 .debug_abbrev   0x00000000      0x1ba
- .debug_abbrev  0x00000000       0x7e C:\Windows\ccUuTjb7.o
- .debug_abbrev  0x0000007e      0x13c C:\Windows\ccXBY6WM.o
+ .debug_abbrev  0x00000000       0x7e C:\Windows\ccUvNLuS.o
+ .debug_abbrev  0x0000007e      0x13c C:\Windows\cc0empdS.o
 
-.debug_aranges  0x00000000       0xd8
+.debug_aranges  0x00000000       0xe0
  .debug_aranges
-                0x00000000       0x18 C:\Windows\ccUuTjb7.o
+                0x00000000       0x18 C:\Windows\ccUvNLuS.o
  .debug_aranges
-                0x00000018       0xc0 C:\Windows\ccXBY6WM.o
+                0x00000018       0xc8 C:\Windows\cc0empdS.o
 
-.debug_line     0x00000000      0x39e
- .debug_line    0x00000000       0x86 C:\Windows\ccUuTjb7.o
- .debug_line    0x00000086      0x318 C:\Windows\ccXBY6WM.o
+.debug_line     0x00000000      0x3ad
+ .debug_line    0x00000000       0x86 C:\Windows\ccUvNLuS.o
+ .debug_line    0x00000086      0x327 C:\Windows\cc0empdS.o
 
-.debug_str      0x00000000      0x591
- .debug_str     0x00000000      0x1f5 C:\Windows\ccUuTjb7.o
+.debug_str      0x00000000      0x5a4
+ .debug_str     0x00000000      0x1f5 C:\Windows\ccUvNLuS.o
                                 0x232 (size before relaxing)
- .debug_str     0x000001f5      0x39c C:\Windows\ccXBY6WM.o
-                                0x589 (size before relaxing)
+ .debug_str     0x000001f5      0x3af C:\Windows\cc0empdS.o
+                                0x59c (size before relaxing)
 
-.debug_ranges   0x00000000       0xb0
- .debug_ranges  0x00000000       0xb0 C:\Windows\ccXBY6WM.o
+.debug_ranges   0x00000000       0xb8
+ .debug_ranges  0x00000000       0xb8 C:\Windows\cc0empdS.o
 
-.debug_frame    0x00000000      0x278
- .debug_frame   0x00000000      0x278 C:\Windows\ccXBY6WM.o
+.debug_frame    0x00000000      0x290
+ .debug_frame   0x00000000      0x290 C:\Windows\cc0empdS.o
