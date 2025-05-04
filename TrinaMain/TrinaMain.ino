@@ -14,6 +14,8 @@ void loop()
   y = 4;
   rh = 5;
   rv = 6;
+  AutoMode = false;
+  ManualMove = false;
   UpdateControlerStatus();
   delay(2000);
 }
