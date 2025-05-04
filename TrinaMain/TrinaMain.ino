@@ -7,15 +7,19 @@ void setup()
 
 }
 
+// example ho to use UpdateControlerStatus
 void loop() 
 {
   Serial.begin(9600);
+
+  // define the parameter
   x = 3;
   y = 4;
   rh = 5;
   rv = 6;
   AutoMode = false;
   ManualMove = false;
+
   UpdateControlerStatus();
   delay(2000);
 }

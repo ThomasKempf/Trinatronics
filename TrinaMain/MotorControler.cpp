@@ -2,17 +2,18 @@
 #include <Arduino.h>
 
 
-int SetPoint = 0;
-char Order = 4; // 1 ManuelMove, 3 AutoMode , 4 ManualMode
+int SetPoint = 0; // new SetPoint of the controler
+char Order = 4; // 1 ManualMove, 3 AutoMode , 4 ManualMode
 char ControlerReadStatus[] = { 0, 0, 0, 0 };
 int SimulationStatus = 4; // simulation state of all the controler
 
 
-void DefineSetPoint(char SlaveID)
+int DefineSetPoint(char SlaveID)
 {
     int SetPointValue[] = { x, y, rh, rv };
     SetPoint = SetPointValue[SlaveID-1];
     Serial.print(SetPoint);
+    return SetPoint;
 }
 
 
@@ -21,7 +22,7 @@ void WriteAllControler()
   Serial.print("Setpoint: ");
   for (int SlaveID = 1; SlaveID <= 4; SlaveID++) //slave ID 1 -> 4
   {
-    DefineSetPoint(SlaveID);
+    SetPoint = DefineSetPoint(SlaveID);
     delay(1); // simul write into slave SetPoint and Order
   }
   Serial.println(" ");
@@ -35,6 +36,7 @@ void ReadControler(char SlaveID)
 }
 
 
+// Read the status from the controller and compare it with the order
 void ReadAllControler()
 {
   char NbrOfCorrectStatus = 0;
@@ -46,39 +48,37 @@ void ReadAllControler()
       ControlerStatus = ControlerReadStatus[SlaveID-1];
       return;
     }
-    else if (ControlerReadStatus[SlaveID-1] == Order)
+    else if (ControlerReadStatus[SlaveID-1] == Order) // the controler have the same State with the Order
     {
       NbrOfCorrectStatus = NbrOfCorrectStatus + 1;
-    }
-    else if (ControlerReadStatus[SlaveID-1] == 1 or ControlerReadStatus[SlaveID-1] == 3 or ControlerReadStatus[SlaveID-1] == 4)// if we have an other state, change global state do not have a 0
-    {
-      ControlerStatus = 10;// Different State in the four controler
     }
   }
   if (NbrOfCorrectStatus == 4)
   {
-    ControlerStatus = Order;
+    ControlerStatus = Order; // all the controler have the good State
   }
 }
 
 
+// Update the order given to the controller
 void UpdateOrder()
 {
   if (AutoMode == true and ManualMove == false)
   {
-    Order = 3;
+    Order = 3; // AutoMode
   }
   else if (AutoMode == false and ManualMove == false)
   {
-    Order = 4;
+    Order = 4; // manualMode
   }
   else if (ManualMove == true)
   {
-    Order = 1;
+    Order = 1; // ManualMove
   }
 }
 
 
+// Update controller data: write values, read responses, and update controller status
 void UpdateControlerStatus() 
 {
   UpdateOrder();

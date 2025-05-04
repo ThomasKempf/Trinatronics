@@ -5,7 +5,7 @@
 void ReadControler(char SlaveID);
 void ReadAllControler();
 void UpdateOrder();
-void DefineSetPoint(char SlaveID);
+int DefineSetPoint(char SlaveID);
 void WriteAllControler();
 void UpdateControlerStatus();
 
