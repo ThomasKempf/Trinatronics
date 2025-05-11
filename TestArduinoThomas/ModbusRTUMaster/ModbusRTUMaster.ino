@@ -1,7 +1,6 @@
 #include <ModbusMaster.h>
 
-ModbusMaster node3;// instance for slave 3
-ModbusMaster node5;
+ModbusMaster node[] = {ModbusMaster(),ModbusMaster()};
 
 uint16_t ReadValue;
 uint16_t WriteValue;
@@ -11,8 +10,8 @@ uint16_t WriteValue;
 void setupModbus()
 {
   Serial1.begin(19200, SERIAL_8E1); //TX18 RX19 8 bits de données, parité paire, 1 bit d'arrêt
-  node3.begin(3, Serial1);  // slave 3
-  node5.begin(5, Serial1);  // slave 5
+  node[0].begin(3, Serial1);  // slave 3
+  node[1].begin(5, Serial1);  // slave 5
 }
 
 
@@ -80,12 +79,12 @@ void loop()
 {
   int8_t error = 0;
   WriteValue = 6;
-  error = readorWrite(&node5,5,3,5000);
+  error = readorWrite(&node[0],5,3,5000);
   delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node5,5,6,6008);
+  error = readorWrite(&node[0],5,6,6008);
   delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node3,3,3,5000);
+  error = readorWrite(&node[1],3,3,5000);
   delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node3,3,6,6008);
+  error = readorWrite(&node[1],3,6,6008);
   delay(2000); // Attendre avant la prochaine lecture
 }
