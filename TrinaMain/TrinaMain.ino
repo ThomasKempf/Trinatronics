@@ -1,10 +1,13 @@
 #include "Parameter.h"
 #include "MotorControler.h"
 
+
+
 void setup() 
 {
   // put your setup code here, to run once:
-
+  Serial.begin(9600);//USB
+  setupModbus();
 }
 
 // example ho to use UpdateControlerStatus

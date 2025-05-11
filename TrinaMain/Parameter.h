@@ -1,8 +1,10 @@
 #ifndef PARAMETER_H
 #define PARAMETER_H
+#include <stdint.h>
+
 
 // Déclaration des variables globales
-extern char ControlerStatus;
+extern uint8_t ControlerStatus;
 extern int x; // lateral translation
 extern int y; // depth translation
 extern int rh; // horizontal rotation

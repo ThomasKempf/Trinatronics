@@ -1,7 +1,6 @@
 #include "Parameter.h"
 
-
-char ControlerStatus = 0;
+uint8_t ControlerStatus = 0;
 bool ManualMove = false;
 bool AutoMode = false;
 int x = 0; 

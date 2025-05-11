@@ -10,8 +10,10 @@ uint16_t WriteValue;
 void setupModbus()
 {
   Serial1.begin(19200, SERIAL_8E1); //TX18 RX19 8 bits de données, parité paire, 1 bit d'arrêt
-  node[0].begin(3, Serial1);  // slave 3
-  node[1].begin(5, Serial1);  // slave 5
+  for (uint8_t SlaveID = 1; SlaveID <= 2; SlaveID++)
+  {
+    node[SlaveID-1].begin(4+SlaveID, Serial1);
+  }
 }
 
 
