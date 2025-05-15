@@ -5,7 +5,6 @@ ModbusMaster node[] = {ModbusMaster(),ModbusMaster()};
 uint16_t ReadValue;
 uint16_t WriteValue;
 
-//void setupModbusConnection()
 
 void setupModbus()
 {
@@ -81,12 +80,15 @@ void loop()
 {
   int8_t error = 0;
   WriteValue = 6;
-  error = readorWrite(&node[0],5,3,5000);
-  delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node[0],5,6,6008);
-  delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node[1],3,3,5000);
-  delay(2000); // Attendre avant la prochaine lecture
-  error = readorWrite(&node[1],3,6,6008);
-  delay(2000); // Attendre avant la prochaine lecture
+  error = readorWrite(&node[0],5,6,6010);
+  delay(500); // Attendre avant la prochaine lecture
+  WriteValue = 0;
+  error = readorWrite(&node[0],5,6,6010);
+  delay(500); // Attendre avant la prochaine lecture
+  while (ReadValue != 10)
+  {
+    error = readorWrite(&node[0],5,3,5008);
+    delay(500);
+  }
+
 }
