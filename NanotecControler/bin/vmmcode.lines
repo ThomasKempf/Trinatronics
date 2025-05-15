@@ -1,0 +1,220 @@
+Decoded dump of debug contents of section .debug_line:
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen/types.h:
+File name                            Line number    Starting address
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project/nanotec.h:
+File name                            Line number    Starting address
+nanotec.h                                     22                   0
+
+nanotec.h                                     23                 0x4
+nanotec.h                                     24                0x20
+nanotec.h                                     25                0x24
+nanotec.h                                     28           0x8008410
+
+nanotec.h                                     29           0x8008414
+nanotec.h                                     31           0x8008416
+nanotec.h                                     32           0x8008432
+nanotec.h                                     29           0x8008436
+nanotec.h                                     34           0x800844a
+nanotec.h                                     35           0x800844e
+nanotec.h                                     38           0x8008450
+
+nanotec.h                                     39           0x8008454
+nanotec.h                                     41           0x8008456
+nanotec.h                                     42           0x800847c
+nanotec.h                                     39           0x8008480
+nanotec.h                                     44           0x8008494
+nanotec.h                                     45           0x8008498
+nanotec.h                                     48                   0
+
+nanotec.h                                     49                 0x4
+nanotec.h                                     51                 0x6
+nanotec.h                                     52                0x2c
+nanotec.h                                     49                0x30
+nanotec.h                                     54                0x44
+nanotec.h                                     56                0x46
+nanotec.h                                     57                0x6c
+nanotec.h                                     54                0x70
+nanotec.h                                     59                0x84
+nanotec.h                                     60                0x88
+nanotec.h                                     63           0x800849c
+
+nanotec.h                                     64           0x80084a0
+nanotec.h                                     66           0x80084a2
+nanotec.h                                     67           0x80084c8
+nanotec.h                                     64           0x80084cc
+nanotec.h                                     69           0x80084e0
+nanotec.h                                     71           0x80084e2
+nanotec.h                                     72           0x8008508
+nanotec.h                                     69           0x800850c
+nanotec.h                                     74           0x8008520
+nanotec.h                                     76           0x8008522
+nanotec.h                                     77           0x8008548
+nanotec.h                                     74           0x800854c
+nanotec.h                                     79           0x8008560
+nanotec.h                                     80           0x8008564
+nanotec.h                                     83                   0
+
+nanotec.h                                     84                 0x4
+nanotec.h                                     85                0x20
+nanotec.h                                     86                0x24
+nanotec.h                                     89           0x8008568
+
+nanotec.h                                     90           0x800856c
+nanotec.h                                     91           0x8008588
+nanotec.h                                     92           0x800858c
+nanotec.h                                     95           0x8008590
+
+nanotec.h                                     96           0x800859a
+nanotec.h                                     98           0x80085a0
+nanotec.h                                     99           0x80085bc
+nanotec.h                                    103           0x80085c2
+nanotec.h                                    104           0x80085de
+nanotec.h                                    106           0x80085e2
+nanotec.h                                    109                   0
+
+nanotec.h                                    110                 0xa
+nanotec.h                                    112                0x10
+nanotec.h                                    113                0x2c
+nanotec.h                                    117                0x32
+nanotec.h                                    118                0x4e
+nanotec.h                                    120                0x52
+nanotec.h                                    123           0x80085e8
+
+nanotec.h                                    124           0x80085f2
+nanotec.h                                    126           0x80085f8
+nanotec.h                                    127           0x8008614
+nanotec.h                                    131           0x800861a
+nanotec.h                                    132           0x8008636
+nanotec.h                                    134           0x800863a
+nanotec.h                                    137                   0
+
+nanotec.h                                    138                 0xa
+nanotec.h                                    140                0x10
+nanotec.h                                    141                0x2c
+nanotec.h                                    145                0x32
+nanotec.h                                    146                0x4e
+nanotec.h                                    148                0x52
+nanotec.h                                    151                   0
+
+nanotec.h                                    152                 0x4
+nanotec.h                                    154                0x18
+nanotec.h                                    158                0x1c
+nanotec.h                                    160                0x1e
+nanotec.h                                    163                   0
+
+nanotec.h                                    164                 0x4
+nanotec.h                                    166                0x18
+nanotec.h                                    170                0x1c
+nanotec.h                                    172                0x1e
+nanotec.h                                    175           0x8008640
+
+nanotec.h                                    176           0x800864a
+nanotec.h                                    178           0x8008666
+nanotec.h                                    182           0x800866a
+nanotec.h                                    184           0x800866c
+nanotec.h                                    187                   0
+
+nanotec.h                                    188                 0xa
+nanotec.h                                    189                0x16
+nanotec.h                                    190                0x32
+nanotec.h                                    193                   0
+
+nanotec.h                                    194                 0xa
+nanotec.h                                    195                0x16
+nanotec.h                                    196                0x34
+nanotec.h                                    199           0x8008678
+
+nanotec.h                                    200           0x8008682
+nanotec.h                                    201           0x800868e
+nanotec.h                                    204                   0
+
+nanotec.h                                    205                 0x4
+nanotec.h                                    206                 0xe
+nanotec.h                                    209                   0
+
+nanotec.h                                    210                 0x4
+nanotec.h                                    211                0x14
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            18           0x8008698
+
+ReferenceSetup.cpp                            19           0x80086a4
+ReferenceSetup.cpp                            19           0x80086b6
+ReferenceSetup.cpp                            19           0x80086c6
+ReferenceSetup.cpp                            19           0x80086da
+ReferenceSetup.cpp                            19           0x80086de
+ReferenceSetup.cpp                            19           0x80086e0
+ReferenceSetup.cpp                            22           0x80086e4
+ReferenceSetup.cpp                            23           0x80086f0
+ReferenceSetup.cpp                            24           0x80086f4
+ReferenceSetup.cpp                            25           0x8008704
+ReferenceSetup.cpp                            26           0x8008708
+ReferenceSetup.cpp                            27           0x8008716
+ReferenceSetup.cpp                            29           0x800871a
+ReferenceSetup.cpp                            30           0x800872c
+ReferenceSetup.cpp                            31           0x8008730
+ReferenceSetup.cpp                            33           0x8008732
+ReferenceSetup.cpp                            31           0x8008736
+ReferenceSetup.cpp                            35           0x8008750
+ReferenceSetup.cpp                            36           0x8008762
+ReferenceSetup.cpp                            38           0x8008766
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            42           0x800876c
+
+ReferenceSetup.cpp                            43           0x8008772
+ReferenceSetup.cpp                            45           0x8008778
+ReferenceSetup.cpp                            46           0x800877e
+ReferenceSetup.cpp                            47           0x800878c
+ReferenceSetup.cpp                            48           0x8008790
+ReferenceSetup.cpp                            50           0x8008792
+ReferenceSetup.cpp                            48           0x8008796
+ReferenceSetup.cpp                            52           0x80087a8
+ReferenceSetup.cpp                            53           0x80087b4
+ReferenceSetup.cpp                            54           0x80087cc
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            58           0x80087d4
+
+ReferenceSetup.cpp                            59           0x80087dc
+ReferenceSetup.cpp                            60           0x80087e0
+ReferenceSetup.cpp                            61           0x80087e4
+ReferenceSetup.cpp                            62           0x80087f2
+ReferenceSetup.cpp                            63           0x8008800
+ReferenceSetup.cpp                            64           0x8008806
+ReferenceSetup.cpp                            65           0x800880a
+ReferenceSetup.cpp                            66           0x8008810
+ReferenceSetup.cpp                            69           0x8008830
+ReferenceSetup.cpp                            70           0x8008846
+ReferenceSetup.cpp                            71           0x8008854
+ReferenceSetup.cpp                            72           0x800885a
+ReferenceSetup.cpp                            73           0x800885e
+ReferenceSetup.cpp                            74           0x8008864
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            78           0x800886c
+
+ReferenceSetup.cpp                            79           0x8008870
+ReferenceSetup.cpp                            80           0x8008874
+ReferenceSetup.cpp                            81           0x8008880
+ReferenceSetup.cpp                            82           0x8008884
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            86           0x8008888
+
+ReferenceSetup.cpp                            87           0x800888e
+ReferenceSetup.cpp                            88           0x80088a0
+ReferenceSetup.cpp                            89           0x80088b2
+ReferenceSetup.cpp                            92           0x80088c4
+ReferenceSetup.cpp                            94           0x80088d4
+ReferenceSetup.cpp                            98           0x80088d8
+ReferenceSetup.cpp                            99           0x80088e6
+ReferenceSetup.cpp                           101           0x80088f4
+ReferenceSetup.cpp                           103           0x80088fa
+ReferenceSetup.cpp                           105           0x8008902
+ReferenceSetup.cpp                           107           0x8008908
+ReferenceSetup.cpp                           111           0x800890e
+ReferenceSetup.cpp                           113           0x8008912
+

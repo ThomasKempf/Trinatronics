@@ -79,16 +79,11 @@ uint16_t readorWrite(ModbusMaster* node,uint8_t SlaveID,uint8_t Function,uint16_
 void loop() 
 {
   int8_t error = 0;
-  WriteValue = 6;
+  WriteValue = 3;
   error = readorWrite(&node[0],5,6,6010);
   delay(500); // Attendre avant la prochaine lecture
-  WriteValue = 0;
-  error = readorWrite(&node[0],5,6,6010);
+  WriteValue = 18000;
+  error = readorWrite(&node[0],5,6,6012);
   delay(500); // Attendre avant la prochaine lecture
-  while (ReadValue != 10)
-  {
-    error = readorWrite(&node[0],5,3,5008);
-    delay(500);
-  }
 
 }
