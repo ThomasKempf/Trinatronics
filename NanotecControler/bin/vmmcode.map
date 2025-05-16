@@ -3,34 +3,34 @@ Discarded input sections
 
  .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
  .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
- .text          0x00000000        0x0 C:\WINDOWS\cc00mNv3.o
- .data          0x00000000        0x0 C:\WINDOWS\cc00mNv3.o
- .bss           0x00000000        0x0 C:\WINDOWS\cc00mNv3.o
- .text          0x00000000        0x0 C:\WINDOWS\cckCX1a6.o
- .data          0x00000000        0x0 C:\WINDOWS\cckCX1a6.o
- .bss           0x00000000        0x0 C:\WINDOWS\cckCX1a6.o
+ .text          0x00000000        0x0 C:\WINDOWS\cco32lQ4.o
+ .data          0x00000000        0x0 C:\WINDOWS\cco32lQ4.o
+ .bss           0x00000000        0x0 C:\WINDOWS\cco32lQ4.o
+ .text          0x00000000        0x0 C:\WINDOWS\ccgJ0w2C.o
+ .data          0x00000000        0x0 C:\WINDOWS\ccgJ0w2C.o
+ .bss           0x00000000        0x0 C:\WINDOWS\ccgJ0w2C.o
  .text._Z5Resetv
-                0x00000000       0x28 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x28 C:\WINDOWS\ccgJ0w2C.o
  .text._Z8SwitchOnv
-                0x00000000       0x8c C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x8c C:\WINDOWS\ccgJ0w2C.o
  .text._Z16RelativeMovementv
-                0x00000000       0x28 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x28 C:\WINDOWS\ccgJ0w2C.o
  .text._Z4Haltb
-                0x00000000       0x58 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x58 C:\WINDOWS\ccgJ0w2C.o
  .text._Z16ChangeOnSetPointb
-                0x00000000       0x58 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x58 C:\WINDOWS\ccgJ0w2C.o
  .text._Z13TargetReachedv
-                0x00000000       0x28 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x28 C:\WINDOWS\ccgJ0w2C.o
  .text._Z22NewSetPointAcknowledgev
-                0x00000000       0x28 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x28 C:\WINDOWS\ccgJ0w2C.o
  .text._Z16SetDigitalOutputh
-                0x00000000       0x3c C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x3c C:\WINDOWS\ccgJ0w2C.o
  .text._Z18ClearDigitalOutputh
-                0x00000000       0x40 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x40 C:\WINDOWS\ccgJ0w2C.o
  .text._Z23ModesOfOperationDisplayv
-                0x00000000       0x18 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x18 C:\WINDOWS\ccgJ0w2C.o
  .text._Z11AnalogInputv
-                0x00000000       0x20 C:\WINDOWS\cckCX1a6.o
+                0x00000000       0x20 C:\WINDOWS\ccgJ0w2C.o
 
 Memory Configuration
 
@@ -45,8 +45,8 @@ ram              0x20000000         0x00000e00         xrw
 Linker script and memory map
 
 LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
-LOAD C:\WINDOWS\cc00mNv3.o
-LOAD C:\WINDOWS\cckCX1a6.o
+LOAD C:\WINDOWS\cco32lQ4.o
+LOAD C:\WINDOWS\ccgJ0w2C.o
 
 .text           0x08008200      0x210
  *(.boot)
@@ -99,102 +99,102 @@ LOAD C:\WINDOWS\cckCX1a6.o
 .text._Z9Quickstopv
                 0x08008410       0x40
  .text._Z9Quickstopv
-                0x08008410       0x40 C:\WINDOWS\cckCX1a6.o
+                0x08008410       0x40 C:\WINDOWS\ccgJ0w2C.o
                 0x08008410                _Z9Quickstopv
 
 .text._Z8Shutdownv
                 0x08008450       0x4c
  .text._Z8Shutdownv
-                0x08008450       0x4c C:\WINDOWS\cckCX1a6.o
+                0x08008450       0x4c C:\WINDOWS\ccgJ0w2C.o
                 0x08008450                _Z8Shutdownv
 
 .text._Z15EnableOperationv
                 0x0800849c       0xcc
  .text._Z15EnableOperationv
-                0x0800849c       0xcc C:\WINDOWS\cckCX1a6.o
+                0x0800849c       0xcc C:\WINDOWS\ccgJ0w2C.o
                 0x0800849c                _Z15EnableOperationv
 
 .text._Z16AbsoluteMovementv
                 0x08008568       0x28
  .text._Z16AbsoluteMovementv
-                0x08008568       0x28 C:\WINDOWS\cckCX1a6.o
+                0x08008568       0x28 C:\WINDOWS\ccgJ0w2C.o
                 0x08008568                _Z16AbsoluteMovementv
 
 .text._Z11NewSetPointb
                 0x08008590       0x58
  .text._Z11NewSetPointb
-                0x08008590       0x58 C:\WINDOWS\cckCX1a6.o
+                0x08008590       0x58 C:\WINDOWS\ccgJ0w2C.o
                 0x08008590                _Z11NewSetPointb
 
 .text._Z25ChangeSetPointImmediatelyb
                 0x080085e8       0x58
  .text._Z25ChangeSetPointImmediatelyb
-                0x080085e8       0x58 C:\WINDOWS\cckCX1a6.o
+                0x080085e8       0x58 C:\WINDOWS\ccgJ0w2C.o
                 0x080085e8                _Z25ChangeSetPointImmediatelyb
 
 .text._Z12DigitalInputh
                 0x08008640       0x38
  .text._Z12DigitalInputh
-                0x08008640       0x38 C:\WINDOWS\cckCX1a6.o
+                0x08008640       0x38 C:\WINDOWS\ccgJ0w2C.o
                 0x08008640                _Z12DigitalInputh
 
 .text._Z16ModesOfOperationc
                 0x08008678       0x20
  .text._Z16ModesOfOperationc
-                0x08008678       0x20 C:\WINDOWS\cckCX1a6.o
+                0x08008678       0x20 C:\WINDOWS\ccgJ0w2C.o
                 0x08008678                _Z16ModesOfOperationc
 
 .text._Z3mapiii
                 0x08008698       0xd4
  .text._Z3mapiii
-                0x08008698       0xd4 C:\WINDOWS\cckCX1a6.o
+                0x08008698       0xd4 C:\WINDOWS\ccgJ0w2C.o
                 0x08008698                _Z3mapiii
 
 .text._Z19ChangeModbusAdressei
                 0x0800876c       0x88
  .text._Z19ChangeModbusAdressei
-                0x0800876c       0x88 C:\WINDOWS\cckCX1a6.o
+                0x0800876c       0x88 C:\WINDOWS\ccgJ0w2C.o
                 0x0800876c                _Z19ChangeModbusAdressei
 
 .text._Z14ReferenceDrivev
-                0x080087f4       0x68
+                0x080087f4       0x8c
  .text._Z14ReferenceDrivev
-                0x080087f4       0x68 C:\WINDOWS\cckCX1a6.o
+                0x080087f4       0x8c C:\WINDOWS\ccgJ0w2C.o
                 0x080087f4                _Z14ReferenceDrivev
 
 .text._Z14GoNextPositioni
-                0x0800885c       0x98
+                0x08008880       0x9c
  .text._Z14GoNextPositioni
-                0x0800885c       0x98 C:\WINDOWS\cckCX1a6.o
-                0x0800885c                _Z14GoNextPositioni
+                0x08008880       0x9c C:\WINDOWS\ccgJ0w2C.o
+                0x08008880                _Z14GoNextPositioni
 
 .text._Z9StopMotorv
-                0x080088f4       0x1c
+                0x0800891c       0x10
  .text._Z9StopMotorv
-                0x080088f4       0x1c C:\WINDOWS\cckCX1a6.o
-                0x080088f4                _Z9StopMotorv
+                0x0800891c       0x10 C:\WINDOWS\ccgJ0w2C.o
+                0x0800891c                _Z9StopMotorv
 
-.text._Z4userv  0x08008910       0xa0
+.text._Z4userv  0x0800892c       0xc0
  .text._Z4userv
-                0x08008910       0xa0 C:\WINDOWS\cckCX1a6.o
-                0x08008910                _Z4userv
+                0x0800892c       0xc0 C:\WINDOWS\ccgJ0w2C.o
+                0x0800892c                _Z4userv
 
-.rel.dyn        0x080089b0        0x0
- .rel.iplt      0x080089b0        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+.rel.dyn        0x080089ec        0x0
+ .rel.iplt      0x080089ec        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
 
 .inputs         0x20000e00        0xc
  *(.inputs)
- .inputs        0x20000e00        0xc C:\WINDOWS\cc00mNv3.o
+ .inputs        0x20000e00        0xc C:\WINDOWS\cco32lQ4.o
                 0x20000e00                In
 
 .outputs        0x20000e40        0xc
  *(.outputs)
- .outputs       0x20000e40        0xc C:\WINDOWS\cc00mNv3.o
+ .outputs       0x20000e40        0xc C:\WINDOWS\cco32lQ4.o
                 0x20000e40                Out
 
 .inoutputs      0x20000e80        0x8
  *(.inoutputs)
- .inoutputs     0x20000e80        0x8 C:\WINDOWS\cc00mNv3.o
+ .inoutputs     0x20000e80        0x8 C:\WINDOWS\cco32lQ4.o
                 0x20000e80                InOut
 
 .data           0x20000000        0x0
@@ -215,51 +215,56 @@ OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\bin\vmmcode
 .bss.ZeroPosition
                 0x20000000        0x4
  .bss.ZeroPosition
-                0x20000000        0x4 C:\WINDOWS\cckCX1a6.o
+                0x20000000        0x4 C:\WINDOWS\ccgJ0w2C.o
                 0x20000000                ZeroPosition
+
+.bss.Reference  0x20000004        0x1
+ .bss.Reference
+                0x20000004        0x1 C:\WINDOWS\ccgJ0w2C.o
+                0x20000004                Reference
 
 .comment        0x00000000       0x81
  .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
                                  0x71 (size before relaxing)
- .comment       0x00000070       0x11 C:\WINDOWS\cc00mNv3.o
+ .comment       0x00000070       0x11 C:\WINDOWS\cco32lQ4.o
                                  0x12 (size before relaxing)
- .comment       0x00000081       0x12 C:\WINDOWS\cckCX1a6.o
+ .comment       0x00000081       0x12 C:\WINDOWS\ccgJ0w2C.o
 
 .ARM.attributes
                 0x00000000       0x33
  .ARM.attributes
                 0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
  .ARM.attributes
-                0x00000033       0x33 C:\WINDOWS\cc00mNv3.o
+                0x00000033       0x33 C:\WINDOWS\cco32lQ4.o
  .ARM.attributes
-                0x00000066       0x33 C:\WINDOWS\cckCX1a6.o
+                0x00000066       0x33 C:\WINDOWS\ccgJ0w2C.o
 
-.debug_info     0x00000000      0x6b1
- .debug_info    0x00000000      0x176 C:\WINDOWS\cc00mNv3.o
- .debug_info    0x00000176      0x53b C:\WINDOWS\cckCX1a6.o
+.debug_info     0x00000000      0x6b4
+ .debug_info    0x00000000      0x176 C:\WINDOWS\cco32lQ4.o
+ .debug_info    0x00000176      0x53e C:\WINDOWS\ccgJ0w2C.o
 
 .debug_abbrev   0x00000000      0x1d4
- .debug_abbrev  0x00000000       0x7e C:\WINDOWS\cc00mNv3.o
- .debug_abbrev  0x0000007e      0x156 C:\WINDOWS\cckCX1a6.o
+ .debug_abbrev  0x00000000       0x7e C:\WINDOWS\cco32lQ4.o
+ .debug_abbrev  0x0000007e      0x156 C:\WINDOWS\ccgJ0w2C.o
 
 .debug_aranges  0x00000000       0xf8
  .debug_aranges
-                0x00000000       0x18 C:\WINDOWS\cc00mNv3.o
+                0x00000000       0x18 C:\WINDOWS\cco32lQ4.o
  .debug_aranges
-                0x00000018       0xe0 C:\WINDOWS\cckCX1a6.o
+                0x00000018       0xe0 C:\WINDOWS\ccgJ0w2C.o
 
-.debug_line     0x00000000      0x428
- .debug_line    0x00000000       0x86 C:\WINDOWS\cc00mNv3.o
- .debug_line    0x00000086      0x3a2 C:\WINDOWS\cckCX1a6.o
+.debug_line     0x00000000      0x434
+ .debug_line    0x00000000       0x86 C:\WINDOWS\cco32lQ4.o
+ .debug_line    0x00000086      0x3ae C:\WINDOWS\ccgJ0w2C.o
 
-.debug_str      0x00000000      0x60e
- .debug_str     0x00000000      0x1f5 C:\WINDOWS\cc00mNv3.o
+.debug_str      0x00000000      0x603
+ .debug_str     0x00000000      0x1f5 C:\WINDOWS\cco32lQ4.o
                                 0x232 (size before relaxing)
- .debug_str     0x000001f5      0x419 C:\WINDOWS\cckCX1a6.o
-                                0x61c (size before relaxing)
+ .debug_str     0x000001f5      0x40e C:\WINDOWS\ccgJ0w2C.o
+                                0x611 (size before relaxing)
 
 .debug_ranges   0x00000000       0xd0
- .debug_ranges  0x00000000       0xd0 C:\WINDOWS\cckCX1a6.o
+ .debug_ranges  0x00000000       0xd0 C:\WINDOWS\ccgJ0w2C.o
 
 .debug_frame    0x00000000      0x2f0
- .debug_frame   0x00000000      0x2f0 C:\WINDOWS\cckCX1a6.o
+ .debug_frame   0x00000000      0x2f0 C:\WINDOWS\ccgJ0w2C.o
