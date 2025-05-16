@@ -38,6 +38,25 @@ void map(int ModbusAdresse,int Index,int Nanoj)
 }
 
 
+void ChangeModbusAdresse(int Adresse)
+{
+	if(od_read(0x2028, 0x00) != Adresse)		//if entry not mapped yet
+		{
+			od_write(0x2028, 0x00, Adresse);
+			yield();
+			
+			od_write(0x1010, 0x0B, 1702257011);			//save all command
+			yield();
+			while(od_read(0x1010, 0x0B) != 1)			//wait for save done
+			{
+				yield();
+			}
+			od_write(0x2800, 0x01, 0x746F6F62);			//reboot
+			yield();
+		}
+}
+
+
 void ReferenceDrive()
 {
 	int Velocity = -10;
@@ -87,8 +106,9 @@ void user()
 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
+	ChangeModbusAdresse(2);
 	
-	
+	od_write(0x2028, 0x00, 0x2);
 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
 	
 	ReferenceDrive();	

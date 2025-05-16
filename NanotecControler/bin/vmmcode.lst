@@ -1,4 +1,4 @@
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 1
 
 
    1              		.syntax unified
@@ -43,20 +43,20 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
   41              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen\\types.h"
   42              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen\\mapping.h"
   43              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen\\mapping.cxx"
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 2
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mapping.cxx
-C:\WINDOWS\ccT8gjIT.s:23     .inputs:00000000 In
-C:\WINDOWS\ccT8gjIT.s:20     .inputs:00000000 $d
-C:\WINDOWS\ccT8gjIT.s:30     .outputs:00000000 Out
-C:\WINDOWS\ccT8gjIT.s:27     .outputs:00000000 $d
-C:\WINDOWS\ccT8gjIT.s:37     .inoutputs:00000000 InOut
-C:\WINDOWS\ccT8gjIT.s:34     .inoutputs:00000000 $d
+C:\WINDOWS\ccIC61B5.s:23     .inputs:00000000 In
+C:\WINDOWS\ccIC61B5.s:20     .inputs:00000000 $d
+C:\WINDOWS\ccIC61B5.s:30     .outputs:00000000 Out
+C:\WINDOWS\ccIC61B5.s:27     .outputs:00000000 $d
+C:\WINDOWS\ccIC61B5.s:37     .inoutputs:00000000 InOut
+C:\WINDOWS\ccIC61B5.s:34     .inoutputs:00000000 $d
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 1
 
 
    1              		.syntax unified
@@ -116,7 +116,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
   34              		.cfi_offset 14, -4
   35 0002 00AF     		add	r7, sp, #0
   36              		.cfi_def_cfa_register 7
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 2
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 2
 
 
   23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x80;
@@ -176,7 +176,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
   84 0020 1A80     		strh	r2, [r3]	@ unaligned
   32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** 		yield(); 
   85              		.loc 1 32 0
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 3
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 3
 
 
   86 0022 FFF7FEFF 		bl	yield
@@ -236,7 +236,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  132 001a 43F00603 		orr	r3, r3, #6
  133 001e 9BB2     		uxth	r3, r3
  134 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 4
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 4
 
 
  135 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -296,7 +296,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  180 000e 1B88     		ldrh	r3, [r3]	@ unaligned
  181 0010 9BB2     		uxth	r3, r3
  182 0012 9BB2     		uxth	r3, r3
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 5
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 5
 
 
  183 0014 23F08F03 		bic	r3, r3, #143
@@ -356,7 +356,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  229 0082 E0D1     		bne	.L12
   58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** 	}
   59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** 	yield();
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 6
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 6
 
 
  230              		.loc 1 59 0
@@ -416,7 +416,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  277 0034 C0F20003 		movt	r3, #:upper16:In
  278 0038 1B88     		ldrh	r3, [r3]	@ unaligned
  279 003a 9BB2     		uxth	r3, r3
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 7
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 7
 
 
  280 003c 03F0E903 		and	r3, r3, #233
@@ -476,7 +476,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  324 00a0 9AB2     		uxth	r2, r3
  325 00a2 40F20003 		movw	r3, #:lower16:InOut
  326 00a6 C0F20003 		movt	r3, #:upper16:InOut
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 8
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 8
 
 
  327 00aa 1A80     		strh	r2, [r3]	@ unaligned
@@ -536,7 +536,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
   85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** 	yield();
  374              		.loc 1 85 0
  375 0020 FFF7FEFF 		bl	yield
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 9
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 9
 
 
   86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** }
@@ -596,7 +596,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  424              		.loc 1 95 0
  425              		.cfi_startproc
  426              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 10
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 10
 
 
  427              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -656,7 +656,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  470 0052 0837     		adds	r7, r7, #8
  471 0054 BD46     		mov	sp, r7
  472              		@ sp needed
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 11
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 11
 
 
  473 0056 80BD     		pop	{r7, pc}
@@ -716,7 +716,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  518 0032 40F20003 		movw	r3, #:lower16:InOut
  519 0036 C0F20003 		movt	r3, #:upper16:InOut
  520 003a 1B88     		ldrh	r3, [r3]	@ unaligned
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 12
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 12
 
 
  521 003c 9BB2     		uxth	r3, r3
@@ -776,7 +776,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  568 001a 9BB2     		uxth	r3, r3
  569 001c 43F02003 		orr	r3, r3, #32
  570 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 13
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 13
 
 
  571 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -836,7 +836,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  616              		.cfi_def_cfa_offset 16
  617 0004 00AF     		add	r7, sp, #0
  618              		.cfi_def_cfa_register 7
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 14
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 14
 
 
  619 0006 0346     		mov	r3, r0
@@ -896,7 +896,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  663              		.thumb
  664              		.thumb_func
  666              	_Z13TargetReachedv:
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 15
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 15
 
 
  667              	.LFB11:
@@ -956,7 +956,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** bool NewSetPointAcknowledge()
  163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\nanotec.h **** {
  710              		.loc 1 163 0
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 16
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 16
 
 
  711              		.cfi_startproc
@@ -1016,7 +1016,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  755              		@ frame_needed = 1, uses_anonymous_args = 0
  756              		@ link register save eliminated.
  757 0000 80B4     		push	{r7}
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 17
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 17
 
 
  758              		.cfi_def_cfa_offset 4
@@ -1076,7 +1076,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  802              		.loc 1 187 0
  803              		.cfi_startproc
  804              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 18
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 18
 
 
  805              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1136,7 +1136,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  855 0000 80B4     		push	{r7}
  856              		.cfi_def_cfa_offset 4
  857              		.cfi_offset 7, -4
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 19
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 19
 
 
  858 0002 85B0     		sub	sp, sp, #20
@@ -1196,7 +1196,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  908              		.cfi_def_cfa_offset 16
  909 0004 00AF     		add	r7, sp, #0
  910              		.cfi_def_cfa_register 7
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 20
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 20
 
 
  911 0006 0346     		mov	r3, r0
@@ -1256,7 +1256,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  961              		.thumb
  962              		.thumb_func
  964              	_Z11AnalogInputv:
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 21
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 21
 
 
  965              	.LFB18:
@@ -1316,7 +1316,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
   12:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** #include "nanotec.h"
   13:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
   14:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** int ZeroPosition = 0;
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 22
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 22
 
 
   15:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
@@ -1376,7 +1376,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  1056 0046 0023     		movs	r3, #0
  1057              	.L54:
  1058              		.loc 2 19 0 discriminator 4
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 23
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 23
 
 
  1059 0048 002B     		cmp	r3, #0
@@ -1436,7 +1436,7 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  1099              		.loc 2 33 0
  1100 009a FFF7FEFF 		bl	yield
  1101              	.L56:
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 24
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 24
 
 
   31:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			while(od_read(0x1010, 0x01) != 1)			//wait for save done
@@ -1473,16 +1473,16 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  1127 00d2 80BD     		pop	{r7, pc}
  1128              		.cfi_endproc
  1129              	.LFE19:
- 1131              		.section	.text._Z14ReferenceDrivev,"ax",%progbits
+ 1131              		.section	.text._Z19ChangeModbusAdressei,"ax",%progbits
  1132              		.align	2
- 1133              		.global	_Z14ReferenceDrivev
+ 1133              		.global	_Z19ChangeModbusAdressei
  1134              		.thumb
  1135              		.thumb_func
- 1137              	_Z14ReferenceDrivev:
+ 1137              	_Z19ChangeModbusAdressei:
  1138              	.LFB20:
   39:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
   40:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  41:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void ReferenceDrive()
+  41:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void ChangeModbusAdresse(int Adresse)
   42:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
  1139              		.loc 2 42 0
  1140              		.cfi_startproc
@@ -1496,419 +1496,539 @@ ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 1
  1148              		.cfi_def_cfa_offset 16
  1149 0004 00AF     		add	r7, sp, #0
  1150              		.cfi_def_cfa_register 7
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 25
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 25
 
 
- 1151              	.LBB4:
-  43:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int Velocity = -10;
+ 1151 0006 7860     		str	r0, [r7, #4]
+  43:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	if(od_read(0x2028, 0x00) != Adresse)		//if entry not mapped yet
  1152              		.loc 2 43 0
- 1153 0006 6FF00903 		mvn	r3, #9
- 1154 000a 7B60     		str	r3, [r7, #4]
-  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(3);
- 1155              		.loc 2 45 0
- 1156 000c 0320     		movs	r0, #3
- 1157 000e FFF7FEFF 		bl	_Z16ModesOfOperationc
-  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, Velocity);
- 1158              		.loc 2 46 0
- 1159 0012 7B68     		ldr	r3, [r7, #4]
- 1160 0014 46F2FF00 		movw	r0, #24831
- 1161 0018 0021     		movs	r1, #0
- 1162 001a 1A46     		mov	r2, r3
- 1163 001c FFF7FEFF 		bl	od_write
-  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	EnableOperation();
- 1164              		.loc 2 47 0
- 1165 0020 FFF7FEFF 		bl	_Z15EnableOperationv
-  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
- 1166              		.loc 2 48 0
- 1167 0024 01E0     		b	.L59
- 1168              	.L60:
-  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	{
-  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		yield();
- 1169              		.loc 2 50 0
- 1170 0026 FFF7FEFF 		bl	yield
- 1171              	.L59:
-  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
- 1172              		.loc 2 48 0 discriminator 1
- 1173 002a 0120     		movs	r0, #1
- 1174 002c FFF7FEFF 		bl	_Z12DigitalInputh
- 1175 0030 0346     		mov	r3, r0
- 1176 0032 83F00103 		eor	r3, r3, #1
- 1177 0036 DBB2     		uxtb	r3, r3
- 1178 0038 002B     		cmp	r3, #0
- 1179 003a F4D1     		bne	.L60
-  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	}
-  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, 0);
- 1180              		.loc 2 52 0
- 1181 003c 46F2FF00 		movw	r0, #24831
- 1182 0040 0021     		movs	r1, #0
- 1183 0042 0022     		movs	r2, #0
- 1184 0044 FFF7FEFF 		bl	od_write
-  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ZeroPosition = od_read(0x6064, 0x00);
- 1185              		.loc 2 53 0
- 1186 0048 46F26400 		movw	r0, #24676
- 1187 004c 0021     		movs	r1, #0
- 1188 004e FFF7FEFF 		bl	od_read
- 1189 0052 0346     		mov	r3, r0
- 1190 0054 1A46     		mov	r2, r3
- 1191 0056 40F20003 		movw	r3, #:lower16:ZeroPosition
- 1192 005a C0F20003 		movt	r3, #:upper16:ZeroPosition
- 1193 005e 1A60     		str	r2, [r3]
- 1194              	.LBE4:
-  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 26
+ 1153 0008 42F22800 		movw	r0, #8232
+ 1154 000c 0021     		movs	r1, #0
+ 1155 000e FFF7FEFF 		bl	od_read
+ 1156 0012 0246     		mov	r2, r0
+ 1157 0014 7B68     		ldr	r3, [r7, #4]
+ 1158 0016 9A42     		cmp	r2, r3
+ 1159 0018 0CBF     		ite	eq
+ 1160 001a 0023     		moveq	r3, #0
+ 1161 001c 0123     		movne	r3, #1
+ 1162 001e DBB2     		uxtb	r3, r3
+ 1163 0020 002B     		cmp	r3, #0
+ 1164 0022 2ED0     		beq	.L58
+  44:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
+  45:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2028, 0x00, Adresse);
+ 1165              		.loc 2 45 0
+ 1166 0024 7B68     		ldr	r3, [r7, #4]
+ 1167 0026 42F22800 		movw	r0, #8232
+ 1168 002a 0021     		movs	r1, #0
+ 1169 002c 1A46     		mov	r2, r3
+ 1170 002e FFF7FEFF 		bl	od_write
+  46:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1171              		.loc 2 46 0
+ 1172 0032 FFF7FEFF 		bl	yield
+  47:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			
+  48:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x1010, 0x0B, 1702257011);			//save all command
+ 1173              		.loc 2 48 0
+ 1174 0036 41F21000 		movw	r0, #4112
+ 1175 003a 0B21     		movs	r1, #11
+ 1176 003c 46F27312 		movw	r2, #24947
+ 1177 0040 C6F27652 		movt	r2, 25974
+ 1178 0044 FFF7FEFF 		bl	od_write
+  49:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1179              		.loc 2 49 0
+ 1180 0048 FFF7FEFF 		bl	yield
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			while(od_read(0x1010, 0x0B) != 1)			//wait for save done
+ 1181              		.loc 2 50 0
+ 1182 004c 01E0     		b	.L60
+ 1183              	.L61:
+  51:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			{
+  52:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 				yield();
+ 1184              		.loc 2 52 0
+ 1185 004e FFF7FEFF 		bl	yield
+ 1186              	.L60:
+  50:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			while(od_read(0x1010, 0x0B) != 1)			//wait for save done
+ 1187              		.loc 2 50 0 discriminator 1
+ 1188 0052 41F21000 		movw	r0, #4112
+ 1189 0056 0B21     		movs	r1, #11
+ 1190 0058 FFF7FEFF 		bl	od_read
+ 1191 005c 0346     		mov	r3, r0
+ 1192 005e 012B     		cmp	r3, #1
+ 1193 0060 0CBF     		ite	eq
+ 1194 0062 0023     		moveq	r3, #0
+ 1195 0064 0123     		movne	r3, #1
+ 1196 0066 DBB2     		uxtb	r3, r3
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 26
 
 
- 1195              		.loc 2 54 0
- 1196 0060 0837     		adds	r7, r7, #8
- 1197 0062 BD46     		mov	sp, r7
- 1198              		@ sp needed
- 1199 0064 80BD     		pop	{r7, pc}
- 1200              		.cfi_endproc
- 1201              	.LFE20:
- 1203 0066 00BF     		.section	.text._Z14GoNextPositioni,"ax",%progbits
- 1204              		.align	2
- 1205              		.global	_Z14GoNextPositioni
- 1206              		.thumb
- 1207              		.thumb_func
- 1209              	_Z14GoNextPositioni:
- 1210              	.LFB21:
-  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void GoNextPosition(int PositionOrder)
-  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
- 1211              		.loc 2 58 0
- 1212              		.cfi_startproc
- 1213              		@ args = 0, pretend = 0, frame = 16
- 1214              		@ frame_needed = 1, uses_anonymous_args = 0
- 1215 0000 80B5     		push	{r7, lr}
- 1216              		.cfi_def_cfa_offset 8
- 1217              		.cfi_offset 7, -8
- 1218              		.cfi_offset 14, -4
- 1219 0002 84B0     		sub	sp, sp, #16
- 1220              		.cfi_def_cfa_offset 24
- 1221 0004 00AF     		add	r7, sp, #0
- 1222              		.cfi_def_cfa_register 7
- 1223 0006 7860     		str	r0, [r7, #4]
- 1224              	.LBB5:
-  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int MultiplicationFactor = 1;
- 1225              		.loc 2 59 0
- 1226 0008 0123     		movs	r3, #1
- 1227 000a FB60     		str	r3, [r7, #12]
-  60:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int NextTargetPosition = 0;
- 1228              		.loc 2 60 0
- 1229 000c 0023     		movs	r3, #0
- 1230 000e BB60     		str	r3, [r7, #8]
-  61:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6083, 0x00, 0XFFFFFFF);//acceleration
- 1231              		.loc 2 61 0
- 1232 0010 46F28300 		movw	r0, #24707
- 1233 0014 0021     		movs	r1, #0
- 1234 0016 6FF07042 		mvn	r2, #-268435456
- 1235 001a FFF7FEFF 		bl	od_write
-  62:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6084, 0x00, 0XFFFFFFF);//deceleration
- 1236              		.loc 2 62 0
- 1237 001e 46F28400 		movw	r0, #24708
- 1238 0022 0021     		movs	r1, #0
- 1239 0024 6FF07042 		mvn	r2, #-268435456
- 1240 0028 FFF7FEFF 		bl	od_write
-  63:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(1);
- 1241              		.loc 2 63 0
- 1242 002c 0120     		movs	r0, #1
- 1243 002e FFF7FEFF 		bl	_Z16ModesOfOperationc
-  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	AbsoluteMovement();
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 27
+ 1197 0068 002B     		cmp	r3, #0
+ 1198 006a F0D1     		bne	.L61
+  53:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			}
+  54:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2800, 0x01, 0x746F6F62);			//reboot
+ 1199              		.loc 2 54 0
+ 1200 006c 4FF42050 		mov	r0, #10240
+ 1201 0070 0121     		movs	r1, #1
+ 1202 0072 46F66272 		movw	r2, #28514
+ 1203 0076 C7F26F42 		movt	r2, 29807
+ 1204 007a FFF7FEFF 		bl	od_write
+  55:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1205              		.loc 2 55 0
+ 1206 007e FFF7FEFF 		bl	yield
+ 1207              	.L58:
+  56:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
+  57:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
+ 1208              		.loc 2 57 0
+ 1209 0082 0837     		adds	r7, r7, #8
+ 1210 0084 BD46     		mov	sp, r7
+ 1211              		@ sp needed
+ 1212 0086 80BD     		pop	{r7, pc}
+ 1213              		.cfi_endproc
+ 1214              	.LFE20:
+ 1216              		.section	.text._Z14ReferenceDrivev,"ax",%progbits
+ 1217              		.align	2
+ 1218              		.global	_Z14ReferenceDrivev
+ 1219              		.thumb
+ 1220              		.thumb_func
+ 1222              	_Z14ReferenceDrivev:
+ 1223              	.LFB21:
+  58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+  59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+  60:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void ReferenceDrive()
+  61:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
+ 1224              		.loc 2 61 0
+ 1225              		.cfi_startproc
+ 1226              		@ args = 0, pretend = 0, frame = 8
+ 1227              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1228 0000 80B5     		push	{r7, lr}
+ 1229              		.cfi_def_cfa_offset 8
+ 1230              		.cfi_offset 7, -8
+ 1231              		.cfi_offset 14, -4
+ 1232 0002 82B0     		sub	sp, sp, #8
+ 1233              		.cfi_def_cfa_offset 16
+ 1234 0004 00AF     		add	r7, sp, #0
+ 1235              		.cfi_def_cfa_register 7
+ 1236              	.LBB4:
+  62:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int Velocity = -10;
+ 1237              		.loc 2 62 0
+ 1238 0006 6FF00903 		mvn	r3, #9
+ 1239 000a 7B60     		str	r3, [r7, #4]
+  63:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+  64:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(3);
+ 1240              		.loc 2 64 0
+ 1241 000c 0320     		movs	r0, #3
+ 1242 000e FFF7FEFF 		bl	_Z16ModesOfOperationc
+  65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, Velocity);
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 27
 
 
- 1244              		.loc 2 64 0
- 1245 0032 FFF7FEFF 		bl	_Z16AbsoluteMovementv
-  65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ChangeSetPointImmediately(true);
- 1246              		.loc 2 65 0
- 1247 0036 0120     		movs	r0, #1
- 1248 0038 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
-  66:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Out.ProfileVelocity=4000;
+ 1243              		.loc 2 65 0
+ 1244 0012 7B68     		ldr	r3, [r7, #4]
+ 1245 0014 46F2FF00 		movw	r0, #24831
+ 1246 0018 0021     		movs	r1, #0
+ 1247 001a 1A46     		mov	r2, r3
+ 1248 001c FFF7FEFF 		bl	od_write
+  66:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	EnableOperation();
  1249              		.loc 2 66 0
- 1250 003c 40F20003 		movw	r3, #:lower16:Out
- 1251 0040 C0F20003 		movt	r3, #:upper16:Out
- 1252 0044 0022     		movs	r2, #0
- 1253 0046 62F05F02 		orn	r2, r2, #95
- 1254 004a 5A71     		strb	r2, [r3, #5]
- 1255 004c 0022     		movs	r2, #0
- 1256 004e 42F00F02 		orr	r2, r2, #15
- 1257 0052 9A71     		strb	r2, [r3, #6]
- 1258 0054 0022     		movs	r2, #0
- 1259 0056 DA71     		strb	r2, [r3, #7]
- 1260 0058 0022     		movs	r2, #0
- 1261 005a 1A72     		strb	r2, [r3, #8]
-  67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (PositionOrder * MultiplicationFactor);
- 1262              		.loc 2 69 0
- 1263 005c 7B68     		ldr	r3, [r7, #4]
- 1264 005e FA68     		ldr	r2, [r7, #12]
- 1265 0060 02FB03F2 		mul	r2, r2, r3
- 1266 0064 40F20003 		movw	r3, #:lower16:ZeroPosition
- 1267 0068 C0F20003 		movt	r3, #:upper16:ZeroPosition
- 1268 006c 1B68     		ldr	r3, [r3]
- 1269 006e 1344     		add	r3, r3, r2
- 1270 0070 BB60     		str	r3, [r7, #8]
-  70:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Out.TargetPosition = NextTargetPosition;
- 1271              		.loc 2 70 0
- 1272 0072 40F20003 		movw	r3, #:lower16:Out
- 1273 0076 C0F20003 		movt	r3, #:upper16:Out
- 1274 007a BA68     		ldr	r2, [r7, #8]
- 1275 007c C3F80120 		str	r2, [r3, #1]	@ unaligned
-  71:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(true);
- 1276              		.loc 2 71 0
- 1277 0080 0120     		movs	r0, #1
- 1278 0082 FFF7FEFF 		bl	_Z11NewSetPointb
-  72:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	yield();
- 1279              		.loc 2 72 0
- 1280 0086 FFF7FEFF 		bl	yield
-  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(false);
- 1281              		.loc 2 73 0
- 1282 008a 0020     		movs	r0, #0
- 1283 008c FFF7FEFF 		bl	_Z11NewSetPointb
- 1284              	.LBE5:
-  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
- 1285              		.loc 2 74 0
- 1286 0090 1037     		adds	r7, r7, #16
- 1287 0092 BD46     		mov	sp, r7
- 1288              		@ sp needed
- 1289 0094 80BD     		pop	{r7, pc}
- 1290              		.cfi_endproc
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 28
+ 1250 0020 FFF7FEFF 		bl	_Z15EnableOperationv
+  67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
+ 1251              		.loc 2 67 0
+ 1252 0024 01E0     		b	.L63
+ 1253              	.L64:
+  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	{
+  69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		yield();
+ 1254              		.loc 2 69 0
+ 1255 0026 FFF7FEFF 		bl	yield
+ 1256              	.L63:
+  67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (DigitalInput(1) != true)
+ 1257              		.loc 2 67 0 discriminator 1
+ 1258 002a 0120     		movs	r0, #1
+ 1259 002c FFF7FEFF 		bl	_Z12DigitalInputh
+ 1260 0030 0346     		mov	r3, r0
+ 1261 0032 83F00103 		eor	r3, r3, #1
+ 1262 0036 DBB2     		uxtb	r3, r3
+ 1263 0038 002B     		cmp	r3, #0
+ 1264 003a F4D1     		bne	.L64
+  70:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	}
+  71:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60FF, 0x00, 0);
+ 1265              		.loc 2 71 0
+ 1266 003c 46F2FF00 		movw	r0, #24831
+ 1267 0040 0021     		movs	r1, #0
+ 1268 0042 0022     		movs	r2, #0
+ 1269 0044 FFF7FEFF 		bl	od_write
+  72:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ZeroPosition = od_read(0x6064, 0x00);
+ 1270              		.loc 2 72 0
+ 1271 0048 46F26400 		movw	r0, #24676
+ 1272 004c 0021     		movs	r1, #0
+ 1273 004e FFF7FEFF 		bl	od_read
+ 1274 0052 0346     		mov	r3, r0
+ 1275 0054 1A46     		mov	r2, r3
+ 1276 0056 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1277 005a C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1278 005e 1A60     		str	r2, [r3]
+ 1279              	.LBE4:
+  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
+ 1280              		.loc 2 73 0
+ 1281 0060 0837     		adds	r7, r7, #8
+ 1282 0062 BD46     		mov	sp, r7
+ 1283              		@ sp needed
+ 1284 0064 80BD     		pop	{r7, pc}
+ 1285              		.cfi_endproc
+ 1286              	.LFE21:
+ 1288 0066 00BF     		.section	.text._Z14GoNextPositioni,"ax",%progbits
+ 1289              		.align	2
+ 1290              		.global	_Z14GoNextPositioni
+ 1291              		.thumb
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 28
 
 
- 1291              	.LFE21:
- 1293 0096 00BF     		.section	.text._Z9StopMotorv,"ax",%progbits
- 1294              		.align	2
- 1295              		.global	_Z9StopMotorv
- 1296              		.thumb
- 1297              		.thumb_func
- 1299              	_Z9StopMotorv:
- 1300              	.LFB22:
+ 1292              		.thumb_func
+ 1294              	_Z14GoNextPositioni:
+ 1295              	.LFB22:
+  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
   75:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  76:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  77:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void StopMotor()
-  78:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
- 1301              		.loc 2 78 0
- 1302              		.cfi_startproc
- 1303              		@ args = 0, pretend = 0, frame = 0
- 1304              		@ frame_needed = 1, uses_anonymous_args = 0
- 1305 0000 80B5     		push	{r7, lr}
- 1306              		.cfi_def_cfa_offset 8
- 1307              		.cfi_offset 7, -8
- 1308              		.cfi_offset 14, -4
- 1309 0002 00AF     		add	r7, sp, #0
- 1310              		.cfi_def_cfa_register 7
-  79:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Quickstop();
- 1311              		.loc 2 79 0
- 1312 0004 FFF7FEFF 		bl	_Z9Quickstopv
-  80:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x2300, 0x00, 0x0);
- 1313              		.loc 2 80 0
- 1314 0008 4FF40C50 		mov	r0, #8960
- 1315 000c 0021     		movs	r1, #0
- 1316 000e 0022     		movs	r2, #0
- 1317 0010 FFF7FEFF 		bl	od_write
-  81:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Shutdown();
- 1318              		.loc 2 81 0
- 1319 0014 FFF7FEFF 		bl	_Z8Shutdownv
-  82:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
- 1320              		.loc 2 82 0
- 1321 0018 80BD     		pop	{r7, pc}
- 1322              		.cfi_endproc
- 1323              	.LFE22:
- 1325 001a 00BF     		.section	.text._Z4userv,"ax",%progbits
- 1326              		.align	2
- 1327              		.global	_Z4userv
- 1328              		.thumb
- 1329              		.thumb_func
- 1331              	_Z4userv:
- 1332              	.LFB23:
-  83:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  84:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
-  85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void user()
-  86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
- 1333              		.loc 2 86 0
- 1334              		.cfi_startproc
- 1335              		@ args = 0, pretend = 0, frame = 8
- 1336              		@ frame_needed = 1, uses_anonymous_args = 0
- 1337 0000 80B5     		push	{r7, lr}
- 1338              		.cfi_def_cfa_offset 8
- 1339              		.cfi_offset 7, -8
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 29
+  76:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void GoNextPosition(int PositionOrder)
+  77:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
+ 1296              		.loc 2 77 0
+ 1297              		.cfi_startproc
+ 1298              		@ args = 0, pretend = 0, frame = 16
+ 1299              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1300 0000 80B5     		push	{r7, lr}
+ 1301              		.cfi_def_cfa_offset 8
+ 1302              		.cfi_offset 7, -8
+ 1303              		.cfi_offset 14, -4
+ 1304 0002 84B0     		sub	sp, sp, #16
+ 1305              		.cfi_def_cfa_offset 24
+ 1306 0004 00AF     		add	r7, sp, #0
+ 1307              		.cfi_def_cfa_register 7
+ 1308 0006 7860     		str	r0, [r7, #4]
+ 1309              	.LBB5:
+  78:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int MultiplicationFactor = 1;
+ 1310              		.loc 2 78 0
+ 1311 0008 0123     		movs	r3, #1
+ 1312 000a FB60     		str	r3, [r7, #12]
+  79:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	int NextTargetPosition = 0;
+ 1313              		.loc 2 79 0
+ 1314 000c 0023     		movs	r3, #0
+ 1315 000e BB60     		str	r3, [r7, #8]
+  80:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6083, 0x00, 0XFFFFFFF);//acceleration
+ 1316              		.loc 2 80 0
+ 1317 0010 46F28300 		movw	r0, #24707
+ 1318 0014 0021     		movs	r1, #0
+ 1319 0016 6FF07042 		mvn	r2, #-268435456
+ 1320 001a FFF7FEFF 		bl	od_write
+  81:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6084, 0x00, 0XFFFFFFF);//deceleration
+ 1321              		.loc 2 81 0
+ 1322 001e 46F28400 		movw	r0, #24708
+ 1323 0022 0021     		movs	r1, #0
+ 1324 0024 6FF07042 		mvn	r2, #-268435456
+ 1325 0028 FFF7FEFF 		bl	od_write
+  82:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(1);
+ 1326              		.loc 2 82 0
+ 1327 002c 0120     		movs	r0, #1
+ 1328 002e FFF7FEFF 		bl	_Z16ModesOfOperationc
+  83:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	AbsoluteMovement();
+ 1329              		.loc 2 83 0
+ 1330 0032 FFF7FEFF 		bl	_Z16AbsoluteMovementv
+  84:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ChangeSetPointImmediately(true);
+ 1331              		.loc 2 84 0
+ 1332 0036 0120     		movs	r0, #1
+ 1333 0038 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
+  85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Out.ProfileVelocity=4000;
+ 1334              		.loc 2 85 0
+ 1335 003c 40F20003 		movw	r3, #:lower16:Out
+ 1336 0040 C0F20003 		movt	r3, #:upper16:Out
+ 1337 0044 0022     		movs	r2, #0
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 29
 
 
- 1340              		.cfi_offset 14, -4
- 1341 0002 82B0     		sub	sp, sp, #8
- 1342              		.cfi_def_cfa_offset 16
- 1343 0004 00AF     		add	r7, sp, #0
- 1344              		.cfi_def_cfa_register 7
- 1345              	.LBB6:
-  87:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
- 1346              		.loc 2 87 0
- 1347 0006 43F20260 		movw	r0, #13826
- 1348 000a 0721     		movs	r1, #7
- 1349 000c 4FF49072 		mov	r2, #288
- 1350 0010 C2F20052 		movt	r2, 9472
- 1351 0014 FFF7FEFF 		bl	_Z3mapiii
-  88:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
- 1352              		.loc 2 88 0
- 1353 0018 43F20250 		movw	r0, #13570
- 1354 001c 0821     		movs	r1, #8
- 1355 001e 4FF49072 		mov	r2, #288
- 1356 0022 C2F20042 		movt	r2, 9216
- 1357 0026 FFF7FEFF 		bl	_Z3mapiii
-  89:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
- 1358              		.loc 2 89 0
- 1359 002a 43F20250 		movw	r0, #13570
- 1360 002e 0921     		movs	r1, #9
- 1361 0030 4FF40872 		mov	r2, #544
- 1362 0034 C2F20042 		movt	r2, 9216
- 1363 0038 FFF7FEFF 		bl	_Z3mapiii
-  90:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  91:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  92:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
- 1364              		.loc 2 92 0
- 1365 003c 46F2A800 		movw	r0, #24744
- 1366 0040 0021     		movs	r1, #0
- 1367 0042 0022     		movs	r2, #0
- 1368 0044 CFF64162 		movt	r2, 65089
- 1369 0048 FFF7FEFF 		bl	od_write
-  93:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  94:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ReferenceDrive();	
- 1370              		.loc 2 94 0
- 1371 004c FFF7FEFF 		bl	_Z14ReferenceDrivev
- 1372              	.L67:
- 1373              	.LBB7:
-  95:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
-  96:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (true)
-  97:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	{
-  98:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
- 1374              		.loc 2 98 0
- 1375 0050 4FF41050 		mov	r0, #9216
- 1376 0054 0121     		movs	r1, #1
- 1377 0056 FFF7FEFF 		bl	od_read
- 1378 005a 0346     		mov	r3, r0
- 1379 005c 7B60     		str	r3, [r7, #4]
-  99:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
- 1380              		.loc 2 99 0
- 1381 005e 4FF41050 		mov	r0, #9216
- 1382 0062 0221     		movs	r1, #2
- 1383 0064 FFF7FEFF 		bl	od_read
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 30
+ 1338 0046 62F05F02 		orn	r2, r2, #95
+ 1339 004a 5A71     		strb	r2, [r3, #5]
+ 1340 004c 0022     		movs	r2, #0
+ 1341 004e 42F00F02 		orr	r2, r2, #15
+ 1342 0052 9A71     		strb	r2, [r3, #6]
+ 1343 0054 0022     		movs	r2, #0
+ 1344 0056 DA71     		strb	r2, [r3, #7]
+ 1345 0058 0022     		movs	r2, #0
+ 1346 005a 1A72     		strb	r2, [r3, #8]
+  86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
+  87:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
+  88:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (PositionOrder * MultiplicationFactor);
+ 1347              		.loc 2 88 0
+ 1348 005c 7B68     		ldr	r3, [r7, #4]
+ 1349 005e FA68     		ldr	r2, [r7, #12]
+ 1350 0060 02FB03F2 		mul	r2, r2, r3
+ 1351 0064 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1352 0068 C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1353 006c 1B68     		ldr	r3, [r3]
+ 1354 006e 1344     		add	r3, r3, r2
+ 1355 0070 BB60     		str	r3, [r7, #8]
+  89:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Out.TargetPosition = NextTargetPosition;
+ 1356              		.loc 2 89 0
+ 1357 0072 40F20003 		movw	r3, #:lower16:Out
+ 1358 0076 C0F20003 		movt	r3, #:upper16:Out
+ 1359 007a BA68     		ldr	r2, [r7, #8]
+ 1360 007c C3F80120 		str	r2, [r3, #1]	@ unaligned
+  90:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(true);
+ 1361              		.loc 2 90 0
+ 1362 0080 0120     		movs	r0, #1
+ 1363 0082 FFF7FEFF 		bl	_Z11NewSetPointb
+  91:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	yield();
+ 1364              		.loc 2 91 0
+ 1365 0086 FFF7FEFF 		bl	yield
+  92:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(false);
+ 1366              		.loc 2 92 0
+ 1367 008a 0020     		movs	r0, #0
+ 1368 008c FFF7FEFF 		bl	_Z11NewSetPointb
+ 1369              	.LBE5:
+  93:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
+ 1370              		.loc 2 93 0
+ 1371 0090 1037     		adds	r7, r7, #16
+ 1372 0092 BD46     		mov	sp, r7
+ 1373              		@ sp needed
+ 1374 0094 80BD     		pop	{r7, pc}
+ 1375              		.cfi_endproc
+ 1376              	.LFE22:
+ 1378 0096 00BF     		.section	.text._Z9StopMotorv,"ax",%progbits
+ 1379              		.align	2
+ 1380              		.global	_Z9StopMotorv
+ 1381              		.thumb
+ 1382              		.thumb_func
+ 1384              	_Z9StopMotorv:
+ 1385              	.LFB23:
+  94:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+  95:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+  96:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void StopMotor()
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 30
 
 
- 1384 0068 0346     		mov	r3, r0
- 1385 006a 3B60     		str	r3, [r7]
- 100:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		
- 101:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		if (order == 3)
- 1386              		.loc 2 101 0
- 1387 006c 7B68     		ldr	r3, [r7, #4]
- 1388 006e 032B     		cmp	r3, #3
- 1389 0070 03D1     		bne	.L64
- 102:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
- 103:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			GoNextPosition(NextPose);
- 1390              		.loc 2 103 0
- 1391 0072 3868     		ldr	r0, [r7]
- 1392 0074 FFF7FEFF 		bl	_Z14GoNextPositioni
- 1393 0078 08E0     		b	.L65
- 1394              	.L64:
- 104:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
- 105:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
- 1395              		.loc 2 105 0
- 1396 007a 7B68     		ldr	r3, [r7, #4]
- 1397 007c 012B     		cmp	r3, #1
- 1398 007e 02D1     		bne	.L66
- 106:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
- 107:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
- 1399              		.loc 2 107 0
- 1400 0080 FFF7FEFF 		bl	_Z9StopMotorv
- 1401 0084 02E0     		b	.L65
- 1402              	.L66:
- 108:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
- 109:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		else
- 110:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
- 111:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1403              		.loc 2 111 0
- 1404 0086 FFF7FEFF 		bl	yield
- 1405              	.LBE7:
- 112:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
- 113:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	}
- 1406              		.loc 2 113 0
- 1407 008a E1E7     		b	.L67
- 1408              	.L65:
- 1409 008c E0E7     		b	.L67
- 1410              	.LBE6:
- 1411              		.cfi_endproc
- 1412              	.LFE23:
- 1414 008e 00BF     		.text
- 1415              	.Letext0:
- 1416              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen/types.h"
- 1417              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen/mapping.h"
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 31
+  97:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
+ 1386              		.loc 2 97 0
+ 1387              		.cfi_startproc
+ 1388              		@ args = 0, pretend = 0, frame = 0
+ 1389              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1390 0000 80B5     		push	{r7, lr}
+ 1391              		.cfi_def_cfa_offset 8
+ 1392              		.cfi_offset 7, -8
+ 1393              		.cfi_offset 14, -4
+ 1394 0002 00AF     		add	r7, sp, #0
+ 1395              		.cfi_def_cfa_register 7
+  98:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Quickstop();
+ 1396              		.loc 2 98 0
+ 1397 0004 FFF7FEFF 		bl	_Z9Quickstopv
+  99:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x2300, 0x00, 0x0);
+ 1398              		.loc 2 99 0
+ 1399 0008 4FF40C50 		mov	r0, #8960
+ 1400 000c 0021     		movs	r1, #0
+ 1401 000e 0022     		movs	r2, #0
+ 1402 0010 FFF7FEFF 		bl	od_write
+ 100:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	Shutdown();
+ 1403              		.loc 2 100 0
+ 1404 0014 FFF7FEFF 		bl	_Z8Shutdownv
+ 101:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** }
+ 1405              		.loc 2 101 0
+ 1406 0018 80BD     		pop	{r7, pc}
+ 1407              		.cfi_endproc
+ 1408              	.LFE23:
+ 1410 001a 00BF     		.section	.text._Z4userv,"ax",%progbits
+ 1411              		.align	2
+ 1412              		.global	_Z4userv
+ 1413              		.thumb
+ 1414              		.thumb_func
+ 1416              	_Z4userv:
+ 1417              	.LFB24:
+ 102:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+ 103:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 
+ 104:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** void user()
+ 105:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** {
+ 1418              		.loc 2 105 0
+ 1419              		.cfi_startproc
+ 1420              		@ args = 0, pretend = 0, frame = 8
+ 1421              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1422 0000 80B5     		push	{r7, lr}
+ 1423              		.cfi_def_cfa_offset 8
+ 1424              		.cfi_offset 7, -8
+ 1425              		.cfi_offset 14, -4
+ 1426 0002 82B0     		sub	sp, sp, #8
+ 1427              		.cfi_def_cfa_offset 16
+ 1428 0004 00AF     		add	r7, sp, #0
+ 1429              		.cfi_def_cfa_register 7
+ 1430              	.LBB6:
+ 106:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
+ 1431              		.loc 2 106 0
+ 1432 0006 43F20260 		movw	r0, #13826
+ 1433 000a 0721     		movs	r1, #7
+ 1434 000c 4FF49072 		mov	r2, #288
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 31
+
+
+ 1435 0010 C2F20052 		movt	r2, 9472
+ 1436 0014 FFF7FEFF 		bl	_Z3mapiii
+ 107:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
+ 1437              		.loc 2 107 0
+ 1438 0018 43F20250 		movw	r0, #13570
+ 1439 001c 0821     		movs	r1, #8
+ 1440 001e 4FF49072 		mov	r2, #288
+ 1441 0022 C2F20042 		movt	r2, 9216
+ 1442 0026 FFF7FEFF 		bl	_Z3mapiii
+ 108:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
+ 1443              		.loc 2 108 0
+ 1444 002a 43F20250 		movw	r0, #13570
+ 1445 002e 0921     		movs	r1, #9
+ 1446 0030 4FF40872 		mov	r2, #544
+ 1447 0034 C2F20042 		movt	r2, 9216
+ 1448 0038 FFF7FEFF 		bl	_Z3mapiii
+ 109:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ChangeModbusAdresse(2);
+ 1449              		.loc 2 109 0
+ 1450 003c 0220     		movs	r0, #2
+ 1451 003e FFF7FEFF 		bl	_Z19ChangeModbusAdressei
+ 110:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
+ 111:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x2028, 0x00, 0x2);
+ 1452              		.loc 2 111 0
+ 1453 0042 42F22800 		movw	r0, #8232
+ 1454 0046 0021     		movs	r1, #0
+ 1455 0048 0222     		movs	r2, #2
+ 1456 004a FFF7FEFF 		bl	od_write
+ 112:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
+ 1457              		.loc 2 112 0
+ 1458 004e 46F2A800 		movw	r0, #24744
+ 1459 0052 0021     		movs	r1, #0
+ 1460 0054 0022     		movs	r2, #0
+ 1461 0056 CFF64162 		movt	r2, 65089
+ 1462 005a FFF7FEFF 		bl	od_write
+ 113:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
+ 114:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	ReferenceDrive();	
+ 1463              		.loc 2 114 0
+ 1464 005e FFF7FEFF 		bl	_Z14ReferenceDrivev
+ 1465              	.L71:
+ 1466              	.LBB7:
+ 115:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	
+ 116:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	while (true)
+ 117:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	{
+ 118:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
+ 1467              		.loc 2 118 0
+ 1468 0062 4FF41050 		mov	r0, #9216
+ 1469 0066 0121     		movs	r1, #1
+ 1470 0068 FFF7FEFF 		bl	od_read
+ 1471 006c 0346     		mov	r3, r0
+ 1472 006e 7B60     		str	r3, [r7, #4]
+ 119:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
+ 1473              		.loc 2 119 0
+ 1474 0070 4FF41050 		mov	r0, #9216
+ 1475 0074 0221     		movs	r1, #2
+ 1476 0076 FFF7FEFF 		bl	od_read
+ 1477 007a 0346     		mov	r3, r0
+ 1478 007c 3B60     		str	r3, [r7]
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 32
+
+
+ 120:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		
+ 121:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		if (order == 3)
+ 1479              		.loc 2 121 0
+ 1480 007e 7B68     		ldr	r3, [r7, #4]
+ 1481 0080 032B     		cmp	r3, #3
+ 1482 0082 03D1     		bne	.L68
+ 122:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
+ 123:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			GoNextPosition(NextPose);
+ 1483              		.loc 2 123 0
+ 1484 0084 3868     		ldr	r0, [r7]
+ 1485 0086 FFF7FEFF 		bl	_Z14GoNextPositioni
+ 1486 008a 08E0     		b	.L69
+ 1487              	.L68:
+ 124:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
+ 125:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
+ 1488              		.loc 2 125 0
+ 1489 008c 7B68     		ldr	r3, [r7, #4]
+ 1490 008e 012B     		cmp	r3, #1
+ 1491 0090 02D1     		bne	.L70
+ 126:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
+ 127:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
+ 1492              		.loc 2 127 0
+ 1493 0092 FFF7FEFF 		bl	_Z9StopMotorv
+ 1494 0096 02E0     		b	.L69
+ 1495              	.L70:
+ 128:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
+ 129:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		else
+ 130:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		{
+ 131:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1496              		.loc 2 131 0
+ 1497 0098 FFF7FEFF 		bl	yield
+ 1498              	.LBE7:
+ 132:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 		}
+ 133:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings\ReferenceSetup.cpp **** 	}
+ 1499              		.loc 2 133 0
+ 1500 009c E1E7     		b	.L71
+ 1501              	.L69:
+ 1502 009e E0E7     		b	.L71
+ 1503              	.LBE6:
+ 1504              		.cfi_endproc
+ 1505              	.LFE24:
+ 1507              		.text
+ 1508              	.Letext0:
+ 1509              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen/types.h"
+ 1510              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\NanoJ project\\gen/mapping.h"
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 33
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ReferenceSetup.cpp
-C:\WINDOWS\ccT8gjIT.s:19     .text._Z5Resetv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:24     .text._Z5Resetv:00000000 _Z5Resetv
-C:\WINDOWS\ccT8gjIT.s:55     .text._Z9Quickstopv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
-C:\WINDOWS\ccT8gjIT.s:104    .text._Z8Shutdownv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
-C:\WINDOWS\ccT8gjIT.s:157    .text._Z8SwitchOnv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
-C:\WINDOWS\ccT8gjIT.s:238    .text._Z15EnableOperationv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
-C:\WINDOWS\ccT8gjIT.s:347    .text._Z16RelativeMovementv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
-C:\WINDOWS\ccT8gjIT.s:382    .text._Z16AbsoluteMovementv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
-C:\WINDOWS\ccT8gjIT.s:417    .text._Z11NewSetPointb:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
-C:\WINDOWS\ccT8gjIT.s:478    .text._Z4Haltb:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:483    .text._Z4Haltb:00000000 _Z4Haltb
-C:\WINDOWS\ccT8gjIT.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
-C:\WINDOWS\ccT8gjIT.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
-C:\WINDOWS\ccT8gjIT.s:661    .text._Z13TargetReachedv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
-C:\WINDOWS\ccT8gjIT.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
-C:\WINDOWS\ccT8gjIT.s:745    .text._Z12DigitalInputh:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
-C:\WINDOWS\ccT8gjIT.s:795    .text._Z16SetDigitalOutputh:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
-C:\WINDOWS\ccT8gjIT.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
-C:\WINDOWS\ccT8gjIT.s:892    .text._Z16ModesOfOperationc:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
-C:\WINDOWS\ccT8gjIT.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
-C:\WINDOWS\ccT8gjIT.s:959    .text._Z11AnalogInputv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
-C:\WINDOWS\ccT8gjIT.s:996    .bss.ZeroPosition:00000000 ZeroPosition
-C:\WINDOWS\ccT8gjIT.s:993    .bss.ZeroPosition:00000000 $d
-C:\WINDOWS\ccT8gjIT.s:999    .text._Z3mapiii:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:1004   .text._Z3mapiii:00000000 _Z3mapiii
-C:\WINDOWS\ccT8gjIT.s:1132   .text._Z14ReferenceDrivev:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:1137   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
-C:\WINDOWS\ccT8gjIT.s:1204   .text._Z14GoNextPositioni:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:1209   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
-C:\WINDOWS\ccT8gjIT.s:1294   .text._Z9StopMotorv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:1299   .text._Z9StopMotorv:00000000 _Z9StopMotorv
-C:\WINDOWS\ccT8gjIT.s:1326   .text._Z4userv:00000000 $t
-C:\WINDOWS\ccT8gjIT.s:1331   .text._Z4userv:00000000 _Z4userv
+C:\WINDOWS\ccIC61B5.s:19     .text._Z5Resetv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:24     .text._Z5Resetv:00000000 _Z5Resetv
+C:\WINDOWS\ccIC61B5.s:55     .text._Z9Quickstopv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
+C:\WINDOWS\ccIC61B5.s:104    .text._Z8Shutdownv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
+C:\WINDOWS\ccIC61B5.s:157    .text._Z8SwitchOnv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
+C:\WINDOWS\ccIC61B5.s:238    .text._Z15EnableOperationv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
+C:\WINDOWS\ccIC61B5.s:347    .text._Z16RelativeMovementv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
+C:\WINDOWS\ccIC61B5.s:382    .text._Z16AbsoluteMovementv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
+C:\WINDOWS\ccIC61B5.s:417    .text._Z11NewSetPointb:00000000 $t
+C:\WINDOWS\ccIC61B5.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
+C:\WINDOWS\ccIC61B5.s:478    .text._Z4Haltb:00000000 $t
+C:\WINDOWS\ccIC61B5.s:483    .text._Z4Haltb:00000000 _Z4Haltb
+C:\WINDOWS\ccIC61B5.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
+C:\WINDOWS\ccIC61B5.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
+C:\WINDOWS\ccIC61B5.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
+C:\WINDOWS\ccIC61B5.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
+C:\WINDOWS\ccIC61B5.s:661    .text._Z13TargetReachedv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
+C:\WINDOWS\ccIC61B5.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
+C:\WINDOWS\ccIC61B5.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
+C:\WINDOWS\ccIC61B5.s:745    .text._Z12DigitalInputh:00000000 $t
+C:\WINDOWS\ccIC61B5.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
+C:\WINDOWS\ccIC61B5.s:795    .text._Z16SetDigitalOutputh:00000000 $t
+C:\WINDOWS\ccIC61B5.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
+C:\WINDOWS\ccIC61B5.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
+C:\WINDOWS\ccIC61B5.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
+C:\WINDOWS\ccIC61B5.s:892    .text._Z16ModesOfOperationc:00000000 $t
+C:\WINDOWS\ccIC61B5.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
+C:\WINDOWS\ccIC61B5.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
+C:\WINDOWS\ccIC61B5.s:959    .text._Z11AnalogInputv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
+C:\WINDOWS\ccIC61B5.s:996    .bss.ZeroPosition:00000000 ZeroPosition
+C:\WINDOWS\ccIC61B5.s:993    .bss.ZeroPosition:00000000 $d
+C:\WINDOWS\ccIC61B5.s:999    .text._Z3mapiii:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1004   .text._Z3mapiii:00000000 _Z3mapiii
+C:\WINDOWS\ccIC61B5.s:1132   .text._Z19ChangeModbusAdressei:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1137   .text._Z19ChangeModbusAdressei:00000000 _Z19ChangeModbusAdressei
+C:\WINDOWS\ccIC61B5.s:1217   .text._Z14ReferenceDrivev:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1222   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
+C:\WINDOWS\ccIC61B5.s:1289   .text._Z14GoNextPositioni:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1294   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
+C:\WINDOWS\ccIC61B5.s:1379   .text._Z9StopMotorv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1384   .text._Z9StopMotorv:00000000 _Z9StopMotorv
+C:\WINDOWS\ccIC61B5.s:1411   .text._Z4userv:00000000 $t
+C:\WINDOWS\ccIC61B5.s:1416   .text._Z4userv:00000000 _Z4userv
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
+ARM GAS  C:\WINDOWS\ccIC61B5.s 			page 34
+
+
 InOut
 yield
-ARM GAS  C:\WINDOWS\ccT8gjIT.s 			page 32
-
-
 In
 Out
 od_read
