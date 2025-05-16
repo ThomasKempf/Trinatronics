@@ -138,105 +138,143 @@ nanotec.h                                    210                 0x4
 nanotec.h                                    211                0x14
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            19           0x8008698
+ReferenceSetup.cpp                            22           0x8008698
 
-ReferenceSetup.cpp                            20           0x80086a4
-ReferenceSetup.cpp                            20           0x80086b6
-ReferenceSetup.cpp                            20           0x80086c6
-ReferenceSetup.cpp                            20           0x80086da
-ReferenceSetup.cpp                            20           0x80086de
-ReferenceSetup.cpp                            20           0x80086e0
-ReferenceSetup.cpp                            23           0x80086e4
-ReferenceSetup.cpp                            24           0x80086f0
-ReferenceSetup.cpp                            25           0x80086f4
-ReferenceSetup.cpp                            26           0x8008704
-ReferenceSetup.cpp                            27           0x8008708
-ReferenceSetup.cpp                            28           0x8008716
-ReferenceSetup.cpp                            30           0x800871a
-ReferenceSetup.cpp                            31           0x800872c
-ReferenceSetup.cpp                            32           0x8008730
-ReferenceSetup.cpp                            34           0x8008732
-ReferenceSetup.cpp                            32           0x8008736
-ReferenceSetup.cpp                            36           0x8008750
-ReferenceSetup.cpp                            37           0x8008762
-ReferenceSetup.cpp                            39           0x8008766
-
-C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            43           0x800876c
-
-ReferenceSetup.cpp                            44           0x8008774
-ReferenceSetup.cpp                            46           0x8008790
-ReferenceSetup.cpp                            47           0x800879e
-ReferenceSetup.cpp                            49           0x80087a2
-ReferenceSetup.cpp                            50           0x80087b4
-ReferenceSetup.cpp                            51           0x80087b8
-ReferenceSetup.cpp                            53           0x80087ba
-ReferenceSetup.cpp                            51           0x80087be
-ReferenceSetup.cpp                            55           0x80087d8
-ReferenceSetup.cpp                            56           0x80087ea
-ReferenceSetup.cpp                            58           0x80087ee
+ReferenceSetup.cpp                            23           0x80086a4
+ReferenceSetup.cpp                            23           0x80086b6
+ReferenceSetup.cpp                            23           0x80086c6
+ReferenceSetup.cpp                            23           0x80086da
+ReferenceSetup.cpp                            23           0x80086de
+ReferenceSetup.cpp                            23           0x80086e0
+ReferenceSetup.cpp                            25           0x80086e4
+ReferenceSetup.cpp                            26           0x80086f0
+ReferenceSetup.cpp                            27           0x80086f4
+ReferenceSetup.cpp                            28           0x8008704
+ReferenceSetup.cpp                            29           0x8008708
+ReferenceSetup.cpp                            30           0x8008716
+ReferenceSetup.cpp                            32           0x800871a
+ReferenceSetup.cpp                            33           0x800872c
+ReferenceSetup.cpp                            34           0x8008730
+ReferenceSetup.cpp                            36           0x8008732
+ReferenceSetup.cpp                            34           0x8008736
+ReferenceSetup.cpp                            38           0x8008750
+ReferenceSetup.cpp                            39           0x8008762
+ReferenceSetup.cpp                            41           0x8008766
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            62           0x80087f4
+ReferenceSetup.cpp                            45           0x800876c
 
-ReferenceSetup.cpp                            63           0x80087fa
-ReferenceSetup.cpp                            65           0x800880e
-ReferenceSetup.cpp                            67           0x8008814
+ReferenceSetup.cpp                            46           0x8008774
+ReferenceSetup.cpp                            48           0x8008790
+ReferenceSetup.cpp                            49           0x800879e
+ReferenceSetup.cpp                            51           0x80087a2
+ReferenceSetup.cpp                            52           0x80087b4
+ReferenceSetup.cpp                            53           0x80087b8
+ReferenceSetup.cpp                            55           0x80087ba
+ReferenceSetup.cpp                            53           0x80087be
+ReferenceSetup.cpp                            57           0x80087d8
+ReferenceSetup.cpp                            58           0x80087ea
+ReferenceSetup.cpp                            60           0x80087ee
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            64           0x80087f4
+
+ReferenceSetup.cpp                            65           0x80087fa
+ReferenceSetup.cpp                            67           0x800880e
 ReferenceSetup.cpp                            68           0x800881a
-ReferenceSetup.cpp                            69           0x8008828
-ReferenceSetup.cpp                            70           0x800882c
-ReferenceSetup.cpp                            72           0x800882e
-ReferenceSetup.cpp                            70           0x8008832
-ReferenceSetup.cpp                            74           0x8008844
-ReferenceSetup.cpp                            75           0x8008850
-ReferenceSetup.cpp                            76           0x8008868
-ReferenceSetup.cpp                            80           0x8008876
-ReferenceSetup.cpp                            82           0x800887a
+ReferenceSetup.cpp                            70           0x8008820
+ReferenceSetup.cpp                            71           0x8008826
+ReferenceSetup.cpp                            72           0x8008834
+ReferenceSetup.cpp                            73           0x8008838
+ReferenceSetup.cpp                            75           0x800883a
+ReferenceSetup.cpp                            73           0x800883e
+ReferenceSetup.cpp                            77           0x8008850
+ReferenceSetup.cpp                            78           0x800885c
+ReferenceSetup.cpp                            79           0x8008874
+ReferenceSetup.cpp                            83           0x8008882
+ReferenceSetup.cpp                            85           0x8008886
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            86           0x8008880
+ReferenceSetup.cpp                            89           0x800888c
 
-ReferenceSetup.cpp                            87           0x8008888
-ReferenceSetup.cpp                            88           0x800888c
-ReferenceSetup.cpp                            89           0x8008898
-ReferenceSetup.cpp                            90           0x80088a4
-ReferenceSetup.cpp                            91           0x80088aa
-ReferenceSetup.cpp                            92           0x80088ae
-ReferenceSetup.cpp                            93           0x80088b4
-ReferenceSetup.cpp                            96           0x80088d4
-ReferenceSetup.cpp                            97           0x80088f6
-ReferenceSetup.cpp                            98           0x8008904
-ReferenceSetup.cpp                            99           0x800890a
-ReferenceSetup.cpp                           100           0x800890e
-ReferenceSetup.cpp                           101           0x8008914
+ReferenceSetup.cpp                            90           0x8008894
+ReferenceSetup.cpp                            91           0x800889a
+ReferenceSetup.cpp                            92           0x800889e
+ReferenceSetup.cpp                            92           0x80088a6
+ReferenceSetup.cpp                            94           0x80088ae
+ReferenceSetup.cpp                            98           0x80088b2
+ReferenceSetup.cpp                           100           0x80088b4
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           105           0x800891c
+ReferenceSetup.cpp                           103           0x80088c0
 
-ReferenceSetup.cpp                           106           0x8008920
-ReferenceSetup.cpp                           107           0x8008924
-ReferenceSetup.cpp                           108           0x8008928
+ReferenceSetup.cpp                           104           0x80088c8
+ReferenceSetup.cpp                           105           0x80088d2
+ReferenceSetup.cpp                           106           0x80088da
+ReferenceSetup.cpp                           107           0x80088dc
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           112           0x800892c
+ReferenceSetup.cpp                           111           0x80088e8
 
-ReferenceSetup.cpp                           113           0x8008932
-ReferenceSetup.cpp                           114           0x8008944
-ReferenceSetup.cpp                           115           0x8008956
-ReferenceSetup.cpp                           116           0x8008968
-ReferenceSetup.cpp                           118           0x800896e
-ReferenceSetup.cpp                           120           0x800897e
-ReferenceSetup.cpp                           124           0x8008982
-ReferenceSetup.cpp                           125           0x8008990
-ReferenceSetup.cpp                           127           0x800899e
-ReferenceSetup.cpp                           127           0x80089a4
-ReferenceSetup.cpp                           129           0x80089b2
-ReferenceSetup.cpp                           131           0x80089ba
-ReferenceSetup.cpp                           133           0x80089c0
-ReferenceSetup.cpp                           134           0x80089c4
-ReferenceSetup.cpp                           135           0x80089c8
-ReferenceSetup.cpp                           137           0x80089d6
-ReferenceSetup.cpp                           139           0x80089dc
-ReferenceSetup.cpp                           143           0x80089e2
+ReferenceSetup.cpp                           112           0x80088f0
+ReferenceSetup.cpp                           113           0x80088f4
+ReferenceSetup.cpp                           114           0x8008900
+ReferenceSetup.cpp                           115           0x800890c
+ReferenceSetup.cpp                           116           0x8008912
+ReferenceSetup.cpp                           117           0x8008916
+ReferenceSetup.cpp                           118           0x800891c
+ReferenceSetup.cpp                           121           0x800893c
+ReferenceSetup.cpp                           122           0x800895e
+ReferenceSetup.cpp                           123           0x800896c
+ReferenceSetup.cpp                           124           0x8008972
+ReferenceSetup.cpp                           125           0x8008976
+ReferenceSetup.cpp                           126           0x800897c
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           130           0x8008984
+
+ReferenceSetup.cpp                           131           0x8008988
+ReferenceSetup.cpp                           132           0x800898c
+ReferenceSetup.cpp                           133           0x8008990
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           137           0x8008994
+
+ReferenceSetup.cpp                           138           0x800899a
+ReferenceSetup.cpp                           139           0x80089ac
+ReferenceSetup.cpp                           140           0x80089be
+ReferenceSetup.cpp                           141           0x80089d0
+ReferenceSetup.cpp                           143           0x80089d6
 ReferenceSetup.cpp                           145           0x80089e6
+ReferenceSetup.cpp                           149           0x80089ea
+ReferenceSetup.cpp                           150           0x80089f8
+ReferenceSetup.cpp                           152           0x8008a06
+ReferenceSetup.cpp                           152           0x8008a0c
+ReferenceSetup.cpp                           154           0x8008a1a
+ReferenceSetup.cpp                           155           0x8008a22
+ReferenceSetup.cpp                           156           0x8008a2c
+ReferenceSetup.cpp                           158           0x8008a32
+ReferenceSetup.cpp                           159           0x8008a3e
+ReferenceSetup.cpp                           165           0x8008a44
+ReferenceSetup.cpp                           163           0x8008a46
+ReferenceSetup.cpp                           164           0x8008a52
+ReferenceSetup.cpp                           165           0x8008a56
+ReferenceSetup.cpp                           167           0x8008a58
+ReferenceSetup.cpp                           167           0x8008a5e
+ReferenceSetup.cpp                           169           0x8008a72
+ReferenceSetup.cpp                           170           0x8008a7e
+ReferenceSetup.cpp                           172           0x8008a84
+ReferenceSetup.cpp                           174           0x8008a8a
+ReferenceSetup.cpp                           175           0x8008a96
+ReferenceSetup.cpp                           176           0x8008a9a
+ReferenceSetup.cpp                           177           0x8008a9e
+ReferenceSetup.cpp                           179           0x8008aac
+ReferenceSetup.cpp                           181           0x8008ab2
+ReferenceSetup.cpp                           182           0x8008ab8
+ReferenceSetup.cpp                           183           0x8008abc
+ReferenceSetup.cpp                           184           0x8008ac8
+ReferenceSetup.cpp                           186           0x8008ace
+ReferenceSetup.cpp                           188           0x8008ad4
+ReferenceSetup.cpp                           192           0x8008ada
+ReferenceSetup.cpp                           194           0x8008ade
 

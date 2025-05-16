@@ -11,7 +11,7 @@ uint16_t WriteValue = 0;
 uint8_t ReadValue = 0;
 
 int SetPoint = 0; // new SetPoint of the controlers
-uint8_t Order = 4; // 1 ManualMove, 3 AutoMode , 4 ManualMode
+uint8_t Order = 4; // 1 ManualMove, 3 AutoMode , 4 ManualMode, 5 Reference
 uint8_t ControlerReadStatus[] = { 0, 0, 0, 0 };
 int SimulationStatus = 4; // simulation state of all the controler
 

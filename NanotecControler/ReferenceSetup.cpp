@@ -1,3 +1,6 @@
+//  Horizontal Rotation
+
+
 map U16 Controlword as inout 0x6040:00
 map U16 Statusword as input 0x6041:00
 map U32 Inputs as input 0x60FD:00
@@ -19,7 +22,6 @@ void map(int ModbusAdresse,int Index,int Nanoj)
 {
 	if(((od_read(ModbusAdresse, 0x00) != Index) && (od_read(ModbusAdresse, 0x00) !=9)) || (od_read(ModbusAdresse, Index) != Nanoj))		//if entry not mapped yet
 		{
-		
 			od_write(ModbusAdresse, 0x00, 0x00);				//deactivate mapping
 			yield();
 			od_write(ModbusAdresse, Index, Nanoj);			//set mapping entry
@@ -62,6 +64,7 @@ void ReferenceDrive()
 {	
 	if (Reference == false)
 	{
+		od_write(0x2500,0x01,2);
 		int Velocity = -10;
 		
 		ModesOfOperation(3);
@@ -79,6 +82,28 @@ void ReferenceDrive()
 	{
 		yield();
 	}
+}
+
+
+bool IsPoseOK(int Pose)
+{
+	int MaxPose = 33000;
+	int MinPose = 5;
+	if ((Pose > MaxPose) || (Pose < MinPose))
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+
+int AdaptPose(int Pose)
+{
+	int Offset = -1050;
+	int NewPose = Pose+Offset;
+	return NewPose;
 }
 
 
@@ -125,14 +150,38 @@ void user()
 		int NextPose = od_read(0x2400,0x02);
 		
 		if ((order == 3) && (Reference == true))
-		{
-			GoNextPosition(NextPose);
+		{	
+			int NewPose = AdaptPose(NextPose);
+			bool PoseAccepted = IsPoseOK(NewPose);
+			if (PoseAccepted == true)
+			{
+				od_write(0x2500,0x01,3);
+				GoNextPosition(NewPose);
+			}
+			else
+			{
+				od_write(0x2500,0x01,0); // error
+				yield();
+			}
 		}
+		else if((order == 3) && (Reference == false))
+		{
+			od_write(0x2500,0x01,0); // error
+			yield();
+		}	
 		else if (order == 1)
 		{
+			od_write(0x2500,0x01,1);
 			StopMotor();
 			yield();
 			Reference = false;
+		}
+		else if (order == 4)
+		{
+			ModesOfOperation(3);
+			EnableOperation();
+			od_write(0x2500,0x01,4);
+			yield();
 		}
 		else if (order == 5)
 		{
