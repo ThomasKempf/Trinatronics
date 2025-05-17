@@ -13,13 +13,13 @@ uint8_t ReadValue = 0;
 int SetPoint = 0; // new SetPoint of the controlers
 uint8_t Order = 4; // 1 ManualMove, 3 AutoMode , 4 ManualMode, 5 Reference
 uint8_t ControlerReadStatus[] = { 0, 0, 0, 0 };
-int SimulationStatus = 4; // simulation state of all the controler
-
+uint8_t NumberOfControler = 1;
+bool RequereReference = false;
 
 void setupModbus()
 {
   Serial1.begin(19200, SERIAL_8E1); //TX18 RX19 8 bits de données, parité paire, 1 bit d'arrêt
-  for (uint8_t SlaveID = 1; SlaveID <= 4; SlaveID++)
+  for (uint8_t SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++)
   {
     node[SlaveID-1].begin(SlaveID, Serial1);
   }
@@ -101,7 +101,7 @@ int DefineSetPoint(char SlaveID)
 
 void WriteAllControler()
 {
-  for (int SlaveID = 1; SlaveID <= 4; SlaveID++) //slave ID 1 -> 4
+  for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
     SetPoint = DefineSetPoint(SlaveID);
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexSetPoint); // write_new setpoint
@@ -115,7 +115,7 @@ void WriteAllControler()
 void ReadAllControler()
 {
   char NbrOfCorrectStatus = 0;
-  for (int SlaveID = 1; SlaveID <= 4; SlaveID++) //slave ID 1 -> 4
+  for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus); // read_new ControlerStatus
     if (ControlerReadStatus[SlaveID-1] == 0 or ControlerReadStatus[SlaveID-1] == 2) // if conection are fail or reference are active, break the function
@@ -128,7 +128,7 @@ void ReadAllControler()
       NbrOfCorrectStatus = NbrOfCorrectStatus + 1;
     }
   }
-  if (NbrOfCorrectStatus == 4)
+  if (NbrOfCorrectStatus == NumberOfControler)
   {
     ControlerStatus = Order; // all the controler have the good State
   }
@@ -138,7 +138,7 @@ void ReadAllControler()
 // Update the order given to the controller
 void UpdateOrder()
 {
-  if (AutoMode == true and ManualMove == false)
+  if (AutoMode == true and ManualMove == false and RequereReference == false)
   {
     Order = 3; // AutoMode
   }
@@ -149,6 +149,12 @@ void UpdateOrder()
   else if (ManualMove == true)
   {
     Order = 1; // ManualMove
+    RequereReference = true;
+  }
+  else if (AutoMode == true and ManualMove == false and RequereReference == false)
+  {
+    Order = 5; // Reference
+    RequereReference = false;
   }
 }
 
