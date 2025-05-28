@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>NanoJ project</name>
+	<name>TranslationX</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1747324123202</id>
+			<id>1748426319762</id>
 			<name></name>
 			<type>8</type>
 			<matcher>
@@ -25,7 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1747324123205</id>
+			<id>1748426319778</id>
 			<name></name>
 			<type>4</type>
 			<matcher>

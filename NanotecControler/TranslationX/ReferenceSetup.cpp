@@ -1,4 +1,4 @@
-//  Horizontal Rotation
+//  Translation X
 
 
 map U16 Controlword as inout 0x6040:00
@@ -65,7 +65,7 @@ void ReferenceDrive()
 	if (Reference == false)
 	{
 		od_write(0x2500,0x01,2);
-		int Velocity = -10;
+		int Velocity = -30;
 		
 		ModesOfOperation(3);
 		od_write(0x60FF, 0x00, Velocity);
@@ -87,7 +87,7 @@ void ReferenceDrive()
 
 bool IsPoseOK(int Pose)
 {
-	int MaxPose = 9500;
+	int MaxPose = 900;
 	int MinPose = 5;
 	if ((Pose > MaxPose) || (Pose < MinPose))
 	{
@@ -101,7 +101,7 @@ bool IsPoseOK(int Pose)
 
 int AdaptPose(int Pose)
 {
-	int Offset = 400;
+	int Offset = 0;
 	int NewPose = Pose+Offset;
 	return NewPose;
 }
@@ -110,15 +110,15 @@ int AdaptPose(int Pose)
 void GoNextPosition(int PositionOrder)
 {
 	int NextTargetPosition = 0;
-	od_write(0x6083, 0x00, 0X20);//acceleration
-	od_write(0x6084, 0x00, 0X20);//deceleration
+	od_write(0x6083, 0x00, 0X40);//acceleration
+	od_write(0x6084, 0x00, 0X40);//deceleration
 	ModesOfOperation(1);
 	AbsoluteMovement();
 	ChangeSetPointImmediately(true);
 	Out.ProfileVelocity=4000;
 	
 	
-	NextTargetPosition = ZeroPosition + (PositionOrder * 8)/3; // multiplication factor 8/3
+	NextTargetPosition = ZeroPosition + (PositionOrder * 600); // multiplication factor 6
 	Out.TargetPosition = NextTargetPosition;
 	NewSetPoint(true);
 	yield();
@@ -138,9 +138,9 @@ void user()
 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
-	ChangeModbusAdresse(3);
+	ChangeModbusAdresse(1);
 	
-	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6
+	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6	
 	
 	while (true)
 	{

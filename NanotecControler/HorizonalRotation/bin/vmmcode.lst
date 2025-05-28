@@ -1,4 +1,4 @@
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 1
 
 
    1              		.syntax unified
@@ -43,20 +43,20 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
   41              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen\\types.h"
   42              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen\\mapping.h"
   43              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen\\mapping.cxx"
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 2
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mapping.cxx
-C:\Windows\ccOTQdgj.s:23     .inputs:00000000 In
-C:\Windows\ccOTQdgj.s:20     .inputs:00000000 $d
-C:\Windows\ccOTQdgj.s:30     .outputs:00000000 Out
-C:\Windows\ccOTQdgj.s:27     .outputs:00000000 $d
-C:\Windows\ccOTQdgj.s:37     .inoutputs:00000000 InOut
-C:\Windows\ccOTQdgj.s:34     .inoutputs:00000000 $d
+C:\Windows\ccJbwJ3i.s:23     .inputs:00000000 In
+C:\Windows\ccJbwJ3i.s:20     .inputs:00000000 $d
+C:\Windows\ccJbwJ3i.s:30     .outputs:00000000 Out
+C:\Windows\ccJbwJ3i.s:27     .outputs:00000000 $d
+C:\Windows\ccJbwJ3i.s:37     .inoutputs:00000000 InOut
+C:\Windows\ccJbwJ3i.s:34     .inoutputs:00000000 $d
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 1
 
 
    1              		.syntax unified
@@ -116,7 +116,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
   34              		.cfi_offset 14, -4
   35 0002 00AF     		add	r7, sp, #0
   36              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 2
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 2
 
 
   23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x80;
@@ -176,7 +176,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
   84 0020 1A80     		strh	r2, [r3]	@ unaligned
   32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** 		yield(); 
   85              		.loc 1 32 0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 3
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 3
 
 
   86 0022 FFF7FEFF 		bl	yield
@@ -236,7 +236,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  132 001a 43F00603 		orr	r3, r3, #6
  133 001e 9BB2     		uxth	r3, r3
  134 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 4
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 4
 
 
  135 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -296,7 +296,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  180 000e 1B88     		ldrh	r3, [r3]	@ unaligned
  181 0010 9BB2     		uxth	r3, r3
  182 0012 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 5
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 5
 
 
  183 0014 23F08F03 		bic	r3, r3, #143
@@ -356,7 +356,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  229 0082 E0D1     		bne	.L12
   58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** 	}
   59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** 	yield();
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 6
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 6
 
 
  230              		.loc 1 59 0
@@ -416,7 +416,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  277 0034 C0F20003 		movt	r3, #:upper16:In
  278 0038 1B88     		ldrh	r3, [r3]	@ unaligned
  279 003a 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 7
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 7
 
 
  280 003c 03F0E903 		and	r3, r3, #233
@@ -476,7 +476,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  324 00a0 9AB2     		uxth	r2, r3
  325 00a2 40F20003 		movw	r3, #:lower16:InOut
  326 00a6 C0F20003 		movt	r3, #:upper16:InOut
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 8
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 8
 
 
  327 00aa 1A80     		strh	r2, [r3]	@ unaligned
@@ -536,7 +536,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
   85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** 	yield();
  374              		.loc 1 85 0
  375 0020 FFF7FEFF 		bl	yield
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 9
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 9
 
 
   86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** }
@@ -596,7 +596,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  424              		.loc 1 95 0
  425              		.cfi_startproc
  426              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 10
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 10
 
 
  427              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -656,7 +656,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  470 0052 0837     		adds	r7, r7, #8
  471 0054 BD46     		mov	sp, r7
  472              		@ sp needed
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 11
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 11
 
 
  473 0056 80BD     		pop	{r7, pc}
@@ -716,7 +716,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  518 0032 40F20003 		movw	r3, #:lower16:InOut
  519 0036 C0F20003 		movt	r3, #:upper16:InOut
  520 003a 1B88     		ldrh	r3, [r3]	@ unaligned
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 12
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 12
 
 
  521 003c 9BB2     		uxth	r3, r3
@@ -776,7 +776,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  568 001a 9BB2     		uxth	r3, r3
  569 001c 43F02003 		orr	r3, r3, #32
  570 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 13
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 13
 
 
  571 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -836,7 +836,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  616              		.cfi_def_cfa_offset 16
  617 0004 00AF     		add	r7, sp, #0
  618              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 14
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 14
 
 
  619 0006 0346     		mov	r3, r0
@@ -896,7 +896,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  663              		.thumb
  664              		.thumb_func
  666              	_Z13TargetReachedv:
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 15
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 15
 
 
  667              	.LFB11:
@@ -956,7 +956,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** bool NewSetPointAcknowledge()
  163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\nanotec.h **** {
  710              		.loc 1 163 0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 16
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 16
 
 
  711              		.cfi_startproc
@@ -1016,7 +1016,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  755              		@ frame_needed = 1, uses_anonymous_args = 0
  756              		@ link register save eliminated.
  757 0000 80B4     		push	{r7}
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 17
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 17
 
 
  758              		.cfi_def_cfa_offset 4
@@ -1076,7 +1076,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  802              		.loc 1 187 0
  803              		.cfi_startproc
  804              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 18
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 18
 
 
  805              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1136,7 +1136,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  855 0000 80B4     		push	{r7}
  856              		.cfi_def_cfa_offset 4
  857              		.cfi_offset 7, -4
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 19
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 19
 
 
  858 0002 85B0     		sub	sp, sp, #20
@@ -1196,7 +1196,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  908              		.cfi_def_cfa_offset 16
  909 0004 00AF     		add	r7, sp, #0
  910              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 20
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 20
 
 
  911 0006 0346     		mov	r3, r0
@@ -1256,7 +1256,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  961              		.thumb
  962              		.thumb_func
  964              	_Z11AnalogInputv:
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 21
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 21
 
 
  965              	.LFB18:
@@ -1316,7 +1316,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
    8:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperation as output 0x6060:00
    9:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperationDisplay as input 0x6061:00
   10:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** // map S16 AnalogInput as input 0x3220:01
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 22
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 22
 
 
   11:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** // map S32 TargetPosition as output 0x607A:00
@@ -1376,7 +1376,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1054 003e 9A42     		cmp	r2, r3
  1055 0040 01D0     		beq	.L53
  1056              	.L52:
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 23
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 23
 
 
  1057              		.loc 2 23 0 discriminator 1
@@ -1436,7 +1436,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1101 0094 FFF7FEFF 		bl	yield
   34:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			while(od_read(0x1010, 0x01) != 1)			//wait for save done
  1102              		.loc 2 34 0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 24
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 24
 
 
  1103 0098 01E0     		b	.L56
@@ -1496,7 +1496,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1147              		@ args = 0, pretend = 0, frame = 8
  1148              		@ frame_needed = 1, uses_anonymous_args = 0
  1149 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 25
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 25
 
 
  1150              		.cfi_def_cfa_offset 8
@@ -1556,7 +1556,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1193              		.loc 2 53 0 discriminator 1
  1194 0052 41F21000 		movw	r0, #4112
  1195 0056 0B21     		movs	r1, #11
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 26
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 26
 
 
  1196 0058 FFF7FEFF 		bl	od_read
@@ -1616,7 +1616,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1243              	.LBB5:
   65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	if (Reference == false)
  1244              		.loc 2 65 0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 27
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 27
 
 
  1245 0006 40F20003 		movw	r3, #:lower16:Reference
@@ -1676,7 +1676,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1286              		.loc 2 77 0
  1287 005c 46F2FF00 		movw	r0, #24831
  1288 0060 0021     		movs	r1, #0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 28
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 28
 
 
  1289 0062 0022     		movs	r2, #0
@@ -1736,7 +1736,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1333              		@ link register save eliminated.
  1334 0000 80B4     		push	{r7}
  1335              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 29
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 29
 
 
  1336              		.cfi_offset 7, -4
@@ -1796,7 +1796,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1380              		.global	_Z9AdaptPosei
  1381              		.thumb
  1382              		.thumb_func
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 30
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 30
 
 
  1384              	_Z9AdaptPosei:
@@ -1856,7 +1856,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1429              		.loc 2 111 0
  1430              		.cfi_startproc
  1431              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 31
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 31
 
 
  1432              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1916,7 +1916,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  121:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (PositionOrder * 8)/3; // multiplication factor 8/3
  1477              		.loc 2 121 0
  1478 0054 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 32
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 32
 
 
  1479 0056 DA00     		lsls	r2, r3, #3
@@ -1976,7 +1976,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1526              		.cfi_offset 7, -8
  1527              		.cfi_offset 14, -4
  1528 0002 00AF     		add	r7, sp, #0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 33
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 33
 
 
  1529              		.cfi_def_cfa_register 7
@@ -2036,7 +2036,7 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1575 0030 4FF40872 		mov	r2, #544
  1576 0034 C2F20042 		movt	r2, 9216
  1577 0038 FFF7FEFF 		bl	_Z3mapiii
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 34
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 34
 
 
  141:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	ChangeModbusAdresse(3);
@@ -2051,281 +2051,277 @@ ARM GAS  C:\Windows\ccOTQdgj.s 			page 1
  1584 0048 0022     		movs	r2, #0
  1585 004a CFF64162 		movt	r2, 65089
  1586 004e FFF7FEFF 		bl	od_write
+ 1587              	.L84:
+ 1588              	.LBB11:
  144:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	
- 145:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	ReferenceDrive();	
- 1587              		.loc 2 145 0
- 1588 0052 FFF7FEFF 		bl	_Z14ReferenceDrivev
- 1589              	.L84:
- 1590              	.LBB11:
- 146:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	
- 147:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	while (true)
- 148:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	{
- 149:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
- 1591              		.loc 2 149 0
- 1592 0056 4FF41050 		mov	r0, #9216
- 1593 005a 0121     		movs	r1, #1
- 1594 005c FFF7FEFF 		bl	od_read
- 1595 0060 0346     		mov	r3, r0
- 1596 0062 FB60     		str	r3, [r7, #12]
- 150:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
- 1597              		.loc 2 150 0
- 1598 0064 4FF41050 		mov	r0, #9216
- 1599 0068 0221     		movs	r1, #2
- 1600 006a FFF7FEFF 		bl	od_read
- 1601 006e 0346     		mov	r3, r0
- 1602 0070 BB60     		str	r3, [r7, #8]
- 1603              	.LBB12:
- 151:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		
- 152:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		if ((order == 3) && (Reference == true))
- 1604              		.loc 2 152 0
- 1605 0072 FB68     		ldr	r3, [r7, #12]
- 1606 0074 032B     		cmp	r3, #3
- 1607 0076 25D1     		bne	.L76
- 1608              		.loc 2 152 0 is_stmt 0 discriminator 1
- 1609 0078 40F20003 		movw	r3, #:lower16:Reference
- 1610 007c C0F20003 		movt	r3, #:upper16:Reference
- 1611 0080 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1612 0082 002B     		cmp	r3, #0
- 1613 0084 1ED0     		beq	.L76
- 1614              	.LBB13:
- 153:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{	
- 154:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			int NewPose = AdaptPose(NextPose);
- 1615              		.loc 2 154 0 is_stmt 1
- 1616 0086 B868     		ldr	r0, [r7, #8]
- 1617 0088 FFF7FEFF 		bl	_Z9AdaptPosei
- 1618 008c 7860     		str	r0, [r7, #4]
- 155:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			bool PoseAccepted = IsPoseOK(NewPose);
- 1619              		.loc 2 155 0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 35
+ 145:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	while (true)
+ 146:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	{
+ 147:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
+ 1589              		.loc 2 147 0
+ 1590 0052 4FF41050 		mov	r0, #9216
+ 1591 0056 0121     		movs	r1, #1
+ 1592 0058 FFF7FEFF 		bl	od_read
+ 1593 005c 0346     		mov	r3, r0
+ 1594 005e FB60     		str	r3, [r7, #12]
+ 148:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
+ 1595              		.loc 2 148 0
+ 1596 0060 4FF41050 		mov	r0, #9216
+ 1597 0064 0221     		movs	r1, #2
+ 1598 0066 FFF7FEFF 		bl	od_read
+ 1599 006a 0346     		mov	r3, r0
+ 1600 006c BB60     		str	r3, [r7, #8]
+ 1601              	.LBB12:
+ 149:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		
+ 150:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		if ((order == 3) && (Reference == true))
+ 1602              		.loc 2 150 0
+ 1603 006e FB68     		ldr	r3, [r7, #12]
+ 1604 0070 032B     		cmp	r3, #3
+ 1605 0072 25D1     		bne	.L76
+ 1606              		.loc 2 150 0 is_stmt 0 discriminator 1
+ 1607 0074 40F20003 		movw	r3, #:lower16:Reference
+ 1608 0078 C0F20003 		movt	r3, #:upper16:Reference
+ 1609 007c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1610 007e 002B     		cmp	r3, #0
+ 1611 0080 1ED0     		beq	.L76
+ 1612              	.LBB13:
+ 151:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{	
+ 152:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			int NewPose = AdaptPose(NextPose);
+ 1613              		.loc 2 152 0 is_stmt 1
+ 1614 0082 B868     		ldr	r0, [r7, #8]
+ 1615 0084 FFF7FEFF 		bl	_Z9AdaptPosei
+ 1616 0088 7860     		str	r0, [r7, #4]
+ 153:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			bool PoseAccepted = IsPoseOK(NewPose);
+ 1617              		.loc 2 153 0
+ 1618 008a 7868     		ldr	r0, [r7, #4]
+ 1619 008c FFF7FEFF 		bl	_Z8IsPoseOKi
+ 1620 0090 0346     		mov	r3, r0
+ 1621 0092 FB70     		strb	r3, [r7, #3]
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 35
 
 
- 1620 008e 7868     		ldr	r0, [r7, #4]
- 1621 0090 FFF7FEFF 		bl	_Z8IsPoseOKi
- 1622 0094 0346     		mov	r3, r0
- 1623 0096 FB70     		strb	r3, [r7, #3]
- 156:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			if (PoseAccepted == true)
- 1624              		.loc 2 156 0
- 1625 0098 FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
- 1626 009a 002B     		cmp	r3, #0
- 1627 009c 09D0     		beq	.L77
- 157:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			{
- 158:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,3);
- 1628              		.loc 2 158 0
- 1629 009e 4FF41450 		mov	r0, #9472
- 1630 00a2 0121     		movs	r1, #1
- 1631 00a4 0322     		movs	r2, #3
- 1632 00a6 FFF7FEFF 		bl	od_write
- 159:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				GoNextPosition(NewPose);
- 1633              		.loc 2 159 0
- 1634 00aa 7868     		ldr	r0, [r7, #4]
- 1635 00ac FFF7FEFF 		bl	_Z14GoNextPositioni
- 1636              	.LBE13:
- 160:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
- 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			else
- 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			{
- 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,0); // error
- 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				yield();
- 165:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
- 1637              		.loc 2 165 0
- 1638 00b0 4CE0     		b	.L79
- 1639              	.L77:
- 1640              	.LBB14:
- 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				yield();
- 1641              		.loc 2 163 0
- 1642 00b2 4FF41450 		mov	r0, #9472
- 1643 00b6 0121     		movs	r1, #1
- 1644 00b8 0022     		movs	r2, #0
- 1645 00ba FFF7FEFF 		bl	od_write
- 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
- 1646              		.loc 2 164 0
- 1647 00be FFF7FEFF 		bl	yield
- 1648              	.LBE14:
- 1649              		.loc 2 165 0
- 1650 00c2 43E0     		b	.L79
- 1651              	.L76:
- 166:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
- 167:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if((order == 3) && (Reference == false))
- 1652              		.loc 2 167 0
- 1653 00c4 FB68     		ldr	r3, [r7, #12]
- 1654 00c6 032B     		cmp	r3, #3
- 1655 00c8 12D1     		bne	.L80
- 1656              		.loc 2 167 0 is_stmt 0 discriminator 1
- 1657 00ca 40F20003 		movw	r3, #:lower16:Reference
- 1658 00ce C0F20003 		movt	r3, #:upper16:Reference
- 1659 00d2 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1660 00d4 83F00103 		eor	r3, r3, #1
- 1661 00d8 DBB2     		uxtb	r3, r3
- 1662 00da 002B     		cmp	r3, #0
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 36
+ 154:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			if (PoseAccepted == true)
+ 1622              		.loc 2 154 0
+ 1623 0094 FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
+ 1624 0096 002B     		cmp	r3, #0
+ 1625 0098 09D0     		beq	.L77
+ 155:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			{
+ 156:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,3);
+ 1626              		.loc 2 156 0
+ 1627 009a 4FF41450 		mov	r0, #9472
+ 1628 009e 0121     		movs	r1, #1
+ 1629 00a0 0322     		movs	r2, #3
+ 1630 00a2 FFF7FEFF 		bl	od_write
+ 157:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				GoNextPosition(NewPose);
+ 1631              		.loc 2 157 0
+ 1632 00a6 7868     		ldr	r0, [r7, #4]
+ 1633 00a8 FFF7FEFF 		bl	_Z14GoNextPositioni
+ 1634              	.LBE13:
+ 158:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
+ 159:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			else
+ 160:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			{
+ 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,0); // error
+ 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				yield();
+ 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
+ 1635              		.loc 2 163 0
+ 1636 00ac 4CE0     		b	.L79
+ 1637              	.L77:
+ 1638              	.LBB14:
+ 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 				yield();
+ 1639              		.loc 2 161 0
+ 1640 00ae 4FF41450 		mov	r0, #9472
+ 1641 00b2 0121     		movs	r1, #1
+ 1642 00b4 0022     		movs	r2, #0
+ 1643 00b6 FFF7FEFF 		bl	od_write
+ 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			}
+ 1644              		.loc 2 162 0
+ 1645 00ba FFF7FEFF 		bl	yield
+ 1646              	.LBE14:
+ 1647              		.loc 2 163 0
+ 1648 00be 43E0     		b	.L79
+ 1649              	.L76:
+ 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
+ 165:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if((order == 3) && (Reference == false))
+ 1650              		.loc 2 165 0
+ 1651 00c0 FB68     		ldr	r3, [r7, #12]
+ 1652 00c2 032B     		cmp	r3, #3
+ 1653 00c4 12D1     		bne	.L80
+ 1654              		.loc 2 165 0 is_stmt 0 discriminator 1
+ 1655 00c6 40F20003 		movw	r3, #:lower16:Reference
+ 1656 00ca C0F20003 		movt	r3, #:upper16:Reference
+ 1657 00ce 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1658 00d0 83F00103 		eor	r3, r3, #1
+ 1659 00d4 DBB2     		uxtb	r3, r3
+ 1660 00d6 002B     		cmp	r3, #0
+ 1661 00d8 08D0     		beq	.L80
+ 166:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
+ 167:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,0); // error
+ 1662              		.loc 2 167 0 is_stmt 1
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 36
 
 
- 1663 00dc 08D0     		beq	.L80
- 168:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
- 169:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,0); // error
- 1664              		.loc 2 169 0 is_stmt 1
- 1665 00de 4FF41450 		mov	r0, #9472
- 1666 00e2 0121     		movs	r1, #1
- 1667 00e4 0022     		movs	r2, #0
- 1668 00e6 FFF7FEFF 		bl	od_write
- 170:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1669              		.loc 2 170 0
- 1670 00ea FFF7FEFF 		bl	yield
- 1671 00ee 2DE0     		b	.L79
- 1672              	.L80:
- 171:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}	
- 172:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
- 1673              		.loc 2 172 0
- 1674 00f0 FB68     		ldr	r3, [r7, #12]
- 1675 00f2 012B     		cmp	r3, #1
- 1676 00f4 10D1     		bne	.L81
- 173:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
- 174:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,1);
- 1677              		.loc 2 174 0
- 1678 00f6 4FF41450 		mov	r0, #9472
- 1679 00fa 0121     		movs	r1, #1
- 1680 00fc 0122     		movs	r2, #1
- 1681 00fe FFF7FEFF 		bl	od_write
- 175:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
- 1682              		.loc 2 175 0
- 1683 0102 FFF7FEFF 		bl	_Z9StopMotorv
- 176:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1684              		.loc 2 176 0
- 1685 0106 FFF7FEFF 		bl	yield
- 177:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			Reference = false;
- 1686              		.loc 2 177 0
- 1687 010a 40F20003 		movw	r3, #:lower16:Reference
- 1688 010e C0F20003 		movt	r3, #:upper16:Reference
- 1689 0112 0022     		movs	r2, #0
- 1690 0114 1A70     		strb	r2, [r3]
- 1691 0116 19E0     		b	.L79
- 1692              	.L81:
- 178:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
- 179:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 4)
- 1693              		.loc 2 179 0
- 1694 0118 FB68     		ldr	r3, [r7, #12]
- 1695 011a 042B     		cmp	r3, #4
- 1696 011c 0DD1     		bne	.L82
- 180:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
- 181:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			ModesOfOperation(3);
- 1697              		.loc 2 181 0
- 1698 011e 0320     		movs	r0, #3
- 1699 0120 FFF7FEFF 		bl	_Z16ModesOfOperationc
- 182:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			EnableOperation();
- 1700              		.loc 2 182 0
- 1701 0124 FFF7FEFF 		bl	_Z15EnableOperationv
- 183:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,4);
- 1702              		.loc 2 183 0
- 1703 0128 4FF41450 		mov	r0, #9472
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 37
+ 1663 00da 4FF41450 		mov	r0, #9472
+ 1664 00de 0121     		movs	r1, #1
+ 1665 00e0 0022     		movs	r2, #0
+ 1666 00e2 FFF7FEFF 		bl	od_write
+ 168:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1667              		.loc 2 168 0
+ 1668 00e6 FFF7FEFF 		bl	yield
+ 1669 00ea 2DE0     		b	.L79
+ 1670              	.L80:
+ 169:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}	
+ 170:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
+ 1671              		.loc 2 170 0
+ 1672 00ec FB68     		ldr	r3, [r7, #12]
+ 1673 00ee 012B     		cmp	r3, #1
+ 1674 00f0 10D1     		bne	.L81
+ 171:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
+ 172:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,1);
+ 1675              		.loc 2 172 0
+ 1676 00f2 4FF41450 		mov	r0, #9472
+ 1677 00f6 0121     		movs	r1, #1
+ 1678 00f8 0122     		movs	r2, #1
+ 1679 00fa FFF7FEFF 		bl	od_write
+ 173:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
+ 1680              		.loc 2 173 0
+ 1681 00fe FFF7FEFF 		bl	_Z9StopMotorv
+ 174:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1682              		.loc 2 174 0
+ 1683 0102 FFF7FEFF 		bl	yield
+ 175:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			Reference = false;
+ 1684              		.loc 2 175 0
+ 1685 0106 40F20003 		movw	r3, #:lower16:Reference
+ 1686 010a C0F20003 		movt	r3, #:upper16:Reference
+ 1687 010e 0022     		movs	r2, #0
+ 1688 0110 1A70     		strb	r2, [r3]
+ 1689 0112 19E0     		b	.L79
+ 1690              	.L81:
+ 176:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
+ 177:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 4)
+ 1691              		.loc 2 177 0
+ 1692 0114 FB68     		ldr	r3, [r7, #12]
+ 1693 0116 042B     		cmp	r3, #4
+ 1694 0118 0DD1     		bne	.L82
+ 178:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
+ 179:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			ModesOfOperation(3);
+ 1695              		.loc 2 179 0
+ 1696 011a 0320     		movs	r0, #3
+ 1697 011c FFF7FEFF 		bl	_Z16ModesOfOperationc
+ 180:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			EnableOperation();
+ 1698              		.loc 2 180 0
+ 1699 0120 FFF7FEFF 		bl	_Z15EnableOperationv
+ 181:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,4);
+ 1700              		.loc 2 181 0
+ 1701 0124 4FF41450 		mov	r0, #9472
+ 1702 0128 0121     		movs	r1, #1
+ 1703 012a 0422     		movs	r2, #4
+ 1704 012c FFF7FEFF 		bl	od_write
+ 182:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 37
 
 
- 1704 012c 0121     		movs	r1, #1
- 1705 012e 0422     		movs	r2, #4
- 1706 0130 FFF7FEFF 		bl	od_write
- 184:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1707              		.loc 2 184 0
- 1708 0134 FFF7FEFF 		bl	yield
- 1709 0138 08E0     		b	.L79
- 1710              	.L82:
- 185:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
- 186:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 5)
- 1711              		.loc 2 186 0
- 1712 013a FB68     		ldr	r3, [r7, #12]
- 1713 013c 052B     		cmp	r3, #5
- 1714 013e 02D1     		bne	.L83
- 187:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
- 188:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			ReferenceDrive();
- 1715              		.loc 2 188 0
- 1716 0140 FFF7FEFF 		bl	_Z14ReferenceDrivev
- 1717 0144 02E0     		b	.L79
- 1718              	.L83:
- 189:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
- 190:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else
- 191:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
- 192:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1719              		.loc 2 192 0
- 1720 0146 FFF7FEFF 		bl	yield
- 1721              	.LBE12:
- 1722              	.LBE11:
- 193:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
- 194:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	}
- 1723              		.loc 2 194 0
- 1724 014a 84E7     		b	.L84
- 1725              	.L79:
- 1726 014c 83E7     		b	.L84
- 1727              	.LBE10:
- 1728              		.cfi_endproc
- 1729              	.LFE26:
- 1731              		.text
- 1732              	.Letext0:
- 1733              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen/types.h"
- 1734              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen/mapping.h"
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 38
+ 1705              		.loc 2 182 0
+ 1706 0130 FFF7FEFF 		bl	yield
+ 1707 0134 08E0     		b	.L79
+ 1708              	.L82:
+ 183:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
+ 184:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 5)
+ 1709              		.loc 2 184 0
+ 1710 0136 FB68     		ldr	r3, [r7, #12]
+ 1711 0138 052B     		cmp	r3, #5
+ 1712 013a 02D1     		bne	.L83
+ 185:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
+ 186:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			ReferenceDrive();
+ 1713              		.loc 2 186 0
+ 1714 013c FFF7FEFF 		bl	_Z14ReferenceDrivev
+ 1715 0140 02E0     		b	.L79
+ 1716              	.L83:
+ 187:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
+ 188:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		else
+ 189:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		{
+ 190:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1717              		.loc 2 190 0
+ 1718 0142 FFF7FEFF 		bl	yield
+ 1719              	.LBE12:
+ 1720              	.LBE11:
+ 191:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 		}
+ 192:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\HorizonalRotation\gen\mappings\ReferenceSetup.cpp **** 	}
+ 1721              		.loc 2 192 0
+ 1722 0146 84E7     		b	.L84
+ 1723              	.L79:
+ 1724 0148 83E7     		b	.L84
+ 1725              	.LBE10:
+ 1726              		.cfi_endproc
+ 1727              	.LFE26:
+ 1729 014a 00BF     		.text
+ 1730              	.Letext0:
+ 1731              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen/types.h"
+ 1732              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\HorizonalRotation\\gen/mapping.h"
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 38
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ReferenceSetup.cpp
-C:\Windows\ccOTQdgj.s:19     .text._Z5Resetv:00000000 $t
-C:\Windows\ccOTQdgj.s:24     .text._Z5Resetv:00000000 _Z5Resetv
-C:\Windows\ccOTQdgj.s:55     .text._Z9Quickstopv:00000000 $t
-C:\Windows\ccOTQdgj.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
-C:\Windows\ccOTQdgj.s:104    .text._Z8Shutdownv:00000000 $t
-C:\Windows\ccOTQdgj.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
-C:\Windows\ccOTQdgj.s:157    .text._Z8SwitchOnv:00000000 $t
-C:\Windows\ccOTQdgj.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
-C:\Windows\ccOTQdgj.s:238    .text._Z15EnableOperationv:00000000 $t
-C:\Windows\ccOTQdgj.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
-C:\Windows\ccOTQdgj.s:347    .text._Z16RelativeMovementv:00000000 $t
-C:\Windows\ccOTQdgj.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
-C:\Windows\ccOTQdgj.s:382    .text._Z16AbsoluteMovementv:00000000 $t
-C:\Windows\ccOTQdgj.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
-C:\Windows\ccOTQdgj.s:417    .text._Z11NewSetPointb:00000000 $t
-C:\Windows\ccOTQdgj.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
-C:\Windows\ccOTQdgj.s:478    .text._Z4Haltb:00000000 $t
-C:\Windows\ccOTQdgj.s:483    .text._Z4Haltb:00000000 _Z4Haltb
-C:\Windows\ccOTQdgj.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
-C:\Windows\ccOTQdgj.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
-C:\Windows\ccOTQdgj.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
-C:\Windows\ccOTQdgj.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
-C:\Windows\ccOTQdgj.s:661    .text._Z13TargetReachedv:00000000 $t
-C:\Windows\ccOTQdgj.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
-C:\Windows\ccOTQdgj.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
-C:\Windows\ccOTQdgj.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
-C:\Windows\ccOTQdgj.s:745    .text._Z12DigitalInputh:00000000 $t
-C:\Windows\ccOTQdgj.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
-C:\Windows\ccOTQdgj.s:795    .text._Z16SetDigitalOutputh:00000000 $t
-C:\Windows\ccOTQdgj.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
-C:\Windows\ccOTQdgj.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
-C:\Windows\ccOTQdgj.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
-C:\Windows\ccOTQdgj.s:892    .text._Z16ModesOfOperationc:00000000 $t
-C:\Windows\ccOTQdgj.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
-C:\Windows\ccOTQdgj.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
-C:\Windows\ccOTQdgj.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
-C:\Windows\ccOTQdgj.s:959    .text._Z11AnalogInputv:00000000 $t
-C:\Windows\ccOTQdgj.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
-C:\Windows\ccOTQdgj.s:996    .bss.ZeroPosition:00000000 ZeroPosition
-C:\Windows\ccOTQdgj.s:993    .bss.ZeroPosition:00000000 $d
-C:\Windows\ccOTQdgj.s:1002   .bss.Reference:00000000 Reference
-C:\Windows\ccOTQdgj.s:1003   .bss.Reference:00000000 $d
-C:\Windows\ccOTQdgj.s:1005   .text._Z3mapiii:00000000 $t
-C:\Windows\ccOTQdgj.s:1010   .text._Z3mapiii:00000000 _Z3mapiii
-C:\Windows\ccOTQdgj.s:1138   .text._Z19ChangeModbusAdressei:00000000 $t
-C:\Windows\ccOTQdgj.s:1143   .text._Z19ChangeModbusAdressei:00000000 _Z19ChangeModbusAdressei
-C:\Windows\ccOTQdgj.s:1223   .text._Z14ReferenceDrivev:00000000 $t
-C:\Windows\ccOTQdgj.s:1228   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
-C:\Windows\ccOTQdgj.s:1322   .text._Z8IsPoseOKi:00000000 $t
-C:\Windows\ccOTQdgj.s:1327   .text._Z8IsPoseOKi:00000000 _Z8IsPoseOKi
-C:\Windows\ccOTQdgj.s:1379   .text._Z9AdaptPosei:00000000 $t
-C:\Windows\ccOTQdgj.s:1384   .text._Z9AdaptPosei:00000000 _Z9AdaptPosei
-C:\Windows\ccOTQdgj.s:1422   .text._Z14GoNextPositioni:00000000 $t
-C:\Windows\ccOTQdgj.s:1427   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
-C:\Windows\ccOTQdgj.s:1513   .text._Z9StopMotorv:00000000 $t
-ARM GAS  C:\Windows\ccOTQdgj.s 			page 39
+C:\Windows\ccJbwJ3i.s:19     .text._Z5Resetv:00000000 $t
+C:\Windows\ccJbwJ3i.s:24     .text._Z5Resetv:00000000 _Z5Resetv
+C:\Windows\ccJbwJ3i.s:55     .text._Z9Quickstopv:00000000 $t
+C:\Windows\ccJbwJ3i.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
+C:\Windows\ccJbwJ3i.s:104    .text._Z8Shutdownv:00000000 $t
+C:\Windows\ccJbwJ3i.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
+C:\Windows\ccJbwJ3i.s:157    .text._Z8SwitchOnv:00000000 $t
+C:\Windows\ccJbwJ3i.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
+C:\Windows\ccJbwJ3i.s:238    .text._Z15EnableOperationv:00000000 $t
+C:\Windows\ccJbwJ3i.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
+C:\Windows\ccJbwJ3i.s:347    .text._Z16RelativeMovementv:00000000 $t
+C:\Windows\ccJbwJ3i.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
+C:\Windows\ccJbwJ3i.s:382    .text._Z16AbsoluteMovementv:00000000 $t
+C:\Windows\ccJbwJ3i.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
+C:\Windows\ccJbwJ3i.s:417    .text._Z11NewSetPointb:00000000 $t
+C:\Windows\ccJbwJ3i.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
+C:\Windows\ccJbwJ3i.s:478    .text._Z4Haltb:00000000 $t
+C:\Windows\ccJbwJ3i.s:483    .text._Z4Haltb:00000000 _Z4Haltb
+C:\Windows\ccJbwJ3i.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
+C:\Windows\ccJbwJ3i.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
+C:\Windows\ccJbwJ3i.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
+C:\Windows\ccJbwJ3i.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
+C:\Windows\ccJbwJ3i.s:661    .text._Z13TargetReachedv:00000000 $t
+C:\Windows\ccJbwJ3i.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
+C:\Windows\ccJbwJ3i.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
+C:\Windows\ccJbwJ3i.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
+C:\Windows\ccJbwJ3i.s:745    .text._Z12DigitalInputh:00000000 $t
+C:\Windows\ccJbwJ3i.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
+C:\Windows\ccJbwJ3i.s:795    .text._Z16SetDigitalOutputh:00000000 $t
+C:\Windows\ccJbwJ3i.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
+C:\Windows\ccJbwJ3i.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
+C:\Windows\ccJbwJ3i.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
+C:\Windows\ccJbwJ3i.s:892    .text._Z16ModesOfOperationc:00000000 $t
+C:\Windows\ccJbwJ3i.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
+C:\Windows\ccJbwJ3i.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
+C:\Windows\ccJbwJ3i.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
+C:\Windows\ccJbwJ3i.s:959    .text._Z11AnalogInputv:00000000 $t
+C:\Windows\ccJbwJ3i.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
+C:\Windows\ccJbwJ3i.s:996    .bss.ZeroPosition:00000000 ZeroPosition
+C:\Windows\ccJbwJ3i.s:993    .bss.ZeroPosition:00000000 $d
+C:\Windows\ccJbwJ3i.s:1002   .bss.Reference:00000000 Reference
+C:\Windows\ccJbwJ3i.s:1003   .bss.Reference:00000000 $d
+C:\Windows\ccJbwJ3i.s:1005   .text._Z3mapiii:00000000 $t
+C:\Windows\ccJbwJ3i.s:1010   .text._Z3mapiii:00000000 _Z3mapiii
+C:\Windows\ccJbwJ3i.s:1138   .text._Z19ChangeModbusAdressei:00000000 $t
+C:\Windows\ccJbwJ3i.s:1143   .text._Z19ChangeModbusAdressei:00000000 _Z19ChangeModbusAdressei
+C:\Windows\ccJbwJ3i.s:1223   .text._Z14ReferenceDrivev:00000000 $t
+C:\Windows\ccJbwJ3i.s:1228   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
+C:\Windows\ccJbwJ3i.s:1322   .text._Z8IsPoseOKi:00000000 $t
+C:\Windows\ccJbwJ3i.s:1327   .text._Z8IsPoseOKi:00000000 _Z8IsPoseOKi
+C:\Windows\ccJbwJ3i.s:1379   .text._Z9AdaptPosei:00000000 $t
+C:\Windows\ccJbwJ3i.s:1384   .text._Z9AdaptPosei:00000000 _Z9AdaptPosei
+C:\Windows\ccJbwJ3i.s:1422   .text._Z14GoNextPositioni:00000000 $t
+C:\Windows\ccJbwJ3i.s:1427   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
+C:\Windows\ccJbwJ3i.s:1513   .text._Z9StopMotorv:00000000 $t
+ARM GAS  C:\Windows\ccJbwJ3i.s 			page 39
 
 
-C:\Windows\ccOTQdgj.s:1518   .text._Z9StopMotorv:00000000 _Z9StopMotorv
-C:\Windows\ccOTQdgj.s:1540   .text._Z4userv:00000000 $t
-C:\Windows\ccOTQdgj.s:1545   .text._Z4userv:00000000 _Z4userv
+C:\Windows\ccJbwJ3i.s:1518   .text._Z9StopMotorv:00000000 _Z9StopMotorv
+C:\Windows\ccJbwJ3i.s:1540   .text._Z4userv:00000000 $t
+C:\Windows\ccJbwJ3i.s:1545   .text._Z4userv:00000000 _Z4userv
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
