@@ -14,7 +14,7 @@ void setup()
 void loop() 
 {
   Serial.begin(9600);
-  void referenceProtocol();
+  referenceProtocol();
   // define the parameter
   x = 3; // mm
   y = 4;

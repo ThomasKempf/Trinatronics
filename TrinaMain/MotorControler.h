@@ -10,5 +10,5 @@ void UpdateOrder();
 int DefineSetPoint(char SlaveID);
 void WriteAllControler();
 void UpdateControlerStatus();
-
+void referenceProtocol();
 #endif
