@@ -1,0 +1,279 @@
+Decoded dump of debug contents of section .debug_line:
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen/types.h:
+File name                            Line number    Starting address
+
+CU: C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX/nanotec.h:
+File name                            Line number    Starting address
+nanotec.h                                     22                   0
+
+nanotec.h                                     23                 0x4
+nanotec.h                                     24                0x20
+nanotec.h                                     25                0x24
+nanotec.h                                     28           0x8008410
+
+nanotec.h                                     29           0x8008414
+nanotec.h                                     31           0x8008416
+nanotec.h                                     32           0x8008432
+nanotec.h                                     29           0x8008436
+nanotec.h                                     34           0x800844a
+nanotec.h                                     35           0x800844e
+nanotec.h                                     38           0x8008450
+
+nanotec.h                                     39           0x8008454
+nanotec.h                                     41           0x8008456
+nanotec.h                                     42           0x800847c
+nanotec.h                                     39           0x8008480
+nanotec.h                                     44           0x8008494
+nanotec.h                                     45           0x8008498
+nanotec.h                                     48                   0
+
+nanotec.h                                     49                 0x4
+nanotec.h                                     51                 0x6
+nanotec.h                                     52                0x2c
+nanotec.h                                     49                0x30
+nanotec.h                                     54                0x44
+nanotec.h                                     56                0x46
+nanotec.h                                     57                0x6c
+nanotec.h                                     54                0x70
+nanotec.h                                     59                0x84
+nanotec.h                                     60                0x88
+nanotec.h                                     63           0x800849c
+
+nanotec.h                                     64           0x80084a0
+nanotec.h                                     66           0x80084a2
+nanotec.h                                     67           0x80084c8
+nanotec.h                                     64           0x80084cc
+nanotec.h                                     69           0x80084e0
+nanotec.h                                     71           0x80084e2
+nanotec.h                                     72           0x8008508
+nanotec.h                                     69           0x800850c
+nanotec.h                                     74           0x8008520
+nanotec.h                                     76           0x8008522
+nanotec.h                                     77           0x8008548
+nanotec.h                                     74           0x800854c
+nanotec.h                                     79           0x8008560
+nanotec.h                                     80           0x8008564
+nanotec.h                                     83                   0
+
+nanotec.h                                     84                 0x4
+nanotec.h                                     85                0x20
+nanotec.h                                     86                0x24
+nanotec.h                                     89           0x8008568
+
+nanotec.h                                     90           0x800856c
+nanotec.h                                     91           0x8008588
+nanotec.h                                     92           0x800858c
+nanotec.h                                     95           0x8008590
+
+nanotec.h                                     96           0x800859a
+nanotec.h                                     98           0x80085a0
+nanotec.h                                     99           0x80085bc
+nanotec.h                                    103           0x80085c2
+nanotec.h                                    104           0x80085de
+nanotec.h                                    106           0x80085e2
+nanotec.h                                    109                   0
+
+nanotec.h                                    110                 0xa
+nanotec.h                                    112                0x10
+nanotec.h                                    113                0x2c
+nanotec.h                                    117                0x32
+nanotec.h                                    118                0x4e
+nanotec.h                                    120                0x52
+nanotec.h                                    123           0x80085e8
+
+nanotec.h                                    124           0x80085f2
+nanotec.h                                    126           0x80085f8
+nanotec.h                                    127           0x8008614
+nanotec.h                                    131           0x800861a
+nanotec.h                                    132           0x8008636
+nanotec.h                                    134           0x800863a
+nanotec.h                                    137                   0
+
+nanotec.h                                    138                 0xa
+nanotec.h                                    140                0x10
+nanotec.h                                    141                0x2c
+nanotec.h                                    145                0x32
+nanotec.h                                    146                0x4e
+nanotec.h                                    148                0x52
+nanotec.h                                    151                   0
+
+nanotec.h                                    152                 0x4
+nanotec.h                                    154                0x18
+nanotec.h                                    158                0x1c
+nanotec.h                                    160                0x1e
+nanotec.h                                    163                   0
+
+nanotec.h                                    164                 0x4
+nanotec.h                                    166                0x18
+nanotec.h                                    170                0x1c
+nanotec.h                                    172                0x1e
+nanotec.h                                    175           0x8008640
+
+nanotec.h                                    176           0x800864a
+nanotec.h                                    178           0x8008666
+nanotec.h                                    182           0x800866a
+nanotec.h                                    184           0x800866c
+nanotec.h                                    187                   0
+
+nanotec.h                                    188                 0xa
+nanotec.h                                    189                0x16
+nanotec.h                                    190                0x32
+nanotec.h                                    193                   0
+
+nanotec.h                                    194                 0xa
+nanotec.h                                    195                0x16
+nanotec.h                                    196                0x34
+nanotec.h                                    199           0x8008678
+
+nanotec.h                                    200           0x8008682
+nanotec.h                                    201           0x800868e
+nanotec.h                                    204                   0
+
+nanotec.h                                    205                 0x4
+nanotec.h                                    206                 0xe
+nanotec.h                                    209                   0
+
+nanotec.h                                    210                 0x4
+nanotec.h                                    211                0x14
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            22           0x8008698
+
+ReferenceSetup.cpp                            23           0x80086a4
+ReferenceSetup.cpp                            23           0x80086b6
+ReferenceSetup.cpp                            23           0x80086c6
+ReferenceSetup.cpp                            23           0x80086da
+ReferenceSetup.cpp                            23           0x80086de
+ReferenceSetup.cpp                            23           0x80086e0
+ReferenceSetup.cpp                            25           0x80086e4
+ReferenceSetup.cpp                            26           0x80086f0
+ReferenceSetup.cpp                            27           0x80086f4
+ReferenceSetup.cpp                            28           0x8008704
+ReferenceSetup.cpp                            29           0x8008708
+ReferenceSetup.cpp                            30           0x8008716
+ReferenceSetup.cpp                            32           0x800871a
+ReferenceSetup.cpp                            33           0x800872c
+ReferenceSetup.cpp                            34           0x8008730
+ReferenceSetup.cpp                            36           0x8008732
+ReferenceSetup.cpp                            34           0x8008736
+ReferenceSetup.cpp                            38           0x8008750
+ReferenceSetup.cpp                            39           0x8008762
+ReferenceSetup.cpp                            41           0x8008766
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            45           0x800876c
+
+ReferenceSetup.cpp                            46           0x8008774
+ReferenceSetup.cpp                            48           0x8008790
+ReferenceSetup.cpp                            49           0x800879e
+ReferenceSetup.cpp                            51           0x80087a2
+ReferenceSetup.cpp                            52           0x80087b4
+ReferenceSetup.cpp                            53           0x80087b8
+ReferenceSetup.cpp                            55           0x80087ba
+ReferenceSetup.cpp                            53           0x80087be
+ReferenceSetup.cpp                            57           0x80087d8
+ReferenceSetup.cpp                            58           0x80087ea
+ReferenceSetup.cpp                            60           0x80087ee
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            64           0x80087f4
+
+ReferenceSetup.cpp                            65           0x80087fa
+ReferenceSetup.cpp                            67           0x800880e
+ReferenceSetup.cpp                            68           0x800881a
+ReferenceSetup.cpp                            70           0x8008820
+ReferenceSetup.cpp                            71           0x8008826
+ReferenceSetup.cpp                            72           0x8008834
+ReferenceSetup.cpp                            73           0x8008838
+ReferenceSetup.cpp                            75           0x800883a
+ReferenceSetup.cpp                            73           0x800883e
+ReferenceSetup.cpp                            77           0x8008850
+ReferenceSetup.cpp                            78           0x800885c
+ReferenceSetup.cpp                            79           0x8008874
+ReferenceSetup.cpp                            83           0x8008882
+ReferenceSetup.cpp                            85           0x8008886
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                            89           0x800888c
+
+ReferenceSetup.cpp                            90           0x8008894
+ReferenceSetup.cpp                            91           0x800889a
+ReferenceSetup.cpp                            92           0x800889e
+ReferenceSetup.cpp                            92           0x80088a6
+ReferenceSetup.cpp                            94           0x80088ae
+ReferenceSetup.cpp                            98           0x80088b2
+ReferenceSetup.cpp                           100           0x80088b4
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           103           0x80088c0
+
+ReferenceSetup.cpp                           104           0x80088c8
+ReferenceSetup.cpp                           105           0x80088cc
+ReferenceSetup.cpp                           106           0x80088d4
+ReferenceSetup.cpp                           107           0x80088d6
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           111           0x80088e4
+
+ReferenceSetup.cpp                           112           0x80088ec
+ReferenceSetup.cpp                           113           0x80088f0
+ReferenceSetup.cpp                           114           0x80088fc
+ReferenceSetup.cpp                           115           0x8008908
+ReferenceSetup.cpp                           116           0x800890e
+ReferenceSetup.cpp                           117           0x8008912
+ReferenceSetup.cpp                           118           0x8008918
+ReferenceSetup.cpp                           121           0x8008938
+ReferenceSetup.cpp                           122           0x8008950
+ReferenceSetup.cpp                           123           0x800895e
+ReferenceSetup.cpp                           124           0x8008964
+ReferenceSetup.cpp                           125           0x8008968
+ReferenceSetup.cpp                           126           0x800896e
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           130           0x8008974
+
+ReferenceSetup.cpp                           131           0x8008978
+ReferenceSetup.cpp                           132           0x800897c
+ReferenceSetup.cpp                           133           0x8008980
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           137           0x8008984
+
+ReferenceSetup.cpp                           138           0x800898a
+ReferenceSetup.cpp                           139           0x800899c
+ReferenceSetup.cpp                           140           0x80089ae
+ReferenceSetup.cpp                           141           0x80089c0
+ReferenceSetup.cpp                           143           0x80089c6
+ReferenceSetup.cpp                           147           0x80089d6
+ReferenceSetup.cpp                           148           0x80089e4
+ReferenceSetup.cpp                           150           0x80089f2
+ReferenceSetup.cpp                           150           0x80089f8
+ReferenceSetup.cpp                           152           0x8008a06
+ReferenceSetup.cpp                           153           0x8008a0e
+ReferenceSetup.cpp                           154           0x8008a18
+ReferenceSetup.cpp                           156           0x8008a1e
+ReferenceSetup.cpp                           157           0x8008a2a
+ReferenceSetup.cpp                           163           0x8008a30
+ReferenceSetup.cpp                           161           0x8008a32
+ReferenceSetup.cpp                           162           0x8008a3e
+ReferenceSetup.cpp                           163           0x8008a42
+ReferenceSetup.cpp                           165           0x8008a44
+ReferenceSetup.cpp                           165           0x8008a4a
+ReferenceSetup.cpp                           167           0x8008a5e
+ReferenceSetup.cpp                           168           0x8008a6a
+ReferenceSetup.cpp                           170           0x8008a70
+ReferenceSetup.cpp                           172           0x8008a76
+ReferenceSetup.cpp                           173           0x8008a82
+ReferenceSetup.cpp                           174           0x8008a86
+ReferenceSetup.cpp                           175           0x8008a8a
+ReferenceSetup.cpp                           177           0x8008a98
+ReferenceSetup.cpp                           179           0x8008a9e
+ReferenceSetup.cpp                           180           0x8008aa4
+ReferenceSetup.cpp                           181           0x8008aa8
+ReferenceSetup.cpp                           182           0x8008ab4
+ReferenceSetup.cpp                           184           0x8008aba
+ReferenceSetup.cpp                           186           0x8008ac0
+ReferenceSetup.cpp                           190           0x8008ac6
+ReferenceSetup.cpp                           192           0x8008aca
+

@@ -1,0 +1,211 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+ .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+ .text          0x00000000        0x0 C:\WINDOWS\ccQONLPK.o
+ .data          0x00000000        0x0 C:\WINDOWS\ccQONLPK.o
+ .bss           0x00000000        0x0 C:\WINDOWS\ccQONLPK.o
+ .text          0x00000000        0x0 C:\WINDOWS\ccTmouMc.o
+ .data          0x00000000        0x0 C:\WINDOWS\ccTmouMc.o
+ .bss           0x00000000        0x0 C:\WINDOWS\ccTmouMc.o
+ .text._Z5Resetv
+                0x00000000       0x28 C:\WINDOWS\ccTmouMc.o
+ .text._Z9Quickstopv
+                0x00000000       0x40 C:\WINDOWS\ccTmouMc.o
+ .text._Z8Shutdownv
+                0x00000000       0x4c C:\WINDOWS\ccTmouMc.o
+ .text._Z8SwitchOnv
+                0x00000000       0x8c C:\WINDOWS\ccTmouMc.o
+ .text._Z16RelativeMovementv
+                0x00000000       0x28 C:\WINDOWS\ccTmouMc.o
+ .text._Z16AbsoluteMovementv
+                0x00000000       0x28 C:\WINDOWS\ccTmouMc.o
+ .text._Z11NewSetPointb
+                0x00000000       0x58 C:\WINDOWS\ccTmouMc.o
+ .text._Z4Haltb
+                0x00000000       0x58 C:\WINDOWS\ccTmouMc.o
+ .text._Z25ChangeSetPointImmediatelyb
+                0x00000000       0x58 C:\WINDOWS\ccTmouMc.o
+ .text._Z16ChangeOnSetPointb
+                0x00000000       0x58 C:\WINDOWS\ccTmouMc.o
+ .text._Z13TargetReachedv
+                0x00000000       0x28 C:\WINDOWS\ccTmouMc.o
+ .text._Z22NewSetPointAcknowledgev
+                0x00000000       0x28 C:\WINDOWS\ccTmouMc.o
+ .text._Z12DigitalInputh
+                0x00000000       0x38 C:\WINDOWS\ccTmouMc.o
+ .text._Z16SetDigitalOutputh
+                0x00000000       0x3c C:\WINDOWS\ccTmouMc.o
+ .text._Z18ClearDigitalOutputh
+                0x00000000       0x40 C:\WINDOWS\ccTmouMc.o
+ .text._Z23ModesOfOperationDisplayv
+                0x00000000       0x18 C:\WINDOWS\ccTmouMc.o
+ .text._Z11AnalogInputv
+                0x00000000       0x20 C:\WINDOWS\ccTmouMc.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08008200         0x00003e00         xr
+input            0x20000e00         0x00000040         xrw
+output           0x20000e40         0x00000040         xrw
+inoutput         0x20000e80         0x00000040         xrw
+ram              0x20000000         0x00000e00         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+LOAD C:\WINDOWS\ccQONLPK.o
+LOAD C:\WINDOWS\ccTmouMc.o
+
+.text           0x08008200      0x210
+ *(.boot)
+ .boot          0x08008200       0x10 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+                0x08008200                start
+ *(.text)
+ .text          0x08008210      0x200 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+                0x08008210                yield
+                0x08008218                sleep
+                0x08008220                __aeabi_fmul
+                0x08008230                __aeabi_fdiv
+                0x08008240                __aeabi_fadd
+                0x08008250                __aeabi_fsub
+                0x08008260                __aeabi_f2iz
+                0x0800826c                __aeabi_i2f
+                0x08008278                sqrt
+                0x08008284                sin
+                0x08008290                cos
+                0x0800829c                tan
+                0x080082a8                asin
+                0x080082b4                acos
+                0x080082c0                atan
+                0x080082cc                od_write
+                0x080082e0                od_read
+                0x080082f0                comm_ioctl
+                0x08008308                comm_write
+                0x08008314                comm_read
+                0x08008324                VmmDebugOutputString
+                0x0800834c                VmmDebugOutputInt
+                0x08008374                VmmDebugOutputByte
+                0x0800839c                VmmDebugOutputHalfWord
+                0x080083c0                VmmDebugOutputWord
+                0x080083e8                VmmDebugOutputFloat
+
+.glue_7         0x08008410        0x0
+ .glue_7        0x08008410        0x0 linker stubs
+
+.glue_7t        0x08008410        0x0
+ .glue_7t       0x08008410        0x0 linker stubs
+
+.vfp11_veneer   0x08008410        0x0
+ .vfp11_veneer  0x08008410        0x0 linker stubs
+
+.v4_bx          0x08008410        0x0
+ .v4_bx         0x08008410        0x0 linker stubs
+
+.iplt           0x08008410        0x0
+ .iplt          0x08008410        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+
+.text._Z15EnableOperationv
+                0x08008410       0xcc
+ .text._Z15EnableOperationv
+                0x08008410       0xcc C:\WINDOWS\ccTmouMc.o
+                0x08008410                _Z15EnableOperationv
+
+.text._Z16ModesOfOperationc
+                0x080084dc       0x20
+ .text._Z16ModesOfOperationc
+                0x080084dc       0x20 C:\WINDOWS\ccTmouMc.o
+                0x080084dc                _Z16ModesOfOperationc
+
+.text._Z3mapiii
+                0x080084fc       0xc4
+ .text._Z3mapiii
+                0x080084fc       0xc4 C:\WINDOWS\ccTmouMc.o
+                0x080084fc                _Z3mapiii
+
+.text._Z4userv  0x080085c0       0xa4
+ .text._Z4userv
+                0x080085c0       0xa4 C:\WINDOWS\ccTmouMc.o
+                0x080085c0                _Z4userv
+
+.rel.dyn        0x08008664        0x0
+ .rel.iplt      0x08008664        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+
+.inputs         0x20000e00        0xc
+ *(.inputs)
+ .inputs        0x20000e00        0xc C:\WINDOWS\ccQONLPK.o
+                0x20000e00                In
+
+.outputs        0x20000e40        0xc
+ *(.outputs)
+ .outputs       0x20000e40        0xc C:\WINDOWS\ccQONLPK.o
+                0x20000e40                Out
+
+.inoutputs      0x20000e80        0x8
+ *(.inoutputs)
+ .inoutputs     0x20000e80        0x8 C:\WINDOWS\ccQONLPK.o
+                0x20000e80                InOut
+
+.data           0x20000000        0x0
+ *(.data.*)
+                0x00000001                ASSERT ((SIZEOF (.data) == 0x0), Error: do not init globals)
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+
+.rodata
+ *(.data)
+
+.bss
+ *(.bss)
+ *(COMMON)
+OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\bin\vmmcode.elf elf32-littlearm)
+
+.comment        0x00000000       0x81
+ .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000070       0x11 C:\WINDOWS\ccQONLPK.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000081       0x12 C:\WINDOWS\ccTmouMc.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\NanoJ project\gen\wrapper.o
+ .ARM.attributes
+                0x00000033       0x33 C:\WINDOWS\ccQONLPK.o
+ .ARM.attributes
+                0x00000066       0x33 C:\WINDOWS\ccTmouMc.o
+
+.debug_info     0x00000000      0x5d5
+ .debug_info    0x00000000      0x176 C:\WINDOWS\ccQONLPK.o
+ .debug_info    0x00000176      0x45f C:\WINDOWS\ccTmouMc.o
+
+.debug_abbrev   0x00000000      0x1c3
+ .debug_abbrev  0x00000000       0x7e C:\WINDOWS\ccQONLPK.o
+ .debug_abbrev  0x0000007e      0x145 C:\WINDOWS\ccTmouMc.o
+
+.debug_aranges  0x00000000       0xd8
+ .debug_aranges
+                0x00000000       0x18 C:\WINDOWS\ccQONLPK.o
+ .debug_aranges
+                0x00000018       0xc0 C:\WINDOWS\ccTmouMc.o
+
+.debug_line     0x00000000      0x3a6
+ .debug_line    0x00000000       0x86 C:\WINDOWS\ccQONLPK.o
+ .debug_line    0x00000086      0x320 C:\WINDOWS\ccTmouMc.o
+
+.debug_str      0x00000000      0x547
+ .debug_str     0x00000000      0x204 C:\WINDOWS\ccQONLPK.o
+                                0x232 (size before relaxing)
+ .debug_str     0x00000204      0x343 C:\WINDOWS\ccTmouMc.o
+                                0x530 (size before relaxing)
+
+.debug_ranges   0x00000000       0xb0
+ .debug_ranges  0x00000000       0xb0 C:\WINDOWS\ccTmouMc.o
+
+.debug_frame    0x00000000      0x274
+ .debug_frame   0x00000000      0x274 C:\WINDOWS\ccTmouMc.o
