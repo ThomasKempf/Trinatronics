@@ -12,8 +12,8 @@ uint8_t ReadValue = 0;
 
 int SetPoint = 0; // new SetPoint of the controlers
 uint8_t Order = 4; // 1 ManualMove, 3 AutoMode , 4 ManualMode, 5 Reference
-uint8_t ControlerReadStatus[] = { 0, 0, 0, 0 };
-uint8_t NumberOfControler = 1;
+uint8_t ControlerReadStatus[] = { 0, 0, 0, 0 };// 0 erro , 1 Motor Off , 2 Reference , 3 Enable , 4 Manuel Mode
+uint8_t NumberOfControler = 4;
 bool RequereReference = false;
 
 void setupModbus()
@@ -132,6 +132,28 @@ void ReadAllControler()
   {
     ControlerStatus = Order; // all the controler have the good State
   }
+}
+
+
+void referenceProtocol()
+{
+  uint8_t runingOrder[] = { 3, 4, 1, 2 }; // rh rv x y
+  int refSetPoint [] = { 0, 18000, 450, 200};
+  for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++)
+  {
+    Order = 5; // Reference
+    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexOrder);
+    Order = 3; // AutoMode
+    SetPoint = refSetPoint[SlaveID-1]; // go to refSetPoint
+    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexSetPoint);
+    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexOrder);
+    do 
+    {
+      delay(200); // wait end of the Reference
+      ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexStatus);
+    } while (ControlerReadStatus[runingOrder[SlaveID-1]-1] != 3 && ControlerReadStatus[runingOrder[SlaveID-1]-1] != 0);//control that ref is end
+  }
+  RequereReference = false;
 }
 
 

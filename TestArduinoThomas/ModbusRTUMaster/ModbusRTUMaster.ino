@@ -11,7 +11,7 @@ void setupModbus()
   Serial1.begin(19200, SERIAL_8E1); //TX18 RX19 8 bits de données, parité paire, 1 bit d'arrêt
   for (uint8_t SlaveID = 1; SlaveID <= 2; SlaveID++)
   {
-    node[SlaveID-1].begin(4, Serial1);
+    node[SlaveID-1].begin(1, Serial1);
   }
 }
 
@@ -82,7 +82,7 @@ void loop()
   WriteValue = 3;
   error = readorWrite(&node[0],4,6,6010);
   delay(200); // Attendre avant la prochaine lecture
-  WriteValue = 18000;
+  WriteValue = 450;
   error = readorWrite(&node[0],4,6,6012);
   delay(200); // Attendre avant la prochaine lecture
   error = readorWrite(&node[0],4,3,5008);
