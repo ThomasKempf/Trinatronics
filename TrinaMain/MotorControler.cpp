@@ -103,9 +103,12 @@ void WriteAllControler()
 {
   for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
+    Serial.print("write controler: ");
+    Serial.println(SlaveID - 1);
     SetPoint = DefineSetPoint(SlaveID);
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexSetPoint); // write_new setpoint
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
+    Serial.println("write finish");
     delay(200); // delay between two slaver
   }
 }
@@ -117,6 +120,8 @@ void ReadAllControler()
   char NbrOfCorrectStatus = 0;
   for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
+    Serial.print("read controler: ");
+    Serial.println(SlaveID - 1);
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus); // read_new ControlerStatus
     if (ControlerReadStatus[SlaveID-1] == 0 or ControlerReadStatus[SlaveID-1] == 2) // if conection are fail or reference are active, break the function
     {
@@ -127,6 +132,7 @@ void ReadAllControler()
     {
       NbrOfCorrectStatus = NbrOfCorrectStatus + 1;
     }
+    Serial.println("finish read");
   }
   if (NbrOfCorrectStatus == NumberOfControler)
   {
@@ -141,8 +147,11 @@ void referenceProtocol()
   int refSetPoint [] = { 0, 18000, 450, 200};
   for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++)
   {
+    Serial.print("make reference controler: ");
+    Serial.println(SlaveID - 1);
     Order = 5; // Reference
     ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexOrder);
+    delay(200);
     Order = 3; // AutoMode
     SetPoint = refSetPoint[SlaveID-1]; // go to refSetPoint
     ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexSetPoint);
@@ -151,7 +160,8 @@ void referenceProtocol()
     {
       delay(200); // wait end of the Reference
       ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexStatus);
-    } while (ControlerReadStatus[runingOrder[SlaveID-1]-1] != 3 && ControlerReadStatus[runingOrder[SlaveID-1]-1] != 0);//control that ref is end
+    } while (ControlerReadStatus[runingOrder[SlaveID-1]-1] != 3);//control that ref is end
+    Serial.println("finish reference");
   }
   RequereReference = false;
 }
@@ -184,6 +194,7 @@ void UpdateOrder()
 // Update controller data: write values, read responses, and update controller status
 void UpdateControlerStatus() 
 {
+  Serial.println("update Controler Order");
   UpdateOrder();
   Serial.print("order: ");
   Serial.println(Order);
