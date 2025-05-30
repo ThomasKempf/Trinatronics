@@ -4,9 +4,9 @@
 
 
 ModbusMaster node[] = {ModbusMaster(),ModbusMaster(),ModbusMaster(),ModbusMaster()};// slave instance x, y, rh, rv
-uint16_t IndexSetPoint = 6009;
-uint16_t IndexOrder = 6010;
-uint16_t IndexStatus = 5007;
+uint16_t IndexSetPoint = 6010;
+uint16_t IndexOrder = 6012;
+uint16_t IndexStatus = 5008;
 uint16_t WriteValue = 0;
 uint8_t ReadValue = 0;
 
@@ -58,20 +58,20 @@ void ReadorWrite(ModbusMaster* node,uint8_t SlaveID,uint16_t Index)
 
   if(Index == IndexSetPoint)
   {
-    Result = node->writeSingleRegister(Index, SetPoint);
     WriteValue = SetPoint;
     Function = 6;
+    Result = node->writeSingleRegister(Index, WriteValue);
   }
   else if (Index == IndexOrder)
   {
-    Result = node->writeSingleRegister(Index, Order);
     WriteValue = Order;
     Function = 6;
+    Result = node->writeSingleRegister(Index, WriteValue);
   }
   else if (Index == IndexStatus)
   {
-    Result = node->readHoldingRegisters(Index, 2);
     Function = 3;
+    Result = node->readHoldingRegisters(Index, 2);
   }
 
   if (Result == node->ku8MBSuccess) // succes
@@ -190,7 +190,7 @@ void UpdateControlerStatus()
   WriteAllControler();
   do {
     ReadAllControler();
-  } while (ControlerStatus != Order and ControlerStatus != 2 and ControlerStatus != 0);
+  } while (ControlerStatus != Order and ControlerStatus != 2);
   Serial.print("ControlerStatus:");
   Serial.println(ControlerStatus);
 }
