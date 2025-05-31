@@ -1,5 +1,5 @@
-// #include "Parameter.h"
-// #include "MotorControler.h"
+#include "Parameter.h"
+#include "MotorControler.h"
 
 
 
@@ -16,15 +16,22 @@ void loop()
 {
   Serial.begin(9600);
   // define the parameter
-  x = 3; // mm
-  y = 4;
-  rh = 5; // °*10^-2
-  rv = 6;
-  AutoMode = false; // Quand t'es en mode auto il se déplace
+  x = 100; // mm
+  y = 100;
+  rh = 0; // °*10^-2
+  rv = 9000;
+  AutoMode = true; // Quand t'es en mode auto il se déplace
   ManualMove = false; // Quand il y a un déplacement en cours (c'est quand c'est appuyé sur les boutons)
-
   UpdateControlerStatus();
-  delay(2000);
+  delay(4000);
+  x = 700; // mm
+  y = 200;
+  rh = 9000; // °*10^-2
+  rv = 27000;
+  AutoMode = true; // Quand t'es en mode auto il se déplace
+  ManualMove = false; // Quand il y a un déplacement en cours (c'est quand c'est appuyé sur les boutons)
+  UpdateControlerStatus();
+  delay(4000);
 }
 
 // #include "Parameter.h"

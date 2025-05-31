@@ -781,7 +781,7 @@ Contents of the .debug_info section:
     <686>   DW_AT_decl_line   : 110
     <687>   DW_AT_linkage_name: (indirect string, offset: 0x3a2): _Z14GoNextPositioni
     <68b>   DW_AT_low_pc      : 0x80088e8
-    <68f>   DW_AT_high_pc     : 0x9a
+    <68f>   DW_AT_high_pc     : 0x96
     <693>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <695>   DW_AT_GNU_all_tail_call_sites: 1
     <695>   DW_AT_sibling     : <0x6c0>
@@ -793,7 +793,7 @@ Contents of the .debug_info section:
     <6a4>   DW_AT_location    : 2 byte block: 91 6c 	(DW_OP_fbreg: -20)
  <2><6a7>: Abbrev Number: 14 (DW_TAG_lexical_block)
     <6a8>   DW_AT_low_pc      : 0x80088f0
-    <6ac>   DW_AT_high_pc     : 0x8c
+    <6ac>   DW_AT_high_pc     : 0x88
  <3><6b0>: Abbrev Number: 15 (DW_TAG_variable)
     <6b1>   DW_AT_name        : (indirect string, offset: 0x585): NextTargetPosition
     <6b5>   DW_AT_decl_file   : 2
@@ -808,7 +808,7 @@ Contents of the .debug_info section:
     <6c5>   DW_AT_decl_file   : 2
     <6c6>   DW_AT_decl_line   : 129
     <6c7>   DW_AT_linkage_name: (indirect string, offset: 0x655): _Z9StopMotorv
-    <6cb>   DW_AT_low_pc      : 0x8008984
+    <6cb>   DW_AT_low_pc      : 0x8008980
     <6cf>   DW_AT_high_pc     : 0xe
     <6d3>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6d5>   DW_AT_GNU_all_tail_call_sites: 1
@@ -818,13 +818,13 @@ Contents of the .debug_info section:
     <6da>   DW_AT_decl_file   : 2
     <6db>   DW_AT_decl_line   : 136
     <6dc>   DW_AT_linkage_name: (indirect string, offset: 0x565): _Z4userv
-    <6e0>   DW_AT_low_pc      : 0x8008994
+    <6e0>   DW_AT_low_pc      : 0x8008990
     <6e4>   DW_AT_high_pc     : 0x14a
     <6e8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6ea>   DW_AT_GNU_all_tail_call_sites: 1
     <6ea>   DW_AT_sibling     : <0x737>
  <2><6ee>: Abbrev Number: 14 (DW_TAG_lexical_block)
-    <6ef>   DW_AT_low_pc      : 0x80089e6
+    <6ef>   DW_AT_low_pc      : 0x80089e2
     <6f3>   DW_AT_high_pc     : 0xf4
  <3><6f7>: Abbrev Number: 15 (DW_TAG_variable)
     <6f8>   DW_AT_name        : (indirect string, offset: 0x39c): order

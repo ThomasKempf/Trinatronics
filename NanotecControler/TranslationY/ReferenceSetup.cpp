@@ -87,7 +87,7 @@ void ReferenceDrive()
 
 bool IsPoseOK(int Pose)
 {
-	int MinPose = -900;
+	int MinPose = -380;
 	int MaxPose = -5;
 	if ((Pose > MaxPose) || (Pose < MinPose))
 	{

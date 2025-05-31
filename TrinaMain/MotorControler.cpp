@@ -4,8 +4,8 @@
 
 
 ModbusMaster node[] = {ModbusMaster(),ModbusMaster(),ModbusMaster(),ModbusMaster()};// slave instance x, y, rh, rv
-uint16_t IndexSetPoint = 6010;
-uint16_t IndexOrder = 6012;
+uint16_t IndexSetPoint = 6012;
+uint16_t IndexOrder = 6010;
 uint16_t IndexStatus = 5008;
 uint16_t WriteValue = 0;
 uint8_t ReadValue = 0;
@@ -77,11 +77,14 @@ void ReadorWrite(ModbusMaster* node,uint8_t SlaveID,uint16_t Index)
   if (Result == node->ku8MBSuccess) // succes
   { 
     ReadValue = node->getResponseBuffer(0);
+    Serial.print("Read value: ");
+    Serial.println(ReadValue);
     PrintModbusMessage(SlaveID,Index,Function,true);
-    if (Index == IndexStatus)
-    {
-      ControlerReadStatus[SlaveID-1] = ReadValue;
-    }
+    ControlerReadStatus[SlaveID-1] = ReadValue;
+    Serial.print("controler status in read ");
+    Serial.print( ControlerReadStatus[SlaveID-1]);
+    Serial.print(" / slave ID: ");
+    Serial.println(SlaveID);
   } 
   else // error
   { 
@@ -144,26 +147,41 @@ void ReadAllControler()
 void referenceProtocol()
 {
   uint8_t runingOrder[] = { 3, 4, 1, 2 }; // rh rv x y
-  int refSetPoint [] = { 0, 18000, 450, 200};
-  for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++)
+  int refSetPoint [] = { 0, 18000, 10, 200};
+  for (int controler = 1; controler <= NumberOfControler; controler++)
   {
-    Serial.print("make reference controler: ");
-    Serial.println(SlaveID - 1);
+    uint8_t SlaveID = runingOrder[controler-1];
+    Serial.print("macke reference controler: ");
+    Serial.println(SlaveID);
     Order = 5; // Reference
-    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexOrder);
-    delay(200);
+    do
+    {
+      ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
+      delay(200);
+      ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus);
+    } while (ControlerReadStatus[SlaveID-1] != 2);//begin ref
     Order = 3; // AutoMode
-    SetPoint = refSetPoint[SlaveID-1]; // go to refSetPoint
-    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexSetPoint);
-    ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexOrder);
+    SetPoint = refSetPoint[controler-1]; // go to refSetPoint
+    ReadorWrite(&node[SlaveID-1],SlaveID,IndexSetPoint);
+    ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
     do 
     {
       delay(200); // wait end of the Reference
-      ReadorWrite(&node[runingOrder[SlaveID-1]-1],runingOrder[SlaveID-1],IndexStatus);
-    } while (ControlerReadStatus[runingOrder[SlaveID-1]-1] != 3);//control that ref is end
+      ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus);
+      Serial.print("controler status: ");
+      Serial.print(ControlerReadStatus[SlaveID-1]);
+      Serial.print(" / slave ID: ");
+    Serial.println(SlaveID);
+    } while (ControlerReadStatus[SlaveID-1] != 3);//control that ref is end
     Serial.println("finish reference");
+    delay(1000); // ensure that are finish
   }
   RequereReference = false;
+  Order = 3; // AutoMode
+  SetPoint = 450;
+  ReadorWrite(&node[1-1],1,IndexSetPoint);
+  ReadorWrite(&node[1-1],1,IndexOrder);
+  delay(2000); // ensure that are finish
 }
 
 

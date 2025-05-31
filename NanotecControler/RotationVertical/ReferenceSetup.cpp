@@ -110,12 +110,12 @@ int AdaptPose(int Pose)
 void GoNextPosition(int PositionOrder)
 {
 	int NextTargetPosition = 0;
-	od_write(0x6083, 0x00, 0X20);//acceleration
-	od_write(0x6084, 0x00, 0X20);//deceleration
+	od_write(0x6083, 0x00, 0X0FF);//acceleration
+	od_write(0x6084, 0x00, 0X0FF);//deceleration
+	Out.ProfileVelocity=0xFFFF;
 	ModesOfOperation(1);
 	AbsoluteMovement();
 	ChangeSetPointImmediately(true);
-	Out.ProfileVelocity=4000;
 	
 	
 	NextTargetPosition = ZeroPosition + (PositionOrder * 8)/3; // multiplication factor 8/3
