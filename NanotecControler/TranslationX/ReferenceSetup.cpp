@@ -65,10 +65,12 @@ void ReferenceDrive()
 	if (Reference == false)
 	{
 		od_write(0x2500,0x01,2);
-		int Velocity = -30;
+		int Velocity = -20;
 		
 		ModesOfOperation(3);
 		od_write(0x60FF, 0x00, Velocity);
+		od_write(0x60C6, 0x00, 0x0FFFFFFF);//max deceleration
+		od_write(0x6084, 0x00, 0x0FFFFFFF);//max deceleration
 		EnableOperation();
 		while (DigitalInput(1) != true)
 		{
@@ -176,7 +178,8 @@ void user()
 		}
 		else if (order == 4)
 		{
-			ModesOfOperation(3);
+			ModesOfOperation(4);
+			od_write(0x6071,0x00,99);
 			EnableOperation();
 			od_write(0x2500,0x01,4);
 			yield();

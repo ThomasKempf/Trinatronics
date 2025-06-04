@@ -3,34 +3,34 @@ Discarded input sections
 
  .data          0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
  .bss           0x00000000        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
- .text          0x00000000        0x0 C:\Windows\ccMeFF5h.o
- .data          0x00000000        0x0 C:\Windows\ccMeFF5h.o
- .bss           0x00000000        0x0 C:\Windows\ccMeFF5h.o
- .text          0x00000000        0x0 C:\Windows\ccP7W5P3.o
- .data          0x00000000        0x0 C:\Windows\ccP7W5P3.o
- .bss           0x00000000        0x0 C:\Windows\ccP7W5P3.o
+ .text          0x00000000        0x0 C:\Windows\cceNz7ev.o
+ .data          0x00000000        0x0 C:\Windows\cceNz7ev.o
+ .bss           0x00000000        0x0 C:\Windows\cceNz7ev.o
+ .text          0x00000000        0x0 C:\Windows\ccbfvXBQ.o
+ .data          0x00000000        0x0 C:\Windows\ccbfvXBQ.o
+ .bss           0x00000000        0x0 C:\Windows\ccbfvXBQ.o
  .text._Z5Resetv
-                0x00000000       0x28 C:\Windows\ccP7W5P3.o
+                0x00000000       0x28 C:\Windows\ccbfvXBQ.o
  .text._Z8SwitchOnv
-                0x00000000       0x8c C:\Windows\ccP7W5P3.o
+                0x00000000       0x8c C:\Windows\ccbfvXBQ.o
  .text._Z16RelativeMovementv
-                0x00000000       0x28 C:\Windows\ccP7W5P3.o
+                0x00000000       0x28 C:\Windows\ccbfvXBQ.o
  .text._Z4Haltb
-                0x00000000       0x58 C:\Windows\ccP7W5P3.o
+                0x00000000       0x58 C:\Windows\ccbfvXBQ.o
  .text._Z16ChangeOnSetPointb
-                0x00000000       0x58 C:\Windows\ccP7W5P3.o
+                0x00000000       0x58 C:\Windows\ccbfvXBQ.o
  .text._Z13TargetReachedv
-                0x00000000       0x28 C:\Windows\ccP7W5P3.o
+                0x00000000       0x28 C:\Windows\ccbfvXBQ.o
  .text._Z22NewSetPointAcknowledgev
-                0x00000000       0x28 C:\Windows\ccP7W5P3.o
+                0x00000000       0x28 C:\Windows\ccbfvXBQ.o
  .text._Z16SetDigitalOutputh
-                0x00000000       0x3c C:\Windows\ccP7W5P3.o
+                0x00000000       0x3c C:\Windows\ccbfvXBQ.o
  .text._Z18ClearDigitalOutputh
-                0x00000000       0x40 C:\Windows\ccP7W5P3.o
+                0x00000000       0x40 C:\Windows\ccbfvXBQ.o
  .text._Z23ModesOfOperationDisplayv
-                0x00000000       0x18 C:\Windows\ccP7W5P3.o
+                0x00000000       0x18 C:\Windows\ccbfvXBQ.o
  .text._Z11AnalogInputv
-                0x00000000       0x20 C:\Windows\ccP7W5P3.o
+                0x00000000       0x20 C:\Windows\ccbfvXBQ.o
 
 Memory Configuration
 
@@ -45,8 +45,8 @@ ram              0x20000000         0x00000e00         xrw
 Linker script and memory map
 
 LOAD C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
-LOAD C:\Windows\ccMeFF5h.o
-LOAD C:\Windows\ccP7W5P3.o
+LOAD C:\Windows\cceNz7ev.o
+LOAD C:\Windows\ccbfvXBQ.o
 
 .text           0x08008200      0x210
  *(.boot)
@@ -99,114 +99,114 @@ LOAD C:\Windows\ccP7W5P3.o
 .text._Z9Quickstopv
                 0x08008410       0x40
  .text._Z9Quickstopv
-                0x08008410       0x40 C:\Windows\ccP7W5P3.o
+                0x08008410       0x40 C:\Windows\ccbfvXBQ.o
                 0x08008410                _Z9Quickstopv
 
 .text._Z8Shutdownv
                 0x08008450       0x4c
  .text._Z8Shutdownv
-                0x08008450       0x4c C:\Windows\ccP7W5P3.o
+                0x08008450       0x4c C:\Windows\ccbfvXBQ.o
                 0x08008450                _Z8Shutdownv
 
 .text._Z15EnableOperationv
                 0x0800849c       0xcc
  .text._Z15EnableOperationv
-                0x0800849c       0xcc C:\Windows\ccP7W5P3.o
+                0x0800849c       0xcc C:\Windows\ccbfvXBQ.o
                 0x0800849c                _Z15EnableOperationv
 
 .text._Z16AbsoluteMovementv
                 0x08008568       0x28
  .text._Z16AbsoluteMovementv
-                0x08008568       0x28 C:\Windows\ccP7W5P3.o
+                0x08008568       0x28 C:\Windows\ccbfvXBQ.o
                 0x08008568                _Z16AbsoluteMovementv
 
 .text._Z11NewSetPointb
                 0x08008590       0x58
  .text._Z11NewSetPointb
-                0x08008590       0x58 C:\Windows\ccP7W5P3.o
+                0x08008590       0x58 C:\Windows\ccbfvXBQ.o
                 0x08008590                _Z11NewSetPointb
 
 .text._Z25ChangeSetPointImmediatelyb
                 0x080085e8       0x58
  .text._Z25ChangeSetPointImmediatelyb
-                0x080085e8       0x58 C:\Windows\ccP7W5P3.o
+                0x080085e8       0x58 C:\Windows\ccbfvXBQ.o
                 0x080085e8                _Z25ChangeSetPointImmediatelyb
 
 .text._Z12DigitalInputh
                 0x08008640       0x38
  .text._Z12DigitalInputh
-                0x08008640       0x38 C:\Windows\ccP7W5P3.o
+                0x08008640       0x38 C:\Windows\ccbfvXBQ.o
                 0x08008640                _Z12DigitalInputh
 
 .text._Z16ModesOfOperationc
                 0x08008678       0x20
  .text._Z16ModesOfOperationc
-                0x08008678       0x20 C:\Windows\ccP7W5P3.o
+                0x08008678       0x20 C:\Windows\ccbfvXBQ.o
                 0x08008678                _Z16ModesOfOperationc
 
 .text._Z3mapiii
                 0x08008698       0xd4
  .text._Z3mapiii
-                0x08008698       0xd4 C:\Windows\ccP7W5P3.o
+                0x08008698       0xd4 C:\Windows\ccbfvXBQ.o
                 0x08008698                _Z3mapiii
 
 .text._Z19ChangeModbusAdressei
                 0x0800876c       0x88
  .text._Z19ChangeModbusAdressei
-                0x0800876c       0x88 C:\Windows\ccP7W5P3.o
+                0x0800876c       0x88 C:\Windows\ccbfvXBQ.o
                 0x0800876c                _Z19ChangeModbusAdressei
 
 .text._Z14ReferenceDrivev
                 0x080087f4       0x98
  .text._Z14ReferenceDrivev
-                0x080087f4       0x98 C:\Windows\ccP7W5P3.o
+                0x080087f4       0x98 C:\Windows\ccbfvXBQ.o
                 0x080087f4                _Z14ReferenceDrivev
 
 .text._Z8IsPoseOKi
                 0x0800888c       0x34
  .text._Z8IsPoseOKi
-                0x0800888c       0x34 C:\Windows\ccP7W5P3.o
+                0x0800888c       0x34 C:\Windows\ccbfvXBQ.o
                 0x0800888c                _Z8IsPoseOKi
 
 .text._Z9AdaptPosei
                 0x080088c0       0x28
  .text._Z9AdaptPosei
-                0x080088c0       0x28 C:\Windows\ccP7W5P3.o
+                0x080088c0       0x28 C:\Windows\ccbfvXBQ.o
                 0x080088c0                _Z9AdaptPosei
 
 .text._Z14GoNextPositioni
                 0x080088e8       0x98
  .text._Z14GoNextPositioni
-                0x080088e8       0x98 C:\Windows\ccP7W5P3.o
+                0x080088e8       0x98 C:\Windows\ccbfvXBQ.o
                 0x080088e8                _Z14GoNextPositioni
 
 .text._Z9StopMotorv
                 0x08008980       0x10
  .text._Z9StopMotorv
-                0x08008980       0x10 C:\Windows\ccP7W5P3.o
+                0x08008980       0x10 C:\Windows\ccbfvXBQ.o
                 0x08008980                _Z9StopMotorv
 
-.text._Z4userv  0x08008990      0x14c
+.text._Z4userv  0x08008990      0x158
  .text._Z4userv
-                0x08008990      0x14c C:\Windows\ccP7W5P3.o
+                0x08008990      0x158 C:\Windows\ccbfvXBQ.o
                 0x08008990                _Z4userv
 
-.rel.dyn        0x08008adc        0x0
- .rel.iplt      0x08008adc        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
+.rel.dyn        0x08008ae8        0x0
+ .rel.iplt      0x08008ae8        0x0 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
 
 .inputs         0x20000e00        0xc
  *(.inputs)
- .inputs        0x20000e00        0xc C:\Windows\ccMeFF5h.o
+ .inputs        0x20000e00        0xc C:\Windows\cceNz7ev.o
                 0x20000e00                In
 
 .outputs        0x20000e40        0xc
  *(.outputs)
- .outputs       0x20000e40        0xc C:\Windows\ccMeFF5h.o
+ .outputs       0x20000e40        0xc C:\Windows\cceNz7ev.o
                 0x20000e40                Out
 
 .inoutputs      0x20000e80        0x8
  *(.inoutputs)
- .inoutputs     0x20000e80        0x8 C:\Windows\ccMeFF5h.o
+ .inoutputs     0x20000e80        0x8 C:\Windows\cceNz7ev.o
                 0x20000e80                InOut
 
 .data           0x20000000        0x0
@@ -227,56 +227,56 @@ OUTPUT(C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\bin\vmmc
 .bss.ZeroPosition
                 0x20000000        0x4
  .bss.ZeroPosition
-                0x20000000        0x4 C:\Windows\ccP7W5P3.o
+                0x20000000        0x4 C:\Windows\ccbfvXBQ.o
                 0x20000000                ZeroPosition
 
 .bss.Reference  0x20000004        0x1
  .bss.Reference
-                0x20000004        0x1 C:\Windows\ccP7W5P3.o
+                0x20000004        0x1 C:\Windows\ccbfvXBQ.o
                 0x20000004                Reference
 
 .comment        0x00000000       0x81
  .comment       0x00000000       0x70 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
                                  0x71 (size before relaxing)
- .comment       0x00000070       0x11 C:\Windows\ccMeFF5h.o
+ .comment       0x00000070       0x11 C:\Windows\cceNz7ev.o
                                  0x12 (size before relaxing)
- .comment       0x00000081       0x12 C:\Windows\ccP7W5P3.o
+ .comment       0x00000081       0x12 C:\Windows\ccbfvXBQ.o
 
 .ARM.attributes
                 0x00000000       0x33
  .ARM.attributes
                 0x00000000       0x33 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\RotationVertical\gen\wrapper.o
  .ARM.attributes
-                0x00000033       0x33 C:\Windows\ccMeFF5h.o
+                0x00000033       0x33 C:\Windows\cceNz7ev.o
  .ARM.attributes
-                0x00000066       0x33 C:\Windows\ccP7W5P3.o
+                0x00000066       0x33 C:\Windows\ccbfvXBQ.o
 
 .debug_info     0x00000000      0x77a
- .debug_info    0x00000000      0x176 C:\Windows\ccMeFF5h.o
- .debug_info    0x00000176      0x604 C:\Windows\ccP7W5P3.o
+ .debug_info    0x00000000      0x176 C:\Windows\cceNz7ev.o
+ .debug_info    0x00000176      0x604 C:\Windows\ccbfvXBQ.o
 
 .debug_abbrev   0x00000000      0x1db
- .debug_abbrev  0x00000000       0x7e C:\Windows\ccMeFF5h.o
- .debug_abbrev  0x0000007e      0x15d C:\Windows\ccP7W5P3.o
+ .debug_abbrev  0x00000000       0x7e C:\Windows\cceNz7ev.o
+ .debug_abbrev  0x0000007e      0x15d C:\Windows\ccbfvXBQ.o
 
 .debug_aranges  0x00000000      0x108
  .debug_aranges
-                0x00000000       0x18 C:\Windows\ccMeFF5h.o
+                0x00000000       0x18 C:\Windows\cceNz7ev.o
  .debug_aranges
-                0x00000018       0xf0 C:\Windows\ccP7W5P3.o
+                0x00000018       0xf0 C:\Windows\ccbfvXBQ.o
 
-.debug_line     0x00000000      0x48d
- .debug_line    0x00000000       0x89 C:\Windows\ccMeFF5h.o
- .debug_line    0x00000089      0x404 C:\Windows\ccP7W5P3.o
+.debug_line     0x00000000      0x48e
+ .debug_line    0x00000000       0x89 C:\Windows\cceNz7ev.o
+ .debug_line    0x00000089      0x405 C:\Windows\ccbfvXBQ.o
 
 .debug_str      0x00000000      0x663
- .debug_str     0x00000000      0x1f8 C:\Windows\ccMeFF5h.o
+ .debug_str     0x00000000      0x1f8 C:\Windows\cceNz7ev.o
                                 0x235 (size before relaxing)
- .debug_str     0x000001f8      0x46b C:\Windows\ccP7W5P3.o
+ .debug_str     0x000001f8      0x46b C:\Windows\ccbfvXBQ.o
                                 0x673 (size before relaxing)
 
 .debug_ranges   0x00000000       0xf8
- .debug_ranges  0x00000000       0xf8 C:\Windows\ccP7W5P3.o
+ .debug_ranges  0x00000000       0xf8 C:\Windows\ccbfvXBQ.o
 
 .debug_frame    0x00000000      0x328
- .debug_frame   0x00000000      0x328 C:\Windows\ccP7W5P3.o
+ .debug_frame   0x00000000      0x328 C:\Windows\ccbfvXBQ.o

@@ -1,4 +1,4 @@
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 1
 
 
    1              		.syntax unified
@@ -43,20 +43,20 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
   41              		.file 1 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen\\types.h"
   42              		.file 2 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen\\mapping.h"
   43              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen\\mapping.cxx"
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 2
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 2
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 mapping.cxx
-C:\Windows\ccsxbB3w.s:23     .inputs:00000000 In
-C:\Windows\ccsxbB3w.s:20     .inputs:00000000 $d
-C:\Windows\ccsxbB3w.s:30     .outputs:00000000 Out
-C:\Windows\ccsxbB3w.s:27     .outputs:00000000 $d
-C:\Windows\ccsxbB3w.s:37     .inoutputs:00000000 InOut
-C:\Windows\ccsxbB3w.s:34     .inoutputs:00000000 $d
+C:\Windows\ccVUBK8a.s:23     .inputs:00000000 In
+C:\Windows\ccVUBK8a.s:20     .inputs:00000000 $d
+C:\Windows\ccVUBK8a.s:30     .outputs:00000000 Out
+C:\Windows\ccVUBK8a.s:27     .outputs:00000000 $d
+C:\Windows\ccVUBK8a.s:37     .inoutputs:00000000 InOut
+C:\Windows\ccVUBK8a.s:34     .inoutputs:00000000 $d
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 1
 
 
    1              		.syntax unified
@@ -116,7 +116,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
   34              		.cfi_offset 14, -4
   35 0002 00AF     		add	r7, sp, #0
   36              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 2
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 2
 
 
   23:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** 	InOut.Controlword = InOut.Controlword | 0x80;
@@ -176,7 +176,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
   84 0020 1A80     		strh	r2, [r3]	@ unaligned
   32:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** 		yield(); 
   85              		.loc 1 32 0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 3
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 3
 
 
   86 0022 FFF7FEFF 		bl	yield
@@ -236,7 +236,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  132 001a 43F00603 		orr	r3, r3, #6
  133 001e 9BB2     		uxth	r3, r3
  134 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 4
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 4
 
 
  135 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -296,7 +296,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  180 000e 1B88     		ldrh	r3, [r3]	@ unaligned
  181 0010 9BB2     		uxth	r3, r3
  182 0012 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 5
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 5
 
 
  183 0014 23F08F03 		bic	r3, r3, #143
@@ -356,7 +356,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  229 0082 E0D1     		bne	.L12
   58:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** 	}
   59:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** 	yield();
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 6
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 6
 
 
  230              		.loc 1 59 0
@@ -416,7 +416,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  277 0034 C0F20003 		movt	r3, #:upper16:In
  278 0038 1B88     		ldrh	r3, [r3]	@ unaligned
  279 003a 9BB2     		uxth	r3, r3
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 7
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 7
 
 
  280 003c 03F0E903 		and	r3, r3, #233
@@ -476,7 +476,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  324 00a0 9AB2     		uxth	r2, r3
  325 00a2 40F20003 		movw	r3, #:lower16:InOut
  326 00a6 C0F20003 		movt	r3, #:upper16:InOut
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 8
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 8
 
 
  327 00aa 1A80     		strh	r2, [r3]	@ unaligned
@@ -536,7 +536,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
   85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** 	yield();
  374              		.loc 1 85 0
  375 0020 FFF7FEFF 		bl	yield
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 9
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 9
 
 
   86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** }
@@ -596,7 +596,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  424              		.loc 1 95 0
  425              		.cfi_startproc
  426              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 10
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 10
 
 
  427              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -656,7 +656,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  470 0052 0837     		adds	r7, r7, #8
  471 0054 BD46     		mov	sp, r7
  472              		@ sp needed
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 11
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 11
 
 
  473 0056 80BD     		pop	{r7, pc}
@@ -716,7 +716,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  518 0032 40F20003 		movw	r3, #:lower16:InOut
  519 0036 C0F20003 		movt	r3, #:upper16:InOut
  520 003a 1B88     		ldrh	r3, [r3]	@ unaligned
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 12
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 12
 
 
  521 003c 9BB2     		uxth	r3, r3
@@ -776,7 +776,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  568 001a 9BB2     		uxth	r3, r3
  569 001c 43F02003 		orr	r3, r3, #32
  570 0020 9AB2     		uxth	r2, r3
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 13
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 13
 
 
  571 0022 40F20003 		movw	r3, #:lower16:InOut
@@ -836,7 +836,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  616              		.cfi_def_cfa_offset 16
  617 0004 00AF     		add	r7, sp, #0
  618              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 14
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 14
 
 
  619 0006 0346     		mov	r3, r0
@@ -896,7 +896,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  663              		.thumb
  664              		.thumb_func
  666              	_Z13TargetReachedv:
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 15
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 15
 
 
  667              	.LFB11:
@@ -956,7 +956,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** bool NewSetPointAcknowledge()
  163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\nanotec.h **** {
  710              		.loc 1 163 0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 16
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 16
 
 
  711              		.cfi_startproc
@@ -1016,7 +1016,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  755              		@ frame_needed = 1, uses_anonymous_args = 0
  756              		@ link register save eliminated.
  757 0000 80B4     		push	{r7}
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 17
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 17
 
 
  758              		.cfi_def_cfa_offset 4
@@ -1076,7 +1076,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  802              		.loc 1 187 0
  803              		.cfi_startproc
  804              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 18
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 18
 
 
  805              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -1136,7 +1136,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  855 0000 80B4     		push	{r7}
  856              		.cfi_def_cfa_offset 4
  857              		.cfi_offset 7, -4
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 19
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 19
 
 
  858 0002 85B0     		sub	sp, sp, #20
@@ -1196,7 +1196,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  908              		.cfi_def_cfa_offset 16
  909 0004 00AF     		add	r7, sp, #0
  910              		.cfi_def_cfa_register 7
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 20
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 20
 
 
  911 0006 0346     		mov	r3, r0
@@ -1256,7 +1256,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  961              		.thumb
  962              		.thumb_func
  964              	_Z11AnalogInputv:
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 21
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 21
 
 
  965              	.LFB18:
@@ -1316,7 +1316,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
    8:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperation as output 0x6060:00
    9:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** // map S08 ModesOfOperationDisplay as input 0x6061:00
   10:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** // map S16 AnalogInput as input 0x3220:01
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 22
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 22
 
 
   11:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** // map S32 TargetPosition as output 0x607A:00
@@ -1376,7 +1376,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1054 003e 9A42     		cmp	r2, r3
  1055 0040 01D0     		beq	.L53
  1056              	.L52:
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 23
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 23
 
 
  1057              		.loc 2 23 0 discriminator 1
@@ -1436,7 +1436,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1101 0094 FFF7FEFF 		bl	yield
   34:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			while(od_read(0x1010, 0x01) != 1)			//wait for save done
  1102              		.loc 2 34 0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 24
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 24
 
 
  1103 0098 01E0     		b	.L56
@@ -1496,7 +1496,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1147              		@ args = 0, pretend = 0, frame = 8
  1148              		@ frame_needed = 1, uses_anonymous_args = 0
  1149 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 25
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 25
 
 
  1150              		.cfi_def_cfa_offset 8
@@ -1556,7 +1556,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1193              		.loc 2 53 0 discriminator 1
  1194 0052 41F21000 		movw	r0, #4112
  1195 0056 0B21     		movs	r1, #11
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 26
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 26
 
 
  1196 0058 FFF7FEFF 		bl	od_read
@@ -1616,7 +1616,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1243              	.LBB5:
   65:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	if (Reference == false)
  1244              		.loc 2 65 0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 27
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 27
 
 
  1245 0006 40F20003 		movw	r3, #:lower16:Reference
@@ -1625,7 +1625,7 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1248 0010 83F00103 		eor	r3, r3, #1
  1249 0014 DBB2     		uxtb	r3, r3
  1250 0016 002B     		cmp	r3, #0
- 1251 0018 39D0     		beq	.L63
+ 1251 0018 47D0     		beq	.L63
  1252              	.LBB6:
   66:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
   67:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		od_write(0x2500,0x01,2);
@@ -1634,9 +1634,9 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1255 001e 0121     		movs	r1, #1
  1256 0020 0222     		movs	r2, #2
  1257 0022 FFF7FEFF 		bl	od_write
-  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int Velocity = -30;
+  68:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int Velocity = -20;
  1258              		.loc 2 68 0
- 1259 0026 6FF01D03 		mvn	r3, #29
+ 1259 0026 6FF01303 		mvn	r3, #19
  1260 002a 7B60     		str	r3, [r7, #4]
   69:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		
   70:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		ModesOfOperation(3);
@@ -1650,674 +1650,692 @@ ARM GAS  C:\Windows\ccsxbB3w.s 			page 1
  1267 0038 0021     		movs	r1, #0
  1268 003a 1A46     		mov	r2, r3
  1269 003c FFF7FEFF 		bl	od_write
-  72:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		EnableOperation();
+  72:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		od_write(0x60C6, 0x00, 0x0FFFFFFF);//max deceleration
  1270              		.loc 2 72 0
- 1271 0040 FFF7FEFF 		bl	_Z15EnableOperationv
-  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		while (DigitalInput(1) != true)
- 1272              		.loc 2 73 0
- 1273 0044 01E0     		b	.L64
- 1274              	.L65:
-  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
-  75:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1275              		.loc 2 75 0
- 1276 0046 FFF7FEFF 		bl	yield
- 1277              	.L64:
-  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		while (DigitalInput(1) != true)
- 1278              		.loc 2 73 0 discriminator 1
- 1279 004a 0120     		movs	r0, #1
- 1280 004c FFF7FEFF 		bl	_Z12DigitalInputh
- 1281 0050 0346     		mov	r3, r0
- 1282 0052 83F00103 		eor	r3, r3, #1
- 1283 0056 DBB2     		uxtb	r3, r3
- 1284 0058 002B     		cmp	r3, #0
- 1285 005a F4D1     		bne	.L65
-  76:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
-  77:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		od_write(0x60FF, 0x00, 0);
- 1286              		.loc 2 77 0
- 1287 005c 46F2FF00 		movw	r0, #24831
- 1288 0060 0021     		movs	r1, #0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 28
+ 1271 0040 46F2C600 		movw	r0, #24774
+ 1272 0044 0021     		movs	r1, #0
+ 1273 0046 6FF07042 		mvn	r2, #-268435456
+ 1274 004a FFF7FEFF 		bl	od_write
+  73:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		od_write(0x6084, 0x00, 0x0FFFFFFF);//max deceleration
+ 1275              		.loc 2 73 0
+ 1276 004e 46F28400 		movw	r0, #24708
+ 1277 0052 0021     		movs	r1, #0
+ 1278 0054 6FF07042 		mvn	r2, #-268435456
+ 1279 0058 FFF7FEFF 		bl	od_write
+  74:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		EnableOperation();
+ 1280              		.loc 2 74 0
+ 1281 005c FFF7FEFF 		bl	_Z15EnableOperationv
+  75:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		while (DigitalInput(1) != true)
+ 1282              		.loc 2 75 0
+ 1283 0060 01E0     		b	.L64
+ 1284              	.L65:
+  76:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+  77:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1285              		.loc 2 77 0
+ 1286 0062 FFF7FEFF 		bl	yield
+ 1287              	.L64:
+  75:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		while (DigitalInput(1) != true)
+ 1288              		.loc 2 75 0 discriminator 1
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 28
 
 
- 1289 0062 0022     		movs	r2, #0
- 1290 0064 FFF7FEFF 		bl	od_write
-  78:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		ZeroPosition = od_read(0x6064, 0x00);
- 1291              		.loc 2 78 0
- 1292 0068 46F26400 		movw	r0, #24676
- 1293 006c 0021     		movs	r1, #0
- 1294 006e FFF7FEFF 		bl	od_read
- 1295 0072 0346     		mov	r3, r0
- 1296 0074 1A46     		mov	r2, r3
- 1297 0076 40F20003 		movw	r3, #:lower16:ZeroPosition
- 1298 007a C0F20003 		movt	r3, #:upper16:ZeroPosition
- 1299 007e 1A60     		str	r2, [r3]
-  79:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		Reference = true;
- 1300              		.loc 2 79 0
- 1301 0080 40F20003 		movw	r3, #:lower16:Reference
- 1302 0084 C0F20003 		movt	r3, #:upper16:Reference
- 1303 0088 0122     		movs	r2, #1
- 1304 008a 1A70     		strb	r2, [r3]
- 1305              	.LBE6:
- 1306 008c 01E0     		b	.L62
- 1307              	.L63:
-  80:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
-  81:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	else
-  82:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
-  83:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		yield();
- 1308              		.loc 2 83 0
- 1309 008e FFF7FEFF 		bl	yield
- 1310              	.L62:
- 1311              	.LBE5:
- 1312              	.LBE4:
-  84:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
-  85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
- 1313              		.loc 2 85 0
- 1314 0092 0837     		adds	r7, r7, #8
- 1315 0094 BD46     		mov	sp, r7
- 1316              		@ sp needed
- 1317 0096 80BD     		pop	{r7, pc}
- 1318              		.cfi_endproc
- 1319              	.LFE21:
- 1321              		.section	.text._Z8IsPoseOKi,"ax",%progbits
- 1322              		.align	2
- 1323              		.global	_Z8IsPoseOKi
- 1324              		.thumb
- 1325              		.thumb_func
- 1327              	_Z8IsPoseOKi:
- 1328              	.LFB22:
-  86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
-  87:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
-  88:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** bool IsPoseOK(int Pose)
-  89:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
- 1329              		.loc 2 89 0
- 1330              		.cfi_startproc
- 1331              		@ args = 0, pretend = 0, frame = 16
- 1332              		@ frame_needed = 1, uses_anonymous_args = 0
- 1333              		@ link register save eliminated.
- 1334 0000 80B4     		push	{r7}
- 1335              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 29
+ 1289 0066 0120     		movs	r0, #1
+ 1290 0068 FFF7FEFF 		bl	_Z12DigitalInputh
+ 1291 006c 0346     		mov	r3, r0
+ 1292 006e 83F00103 		eor	r3, r3, #1
+ 1293 0072 DBB2     		uxtb	r3, r3
+ 1294 0074 002B     		cmp	r3, #0
+ 1295 0076 F4D1     		bne	.L65
+  78:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+  79:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		od_write(0x60FF, 0x00, 0);
+ 1296              		.loc 2 79 0
+ 1297 0078 46F2FF00 		movw	r0, #24831
+ 1298 007c 0021     		movs	r1, #0
+ 1299 007e 0022     		movs	r2, #0
+ 1300 0080 FFF7FEFF 		bl	od_write
+  80:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		ZeroPosition = od_read(0x6064, 0x00);
+ 1301              		.loc 2 80 0
+ 1302 0084 46F26400 		movw	r0, #24676
+ 1303 0088 0021     		movs	r1, #0
+ 1304 008a FFF7FEFF 		bl	od_read
+ 1305 008e 0346     		mov	r3, r0
+ 1306 0090 1A46     		mov	r2, r3
+ 1307 0092 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1308 0096 C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1309 009a 1A60     		str	r2, [r3]
+  81:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		Reference = true;
+ 1310              		.loc 2 81 0
+ 1311 009c 40F20003 		movw	r3, #:lower16:Reference
+ 1312 00a0 C0F20003 		movt	r3, #:upper16:Reference
+ 1313 00a4 0122     		movs	r2, #1
+ 1314 00a6 1A70     		strb	r2, [r3]
+ 1315              	.LBE6:
+ 1316 00a8 01E0     		b	.L62
+ 1317              	.L63:
+  82:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
+  83:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	else
+  84:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
+  85:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		yield();
+ 1318              		.loc 2 85 0
+ 1319 00aa FFF7FEFF 		bl	yield
+ 1320              	.L62:
+ 1321              	.LBE5:
+ 1322              	.LBE4:
+  86:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
+  87:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
+ 1323              		.loc 2 87 0
+ 1324 00ae 0837     		adds	r7, r7, #8
+ 1325 00b0 BD46     		mov	sp, r7
+ 1326              		@ sp needed
+ 1327 00b2 80BD     		pop	{r7, pc}
+ 1328              		.cfi_endproc
+ 1329              	.LFE21:
+ 1331              		.section	.text._Z8IsPoseOKi,"ax",%progbits
+ 1332              		.align	2
+ 1333              		.global	_Z8IsPoseOKi
+ 1334              		.thumb
+ 1335              		.thumb_func
+ 1337              	_Z8IsPoseOKi:
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 29
 
 
- 1336              		.cfi_offset 7, -4
- 1337 0002 85B0     		sub	sp, sp, #20
- 1338              		.cfi_def_cfa_offset 24
- 1339 0004 00AF     		add	r7, sp, #0
- 1340              		.cfi_def_cfa_register 7
- 1341 0006 7860     		str	r0, [r7, #4]
- 1342              	.LBB7:
-  90:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int MaxPose = 900;
- 1343              		.loc 2 90 0
- 1344 0008 4FF46173 		mov	r3, #900
- 1345 000c FB60     		str	r3, [r7, #12]
-  91:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int MinPose = 5;
- 1346              		.loc 2 91 0
- 1347 000e 0523     		movs	r3, #5
- 1348 0010 BB60     		str	r3, [r7, #8]
-  92:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	if ((Pose > MaxPose) || (Pose < MinPose))
- 1349              		.loc 2 92 0
- 1350 0012 7A68     		ldr	r2, [r7, #4]
- 1351 0014 FB68     		ldr	r3, [r7, #12]
- 1352 0016 9A42     		cmp	r2, r3
- 1353 0018 03DC     		bgt	.L68
- 1354              		.loc 2 92 0 is_stmt 0 discriminator 1
- 1355 001a 7A68     		ldr	r2, [r7, #4]
- 1356 001c BB68     		ldr	r3, [r7, #8]
- 1357 001e 9A42     		cmp	r2, r3
- 1358 0020 01DA     		bge	.L69
- 1359              	.L68:
-  93:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
-  94:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		return false;
- 1360              		.loc 2 94 0 is_stmt 1
- 1361 0022 0023     		movs	r3, #0
- 1362 0024 00E0     		b	.L70
- 1363              	.L69:
-  95:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
-  96:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	else
-  97:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
-  98:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		return true;
- 1364              		.loc 2 98 0
- 1365 0026 0123     		movs	r3, #1
- 1366              	.L70:
- 1367              	.LBE7:
-  99:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
- 100:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
- 1368              		.loc 2 100 0
- 1369 0028 1846     		mov	r0, r3
- 1370 002a 1437     		adds	r7, r7, #20
- 1371 002c BD46     		mov	sp, r7
- 1372              		@ sp needed
- 1373 002e 5DF8047B 		ldr	r7, [sp], #4
- 1374 0032 7047     		bx	lr
- 1375              		.cfi_endproc
- 1376              	.LFE22:
- 1378              		.section	.text._Z9AdaptPosei,"ax",%progbits
- 1379              		.align	2
- 1380              		.global	_Z9AdaptPosei
- 1381              		.thumb
- 1382              		.thumb_func
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 30
+ 1338              	.LFB22:
+  88:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+  89:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+  90:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** bool IsPoseOK(int Pose)
+  91:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
+ 1339              		.loc 2 91 0
+ 1340              		.cfi_startproc
+ 1341              		@ args = 0, pretend = 0, frame = 16
+ 1342              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1343              		@ link register save eliminated.
+ 1344 0000 80B4     		push	{r7}
+ 1345              		.cfi_def_cfa_offset 4
+ 1346              		.cfi_offset 7, -4
+ 1347 0002 85B0     		sub	sp, sp, #20
+ 1348              		.cfi_def_cfa_offset 24
+ 1349 0004 00AF     		add	r7, sp, #0
+ 1350              		.cfi_def_cfa_register 7
+ 1351 0006 7860     		str	r0, [r7, #4]
+ 1352              	.LBB7:
+  92:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int MaxPose = 900;
+ 1353              		.loc 2 92 0
+ 1354 0008 4FF46173 		mov	r3, #900
+ 1355 000c FB60     		str	r3, [r7, #12]
+  93:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int MinPose = 5;
+ 1356              		.loc 2 93 0
+ 1357 000e 0523     		movs	r3, #5
+ 1358 0010 BB60     		str	r3, [r7, #8]
+  94:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	if ((Pose > MaxPose) || (Pose < MinPose))
+ 1359              		.loc 2 94 0
+ 1360 0012 7A68     		ldr	r2, [r7, #4]
+ 1361 0014 FB68     		ldr	r3, [r7, #12]
+ 1362 0016 9A42     		cmp	r2, r3
+ 1363 0018 03DC     		bgt	.L68
+ 1364              		.loc 2 94 0 is_stmt 0 discriminator 1
+ 1365 001a 7A68     		ldr	r2, [r7, #4]
+ 1366 001c BB68     		ldr	r3, [r7, #8]
+ 1367 001e 9A42     		cmp	r2, r3
+ 1368 0020 01DA     		bge	.L69
+ 1369              	.L68:
+  95:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
+  96:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		return false;
+ 1370              		.loc 2 96 0 is_stmt 1
+ 1371 0022 0023     		movs	r3, #0
+ 1372 0024 00E0     		b	.L70
+ 1373              	.L69:
+  97:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
+  98:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	else
+  99:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
+ 100:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		return true;
+ 1374              		.loc 2 100 0
+ 1375 0026 0123     		movs	r3, #1
+ 1376              	.L70:
+ 1377              	.LBE7:
+ 101:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
+ 102:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
+ 1378              		.loc 2 102 0
+ 1379 0028 1846     		mov	r0, r3
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 30
 
 
- 1384              	_Z9AdaptPosei:
- 1385              	.LFB23:
- 101:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 102:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** int AdaptPose(int Pose)
- 103:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
- 1386              		.loc 2 103 0
- 1387              		.cfi_startproc
- 1388              		@ args = 0, pretend = 0, frame = 16
- 1389              		@ frame_needed = 1, uses_anonymous_args = 0
- 1390              		@ link register save eliminated.
- 1391 0000 80B4     		push	{r7}
- 1392              		.cfi_def_cfa_offset 4
- 1393              		.cfi_offset 7, -4
- 1394 0002 85B0     		sub	sp, sp, #20
- 1395              		.cfi_def_cfa_offset 24
- 1396 0004 00AF     		add	r7, sp, #0
- 1397              		.cfi_def_cfa_register 7
- 1398 0006 7860     		str	r0, [r7, #4]
- 1399              	.LBB8:
- 104:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int Offset = 0;
- 1400              		.loc 2 104 0
- 1401 0008 0023     		movs	r3, #0
- 1402 000a FB60     		str	r3, [r7, #12]
- 105:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int NewPose = Pose+Offset;
- 1403              		.loc 2 105 0
- 1404 000c 7A68     		ldr	r2, [r7, #4]
- 1405 000e FB68     		ldr	r3, [r7, #12]
- 1406 0010 1344     		add	r3, r3, r2
- 1407 0012 BB60     		str	r3, [r7, #8]
- 106:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	return NewPose;
- 1408              		.loc 2 106 0
- 1409 0014 BB68     		ldr	r3, [r7, #8]
- 1410              	.LBE8:
- 107:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
- 1411              		.loc 2 107 0
- 1412 0016 1846     		mov	r0, r3
- 1413 0018 1437     		adds	r7, r7, #20
- 1414 001a BD46     		mov	sp, r7
- 1415              		@ sp needed
- 1416 001c 5DF8047B 		ldr	r7, [sp], #4
- 1417 0020 7047     		bx	lr
- 1418              		.cfi_endproc
- 1419              	.LFE23:
- 1421 0022 00BF     		.section	.text._Z14GoNextPositioni,"ax",%progbits
- 1422              		.align	2
- 1423              		.global	_Z14GoNextPositioni
- 1424              		.thumb
- 1425              		.thumb_func
- 1427              	_Z14GoNextPositioni:
- 1428              	.LFB24:
- 108:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 109:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 110:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void GoNextPosition(int PositionOrder)
- 111:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
- 1429              		.loc 2 111 0
- 1430              		.cfi_startproc
- 1431              		@ args = 0, pretend = 0, frame = 16
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 31
+ 1380 002a 1437     		adds	r7, r7, #20
+ 1381 002c BD46     		mov	sp, r7
+ 1382              		@ sp needed
+ 1383 002e 5DF8047B 		ldr	r7, [sp], #4
+ 1384 0032 7047     		bx	lr
+ 1385              		.cfi_endproc
+ 1386              	.LFE22:
+ 1388              		.section	.text._Z9AdaptPosei,"ax",%progbits
+ 1389              		.align	2
+ 1390              		.global	_Z9AdaptPosei
+ 1391              		.thumb
+ 1392              		.thumb_func
+ 1394              	_Z9AdaptPosei:
+ 1395              	.LFB23:
+ 103:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 104:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** int AdaptPose(int Pose)
+ 105:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
+ 1396              		.loc 2 105 0
+ 1397              		.cfi_startproc
+ 1398              		@ args = 0, pretend = 0, frame = 16
+ 1399              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1400              		@ link register save eliminated.
+ 1401 0000 80B4     		push	{r7}
+ 1402              		.cfi_def_cfa_offset 4
+ 1403              		.cfi_offset 7, -4
+ 1404 0002 85B0     		sub	sp, sp, #20
+ 1405              		.cfi_def_cfa_offset 24
+ 1406 0004 00AF     		add	r7, sp, #0
+ 1407              		.cfi_def_cfa_register 7
+ 1408 0006 7860     		str	r0, [r7, #4]
+ 1409              	.LBB8:
+ 106:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int Offset = 0;
+ 1410              		.loc 2 106 0
+ 1411 0008 0023     		movs	r3, #0
+ 1412 000a FB60     		str	r3, [r7, #12]
+ 107:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int NewPose = Pose+Offset;
+ 1413              		.loc 2 107 0
+ 1414 000c 7A68     		ldr	r2, [r7, #4]
+ 1415 000e FB68     		ldr	r3, [r7, #12]
+ 1416 0010 1344     		add	r3, r3, r2
+ 1417 0012 BB60     		str	r3, [r7, #8]
+ 108:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	return NewPose;
+ 1418              		.loc 2 108 0
+ 1419 0014 BB68     		ldr	r3, [r7, #8]
+ 1420              	.LBE8:
+ 109:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
+ 1421              		.loc 2 109 0
+ 1422 0016 1846     		mov	r0, r3
+ 1423 0018 1437     		adds	r7, r7, #20
+ 1424 001a BD46     		mov	sp, r7
+ 1425              		@ sp needed
+ 1426 001c 5DF8047B 		ldr	r7, [sp], #4
+ 1427 0020 7047     		bx	lr
+ 1428              		.cfi_endproc
+ 1429              	.LFE23:
+ 1431 0022 00BF     		.section	.text._Z14GoNextPositioni,"ax",%progbits
+ 1432              		.align	2
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 31
 
 
- 1432              		@ frame_needed = 1, uses_anonymous_args = 0
- 1433 0000 80B5     		push	{r7, lr}
- 1434              		.cfi_def_cfa_offset 8
- 1435              		.cfi_offset 7, -8
- 1436              		.cfi_offset 14, -4
- 1437 0002 84B0     		sub	sp, sp, #16
- 1438              		.cfi_def_cfa_offset 24
- 1439 0004 00AF     		add	r7, sp, #0
- 1440              		.cfi_def_cfa_register 7
- 1441 0006 7860     		str	r0, [r7, #4]
- 1442              	.LBB9:
- 112:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int NextTargetPosition = 0;
- 1443              		.loc 2 112 0
- 1444 0008 0023     		movs	r3, #0
- 1445 000a FB60     		str	r3, [r7, #12]
- 113:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6083, 0x00, 0X40);//acceleration
- 1446              		.loc 2 113 0
- 1447 000c 46F28300 		movw	r0, #24707
- 1448 0010 0021     		movs	r1, #0
- 1449 0012 4022     		movs	r2, #64
- 1450 0014 FFF7FEFF 		bl	od_write
- 114:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6084, 0x00, 0X40);//deceleration
- 1451              		.loc 2 114 0
- 1452 0018 46F28400 		movw	r0, #24708
- 1453 001c 0021     		movs	r1, #0
- 1454 001e 4022     		movs	r2, #64
- 1455 0020 FFF7FEFF 		bl	od_write
- 115:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(1);
+ 1433              		.global	_Z14GoNextPositioni
+ 1434              		.thumb
+ 1435              		.thumb_func
+ 1437              	_Z14GoNextPositioni:
+ 1438              	.LFB24:
+ 110:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 111:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 112:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void GoNextPosition(int PositionOrder)
+ 113:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
+ 1439              		.loc 2 113 0
+ 1440              		.cfi_startproc
+ 1441              		@ args = 0, pretend = 0, frame = 16
+ 1442              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1443 0000 80B5     		push	{r7, lr}
+ 1444              		.cfi_def_cfa_offset 8
+ 1445              		.cfi_offset 7, -8
+ 1446              		.cfi_offset 14, -4
+ 1447 0002 84B0     		sub	sp, sp, #16
+ 1448              		.cfi_def_cfa_offset 24
+ 1449 0004 00AF     		add	r7, sp, #0
+ 1450              		.cfi_def_cfa_register 7
+ 1451 0006 7860     		str	r0, [r7, #4]
+ 1452              	.LBB9:
+ 114:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	int NextTargetPosition = 0;
+ 1453              		.loc 2 114 0
+ 1454 0008 0023     		movs	r3, #0
+ 1455 000a FB60     		str	r3, [r7, #12]
+ 115:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6083, 0x00, 0X40);//acceleration
  1456              		.loc 2 115 0
- 1457 0024 0120     		movs	r0, #1
- 1458 0026 FFF7FEFF 		bl	_Z16ModesOfOperationc
- 116:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	AbsoluteMovement();
- 1459              		.loc 2 116 0
- 1460 002a FFF7FEFF 		bl	_Z16AbsoluteMovementv
- 117:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ChangeSetPointImmediately(true);
- 1461              		.loc 2 117 0
- 1462 002e 0120     		movs	r0, #1
- 1463 0030 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
- 118:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Out.ProfileVelocity=4000;
- 1464              		.loc 2 118 0
- 1465 0034 40F20003 		movw	r3, #:lower16:Out
- 1466 0038 C0F20003 		movt	r3, #:upper16:Out
- 1467 003c 0022     		movs	r2, #0
- 1468 003e 62F05F02 		orn	r2, r2, #95
- 1469 0042 5A71     		strb	r2, [r3, #5]
- 1470 0044 0022     		movs	r2, #0
- 1471 0046 42F00F02 		orr	r2, r2, #15
- 1472 004a 9A71     		strb	r2, [r3, #6]
- 1473 004c 0022     		movs	r2, #0
- 1474 004e DA71     		strb	r2, [r3, #7]
- 1475 0050 0022     		movs	r2, #0
- 1476 0052 1A72     		strb	r2, [r3, #8]
- 119:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
- 120:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
- 121:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (PositionOrder * 600); // multiplication factor 6
- 1477              		.loc 2 121 0
- 1478 0054 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 32
+ 1457 000c 46F28300 		movw	r0, #24707
+ 1458 0010 0021     		movs	r1, #0
+ 1459 0012 4022     		movs	r2, #64
+ 1460 0014 FFF7FEFF 		bl	od_write
+ 116:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x6084, 0x00, 0X40);//deceleration
+ 1461              		.loc 2 116 0
+ 1462 0018 46F28400 		movw	r0, #24708
+ 1463 001c 0021     		movs	r1, #0
+ 1464 001e 4022     		movs	r2, #64
+ 1465 0020 FFF7FEFF 		bl	od_write
+ 117:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ModesOfOperation(1);
+ 1466              		.loc 2 117 0
+ 1467 0024 0120     		movs	r0, #1
+ 1468 0026 FFF7FEFF 		bl	_Z16ModesOfOperationc
+ 118:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	AbsoluteMovement();
+ 1469              		.loc 2 118 0
+ 1470 002a FFF7FEFF 		bl	_Z16AbsoluteMovementv
+ 119:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ChangeSetPointImmediately(true);
+ 1471              		.loc 2 119 0
+ 1472 002e 0120     		movs	r0, #1
+ 1473 0030 FFF7FEFF 		bl	_Z25ChangeSetPointImmediatelyb
+ 120:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Out.ProfileVelocity=4000;
+ 1474              		.loc 2 120 0
+ 1475 0034 40F20003 		movw	r3, #:lower16:Out
+ 1476 0038 C0F20003 		movt	r3, #:upper16:Out
+ 1477 003c 0022     		movs	r2, #0
+ 1478 003e 62F05F02 		orn	r2, r2, #95
+ 1479 0042 5A71     		strb	r2, [r3, #5]
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 32
 
 
- 1479 0056 4FF41672 		mov	r2, #600
- 1480 005a 02FB03F2 		mul	r2, r2, r3
- 1481 005e 40F20003 		movw	r3, #:lower16:ZeroPosition
- 1482 0062 C0F20003 		movt	r3, #:upper16:ZeroPosition
- 1483 0066 1B68     		ldr	r3, [r3]
- 1484 0068 1344     		add	r3, r3, r2
- 1485 006a FB60     		str	r3, [r7, #12]
- 122:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Out.TargetPosition = NextTargetPosition;
- 1486              		.loc 2 122 0
- 1487 006c 40F20003 		movw	r3, #:lower16:Out
- 1488 0070 C0F20003 		movt	r3, #:upper16:Out
- 1489 0074 FA68     		ldr	r2, [r7, #12]
- 1490 0076 C3F80120 		str	r2, [r3, #1]	@ unaligned
- 123:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(true);
- 1491              		.loc 2 123 0
- 1492 007a 0120     		movs	r0, #1
- 1493 007c FFF7FEFF 		bl	_Z11NewSetPointb
- 124:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	yield();
- 1494              		.loc 2 124 0
- 1495 0080 FFF7FEFF 		bl	yield
- 125:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(false);
- 1496              		.loc 2 125 0
- 1497 0084 0020     		movs	r0, #0
- 1498 0086 FFF7FEFF 		bl	_Z11NewSetPointb
- 1499              	.LBE9:
- 126:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
- 1500              		.loc 2 126 0
- 1501 008a 1037     		adds	r7, r7, #16
- 1502 008c BD46     		mov	sp, r7
- 1503              		@ sp needed
- 1504 008e 80BD     		pop	{r7, pc}
- 1505              		.cfi_endproc
- 1506              	.LFE24:
- 1508              		.section	.text._Z9StopMotorv,"ax",%progbits
- 1509              		.align	2
- 1510              		.global	_Z9StopMotorv
- 1511              		.thumb
- 1512              		.thumb_func
- 1514              	_Z9StopMotorv:
- 1515              	.LFB25:
- 127:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 128:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 129:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void StopMotor()
- 130:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
- 1516              		.loc 2 130 0
- 1517              		.cfi_startproc
- 1518              		@ args = 0, pretend = 0, frame = 0
- 1519              		@ frame_needed = 1, uses_anonymous_args = 0
- 1520 0000 80B5     		push	{r7, lr}
- 1521              		.cfi_def_cfa_offset 8
- 1522              		.cfi_offset 7, -8
- 1523              		.cfi_offset 14, -4
- 1524 0002 00AF     		add	r7, sp, #0
- 1525              		.cfi_def_cfa_register 7
- 131:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Quickstop();
- 1526              		.loc 2 131 0
- 1527 0004 FFF7FEFF 		bl	_Z9Quickstopv
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 33
+ 1480 0044 0022     		movs	r2, #0
+ 1481 0046 42F00F02 		orr	r2, r2, #15
+ 1482 004a 9A71     		strb	r2, [r3, #6]
+ 1483 004c 0022     		movs	r2, #0
+ 1484 004e DA71     		strb	r2, [r3, #7]
+ 1485 0050 0022     		movs	r2, #0
+ 1486 0052 1A72     		strb	r2, [r3, #8]
+ 121:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
+ 122:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
+ 123:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NextTargetPosition = ZeroPosition + (PositionOrder * 600); // multiplication factor 6
+ 1487              		.loc 2 123 0
+ 1488 0054 7B68     		ldr	r3, [r7, #4]
+ 1489 0056 4FF41672 		mov	r2, #600
+ 1490 005a 02FB03F2 		mul	r2, r2, r3
+ 1491 005e 40F20003 		movw	r3, #:lower16:ZeroPosition
+ 1492 0062 C0F20003 		movt	r3, #:upper16:ZeroPosition
+ 1493 0066 1B68     		ldr	r3, [r3]
+ 1494 0068 1344     		add	r3, r3, r2
+ 1495 006a FB60     		str	r3, [r7, #12]
+ 124:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Out.TargetPosition = NextTargetPosition;
+ 1496              		.loc 2 124 0
+ 1497 006c 40F20003 		movw	r3, #:lower16:Out
+ 1498 0070 C0F20003 		movt	r3, #:upper16:Out
+ 1499 0074 FA68     		ldr	r2, [r7, #12]
+ 1500 0076 C3F80120 		str	r2, [r3, #1]	@ unaligned
+ 125:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(true);
+ 1501              		.loc 2 125 0
+ 1502 007a 0120     		movs	r0, #1
+ 1503 007c FFF7FEFF 		bl	_Z11NewSetPointb
+ 126:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	yield();
+ 1504              		.loc 2 126 0
+ 1505 0080 FFF7FEFF 		bl	yield
+ 127:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	NewSetPoint(false);
+ 1506              		.loc 2 127 0
+ 1507 0084 0020     		movs	r0, #0
+ 1508 0086 FFF7FEFF 		bl	_Z11NewSetPointb
+ 1509              	.LBE9:
+ 128:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
+ 1510              		.loc 2 128 0
+ 1511 008a 1037     		adds	r7, r7, #16
+ 1512 008c BD46     		mov	sp, r7
+ 1513              		@ sp needed
+ 1514 008e 80BD     		pop	{r7, pc}
+ 1515              		.cfi_endproc
+ 1516              	.LFE24:
+ 1518              		.section	.text._Z9StopMotorv,"ax",%progbits
+ 1519              		.align	2
+ 1520              		.global	_Z9StopMotorv
+ 1521              		.thumb
+ 1522              		.thumb_func
+ 1524              	_Z9StopMotorv:
+ 1525              	.LFB25:
+ 129:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 130:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 131:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void StopMotor()
+ 132:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
+ 1526              		.loc 2 132 0
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 33
 
 
- 132:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Shutdown();
- 1528              		.loc 2 132 0
- 1529 0008 FFF7FEFF 		bl	_Z8Shutdownv
- 133:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
- 1530              		.loc 2 133 0
- 1531 000c 80BD     		pop	{r7, pc}
- 1532              		.cfi_endproc
- 1533              	.LFE25:
- 1535 000e 00BF     		.section	.text._Z4userv,"ax",%progbits
- 1536              		.align	2
- 1537              		.global	_Z4userv
- 1538              		.thumb
- 1539              		.thumb_func
- 1541              	_Z4userv:
- 1542              	.LFB26:
- 134:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 135:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
- 136:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void user()
- 137:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
- 1543              		.loc 2 137 0
- 1544              		.cfi_startproc
- 1545              		@ args = 0, pretend = 0, frame = 16
- 1546              		@ frame_needed = 1, uses_anonymous_args = 0
- 1547 0000 80B5     		push	{r7, lr}
- 1548              		.cfi_def_cfa_offset 8
- 1549              		.cfi_offset 7, -8
- 1550              		.cfi_offset 14, -4
- 1551 0002 84B0     		sub	sp, sp, #16
- 1552              		.cfi_def_cfa_offset 24
- 1553 0004 00AF     		add	r7, sp, #0
- 1554              		.cfi_def_cfa_register 7
- 1555              	.LBB10:
- 138:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
- 1556              		.loc 2 138 0
- 1557 0006 43F20260 		movw	r0, #13826
- 1558 000a 0721     		movs	r1, #7
- 1559 000c 4FF49072 		mov	r2, #288
- 1560 0010 C2F20052 		movt	r2, 9472
- 1561 0014 FFF7FEFF 		bl	_Z3mapiii
- 139:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
- 1562              		.loc 2 139 0
- 1563 0018 43F20250 		movw	r0, #13570
- 1564 001c 0821     		movs	r1, #8
- 1565 001e 4FF49072 		mov	r2, #288
- 1566 0022 C2F20042 		movt	r2, 9216
- 1567 0026 FFF7FEFF 		bl	_Z3mapiii
- 140:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
- 1568              		.loc 2 140 0
- 1569 002a 43F20250 		movw	r0, #13570
- 1570 002e 0921     		movs	r1, #9
- 1571 0030 4FF40872 		mov	r2, #544
- 1572 0034 C2F20042 		movt	r2, 9216
- 1573 0038 FFF7FEFF 		bl	_Z3mapiii
- 141:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ChangeModbusAdresse(1);
- 1574              		.loc 2 141 0
- 1575 003c 0120     		movs	r0, #1
- 1576 003e FFF7FEFF 		bl	_Z19ChangeModbusAdressei
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 34
+ 1527              		.cfi_startproc
+ 1528              		@ args = 0, pretend = 0, frame = 0
+ 1529              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1530 0000 80B5     		push	{r7, lr}
+ 1531              		.cfi_def_cfa_offset 8
+ 1532              		.cfi_offset 7, -8
+ 1533              		.cfi_offset 14, -4
+ 1534 0002 00AF     		add	r7, sp, #0
+ 1535              		.cfi_def_cfa_register 7
+ 133:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Quickstop();
+ 1536              		.loc 2 133 0
+ 1537 0004 FFF7FEFF 		bl	_Z9Quickstopv
+ 134:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	Shutdown();
+ 1538              		.loc 2 134 0
+ 1539 0008 FFF7FEFF 		bl	_Z8Shutdownv
+ 135:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** }
+ 1540              		.loc 2 135 0
+ 1541 000c 80BD     		pop	{r7, pc}
+ 1542              		.cfi_endproc
+ 1543              	.LFE25:
+ 1545 000e 00BF     		.section	.text._Z4userv,"ax",%progbits
+ 1546              		.align	2
+ 1547              		.global	_Z4userv
+ 1548              		.thumb
+ 1549              		.thumb_func
+ 1551              	_Z4userv:
+ 1552              	.LFB26:
+ 136:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 137:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 
+ 138:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** void user()
+ 139:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** {
+ 1553              		.loc 2 139 0
+ 1554              		.cfi_startproc
+ 1555              		@ args = 0, pretend = 0, frame = 16
+ 1556              		@ frame_needed = 1, uses_anonymous_args = 0
+ 1557 0000 80B5     		push	{r7, lr}
+ 1558              		.cfi_def_cfa_offset 8
+ 1559              		.cfi_offset 7, -8
+ 1560              		.cfi_offset 14, -4
+ 1561 0002 84B0     		sub	sp, sp, #16
+ 1562              		.cfi_def_cfa_offset 24
+ 1563 0004 00AF     		add	r7, sp, #0
+ 1564              		.cfi_def_cfa_register 7
+ 1565              	.LBB10:
+ 140:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3602,0x07,0x25000120); // controler status    adresse 5008
+ 1566              		.loc 2 140 0
+ 1567 0006 43F20260 		movw	r0, #13826
+ 1568 000a 0721     		movs	r1, #7
+ 1569 000c 4FF49072 		mov	r2, #288
+ 1570 0010 C2F20052 		movt	r2, 9472
+ 1571 0014 FFF7FEFF 		bl	_Z3mapiii
+ 141:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x08,0x24000120); // Order				adresse 6010
+ 1572              		.loc 2 141 0
+ 1573 0018 43F20250 		movw	r0, #13570
+ 1574 001c 0821     		movs	r1, #8
+ 1575 001e 4FF49072 		mov	r2, #288
+ 1576 0022 C2F20042 		movt	r2, 9216
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 34
 
 
- 142:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
- 143:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6	
- 1577              		.loc 2 143 0
- 1578 0042 46F2A800 		movw	r0, #24744
- 1579 0046 0021     		movs	r1, #0
- 1580 0048 0022     		movs	r2, #0
- 1581 004a CFF64162 		movt	r2, 65089
- 1582 004e FFF7FEFF 		bl	od_write
- 1583              	.L84:
- 1584              	.LBB11:
+ 1577 0026 FFF7FEFF 		bl	_Z3mapiii
+ 142:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	map(0x3502,0x09,0x24000220); // Setpoint			adresse 6012
+ 1578              		.loc 2 142 0
+ 1579 002a 43F20250 		movw	r0, #13570
+ 1580 002e 0921     		movs	r1, #9
+ 1581 0030 4FF40872 		mov	r2, #544
+ 1582 0034 C2F20042 		movt	r2, 9216
+ 1583 0038 FFF7FEFF 		bl	_Z3mapiii
+ 143:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	ChangeModbusAdresse(1);
+ 1584              		.loc 2 143 0
+ 1585 003c 0120     		movs	r0, #1
+ 1586 003e FFF7FEFF 		bl	_Z19ChangeModbusAdressei
  144:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
- 145:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	while (true)
- 146:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
- 147:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
- 1585              		.loc 2 147 0
- 1586 0052 4FF41050 		mov	r0, #9216
- 1587 0056 0121     		movs	r1, #1
- 1588 0058 FFF7FEFF 		bl	od_read
- 1589 005c 0346     		mov	r3, r0
- 1590 005e FB60     		str	r3, [r7, #12]
- 148:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
- 1591              		.loc 2 148 0
- 1592 0060 4FF41050 		mov	r0, #9216
- 1593 0064 0221     		movs	r1, #2
- 1594 0066 FFF7FEFF 		bl	od_read
- 1595 006a 0346     		mov	r3, r0
- 1596 006c BB60     		str	r3, [r7, #8]
- 1597              	.LBB12:
- 149:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		
- 150:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		if ((order == 3) && (Reference == true))
- 1598              		.loc 2 150 0
- 1599 006e FB68     		ldr	r3, [r7, #12]
- 1600 0070 032B     		cmp	r3, #3
- 1601 0072 25D1     		bne	.L76
- 1602              		.loc 2 150 0 is_stmt 0 discriminator 1
- 1603 0074 40F20003 		movw	r3, #:lower16:Reference
- 1604 0078 C0F20003 		movt	r3, #:upper16:Reference
- 1605 007c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1606 007e 002B     		cmp	r3, #0
- 1607 0080 1ED0     		beq	.L76
- 1608              	.LBB13:
- 151:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{	
- 152:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			int NewPose = AdaptPose(NextPose);
- 1609              		.loc 2 152 0 is_stmt 1
- 1610 0082 B868     		ldr	r0, [r7, #8]
- 1611 0084 FFF7FEFF 		bl	_Z9AdaptPosei
- 1612 0088 7860     		str	r0, [r7, #4]
- 153:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			bool PoseAccepted = IsPoseOK(NewPose);
- 1613              		.loc 2 153 0
- 1614 008a 7868     		ldr	r0, [r7, #4]
- 1615 008c FFF7FEFF 		bl	_Z8IsPoseOKi
- 1616 0090 0346     		mov	r3, r0
- 1617 0092 FB70     		strb	r3, [r7, #3]
- 154:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			if (PoseAccepted == true)
- 1618              		.loc 2 154 0
- 1619 0094 FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
- 1620 0096 002B     		cmp	r3, #0
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 35
+ 145:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	od_write(0x60A8, 0x00, 0xFE410000); //control faktor of position FF 10^-1 FA 10^-6	
+ 1587              		.loc 2 145 0
+ 1588 0042 46F2A800 		movw	r0, #24744
+ 1589 0046 0021     		movs	r1, #0
+ 1590 0048 0022     		movs	r2, #0
+ 1591 004a CFF64162 		movt	r2, 65089
+ 1592 004e FFF7FEFF 		bl	od_write
+ 1593              	.L84:
+ 1594              	.LBB11:
+ 146:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	
+ 147:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	while (true)
+ 148:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	{
+ 149:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int order = od_read(0x2400,0x01);
+ 1595              		.loc 2 149 0
+ 1596 0052 4FF41050 		mov	r0, #9216
+ 1597 0056 0121     		movs	r1, #1
+ 1598 0058 FFF7FEFF 		bl	od_read
+ 1599 005c 0346     		mov	r3, r0
+ 1600 005e FB60     		str	r3, [r7, #12]
+ 150:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		int NextPose = od_read(0x2400,0x02);
+ 1601              		.loc 2 150 0
+ 1602 0060 4FF41050 		mov	r0, #9216
+ 1603 0064 0221     		movs	r1, #2
+ 1604 0066 FFF7FEFF 		bl	od_read
+ 1605 006a 0346     		mov	r3, r0
+ 1606 006c BB60     		str	r3, [r7, #8]
+ 1607              	.LBB12:
+ 151:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		
+ 152:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		if ((order == 3) && (Reference == true))
+ 1608              		.loc 2 152 0
+ 1609 006e FB68     		ldr	r3, [r7, #12]
+ 1610 0070 032B     		cmp	r3, #3
+ 1611 0072 25D1     		bne	.L76
+ 1612              		.loc 2 152 0 is_stmt 0 discriminator 1
+ 1613 0074 40F20003 		movw	r3, #:lower16:Reference
+ 1614 0078 C0F20003 		movt	r3, #:upper16:Reference
+ 1615 007c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1616 007e 002B     		cmp	r3, #0
+ 1617 0080 1ED0     		beq	.L76
+ 1618              	.LBB13:
+ 153:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{	
+ 154:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			int NewPose = AdaptPose(NextPose);
+ 1619              		.loc 2 154 0 is_stmt 1
+ 1620 0082 B868     		ldr	r0, [r7, #8]
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 35
 
 
- 1621 0098 09D0     		beq	.L77
- 155:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			{
- 156:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,3);
- 1622              		.loc 2 156 0
- 1623 009a 4FF41450 		mov	r0, #9472
- 1624 009e 0121     		movs	r1, #1
- 1625 00a0 0322     		movs	r2, #3
- 1626 00a2 FFF7FEFF 		bl	od_write
- 157:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				GoNextPosition(NewPose);
- 1627              		.loc 2 157 0
- 1628 00a6 7868     		ldr	r0, [r7, #4]
- 1629 00a8 FFF7FEFF 		bl	_Z14GoNextPositioni
- 1630              	.LBE13:
- 158:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
- 159:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			else
- 160:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			{
- 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,0); // error
- 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				yield();
- 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
- 1631              		.loc 2 163 0
- 1632 00ac 4CE0     		b	.L79
- 1633              	.L77:
- 1634              	.LBB14:
- 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				yield();
- 1635              		.loc 2 161 0
- 1636 00ae 4FF41450 		mov	r0, #9472
- 1637 00b2 0121     		movs	r1, #1
- 1638 00b4 0022     		movs	r2, #0
- 1639 00b6 FFF7FEFF 		bl	od_write
- 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
- 1640              		.loc 2 162 0
- 1641 00ba FFF7FEFF 		bl	yield
- 1642              	.LBE14:
- 1643              		.loc 2 163 0
- 1644 00be 43E0     		b	.L79
- 1645              	.L76:
- 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
- 165:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if((order == 3) && (Reference == false))
- 1646              		.loc 2 165 0
- 1647 00c0 FB68     		ldr	r3, [r7, #12]
- 1648 00c2 032B     		cmp	r3, #3
- 1649 00c4 12D1     		bne	.L80
- 1650              		.loc 2 165 0 is_stmt 0 discriminator 1
- 1651 00c6 40F20003 		movw	r3, #:lower16:Reference
- 1652 00ca C0F20003 		movt	r3, #:upper16:Reference
- 1653 00ce 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1654 00d0 83F00103 		eor	r3, r3, #1
- 1655 00d4 DBB2     		uxtb	r3, r3
- 1656 00d6 002B     		cmp	r3, #0
- 1657 00d8 08D0     		beq	.L80
- 166:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
- 167:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,0); // error
- 1658              		.loc 2 167 0 is_stmt 1
- 1659 00da 4FF41450 		mov	r0, #9472
- 1660 00de 0121     		movs	r1, #1
- 1661 00e0 0022     		movs	r2, #0
- 1662 00e2 FFF7FEFF 		bl	od_write
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 36
+ 1621 0084 FFF7FEFF 		bl	_Z9AdaptPosei
+ 1622 0088 7860     		str	r0, [r7, #4]
+ 155:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			bool PoseAccepted = IsPoseOK(NewPose);
+ 1623              		.loc 2 155 0
+ 1624 008a 7868     		ldr	r0, [r7, #4]
+ 1625 008c FFF7FEFF 		bl	_Z8IsPoseOKi
+ 1626 0090 0346     		mov	r3, r0
+ 1627 0092 FB70     		strb	r3, [r7, #3]
+ 156:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			if (PoseAccepted == true)
+ 1628              		.loc 2 156 0
+ 1629 0094 FB78     		ldrb	r3, [r7, #3]	@ zero_extendqisi2
+ 1630 0096 002B     		cmp	r3, #0
+ 1631 0098 09D0     		beq	.L77
+ 157:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			{
+ 158:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,3);
+ 1632              		.loc 2 158 0
+ 1633 009a 4FF41450 		mov	r0, #9472
+ 1634 009e 0121     		movs	r1, #1
+ 1635 00a0 0322     		movs	r2, #3
+ 1636 00a2 FFF7FEFF 		bl	od_write
+ 159:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				GoNextPosition(NewPose);
+ 1637              		.loc 2 159 0
+ 1638 00a6 7868     		ldr	r0, [r7, #4]
+ 1639 00a8 FFF7FEFF 		bl	_Z14GoNextPositioni
+ 1640              	.LBE13:
+ 160:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
+ 161:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			else
+ 162:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			{
+ 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				od_write(0x2500,0x01,0); // error
+ 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				yield();
+ 165:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
+ 1641              		.loc 2 165 0
+ 1642 00ac 52E0     		b	.L79
+ 1643              	.L77:
+ 1644              	.LBB14:
+ 163:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 				yield();
+ 1645              		.loc 2 163 0
+ 1646 00ae 4FF41450 		mov	r0, #9472
+ 1647 00b2 0121     		movs	r1, #1
+ 1648 00b4 0022     		movs	r2, #0
+ 1649 00b6 FFF7FEFF 		bl	od_write
+ 164:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			}
+ 1650              		.loc 2 164 0
+ 1651 00ba FFF7FEFF 		bl	yield
+ 1652              	.LBE14:
+ 1653              		.loc 2 165 0
+ 1654 00be 49E0     		b	.L79
+ 1655              	.L76:
+ 166:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+ 167:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if((order == 3) && (Reference == false))
+ 1656              		.loc 2 167 0
+ 1657 00c0 FB68     		ldr	r3, [r7, #12]
+ 1658 00c2 032B     		cmp	r3, #3
+ 1659 00c4 12D1     		bne	.L80
+ 1660              		.loc 2 167 0 is_stmt 0 discriminator 1
+ 1661 00c6 40F20003 		movw	r3, #:lower16:Reference
+ 1662 00ca C0F20003 		movt	r3, #:upper16:Reference
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 36
 
 
- 168:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1663              		.loc 2 168 0
- 1664 00e6 FFF7FEFF 		bl	yield
- 1665 00ea 2DE0     		b	.L79
- 1666              	.L80:
- 169:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}	
- 170:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
- 1667              		.loc 2 170 0
- 1668 00ec FB68     		ldr	r3, [r7, #12]
- 1669 00ee 012B     		cmp	r3, #1
- 1670 00f0 10D1     		bne	.L81
- 171:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
- 172:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,1);
- 1671              		.loc 2 172 0
- 1672 00f2 4FF41450 		mov	r0, #9472
- 1673 00f6 0121     		movs	r1, #1
- 1674 00f8 0122     		movs	r2, #1
- 1675 00fa FFF7FEFF 		bl	od_write
- 173:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
- 1676              		.loc 2 173 0
- 1677 00fe FFF7FEFF 		bl	_Z9StopMotorv
- 174:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1678              		.loc 2 174 0
- 1679 0102 FFF7FEFF 		bl	yield
- 175:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			Reference = false;
- 1680              		.loc 2 175 0
- 1681 0106 40F20003 		movw	r3, #:lower16:Reference
- 1682 010a C0F20003 		movt	r3, #:upper16:Reference
- 1683 010e 0022     		movs	r2, #0
- 1684 0110 1A70     		strb	r2, [r3]
- 1685 0112 19E0     		b	.L79
- 1686              	.L81:
- 176:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
- 177:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 4)
- 1687              		.loc 2 177 0
- 1688 0114 FB68     		ldr	r3, [r7, #12]
- 1689 0116 042B     		cmp	r3, #4
- 1690 0118 0DD1     		bne	.L82
- 178:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
- 179:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			ModesOfOperation(3);
- 1691              		.loc 2 179 0
- 1692 011a 0320     		movs	r0, #3
- 1693 011c FFF7FEFF 		bl	_Z16ModesOfOperationc
- 180:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			EnableOperation();
- 1694              		.loc 2 180 0
- 1695 0120 FFF7FEFF 		bl	_Z15EnableOperationv
- 181:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,4);
- 1696              		.loc 2 181 0
- 1697 0124 4FF41450 		mov	r0, #9472
- 1698 0128 0121     		movs	r1, #1
- 1699 012a 0422     		movs	r2, #4
- 1700 012c FFF7FEFF 		bl	od_write
- 182:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1701              		.loc 2 182 0
- 1702 0130 FFF7FEFF 		bl	yield
- 1703 0134 08E0     		b	.L79
- 1704              	.L82:
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 37
+ 1663 00ce 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1664 00d0 83F00103 		eor	r3, r3, #1
+ 1665 00d4 DBB2     		uxtb	r3, r3
+ 1666 00d6 002B     		cmp	r3, #0
+ 1667 00d8 08D0     		beq	.L80
+ 168:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+ 169:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,0); // error
+ 1668              		.loc 2 169 0 is_stmt 1
+ 1669 00da 4FF41450 		mov	r0, #9472
+ 1670 00de 0121     		movs	r1, #1
+ 1671 00e0 0022     		movs	r2, #0
+ 1672 00e2 FFF7FEFF 		bl	od_write
+ 170:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1673              		.loc 2 170 0
+ 1674 00e6 FFF7FEFF 		bl	yield
+ 1675 00ea 33E0     		b	.L79
+ 1676              	.L80:
+ 171:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}	
+ 172:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 1)
+ 1677              		.loc 2 172 0
+ 1678 00ec FB68     		ldr	r3, [r7, #12]
+ 1679 00ee 012B     		cmp	r3, #1
+ 1680 00f0 10D1     		bne	.L81
+ 173:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+ 174:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,1);
+ 1681              		.loc 2 174 0
+ 1682 00f2 4FF41450 		mov	r0, #9472
+ 1683 00f6 0121     		movs	r1, #1
+ 1684 00f8 0122     		movs	r2, #1
+ 1685 00fa FFF7FEFF 		bl	od_write
+ 175:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			StopMotor();
+ 1686              		.loc 2 175 0
+ 1687 00fe FFF7FEFF 		bl	_Z9StopMotorv
+ 176:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1688              		.loc 2 176 0
+ 1689 0102 FFF7FEFF 		bl	yield
+ 177:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			Reference = false;
+ 1690              		.loc 2 177 0
+ 1691 0106 40F20003 		movw	r3, #:lower16:Reference
+ 1692 010a C0F20003 		movt	r3, #:upper16:Reference
+ 1693 010e 0022     		movs	r2, #0
+ 1694 0110 1A70     		strb	r2, [r3]
+ 1695 0112 1FE0     		b	.L79
+ 1696              	.L81:
+ 178:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+ 179:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 4)
+ 1697              		.loc 2 179 0
+ 1698 0114 FB68     		ldr	r3, [r7, #12]
+ 1699 0116 042B     		cmp	r3, #4
+ 1700 0118 13D1     		bne	.L82
+ 180:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+ 181:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			ModesOfOperation(4);
+ 1701              		.loc 2 181 0
+ 1702 011a 0420     		movs	r0, #4
+ 1703 011c FFF7FEFF 		bl	_Z16ModesOfOperationc
+ 182:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x6071,0x00,99);
+ 1704              		.loc 2 182 0
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 37
 
 
- 183:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
- 184:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 5)
- 1705              		.loc 2 184 0
- 1706 0136 FB68     		ldr	r3, [r7, #12]
- 1707 0138 052B     		cmp	r3, #5
- 1708 013a 02D1     		bne	.L83
- 185:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
- 186:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			ReferenceDrive();
- 1709              		.loc 2 186 0
- 1710 013c FFF7FEFF 		bl	_Z14ReferenceDrivev
- 1711 0140 02E0     		b	.L79
- 1712              	.L83:
- 187:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
- 188:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else
- 189:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
- 190:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
- 1713              		.loc 2 190 0
- 1714 0142 FFF7FEFF 		bl	yield
- 1715              	.LBE12:
- 1716              	.LBE11:
- 191:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
- 192:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
- 1717              		.loc 2 192 0
- 1718 0146 84E7     		b	.L84
- 1719              	.L79:
- 1720 0148 83E7     		b	.L84
- 1721              	.LBE10:
- 1722              		.cfi_endproc
- 1723              	.LFE26:
- 1725 014a 00BF     		.text
- 1726              	.Letext0:
- 1727              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen/types.h"
- 1728              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen/mapping.h"
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 38
+ 1705 0120 46F27100 		movw	r0, #24689
+ 1706 0124 0021     		movs	r1, #0
+ 1707 0126 6322     		movs	r2, #99
+ 1708 0128 FFF7FEFF 		bl	od_write
+ 183:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			EnableOperation();
+ 1709              		.loc 2 183 0
+ 1710 012c FFF7FEFF 		bl	_Z15EnableOperationv
+ 184:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			od_write(0x2500,0x01,4);
+ 1711              		.loc 2 184 0
+ 1712 0130 4FF41450 		mov	r0, #9472
+ 1713 0134 0121     		movs	r1, #1
+ 1714 0136 0422     		movs	r2, #4
+ 1715 0138 FFF7FEFF 		bl	od_write
+ 185:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1716              		.loc 2 185 0
+ 1717 013c FFF7FEFF 		bl	yield
+ 1718 0140 08E0     		b	.L79
+ 1719              	.L82:
+ 186:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+ 187:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else if (order == 5)
+ 1720              		.loc 2 187 0
+ 1721 0142 FB68     		ldr	r3, [r7, #12]
+ 1722 0144 052B     		cmp	r3, #5
+ 1723 0146 02D1     		bne	.L83
+ 188:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+ 189:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			ReferenceDrive();
+ 1724              		.loc 2 189 0
+ 1725 0148 FFF7FEFF 		bl	_Z14ReferenceDrivev
+ 1726 014c 02E0     		b	.L79
+ 1727              	.L83:
+ 190:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+ 191:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		else
+ 192:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		{
+ 193:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 			yield();
+ 1728              		.loc 2 193 0
+ 1729 014e FFF7FEFF 		bl	yield
+ 1730              	.LBE12:
+ 1731              	.LBE11:
+ 194:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 		}
+ 195:C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings\ReferenceSetup.cpp **** 	}
+ 1732              		.loc 2 195 0
+ 1733 0152 7EE7     		b	.L84
+ 1734              	.L79:
+ 1735 0154 7DE7     		b	.L84
+ 1736              	.LBE10:
+ 1737              		.cfi_endproc
+ 1738              	.LFE26:
+ 1740 0156 00BF     		.text
+ 1741              	.Letext0:
+ 1742              		.file 3 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen/types.h"
+ 1743              		.file 4 "C:\\Plug & Drive Studio\\PNDS-2.1.7-x86\\workspace\\TranslationX\\gen/mapping.h"
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 38
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ReferenceSetup.cpp
-C:\Windows\ccsxbB3w.s:19     .text._Z5Resetv:00000000 $t
-C:\Windows\ccsxbB3w.s:24     .text._Z5Resetv:00000000 _Z5Resetv
-C:\Windows\ccsxbB3w.s:55     .text._Z9Quickstopv:00000000 $t
-C:\Windows\ccsxbB3w.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
-C:\Windows\ccsxbB3w.s:104    .text._Z8Shutdownv:00000000 $t
-C:\Windows\ccsxbB3w.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
-C:\Windows\ccsxbB3w.s:157    .text._Z8SwitchOnv:00000000 $t
-C:\Windows\ccsxbB3w.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
-C:\Windows\ccsxbB3w.s:238    .text._Z15EnableOperationv:00000000 $t
-C:\Windows\ccsxbB3w.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
-C:\Windows\ccsxbB3w.s:347    .text._Z16RelativeMovementv:00000000 $t
-C:\Windows\ccsxbB3w.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
-C:\Windows\ccsxbB3w.s:382    .text._Z16AbsoluteMovementv:00000000 $t
-C:\Windows\ccsxbB3w.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
-C:\Windows\ccsxbB3w.s:417    .text._Z11NewSetPointb:00000000 $t
-C:\Windows\ccsxbB3w.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
-C:\Windows\ccsxbB3w.s:478    .text._Z4Haltb:00000000 $t
-C:\Windows\ccsxbB3w.s:483    .text._Z4Haltb:00000000 _Z4Haltb
-C:\Windows\ccsxbB3w.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
-C:\Windows\ccsxbB3w.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
-C:\Windows\ccsxbB3w.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
-C:\Windows\ccsxbB3w.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
-C:\Windows\ccsxbB3w.s:661    .text._Z13TargetReachedv:00000000 $t
-C:\Windows\ccsxbB3w.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
-C:\Windows\ccsxbB3w.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
-C:\Windows\ccsxbB3w.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
-C:\Windows\ccsxbB3w.s:745    .text._Z12DigitalInputh:00000000 $t
-C:\Windows\ccsxbB3w.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
-C:\Windows\ccsxbB3w.s:795    .text._Z16SetDigitalOutputh:00000000 $t
-C:\Windows\ccsxbB3w.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
-C:\Windows\ccsxbB3w.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
-C:\Windows\ccsxbB3w.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
-C:\Windows\ccsxbB3w.s:892    .text._Z16ModesOfOperationc:00000000 $t
-C:\Windows\ccsxbB3w.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
-C:\Windows\ccsxbB3w.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
-C:\Windows\ccsxbB3w.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
-C:\Windows\ccsxbB3w.s:959    .text._Z11AnalogInputv:00000000 $t
-C:\Windows\ccsxbB3w.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
-C:\Windows\ccsxbB3w.s:996    .bss.ZeroPosition:00000000 ZeroPosition
-C:\Windows\ccsxbB3w.s:993    .bss.ZeroPosition:00000000 $d
-C:\Windows\ccsxbB3w.s:1002   .bss.Reference:00000000 Reference
-C:\Windows\ccsxbB3w.s:1003   .bss.Reference:00000000 $d
-C:\Windows\ccsxbB3w.s:1005   .text._Z3mapiii:00000000 $t
-C:\Windows\ccsxbB3w.s:1010   .text._Z3mapiii:00000000 _Z3mapiii
-C:\Windows\ccsxbB3w.s:1138   .text._Z19ChangeModbusAdressei:00000000 $t
-C:\Windows\ccsxbB3w.s:1143   .text._Z19ChangeModbusAdressei:00000000 _Z19ChangeModbusAdressei
-C:\Windows\ccsxbB3w.s:1223   .text._Z14ReferenceDrivev:00000000 $t
-C:\Windows\ccsxbB3w.s:1228   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
-C:\Windows\ccsxbB3w.s:1322   .text._Z8IsPoseOKi:00000000 $t
-C:\Windows\ccsxbB3w.s:1327   .text._Z8IsPoseOKi:00000000 _Z8IsPoseOKi
-C:\Windows\ccsxbB3w.s:1379   .text._Z9AdaptPosei:00000000 $t
-C:\Windows\ccsxbB3w.s:1384   .text._Z9AdaptPosei:00000000 _Z9AdaptPosei
-C:\Windows\ccsxbB3w.s:1422   .text._Z14GoNextPositioni:00000000 $t
-C:\Windows\ccsxbB3w.s:1427   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
-C:\Windows\ccsxbB3w.s:1509   .text._Z9StopMotorv:00000000 $t
-ARM GAS  C:\Windows\ccsxbB3w.s 			page 39
+C:\Windows\ccVUBK8a.s:19     .text._Z5Resetv:00000000 $t
+C:\Windows\ccVUBK8a.s:24     .text._Z5Resetv:00000000 _Z5Resetv
+C:\Windows\ccVUBK8a.s:55     .text._Z9Quickstopv:00000000 $t
+C:\Windows\ccVUBK8a.s:60     .text._Z9Quickstopv:00000000 _Z9Quickstopv
+C:\Windows\ccVUBK8a.s:104    .text._Z8Shutdownv:00000000 $t
+C:\Windows\ccVUBK8a.s:109    .text._Z8Shutdownv:00000000 _Z8Shutdownv
+C:\Windows\ccVUBK8a.s:157    .text._Z8SwitchOnv:00000000 $t
+C:\Windows\ccVUBK8a.s:162    .text._Z8SwitchOnv:00000000 _Z8SwitchOnv
+C:\Windows\ccVUBK8a.s:238    .text._Z15EnableOperationv:00000000 $t
+C:\Windows\ccVUBK8a.s:243    .text._Z15EnableOperationv:00000000 _Z15EnableOperationv
+C:\Windows\ccVUBK8a.s:347    .text._Z16RelativeMovementv:00000000 $t
+C:\Windows\ccVUBK8a.s:352    .text._Z16RelativeMovementv:00000000 _Z16RelativeMovementv
+C:\Windows\ccVUBK8a.s:382    .text._Z16AbsoluteMovementv:00000000 $t
+C:\Windows\ccVUBK8a.s:387    .text._Z16AbsoluteMovementv:00000000 _Z16AbsoluteMovementv
+C:\Windows\ccVUBK8a.s:417    .text._Z11NewSetPointb:00000000 $t
+C:\Windows\ccVUBK8a.s:422    .text._Z11NewSetPointb:00000000 _Z11NewSetPointb
+C:\Windows\ccVUBK8a.s:478    .text._Z4Haltb:00000000 $t
+C:\Windows\ccVUBK8a.s:483    .text._Z4Haltb:00000000 _Z4Haltb
+C:\Windows\ccVUBK8a.s:539    .text._Z25ChangeSetPointImmediatelyb:00000000 $t
+C:\Windows\ccVUBK8a.s:544    .text._Z25ChangeSetPointImmediatelyb:00000000 _Z25ChangeSetPointImmediatelyb
+C:\Windows\ccVUBK8a.s:600    .text._Z16ChangeOnSetPointb:00000000 $t
+C:\Windows\ccVUBK8a.s:605    .text._Z16ChangeOnSetPointb:00000000 _Z16ChangeOnSetPointb
+C:\Windows\ccVUBK8a.s:661    .text._Z13TargetReachedv:00000000 $t
+C:\Windows\ccVUBK8a.s:666    .text._Z13TargetReachedv:00000000 _Z13TargetReachedv
+C:\Windows\ccVUBK8a.s:703    .text._Z22NewSetPointAcknowledgev:00000000 $t
+C:\Windows\ccVUBK8a.s:708    .text._Z22NewSetPointAcknowledgev:00000000 _Z22NewSetPointAcknowledgev
+C:\Windows\ccVUBK8a.s:745    .text._Z12DigitalInputh:00000000 $t
+C:\Windows\ccVUBK8a.s:750    .text._Z12DigitalInputh:00000000 _Z12DigitalInputh
+C:\Windows\ccVUBK8a.s:795    .text._Z16SetDigitalOutputh:00000000 $t
+C:\Windows\ccVUBK8a.s:800    .text._Z16SetDigitalOutputh:00000000 _Z16SetDigitalOutputh
+C:\Windows\ccVUBK8a.s:843    .text._Z18ClearDigitalOutputh:00000000 $t
+C:\Windows\ccVUBK8a.s:848    .text._Z18ClearDigitalOutputh:00000000 _Z18ClearDigitalOutputh
+C:\Windows\ccVUBK8a.s:892    .text._Z16ModesOfOperationc:00000000 $t
+C:\Windows\ccVUBK8a.s:897    .text._Z16ModesOfOperationc:00000000 _Z16ModesOfOperationc
+C:\Windows\ccVUBK8a.s:928    .text._Z23ModesOfOperationDisplayv:00000000 $t
+C:\Windows\ccVUBK8a.s:933    .text._Z23ModesOfOperationDisplayv:00000000 _Z23ModesOfOperationDisplayv
+C:\Windows\ccVUBK8a.s:959    .text._Z11AnalogInputv:00000000 $t
+C:\Windows\ccVUBK8a.s:964    .text._Z11AnalogInputv:00000000 _Z11AnalogInputv
+C:\Windows\ccVUBK8a.s:996    .bss.ZeroPosition:00000000 ZeroPosition
+C:\Windows\ccVUBK8a.s:993    .bss.ZeroPosition:00000000 $d
+C:\Windows\ccVUBK8a.s:1002   .bss.Reference:00000000 Reference
+C:\Windows\ccVUBK8a.s:1003   .bss.Reference:00000000 $d
+C:\Windows\ccVUBK8a.s:1005   .text._Z3mapiii:00000000 $t
+C:\Windows\ccVUBK8a.s:1010   .text._Z3mapiii:00000000 _Z3mapiii
+C:\Windows\ccVUBK8a.s:1138   .text._Z19ChangeModbusAdressei:00000000 $t
+C:\Windows\ccVUBK8a.s:1143   .text._Z19ChangeModbusAdressei:00000000 _Z19ChangeModbusAdressei
+C:\Windows\ccVUBK8a.s:1223   .text._Z14ReferenceDrivev:00000000 $t
+C:\Windows\ccVUBK8a.s:1228   .text._Z14ReferenceDrivev:00000000 _Z14ReferenceDrivev
+C:\Windows\ccVUBK8a.s:1332   .text._Z8IsPoseOKi:00000000 $t
+C:\Windows\ccVUBK8a.s:1337   .text._Z8IsPoseOKi:00000000 _Z8IsPoseOKi
+C:\Windows\ccVUBK8a.s:1389   .text._Z9AdaptPosei:00000000 $t
+C:\Windows\ccVUBK8a.s:1394   .text._Z9AdaptPosei:00000000 _Z9AdaptPosei
+C:\Windows\ccVUBK8a.s:1432   .text._Z14GoNextPositioni:00000000 $t
+C:\Windows\ccVUBK8a.s:1437   .text._Z14GoNextPositioni:00000000 _Z14GoNextPositioni
+C:\Windows\ccVUBK8a.s:1519   .text._Z9StopMotorv:00000000 $t
+ARM GAS  C:\Windows\ccVUBK8a.s 			page 39
 
 
-C:\Windows\ccsxbB3w.s:1514   .text._Z9StopMotorv:00000000 _Z9StopMotorv
-C:\Windows\ccsxbB3w.s:1536   .text._Z4userv:00000000 $t
-C:\Windows\ccsxbB3w.s:1541   .text._Z4userv:00000000 _Z4userv
+C:\Windows\ccVUBK8a.s:1524   .text._Z9StopMotorv:00000000 _Z9StopMotorv
+C:\Windows\ccVUBK8a.s:1546   .text._Z4userv:00000000 $t
+C:\Windows\ccVUBK8a.s:1551   .text._Z4userv:00000000 _Z4userv
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

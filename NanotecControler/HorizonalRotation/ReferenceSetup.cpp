@@ -176,7 +176,8 @@ void user()
 		}
 		else if (order == 4)
 		{
-			ModesOfOperation(3);
+			ModesOfOperation(4);
+			od_write(0x6071,0x00,99);
 			EnableOperation();
 			od_write(0x2500,0x01,4);
 			yield();

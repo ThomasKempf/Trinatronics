@@ -819,13 +819,13 @@ Contents of the .debug_info section:
     <6db>   DW_AT_decl_line   : 136
     <6dc>   DW_AT_linkage_name: (indirect string, offset: 0x55d): _Z4userv
     <6e0>   DW_AT_low_pc      : 0x800898c
-    <6e4>   DW_AT_high_pc     : 0x14a
+    <6e4>   DW_AT_high_pc     : 0x156
     <6e8>   DW_AT_frame_base  : 1 byte block: 9c 	(DW_OP_call_frame_cfa)
     <6ea>   DW_AT_GNU_all_tail_call_sites: 1
     <6ea>   DW_AT_sibling     : <0x737>
  <2><6ee>: Abbrev Number: 14 (DW_TAG_lexical_block)
     <6ef>   DW_AT_low_pc      : 0x80089de
-    <6f3>   DW_AT_high_pc     : 0xf4
+    <6f3>   DW_AT_high_pc     : 0x100
  <3><6f7>: Abbrev Number: 15 (DW_TAG_variable)
     <6f8>   DW_AT_name        : (indirect string, offset: 0x337): order
     <6fc>   DW_AT_decl_file   : 2
