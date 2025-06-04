@@ -1,0 +1,126 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+Installez la dernière version de PowerShell pour de nouvelles fonctionnalités et améliorations ! https://aka.ms/PSWindows
+
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> gitk
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   TrinaMain/Parameter.h
+        modified:   TrinaMain/TrinaMain.ino
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git pull --all
+Already up to date.
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git add --all
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   TrinaMain/Parameter.h
+        modified:   TrinaMain/TrinaMain.ino
+
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git commit -m "Test commit terminal"
+[master 4e9a7df] Test commit terminal
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git push --all
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 676 bytes | 676.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/ThomasKempf/Trinatronics.git
+   8d5f40a..4e9a7df  master -> master
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git branch
+* master
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git branch Augustin
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git branch
+  Augustin
+* master
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git switch Augustin
+Switched to branch 'Augustin'
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+On branch Augustin
+nothing to commit, working tree clean
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git branch master
+fatal: a branch named 'master' already exists
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git switch master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git log
+commit 4e9a7dfeaac408b65e0642792b03598bc6e5237b (HEAD -> master, origin/master, origin/HEAD, Augustin)
+Author: augustin_zahorka <augustin.zahorka@gmail.com>
+Date:   Mon May 19 18:45:58 2025 +0200
+
+    Test commit terminal
+
+commit 8d5f40a1186852d4ce69e04c706ba77c5d77361d
+Author: Thomas <thomaskempfdriesbach@gmail.com>
+Date:   Sun May 4 17:06:38 2025 +0200
+
+    comment the programme
+
+commit dd92f223e635b92ad63728125ffe87a7ffe1710d
+Author: Thomas <thomaskempfdriesbach@gmail.com>
+Date:   Sun May 4 16:36:59 2025 +0200
+
+    simul_the global_programm
+
+commit 9225158d697db1e77c5334fff673cae2f1976b5a
+Author: Thomas <thomaskempfdriesbach@gmail.com>
+Date:   Sun May 4 13:13:17 2025 +0200
+
+    simul_write_setpoin_into_controler
+
+commit b0dd283152d104894e2e9a59d717b4b4622ccab0
+Author: Thomas <thomaskempfdriesbach@gmail.com>
+Date:   Sun May 4 12:10:41 2025 +0200
+
+    structure_globale_code
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics>
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git checkout 8d5f40a1186852d4ce69e04c706ba77c5d77361d
+Note: switching to '8d5f40a1186852d4ce69e04c706ba77c5d77361d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 8d5f40a comment the programme
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+HEAD detached at 8d5f40a
+nothing to commit, working tree clean
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git switch master
+Previous HEAD position was 8d5f40a comment the programme
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git switch Augustin
+Switched to branch 'Augustin'
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics> git status
+On branch Augustin
+nothing to commit, working tree clean
+PS C:\Users\PC\Desktop\Trinatronics\Arduino\Trinatronics>
