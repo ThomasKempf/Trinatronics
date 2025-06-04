@@ -3,7 +3,7 @@
 #include <ModbusMaster.h>
 
 
-ModbusMaster node[] = {ModbusMaster(),ModbusMaster(),ModbusMaster(),ModbusMaster()};// slave instance x, y, rh, rv
+ModbusMaster node[] = {ModbusMaster(),ModbusMaster(),ModbusMaster(),ModbusMaster()};// slave instance x_moteur, y_moteur, rh, rv
 uint16_t IndexSetPoint = 6012;
 uint16_t IndexOrder = 6010;
 uint16_t IndexStatus = 5008;
@@ -90,13 +90,13 @@ void ReadorWrite(ModbusMaster* node,uint8_t SlaveID,uint16_t Index)
   { 
     PrintModbusMessage(SlaveID,Index,Function,false);
   }
-  delay(100); // delay to become the slave message
+  delay(2); // delay to become the slave message
 }
 
 
 int DefineSetPoint(char SlaveID)
 {
-    int SetPointValue[] = { x, y, rh, rv };
+    int SetPointValue[] = { x_moteur, y_moteur, rh, rv };
     SetPoint = SetPointValue[SlaveID-1];
     return SetPoint;
 }
@@ -112,7 +112,7 @@ void WriteAllControler()
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexSetPoint); // write_new setpoint
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
     Serial.println("write finish");
-    delay(200); // delay between two slaver
+    delay(2); // delay between two slaver
   }
 }
 
@@ -146,7 +146,7 @@ void ReadAllControler()
 
 void referenceProtocol()
 {
-  uint8_t runingOrder[] = { 3, 4, 1, 2 }; // rh rv x y
+  uint8_t runingOrder[] = { 3, 4, 1, 2 }; // rh rv x_moteur y_moteur
   int refSetPoint [] = { 0, 18000, 10, 200};
   for (int controler = 1; controler <= NumberOfControler; controler++)
   {
