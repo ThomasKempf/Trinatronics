@@ -3,6 +3,12 @@
 #include "Parameter.h"
 #include "MotorControler.h"
 
+// extern uint8_t ControlerStatus; // 0 erro / 1 Motor Off / 2 Reference / 3 Enable / 4 Manuel Mode
+// extern int x; // lateral translation, 5 à 900 mm, vers la droite
+// extern int y; // depth translation, 5 à 380 mm, vers l'opérateur
+// extern int rh; // horizontal rotation , -395 à 9100 °*10^-2, 0 étant vers le bas, 90 vers l'avant.
+// extern int rv; // vertical translation, 1055 à 34050 °*10^-2, 1055 étant du centre passant au dessus de l'épaule droite, 34050 passant au dessus de l'épaule gauche
+
 // STRUCTURES DE BASE
 struct Vect2D {float x, y;};
 struct Vect3D {float x, y, z;};
@@ -15,6 +21,7 @@ const int pinOnOff = 25;            // SWITCH : Interrupteur ON/OFF physique
 const int pinButtonMode = 27;       // BP : Bouton poussoir de changement de mode
 const int pinLedButton = 26;        // BP : LED intégrée au bouton
 const int pinRelay = 24;            // LED : Sortie relais (commande lampe)
+const int pinManualMove = 29;       // BP : Bouton poussoir de mouvement manuel
 
 bool lastButtonState = HIGH;        // BP : État précédent du bouton mode pour détection de front
 int mode = 0;                       // BP : 0 = Auto (LED allumée), 1 = Manuel (LED éteinte)
@@ -27,16 +34,15 @@ bool lastStateOn = false; // Pour relancer le test moteur après switch sur on
 const int decalage_x = 200; // Décalage entre x réel et x moteur
 const int decalage_y = 100; // Décalage entre y réel et y moteur
 
-// extern uint8_t ControlerStatus; // 0 erro / 1 Motor Off / 2 Reference / 3 Enable / 4 Manuel Mode
-// extern int x; // lateral translation, 5 à 900 mm, vers la droite
-// extern int y; // depth translation, 5 à 380 mm, vers l'opérateur
-// extern int rh; // horizontal rotation , -395 à 9100 °*10^-2, 0 étant vers le bas, 90 vers l'avant.
-// extern int rv; // vertical translation, 1055 à 34050 °*10^-2, 1055 étant du centre passant au dessus de l'épaule droite, 34050 passant au dessus de l'épaule gauche
+const int x_moteur_min = 6;
+const int x_moteur_max = 899;
+const int y_moteur_min = 100;
+const int y_moteur_max = 379;
 
-const int x_min = 5;
-const int x_max = 900;
-const int y_min = 5;
-const int y_max = 380;
+const int rh_min = -394;
+const int rh_max = 2000;
+const int rv_min = 1056;
+const int rv_max = 34049;
 
 // DONNÉES DE CALIBRATION
 // Ces données sont à copier-coller dans le .py, en modifiant les valeurs de position des points en fonction de la calibration.
@@ -98,8 +104,8 @@ float h32_2 = -0.3071092850;
 float h33_2 = 1.0000000000;
 
 // POSITIONS FIXES DES CAMÉRAS
-const Vect3D C1 = {0, 0, 60};  // Caméra gauche - Pixy1
-const Vect3D C2 = {60, 0, 60};  // Caméra droite - Pixy2
+const Vect3D C1 = {0, 0, 700};  // Caméra gauche - Pixy1
+const Vect3D C2 = {1000, 0, 700};  // Caméra droite - Pixy2
 
 // DÉFINITION DES FONCTIONS
 void transformer(float x, float y,
@@ -144,7 +150,7 @@ Vect3D point_plus_proche(const Vect3D& C1, const Vect3D& D1, const Vect3D& C2, c
   return {(P1.x + P2.x)/2, (P1.y + P2.y)/2, (P1.z + P2.z)/2};
 }
 
-void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, int pixy_detection) {
+void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, int pixy_detection, Vect3D P) {
   float x_target = 0.0;
   float y_target = 0.0;
 
@@ -155,8 +161,10 @@ void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, in
     x_target = X2;
     y_target = Y2;
   } else if (pixy_detection == 3) {
-    x_target = (X1 + X2) / 2.0;
-    y_target = (Y1 + Y2) / 2.0;
+    x_target = P.x;
+    y_target = P.y;
+    // x_target = (X1 + X2) / 2.0;
+    // y_target = (Y1 + Y2) / 2.0;
   } else {
     return; // Aucune détection
   }
@@ -170,21 +178,45 @@ void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, in
   float dy = y_target - (y_moteur + decalage_y);
   float distance = sqrt(dx * dx + dy * dy);
 
-  if (distance > 400.0) {
+  Serial.print("dx = "); Serial.print(dx);
+  Serial.print(" | dy = "); Serial.print(dy);
+  Serial.print(" | distance = "); Serial.println(distance);
+
+  if (distance > 200) {
     x_moteur = constrain((int)x_moteur_calc, x_moteur_min, x_moteur_max);
+    Serial.print("x_moteur : "); Serial.println(x_moteur);
     y_moteur = constrain((int)y_moteur_calc, y_moteur_min, y_moteur_max);
+    Serial.print("y_moteur : "); Serial.println(y_moteur);
   }
 
-  float angle_rad = atan2(dy, dx);
-  int angle_deg = (int)(angle_rad * 18000.0 / PI);
+  // === CALCUL DES ANGLES DE ROTATION ===
+  float angle_v_rad = atan2(dy, dx);
+  float angle_v_deg = (angle_v_rad * 180.0 / PI -90);
+  int angle_v_deg100 = ((int)(angle_v_deg * 100))%36000;
 
-  rh = constrain(angle_deg, rh_min, rh_max);
-  rv = 18000;
+  Serial.print("angle_v_rad = "); Serial.print(angle_v_rad);
+  Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
+  Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
 
-  AutoMode = true;
-  ManualMove = false;
+  float horizontal_distance = sqrt(dx * dx + dy * dy);
+  float height = 1000.0; // hauteur fixe de la lampe
+  float angle_h_rad = atan2(horizontal_distance, height);
+  float angle_h_deg = angle_h_rad * 180.0 / PI;
+  int angle_h_deg100 = (int)(angle_h_deg * 100);
 
-  UpdateControlerStatus();
+  Serial.print("horizontal_distance = "); Serial.print(horizontal_distance);
+  Serial.print(" | height = "); Serial.print(height);
+  Serial.print(" | angle_v_rad = "); Serial.print(angle_v_rad);
+  Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
+  Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
+
+  // Application des contraintes
+  rh = constrain(angle_h_deg100, rh_min, rh_max);
+  rv = constrain(angle_v_deg100, rv_min, rv_max);
+
+  Serial.print("rh final : "); Serial.println(rh);
+  Serial.print("rv final : "); Serial.println(rv);
+  Serial.print("UpdateControler : ("); Serial.print(x_moteur); Serial.print(","); Serial.print(y_moteur); Serial.print(","); Serial.print(rh); Serial.print(","); Serial.print(rv); Serial.println(")");
 }
 
 // ----- SETUP -----
@@ -195,17 +227,20 @@ void setup() {
   pinMode(pinButtonMode, INPUT_PULLUP); // BP défini en entrée
   pinMode(pinLedButton, OUTPUT);        // BP : LED définie en sortie
   pinMode(pinRelay, OUTPUT);            // LED : Relais défini en sortie
+  pinMode(pinManualMove, INPUT_PULLUP); // BP : Mode manuel
+
 
   Serial.begin(115200);                 // Initialisation du port série
   setupModbus();
   referenceProtocol();
-  Serial.println("--- Démarrage du système ---");
+  Serial.println("--- Démarrage du système | Programme général ---");
 
   pixy1.init(0x53);
   pixy2.init(0x54);
 }
 
 void loop() {
+
   bool systemOn = (digitalRead(pinOnOff) == HIGH); // SWITCH : Lecture de l'état de l'interrupteur ON/OFF
   digitalWrite(pinRelay, systemOn ? LOW : HIGH); // LED : Si le système est ON, activation du relais | Attention ! Le relais est inversé, la lampe est allumée lorsque LOW est envoyé.
   int pixy_detection = 0; // Nombre de détection par les Pixy (0, 1, 2 ou 3 si les 2 pixy détectent l'objet)
@@ -213,11 +248,15 @@ void loop() {
   Vect3D P={0.0,0.0,0.0}; // Position réelle (x,y,z) calculée si détection par les 2 Pixy
   unsigned long currentMillis = millis();
 
+  Serial.println("Départ boucle");
+
   if (systemOn) {
     if (!lastStateOn){
+      Serial.println("Système allumé");
       lastStateOn = true;
       previousMillis = currentMillis;
     }
+    Serial.println("Read pinButtonMode");
     bool currentButtonState = digitalRead(pinButtonMode); //BP : Lecture
     if (currentButtonState != lastButtonState && millis() - lastDebounceTime > debounceDelay) { 
       if (currentButtonState == LOW) {
@@ -226,10 +265,57 @@ void loop() {
       lastDebounceTime = millis(); // Mémorisation temps de changement
     }
     lastButtonState = currentButtonState; // Mise à jour état précédent
+    
+    Serial.println("Read pinManualMove");
+    // GESTION DU BOUTON MANUEL (pinManualMove)
+    static bool manualPressed = false;
+    static unsigned long manualPressStart = 0;
+    static bool lastManualMoveState = HIGH;
+    bool currentManualMoveState = digitalRead(pinManualMove);
+
+    // Détection de front descendant (début d'appui)
+    if (currentManualMoveState == LOW && lastManualMoveState == HIGH) {
+      manualPressStart = millis();
+      manualPressed = true;
+    }
+
+    // Détection de front montant (relâchement)
+    if (currentManualMoveState == HIGH && lastManualMoveState == LOW) {
+      unsigned long pressDuration = millis() - manualPressStart;
+      if (pressDuration >= 300) {
+        ManualMove = true;
+        AutoMode = false;
+        mode = 1;
+        Serial.println("ManualMove ACTIVÉ (>300ms)");
+      } else {
+        ManualMove = false;
+        Serial.println("Appui court ignoré (<300ms)");
+      }
+      manualPressed = false;
+    }
+
+    // Si le bouton reste relâché
+    if (currentManualMoveState == HIGH && !manualPressed) {
+      ManualMove = false;
+    }
+
+    lastManualMoveState = currentManualMoveState;
+
+    // Affichage brut de l'état de la pin
+    Serial.print("Manual pin read = "); Serial.println(currentManualMoveState);
+
+    if (mode==0){
+      AutoMode = true;
+    }
+    else{
+      AutoMode = false;
+    }
 
     digitalWrite(pinLedButton, (mode == 0) ? HIGH : LOW); // BP : Activation de la LED témoin si mode = 0 (Auto)
 
+    Serial.println("Lecture Pixy 1");
     pixy1.ccc.getBlocks();
+    Serial.println("Lecture Pixy 1 terminée");
     if (pixy1.ccc.numBlocks) {
       pixy_detection = 1;
       int x1 = pixy1.ccc.blocks[0].m_x;
@@ -237,13 +323,15 @@ void loop() {
       transformer(x1, y1, h11_1, h12_1, h13_1, h21_1, h22_1, h23_1, h31_1, h32_1, X1, Y1);
       // X1 et Y1 sont les positions réelles sur la surface de la table détectées par la Pixy1
     }
-
+    Serial.println("Lecture Pixy 2");
     pixy2.ccc.getBlocks();
+    Serial.println("Lecture Pixy 2 terminée");
     if (pixy2.ccc.numBlocks) {
       if (pixy_detection == 1){
         pixy_detection = 3;
       }
-      else if (pixy_detection == 0){
+      else if (pixy_detection == 0)
+      {
         pixy_detection = 2;
       }
       int x2 = pixy2.ccc.blocks[0].m_x;
@@ -253,28 +341,37 @@ void loop() {
     }
 
     if (pixy_detection == 3){
+      Serial.println("Pixy 1 et 2 ont détecté : définition du point 3D");
       // Serial.print(" | Écart (x,y) = ("); Serial.print(X2 - X1); Serial.print(","); Serial.print(Y2 - Y1); Serial.print(")");
       // Serial.print(" | Moyenne (x,y) = ("); Serial.print(min(X2,X1)+abs(X2 - X1)/2); Serial.print(","); Serial.print(min(Y2,Y1)+abs(Y2 - Y1)/2); Serial.print(")");
       Vect3D D1 = vecteur_directeur(C1, X1, Y1);
       Vect3D D2 = vecteur_directeur(C2, X2, Y2);
       P = point_plus_proche(C1, D1, C2, D2);
-      // Serial.print(" | Intersection approx_moteur= (");
-      // Serial.print(P.x); Serial.print(", "); Serial.print(P.y); Serial.print(", "); Serial.print(P.z); Serial.print(")");
+      Serial.print(" | Intersection approx_moteur= (");
+      Serial.print(P.x); Serial.print(", "); Serial.print(P.y); Serial.print(", "); Serial.print(P.z); Serial.print(")");
     }
 
     if (pixy_detection > 0) {
-      updateMotorPositionFromDetection(X1, Y1, X2, Y2, pixy_detection);
+      updateMotorPositionFromDetection(X1, Y1, X2, Y2, pixy_detection, P);
+      UpdateControlerStatus();
     }
 
-  } else {
+    // Affichage des paramètres actuels
+    Serial.print("Moteurs : x_moteur = "); Serial.print(x_moteur);
+    Serial.print(" | y_moteur = "); Serial.print(y_moteur);
+    Serial.print(" | rh = "); Serial.print(rh);
+    Serial.print(" | rv = "); Serial.print(rv);
+    Serial.print(" | AutoMode = "); Serial.print(AutoMode);
+    Serial.print(" | ManualMove = "); Serial.print(ManualMove);
+    Serial.print(" | ControlerStatus = "); Serial.print(ControlerStatus);
+    Serial.println("");
+  }
+  else {
     digitalWrite(pinLedButton, LOW);
     lastStateOn = false;
   }
-
   // AFFICHAGE DES PARAMÈTRES
-  static unsigned long lastPrint = 0; // La boucle est gérée pour tourner "au plus vite", donc on ajoute une régulation temporelle pour l'affichage
-  if (millis() - lastPrint > 400) {
-    Serial.print("État système: ");
+    Serial.print("État système : ");
     Serial.print(systemOn ? "ON" : "OFF");
     Serial.print(" | ");
     Serial.print(mode == 0 ? "Automatique" : "Manuel");
@@ -292,8 +389,6 @@ void loop() {
       Serial.print(" | Temps depuis switch sur ON (ms) = ");
       Serial.print(currentMillis - previousMillis);
     }
-
     Serial.println("");
-    lastPrint = millis();
-  }
+    Serial.println("Fin de boucle");
 }
