@@ -138,145 +138,155 @@ nanotec.h                                    210                 0x4
 nanotec.h                                    211                0x14
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            22           0x8008698
+ReferenceSetup.cpp                            23           0x8008698
 
-ReferenceSetup.cpp                            23           0x80086a4
-ReferenceSetup.cpp                            23           0x80086b6
-ReferenceSetup.cpp                            23           0x80086c6
-ReferenceSetup.cpp                            23           0x80086da
-ReferenceSetup.cpp                            23           0x80086de
-ReferenceSetup.cpp                            23           0x80086e0
-ReferenceSetup.cpp                            25           0x80086e4
-ReferenceSetup.cpp                            26           0x80086f0
-ReferenceSetup.cpp                            27           0x80086f4
-ReferenceSetup.cpp                            28           0x8008704
-ReferenceSetup.cpp                            29           0x8008708
-ReferenceSetup.cpp                            30           0x8008716
-ReferenceSetup.cpp                            32           0x800871a
-ReferenceSetup.cpp                            33           0x800872c
-ReferenceSetup.cpp                            34           0x8008730
-ReferenceSetup.cpp                            36           0x8008732
-ReferenceSetup.cpp                            34           0x8008736
-ReferenceSetup.cpp                            38           0x8008750
-ReferenceSetup.cpp                            39           0x8008762
-ReferenceSetup.cpp                            41           0x8008766
-
-C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            45           0x800876c
-
-ReferenceSetup.cpp                            46           0x8008774
-ReferenceSetup.cpp                            48           0x8008790
-ReferenceSetup.cpp                            49           0x800879e
-ReferenceSetup.cpp                            51           0x80087a2
-ReferenceSetup.cpp                            52           0x80087b4
-ReferenceSetup.cpp                            53           0x80087b8
-ReferenceSetup.cpp                            55           0x80087ba
-ReferenceSetup.cpp                            53           0x80087be
-ReferenceSetup.cpp                            57           0x80087d8
-ReferenceSetup.cpp                            58           0x80087ea
-ReferenceSetup.cpp                            60           0x80087ee
+ReferenceSetup.cpp                            24           0x80086a4
+ReferenceSetup.cpp                            24           0x80086b6
+ReferenceSetup.cpp                            24           0x80086c6
+ReferenceSetup.cpp                            24           0x80086da
+ReferenceSetup.cpp                            24           0x80086de
+ReferenceSetup.cpp                            24           0x80086e0
+ReferenceSetup.cpp                            26           0x80086e4
+ReferenceSetup.cpp                            27           0x80086f0
+ReferenceSetup.cpp                            28           0x80086f4
+ReferenceSetup.cpp                            29           0x8008704
+ReferenceSetup.cpp                            30           0x8008708
+ReferenceSetup.cpp                            31           0x8008716
+ReferenceSetup.cpp                            33           0x800871a
+ReferenceSetup.cpp                            34           0x800872c
+ReferenceSetup.cpp                            35           0x8008730
+ReferenceSetup.cpp                            37           0x8008732
+ReferenceSetup.cpp                            35           0x8008736
+ReferenceSetup.cpp                            39           0x8008750
+ReferenceSetup.cpp                            40           0x8008762
+ReferenceSetup.cpp                            42           0x8008766
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            64           0x80087f4
+ReferenceSetup.cpp                            46           0x800876c
 
-ReferenceSetup.cpp                            65           0x80087fa
-ReferenceSetup.cpp                            67           0x800880e
-ReferenceSetup.cpp                            68           0x800881a
-ReferenceSetup.cpp                            70           0x8008820
-ReferenceSetup.cpp                            71           0x8008826
-ReferenceSetup.cpp                            72           0x8008834
-ReferenceSetup.cpp                            73           0x8008842
-ReferenceSetup.cpp                            74           0x8008850
-ReferenceSetup.cpp                            75           0x8008854
-ReferenceSetup.cpp                            77           0x8008856
-ReferenceSetup.cpp                            75           0x800885a
-ReferenceSetup.cpp                            79           0x800886c
-ReferenceSetup.cpp                            80           0x8008878
-ReferenceSetup.cpp                            81           0x8008890
-ReferenceSetup.cpp                            85           0x800889e
-ReferenceSetup.cpp                            87           0x80088a2
+ReferenceSetup.cpp                            47           0x8008774
+ReferenceSetup.cpp                            49           0x8008790
+ReferenceSetup.cpp                            50           0x800879e
+ReferenceSetup.cpp                            52           0x80087a2
+ReferenceSetup.cpp                            53           0x80087b4
+ReferenceSetup.cpp                            54           0x80087b8
+ReferenceSetup.cpp                            56           0x80087ba
+ReferenceSetup.cpp                            54           0x80087be
+ReferenceSetup.cpp                            58           0x80087d8
+ReferenceSetup.cpp                            59           0x80087ea
+ReferenceSetup.cpp                            61           0x80087ee
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                            91           0x80088a8
+ReferenceSetup.cpp                            65           0x80087f4
 
-ReferenceSetup.cpp                            92           0x80088b0
-ReferenceSetup.cpp                            93           0x80088b6
-ReferenceSetup.cpp                            94           0x80088ba
-ReferenceSetup.cpp                            94           0x80088c2
-ReferenceSetup.cpp                            96           0x80088ca
-ReferenceSetup.cpp                           100           0x80088ce
-ReferenceSetup.cpp                           102           0x80088d0
-
-C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           105           0x80088dc
-
-ReferenceSetup.cpp                           106           0x80088e4
-ReferenceSetup.cpp                           107           0x80088e8
-ReferenceSetup.cpp                           108           0x80088f0
-ReferenceSetup.cpp                           109           0x80088f2
-
-C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           113           0x8008900
-
-ReferenceSetup.cpp                           114           0x8008908
-ReferenceSetup.cpp                           115           0x800890c
-ReferenceSetup.cpp                           116           0x8008918
-ReferenceSetup.cpp                           117           0x8008924
-ReferenceSetup.cpp                           118           0x800892a
-ReferenceSetup.cpp                           119           0x800892e
-ReferenceSetup.cpp                           120           0x8008934
-ReferenceSetup.cpp                           123           0x8008954
-ReferenceSetup.cpp                           124           0x800896c
-ReferenceSetup.cpp                           125           0x800897a
-ReferenceSetup.cpp                           126           0x8008980
-ReferenceSetup.cpp                           127           0x8008984
-ReferenceSetup.cpp                           128           0x800898a
+ReferenceSetup.cpp                            66           0x80087fa
+ReferenceSetup.cpp                            68           0x800880e
+ReferenceSetup.cpp                            69           0x800881a
+ReferenceSetup.cpp                            71           0x8008820
+ReferenceSetup.cpp                            72           0x8008826
+ReferenceSetup.cpp                            73           0x8008834
+ReferenceSetup.cpp                            74           0x8008842
+ReferenceSetup.cpp                            75           0x8008850
+ReferenceSetup.cpp                            76           0x8008854
+ReferenceSetup.cpp                            78           0x8008856
+ReferenceSetup.cpp                            76           0x800885a
+ReferenceSetup.cpp                            80           0x800886c
+ReferenceSetup.cpp                            81           0x8008878
+ReferenceSetup.cpp                            82           0x8008890
+ReferenceSetup.cpp                            86           0x800889e
+ReferenceSetup.cpp                            88           0x80088a2
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           132           0x8008990
+ReferenceSetup.cpp                            92           0x80088a8
 
-ReferenceSetup.cpp                           133           0x8008994
-ReferenceSetup.cpp                           134           0x8008998
-ReferenceSetup.cpp                           135           0x800899c
+ReferenceSetup.cpp                            93           0x80088b0
+ReferenceSetup.cpp                            94           0x80088b6
+ReferenceSetup.cpp                            95           0x80088ba
+ReferenceSetup.cpp                            95           0x80088c2
+ReferenceSetup.cpp                            97           0x80088ca
+ReferenceSetup.cpp                           101           0x80088ce
+ReferenceSetup.cpp                           103           0x80088d0
 
 C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
-ReferenceSetup.cpp                           139           0x80089a0
+ReferenceSetup.cpp                           106           0x80088dc
 
-ReferenceSetup.cpp                           140           0x80089a6
-ReferenceSetup.cpp                           141           0x80089b8
-ReferenceSetup.cpp                           142           0x80089ca
-ReferenceSetup.cpp                           143           0x80089dc
-ReferenceSetup.cpp                           145           0x80089e2
-ReferenceSetup.cpp                           149           0x80089f2
-ReferenceSetup.cpp                           150           0x8008a00
-ReferenceSetup.cpp                           152           0x8008a0e
-ReferenceSetup.cpp                           152           0x8008a14
-ReferenceSetup.cpp                           154           0x8008a22
-ReferenceSetup.cpp                           155           0x8008a2a
-ReferenceSetup.cpp                           156           0x8008a34
-ReferenceSetup.cpp                           158           0x8008a3a
-ReferenceSetup.cpp                           159           0x8008a46
-ReferenceSetup.cpp                           165           0x8008a4c
-ReferenceSetup.cpp                           163           0x8008a4e
-ReferenceSetup.cpp                           164           0x8008a5a
-ReferenceSetup.cpp                           165           0x8008a5e
-ReferenceSetup.cpp                           167           0x8008a60
-ReferenceSetup.cpp                           167           0x8008a66
-ReferenceSetup.cpp                           169           0x8008a7a
-ReferenceSetup.cpp                           170           0x8008a86
-ReferenceSetup.cpp                           172           0x8008a8c
-ReferenceSetup.cpp                           174           0x8008a92
-ReferenceSetup.cpp                           175           0x8008a9e
-ReferenceSetup.cpp                           176           0x8008aa2
-ReferenceSetup.cpp                           177           0x8008aa6
-ReferenceSetup.cpp                           179           0x8008ab4
-ReferenceSetup.cpp                           181           0x8008aba
-ReferenceSetup.cpp                           182           0x8008ac0
-ReferenceSetup.cpp                           183           0x8008acc
-ReferenceSetup.cpp                           184           0x8008ad0
-ReferenceSetup.cpp                           185           0x8008adc
-ReferenceSetup.cpp                           187           0x8008ae2
-ReferenceSetup.cpp                           189           0x8008ae8
-ReferenceSetup.cpp                           193           0x8008aee
-ReferenceSetup.cpp                           195           0x8008af2
+ReferenceSetup.cpp                           107           0x80088e4
+ReferenceSetup.cpp                           108           0x80088e8
+ReferenceSetup.cpp                           109           0x80088f0
+ReferenceSetup.cpp                           110           0x80088f2
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           114           0x8008900
+
+ReferenceSetup.cpp                           115           0x8008908
+ReferenceSetup.cpp                           116           0x800890c
+ReferenceSetup.cpp                           117           0x8008918
+ReferenceSetup.cpp                           118           0x8008924
+ReferenceSetup.cpp                           119           0x800892a
+ReferenceSetup.cpp                           120           0x800892e
+ReferenceSetup.cpp                           121           0x8008934
+ReferenceSetup.cpp                           124           0x8008954
+ReferenceSetup.cpp                           125           0x800896c
+ReferenceSetup.cpp                           126           0x800897a
+ReferenceSetup.cpp                           127           0x8008980
+ReferenceSetup.cpp                           128           0x8008984
+ReferenceSetup.cpp                           129           0x800898a
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           133           0x8008990
+
+ReferenceSetup.cpp                           134           0x8008994
+ReferenceSetup.cpp                           135           0x8008998
+ReferenceSetup.cpp                           136           0x800899c
+
+C:\Plug & Drive Studio\PNDS-2.1.7-x86\workspace\TranslationX\gen\mappings/ReferenceSetup.cpp:
+ReferenceSetup.cpp                           140           0x80089a0
+
+ReferenceSetup.cpp                           141           0x80089a6
+ReferenceSetup.cpp                           142           0x80089b8
+ReferenceSetup.cpp                           143           0x80089ca
+ReferenceSetup.cpp                           144           0x80089dc
+ReferenceSetup.cpp                           146           0x80089e2
+ReferenceSetup.cpp                           150           0x80089f2
+ReferenceSetup.cpp                           151           0x8008a00
+ReferenceSetup.cpp                           153           0x8008a0e
+ReferenceSetup.cpp                           153           0x8008a14
+ReferenceSetup.cpp                           155           0x8008a22
+ReferenceSetup.cpp                           156           0x8008a2a
+ReferenceSetup.cpp                           157           0x8008a34
+ReferenceSetup.cpp                           159           0x8008a3a
+ReferenceSetup.cpp                           160           0x8008a46
+ReferenceSetup.cpp                           166           0x8008a4c
+ReferenceSetup.cpp                           164           0x8008a4e
+ReferenceSetup.cpp                           165           0x8008a5a
+ReferenceSetup.cpp                           166           0x8008a5e
+ReferenceSetup.cpp                           168           0x8008a60
+ReferenceSetup.cpp                           168           0x8008a66
+ReferenceSetup.cpp                           170           0x8008a7a
+ReferenceSetup.cpp                           171           0x8008a86
+ReferenceSetup.cpp                           173           0x8008a8c
+ReferenceSetup.cpp                           175           0x8008a92
+ReferenceSetup.cpp                           176           0x8008a9e
+ReferenceSetup.cpp                           177           0x8008aa2
+ReferenceSetup.cpp                           178           0x8008aa6
+ReferenceSetup.cpp                           179           0x8008ab2
+ReferenceSetup.cpp                           181           0x8008ac0
+ReferenceSetup.cpp                           181           0x8008ac6
+ReferenceSetup.cpp                           183           0x8008ada
+ReferenceSetup.cpp                           185           0x8008aee
+ReferenceSetup.cpp                           186           0x8008af2
+ReferenceSetup.cpp                           187           0x8008b00
+ReferenceSetup.cpp                           188           0x8008b06
+ReferenceSetup.cpp                           189           0x8008b0a
+ReferenceSetup.cpp                           190           0x8008b10
+ReferenceSetup.cpp                           191           0x8008b1e
+ReferenceSetup.cpp                           192           0x8008b24
+ReferenceSetup.cpp                           193           0x8008b28
+ReferenceSetup.cpp                           194           0x8008b2e
+ReferenceSetup.cpp                           195           0x8008b32
+ReferenceSetup.cpp                           197           0x8008b3e
+ReferenceSetup.cpp                           199           0x8008b4c
+ReferenceSetup.cpp                           201           0x8008b52
+ReferenceSetup.cpp                           205           0x8008b58
+ReferenceSetup.cpp                           207           0x8008b5c
 

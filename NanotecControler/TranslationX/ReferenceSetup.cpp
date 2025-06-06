@@ -16,6 +16,7 @@ map U32	ProfileVelocity as output 0x6081:00
 
 int ZeroPosition = 0;
 bool Reference = false;
+bool haveMakeManual = false;
 
 
 void map(int ModbusAdresse,int Index,int Nanoj)
@@ -175,14 +176,25 @@ void user()
 			StopMotor();
 			yield();
 			Reference = false;
+			haveMakeManual = false;
 		}
-		else if (order == 4)
+		else if ((order == 4) && (haveMakeManual == false))
 		{
-			ModesOfOperation(4);
-			od_write(0x6071,0x00,99);
-			EnableOperation();
+			if (haveMakeManual == false)
+			{
+				int absolutPosition = 0;
+				absolutPosition = od_read(0x6064, 0x00);
+				ModesOfOperation(1);
+				AbsoluteMovement();
+				ChangeSetPointImmediately(true);
+				Out.TargetPosition = absolutPosition;
+				NewSetPoint(true);
+				yield();
+				NewSetPoint(false);
+				yield();
+				haveMakeManual = true;
+			}
 			od_write(0x2500,0x01,4);
-			yield();
 		}
 		else if (order == 5)
 		{
