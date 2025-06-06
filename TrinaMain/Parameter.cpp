@@ -5,5 +5,5 @@ bool ManualMove = false;
 bool AutoMode = false;  //hand manual move from the Camera
 int x_moteur = 0; // lateral translation , max 900 min 5 mm
 int y_moteur = 0; // depth translation , max 380 min 5 mm  
-int rh = 0; // horizontal rotation , max 9500 min 5 ° 10^-2
-int rv = 0; // vertical translation , max 33000 min 5 ° 10^-2
+int32_t rh = 0; // horizontal rotation , max 9500 min 5 ° 10^-2
+int32_t rv = 0; // vertical translation , max 33000 min 5 ° 10^-2

@@ -35,14 +35,14 @@ const int decalage_x = 60; // Décalage entre x réel et x moteur
 const int decalage_y = 200; // Décalage entre y réel et y moteur
 
 const int x_moteur_min = 6;
-const int x_moteur_max = 899;
+const int x_moteur_max = 860; //899 normalement
 const int y_moteur_min = 100;
-const int y_moteur_max = 379;
+const int y_moteur_max = 279; // J'ai enlevé 100 depuis changement roulements
 
-const int rh_min = -394;
-const int rh_max = 2000;
-const int rv_min = 1056;
-const int rv_max = 34049;
+const int32_t rh_min = -394;
+const int32_t rh_max = 9000;
+const int32_t rv_min = 1056;
+const int32_t rv_max = 34049;
 
 // DONNÉES DE CALIBRATION
 // Ces données sont à copier-coller dans le .py, en modifiant les valeurs de position des points en fonction de la calibration.
@@ -175,48 +175,48 @@ void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, in
   // Distance entre position actuelle (en repère réel) et cible
   float dx = x_target - (x_moteur + decalage_x);
   float dy = y_target - (y_moteur + decalage_y);
-  float distance = sqrt(dx * dx + dy * dy);
+  float horizontal_distance = sqrt(dx * dx + dy * dy);
 
-  // Serial.print("dx = "); Serial.print(dx);
-  // Serial.print(" | dy = "); Serial.print(dy);
-  // Serial.print(" | distance = "); Serial.println(distance);
+  Serial.print("dx = "); Serial.print(dx);
+  Serial.print(" | dy = "); Serial.print(dy);
+  Serial.print(" | horizontal_distance = "); Serial.println(horizontal_distance);
 
-  if (distance > 10) {
-    x_moteur = constrain((int)x_moteur_calc, x_moteur_min, x_moteur_max);
-    // Serial.print("x_moteur : "); Serial.println(x_moteur);
-    y_moteur = constrain((int)y_moteur_calc, y_moteur_min, y_moteur_max);
-    // Serial.print("y_moteur : "); Serial.println(y_moteur);
+  int rayon_suivi=200;
+  int avance=25;
+
+  if (horizontal_distance > rayon_suivi) {
+    if (dx>0){
+      x_moteur = constrain((int)x_moteur+avance, x_moteur_min, x_moteur_max);
+    }
+    else if (dx<0){
+      x_moteur = constrain((int)x_moteur-avance, x_moteur_min, x_moteur_max);
+    }
+    if (dy>0){
+      y_moteur = constrain((int)y_moteur+avance, y_moteur_min, y_moteur_max);
+    }
+    else if (dy<0){
+      y_moteur = constrain((int)y_moteur-avance, y_moteur_min, y_moteur_max);
+    }
   }
 
   // === CALCUL DES ANGLES DE ROTATION ===
   float angle_v_rad = atan2(dy, dx);
-  float angle_v_deg = (angle_v_rad * 180.0 / PI +90);
+  float angle_v_deg = (90-angle_v_rad * (180.0 / PI));
   int angle_v_deg100 = ((int)(angle_v_deg * 100))%36000;
 
-  // Serial.print("angle_v_rad = "); Serial.print(angle_v_rad);
-  // Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
-  // Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
+  Serial.print(" | angle_v_deg = "); Serial.print(angle_v_deg100/100); Serial.print("°");
 
-  float horizontal_distance = sqrt(dx * dx + dy * dy);
-  float height = 1000.0; // hauteur fixe de la lampe
-  float angle_h_rad = atan2(horizontal_distance, height);
-  float angle_h_deg = angle_h_rad * 180.0 / PI;
+  float height = 760.0; // hauteur fixe de la lampe
+  float angle_h_rad = atan2(height, horizontal_distance);
+  float angle_h_deg = (90-angle_h_rad * 180.0 / PI);
   int angle_h_deg100 = (int)(angle_h_deg * 100);
 
-  // Serial.print("horizontal_distance = "); Serial.print(horizontal_distance);
-  // Serial.print(" | height = "); Serial.print(height);
-  // Serial.print(" | angle_v_rad = "); Serial.print(angle_v_rad);
-  // Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
-  // Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
+  Serial.print(" | angle_h_deg = "); Serial.print(angle_h_deg); Serial.println("°");
 
   // Application des contraintes
-  // rh = constrain(angle_h_deg100, rh_min, rh_max);
-  // rv = constrain(angle_v_deg100, rv_min, rv_max);
-  rh = 0;
-  rv = 18000;
-
-  // Serial.print("rh final : "); Serial.println(rh);
-  // Serial.print("rv final : "); Serial.println(rv);
+  rh = constrain(angle_h_deg100, rh_min, rh_max);
+  rv=min(max(angle_v_deg100,rv_min),rv_max);
+  Serial.print("UpdateControlerReal : ("); Serial.print(x_moteur + decalage_x); Serial.print(","); Serial.print(y_moteur+decalage_y); Serial.print(","); Serial.print(rh); Serial.print(","); Serial.print(rv); Serial.println(")");
   Serial.print("UpdateControler : ("); Serial.print(x_moteur); Serial.print(","); Serial.print(y_moteur); Serial.print(","); Serial.print(rh); Serial.print(","); Serial.print(rv); Serial.println(")");
 }
 
@@ -299,7 +299,7 @@ void loop() {
         transformer(x1, y1, h11_1, h12_1, h13_1, h21_1, h22_1, h23_1, h31_1, h32_1, X1, Y1);
         // X1 et Y1 sont les positions réelles sur la surface de la table détectées par la Pixy1
       }
-      delay(20);
+      delay(30);
       Serial.println("Lecture Pixy 2");
       Serial.print(pixy2.ccc.getBlocks());
       Serial.println("Lecture Pixy 2 terminée");
@@ -357,5 +357,4 @@ void loop() {
       Serial.print(currentMillis - previousMillis);
     }
     Serial.println("");
-    // Serial.println("Fin de boucle");
 }

@@ -3,12 +3,6 @@
 #include "MotorControler.h"
 #include <avr/wdt.h>
 
-// extern uint8_t ControlerStatus; // 0 erro / 1 Motor Off / 2 Reference / 3 Enable / 4 Manuel Mode
-// extern int x; // lateral translation, 5 à 900 mm, vers la droite
-// extern int y; // depth translation, 5 à 380 mm, vers l'opérateur
-// extern int rh; // horizontal rotation , -395 à 9100 °*10^-2, 0 étant vers le bas, 90 vers l'avant.
-// extern int rv; // vertical translation, 1055 à 34050 °*10^-2, 1055 étant du centre passant au dessus de l'épaule droite, 34050 passant au dessus de l'épaule gauche
-
 // STRUCTURES DE BASE
 struct Vect2D {float x, y;};
 struct Vect3D {float x, y, z;};
@@ -37,7 +31,7 @@ const int decalage_y = 200; // Décalage entre y réel et y moteur
 const int x_moteur_min = 6;
 const int x_moteur_max = 899;
 const int y_moteur_min = 100;
-const int y_moteur_max = 279; // J'ai enlevé 100 depuis changement roulements
+const int y_moteur_max = 379;
 
 const int rh_min = -394;
 const int rh_max = 2000;
@@ -102,10 +96,6 @@ float h31_2 = 0.0044061106;
 float h32_2 = 0.0080716394;
 float h33_2 = 1.0000000000;
 
-// POSITIONS FIXES DES CAMÉRAS
-const Vect3D C1 = {80, -10, 570};  // Caméra gauche - Pixy1
-const Vect3D C2 = {1070, -10, 595};  // Caméra droite - Pixy2
-
 // DÉFINITION DES FONCTIONS
 void transformer(float x, float y,
                  float h11, float h12, float h13,
@@ -121,34 +111,6 @@ void transformer(float x, float y,
   }
 }
 
-// DROITES VECTORIELLES : CALCUL DE LA POSITION X Y Z
-Vect3D vecteur_directeur(const Vect3D& origine, float X, float Y) {
-  return {X - origine.x, Y - origine.y, -origine.z}; // direction vers le plan Z = 0
-}
-Vect3D vectoriel(const Vect3D& D1, const Vect3D& D2) {
-  Vect3D v = {D1.y * D2.z - D1.z * D2.y, D1.z * D2.x - D1.x * D2.z, D1.x * D2.y - D1.y * D2.x};
-  return {v};
-}
-float scalaire(const Vect3D& D1, const Vect3D& D2) {
-  return {D1.x * D2.x + D1.y * D2.y + D1.z * D2.z};
-}
-Vect3D point_plus_proche(const Vect3D& C1, const Vect3D& D1, const Vect3D& C2, const Vect3D& D2) {
-
-  Vect3D r = {C2.x - C1.x, C2.y - C1.y, C2.z - C1.z}; // Vecteur entre les 2 caméras (C1 vers C2)
-
-  Vect3D n = vectoriel(D1,D2); // Produit vectoriel des 2 vecteurs directeurs D1 et D2
-  Vect3D n1 = vectoriel(n,D2);
-  Vect3D n2 = vectoriel (n,D1);
-
-  float lambda = scalaire(r,n1)/scalaire(D1,n1);
-  float mu = scalaire(r,n2)/scalaire(D2,n2);
-
-  Vect3D P1 = {C1.x + lambda*D1.x, C1.y + lambda*D1.y, C1.z + lambda*D1.z};
-  Vect3D P2 = {C2.x + mu*D2.x, C2.y + mu*D2.y, C2.z + mu*D2.z};
-
-  return {(P1.x + P2.x)/2, (P1.y + P2.y)/2, (P1.z + P2.z)/2};
-}
-
 void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, int pixy_detection, Vect3D P) {
   float x_target = 0.0;
   float y_target = 0.0;
@@ -160,8 +122,6 @@ void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, in
     x_target = X2;
     y_target = Y2;
   } else if (pixy_detection == 3) {
-    // x_target = P.x;
-    // y_target = P.y;
     x_target = (X1 + X2) / 2.0;
     y_target = (Y1 + Y2) / 2.0;
   } else {
@@ -175,48 +135,48 @@ void updateMotorPositionFromDetection(float X1, float Y1, float X2, float Y2, in
   // Distance entre position actuelle (en repère réel) et cible
   float dx = x_target - (x_moteur + decalage_x);
   float dy = y_target - (y_moteur + decalage_y);
-  float horizontal_distance = sqrt(dx * dx + dy * dy);
+  float distance = sqrt(dx * dx + dy * dy);
 
   Serial.print("dx = "); Serial.print(dx);
   Serial.print(" | dy = "); Serial.print(dy);
-  Serial.print(" | horizontal_distance = "); Serial.println(horizontal_distance);
+  Serial.print(" | distance = "); Serial.println(distance);
 
-  int rayon_suivi=300;
-  int avance=5;
-
-  if (horizontal_distance > rayon_suivi) {
-    if (dx>rayon_suivi/5){
-      x_moteur = constrain((int)x_moteur-avance, x_moteur_min, x_moteur_max);
-    }
-    else if (dx<-rayon_suivi/5){
-      x_moteur = constrain((int)x_moteur+avance, x_moteur_min, x_moteur_max);
-    }
-    if (dy>rayon_suivi/5){
-      y_moteur = constrain((int)y_moteur-avance, y_moteur_min, y_moteur_max);
-    }
-    else if (dy<-rayon_suivi/5){
-      y_moteur = constrain((int)y_moteur+avance, y_moteur_min, y_moteur_max);
-    }
+  if (distance > 500) {
+    x_moteur = constrain((int)x_moteur_calc, x_moteur_min, x_moteur_max);
+    Serial.print("x_moteur : "); Serial.println(x_moteur);
+    y_moteur = constrain((int)y_moteur_calc, y_moteur_min, y_moteur_max);
+    Serial.print("y_moteur : "); Serial.println(y_moteur);
   }
 
   // === CALCUL DES ANGLES DE ROTATION ===
   float angle_v_rad = atan2(dy, dx);
-  float angle_v_deg = (90-angle_v_rad * (180.0 / PI));
+  float angle_v_deg = (angle_v_rad * 180.0 / PI +90);
   int angle_v_deg100 = ((int)(angle_v_deg * 100))%36000;
 
-  Serial.print(" | angle_v_deg = "); Serial.print(angle_v_deg100/100); Serial.print("°");
+  Serial.print("angle_v_rad = "); Serial.print(angle_v_rad);
+  Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
+  Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
 
-  float height = 760.0; // hauteur fixe de la lampe
-  float angle_h_rad = atan2(height, horizontal_distance);
-  float angle_h_deg = (90-angle_h_rad * 180.0 / PI);
+  float horizontal_distance = sqrt(dx * dx + dy * dy);
+  float height = 1000.0; // hauteur fixe de la lampe
+  float angle_h_rad = atan2(horizontal_distance, height);
+  float angle_h_deg = angle_h_rad * 180.0 / PI;
   int angle_h_deg100 = (int)(angle_h_deg * 100);
 
-  Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg); Serial.print("°");
+  Serial.print("horizontal_distance = "); Serial.print(horizontal_distance);
+  Serial.print(" | height = "); Serial.print(height);
+  Serial.print(" | angle_v_rad = "); Serial.print(angle_v_rad);
+  Serial.print(" rad | angle_v_deg = "); Serial.print(angle_v_deg);
+  Serial.print("° | angle_v_deg100 = "); Serial.println(angle_v_deg100);
 
-  // Application des contraintes
+  Application des contraintes
   rh = constrain(angle_h_deg100, rh_min, rh_max);
   rv = constrain(angle_v_deg100, rv_min, rv_max);
+  rh = 0;
+  rv = 18000;
 
+  Serial.print("rh final : "); Serial.println(rh);
+  Serial.print("rv final : "); Serial.println(rv);
   Serial.print("UpdateControler : ("); Serial.print(x_moteur); Serial.print(","); Serial.print(y_moteur); Serial.print(","); Serial.print(rh); Serial.print(","); Serial.print(rv); Serial.println(")");
 }
 
@@ -237,6 +197,7 @@ void setup() {
   Serial.println("--- Démarrage du système | Programme général ---");
 
   pixy1.init(0x54);
+  delay(20)
   pixy2.init(0x53);
   wdt_enable(WDTO_2S);
   Serial.println("Pixy initialisées");
@@ -323,11 +284,6 @@ void loop() {
         Vect3D D1 = vecteur_directeur(C1, X1, Y1);
         Vect3D D2 = vecteur_directeur(C2, X2, Y2);
         P = point_plus_proche(C1, D1, C2, D2);
-      }
-
-      if (pixy_detection > 0) {
-        updateMotorPositionFromDetection(X1, Y1, X2, Y2, pixy_detection, P);
-        UpdateControlerStatus();
       }
     }
 
