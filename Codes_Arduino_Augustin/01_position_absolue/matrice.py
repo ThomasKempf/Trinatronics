@@ -4,22 +4,20 @@
 import cv2
 import numpy as np
 
-pixy = "_1"
-
+pixy = "_2"
 # Points dans l'image (pixels)
 pts_image = np.array([
-    [127, 16],
-    [191, 14],
-    [180, 191],
-    [167, 86]
+    [171,39],
+    [110,44],
+    [161, 195],
+    [61, 173]
 ], dtype=np.float32)
-
 # Points réels sur le plan de travail (en mm)
 pts_reels = np.array([
-    [945, 150],
-    [1095, 570],
-    [100,310],
-    [495, 300]
+    [300,165],
+    [300,455],
+    [943,110],
+    [938,445]
 ], dtype=np.float32)
 
 # Calcul de l'homographie

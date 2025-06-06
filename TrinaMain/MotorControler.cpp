@@ -28,25 +28,25 @@ void setupModbus()
 
 void PrintModbusMessage(int8_t SlaveID,int16_t Index,int8_t Function,bool Succes)
 {
-  Serial.print("Slave:" );
-  Serial.print(SlaveID);
-  Serial.print(", Index:" );
-  Serial.print(Index);
-  Serial.print(", Function:");
-  Serial.print(Function);
+  // Serial.print("Slave:" );
+  // Serial.print(SlaveID);
+  // Serial.print(", Index:" );
+  // Serial.print(Index);
+  // Serial.print(", Function:");
+  // Serial.print(Function);
   if (Function == 6)
   {
-    Serial.print(", WriteValue :");
-    Serial.print(WriteValue);
+    // Serial.print(", WriteValue :");
+    // Serial.print(WriteValue);
   }
   if (Succes)
   {
-    Serial.print(", IndexValue :");
-    Serial.println(ReadValue);
+    // Serial.print(", IndexValue :");
+    // Serial.println(ReadValue);
   }
   else
   {
-    Serial.println(", Error");
+    // Serial.println(", Error");
   }
 }
 
@@ -77,20 +77,20 @@ void ReadorWrite(ModbusMaster* node,uint8_t SlaveID,uint16_t Index)
   if (Result == node->ku8MBSuccess) // succes
   { 
     ReadValue = node->getResponseBuffer(0);
-    Serial.print("Read value: ");
-    Serial.println(ReadValue);
+    // Serial.print("Read value: ");
+    // Serial.println(ReadValue);
     PrintModbusMessage(SlaveID,Index,Function,true);
     ControlerReadStatus[SlaveID-1] = ReadValue;
-    Serial.print("controler status in read ");
-    Serial.print( ControlerReadStatus[SlaveID-1]);
-    Serial.print(" / slave ID: ");
-    Serial.println(SlaveID);
+    // Serial.print("controler status in read ");
+    // Serial.print( ControlerReadStatus[SlaveID-1]);
+    // Serial.print(" / slave ID: ");
+    // Serial.println(SlaveID);
   } 
   else // error
   { 
     PrintModbusMessage(SlaveID,Index,Function,false);
   }
-  // delay(5); // delay to become the slave message
+ delay(5); // delay to become the slave message
 }
 
 
@@ -106,13 +106,13 @@ void WriteAllControler()
 {
   for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
-    Serial.print("write controler: ");
-    Serial.println(SlaveID - 1);
+    // Serial.print("write controler: ");
+    // Serial.println(SlaveID - 1);
     SetPoint = DefineSetPoint(SlaveID);
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexSetPoint); // write_new setpoint
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
-    Serial.println("write finish");
-    // delay(20); // delay between two slaver
+    // Serial.println("write finish");
+    delay(15); // delay between two slaver
   }
 }
 
@@ -123,8 +123,8 @@ void ReadAllControler()
   char NbrOfCorrectStatus = 0;
   for (int SlaveID = 1; SlaveID <= NumberOfControler; SlaveID++) //slave ID 1 -> 4
   {
-    Serial.print("read controler: ");
-    Serial.println(SlaveID - 1);
+    // Serial.print("read controler: ");
+    // Serial.println(SlaveID - 1);
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus); // read_new ControlerStatus
     if (ControlerReadStatus[SlaveID-1] == 0 or ControlerReadStatus[SlaveID-1] == 2) // if conection are fail or reference are active, break the function
     {
@@ -135,7 +135,8 @@ void ReadAllControler()
     {
       NbrOfCorrectStatus = NbrOfCorrectStatus + 1;
     }
-    Serial.println("finish read");
+    delay(15); // delay between two slaver
+    // Serial.println("finish read");
   }
   if (NbrOfCorrectStatus == NumberOfControler)
   {
@@ -152,8 +153,8 @@ void referenceProtocol()
   for (int controler = 1; controler <= NumberOfControler; controler++)
   {
     uint8_t SlaveID = runingOrder[controler-1];
-    Serial.print("make reference controler: ");
-    Serial.println(SlaveID);
+    // Serial.print("make reference controler: ");
+    // Serial.println(SlaveID);
     Order = 5; // Reference
     ReadorWrite(&node[SlaveID-1],SlaveID,IndexOrder);
     delay(100);
@@ -168,13 +169,13 @@ void referenceProtocol()
       {
         delay(100); // wait end of the Reference
         ReadorWrite(&node[SlaveID-1],SlaveID,IndexStatus);
-        Serial.print("controler status: ");
-        Serial.print(ControlerReadStatus[SlaveID-1]);
-        Serial.print(" / slave ID: ");
-      Serial.println(SlaveID);
+        // Serial.print("controler status: ");
+        // Serial.print(ControlerReadStatus[SlaveID-1]);
+        // Serial.print(" / slave ID: ");
+      // Serial.println(SlaveID);
       } while (ControlerReadStatus[SlaveID-1] != 3);//control that ref is end
     }
-    Serial.println("finish reference");
+    // Serial.println("finish reference");
     delay(100); // ensure that are finish
   }
   RequereReference = false;
@@ -213,14 +214,14 @@ void UpdateOrder()
 // Update controller data: write values, read responses, and update controller status
 void UpdateControlerStatus() 
 {
-  Serial.println("update Controler Order");
+  // Serial.println("update Controler Order");
   UpdateOrder();
-  Serial.print("order: ");
-  Serial.println(Order);
+  // Serial.print("order: ");
+  // Serial.println(Order);
   WriteAllControler();
   do {
     ReadAllControler();
   } while (ControlerStatus != Order and ControlerStatus != 2 and  ControlerStatus != 0);
-  Serial.print("ControlerStatus:");
-  Serial.println(ControlerStatus);
+  // Serial.print("ControlerStatus:");
+  // Serial.println(ControlerStatus);
 }
